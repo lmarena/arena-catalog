@@ -4,6 +4,7 @@ from fastchat.utils import build_logger, get_window_url_params_js
 import argparse
 import glob
 import re
+import os
 import gradio as gr
 
 
@@ -46,6 +47,9 @@ def build_demo(elo_results_file, leaderboard_table_file):
         )
     return demo
 
+def extract_date(file_name):
+    return re.search(r"\d{8}", file_name).group()
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--share", action="store_true")
@@ -56,16 +60,17 @@ if __name__ == "__main__":
     logger = build_logger("monitor", "monitor.log")
     logger.info(f"args: {args}")
 
-    elo_result_files = glob.glob("elo_results_*.pkl")
-    elo_result_files.sort(key=lambda x: int(x[12:-4]))
+
+    elo_result_files = glob.glob("data/elo_results_*.pkl")
+    elo_result_files.sort(key=lambda x: extract_date(x))
     elo_result_file = elo_result_files[-1]
 
-    leaderboard_table_files = glob.glob("leaderboard_table_*.csv")
-    leaderboard_table_files.sort(key=lambda x: int(x[18:-4]))
+    leaderboard_table_files = glob.glob("data/leaderboard_table_*.csv")
+    leaderboard_table_files.sort(key=lambda x: extract_date(x))
     leaderboard_table_file = leaderboard_table_files[-1]
-    
-    arena_hard_files = glob.glob("arena_hard_auto_leaderboard_*.csv")
-    arena_hard_files.sort(key=lambda x: float(x[29:32]))
+
+    arena_hard_files = sorted(
+        glob.glob("data/arena_hard_auto_leaderboard_*.csv"), key=os.path.getmtime)
     arena_hard_file = arena_hard_files[-1]
 
     demo = build_demo(elo_result_file, leaderboard_table_file)
