@@ -1,3 +1,4 @@
 plotly
 git+https://github.com/lm-sys/FastChat.git@main#egg=fschat[model_worker,webui]
 scipy
+gradio==4.44.1
