@@ -60,7 +60,6 @@ if __name__ == "__main__":
     logger = build_logger("monitor", "monitor.log")
     logger.info(f"args: {args}")
 
-
     elo_result_files = glob.glob("data/elo_results_*.pkl")
     elo_result_files.sort(key=lambda x: extract_date(x))
     elo_result_file = elo_result_files[-1]
