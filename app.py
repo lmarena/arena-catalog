@@ -81,6 +81,8 @@ import argparse
 import glob
 import re
 import os
+import csv
+import json
 import gradio as gr
 
 
@@ -90,9 +92,22 @@ def load_demo(url_params, request: gr.Request):
 
 
 def join_leaderboard_and_pricing(leaderboard_file, pricing_file):
-    # Load both CSV files
+    # Load CSV file and JSON file
     leaderboard_df = pd.read_csv(leaderboard_file)
-    pricing_df = pd.read_csv(pricing_file)
+    pricing_csv_file = 'data/pricing_table.csv'
+
+    csvfile = open(pricing_csv_file, 'w')
+    with open(pricing_file, 'r') as jsonfile:
+        pricing_json = json.load(jsonfile)
+        fieldnames = ['model_key', 'source', 'input_token_price', 'output_token_price']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        for i in pricing_json:
+            info = pricing_json[i]
+            writer.writerow({'model_key': i, 'source': info["source"], 'input_token_price': info["input_token_price"], 'output_token_price': info["output_token_price"]})
+        
+
+    pricing_df = pd.read_csv(pricing_csv_file)
 
     # Merge them based on 'key' and 'model_key'
     merged_df = pd.merge(leaderboard_df, pricing_df, left_on='key', right_on='model_key', how='left').fillna('-')
@@ -168,7 +183,8 @@ if __name__ == "__main__":
     leaderboard_table_files.sort(key=lambda x: extract_date(x))
     leaderboard_table_file = leaderboard_table_files[-1]
 
-    pricing_table_file = 'data/pricing_table.csv'  # Specify your pricing table file here
+    # pricing_table_file = 'data/pricing_table.csv'  # Specify your pricing table file here
+    pricing_table_file = 'pricing_table.json'  # Specify your pricing table file here
 
     arena_hard_files = sorted(
         glob.glob("data/arena_hard_auto_leaderboard_*.csv"), key=os.path.getmtime)
