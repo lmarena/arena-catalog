@@ -21,6 +21,7 @@ def join_leaderboard_and_pricing(leaderboard_file, pricing_file):
     leaderboard_df = pd.read_csv(leaderboard_file)
     # pricing_df = pd.read_csv(pricing_file)
     pricing_csv_file = 'data/pricing_table.csv'
+    price_control_merged_ranking_file = 'data/price_control_merged_ranking.csv'
 
     csvfile = open(pricing_csv_file, 'w')
     with open(pricing_file, 'r') as jsonfile:
@@ -37,15 +38,33 @@ def join_leaderboard_and_pricing(leaderboard_file, pricing_file):
 
     # Merge them based on 'key' and 'model_key'
     merged_df = pd.merge(leaderboard_df, pricing_df, left_on='key', right_on='model_key', how='left').fillna('-')
+    
+    # Convert "input_token_price" and "output_token_price" to numeric, errors='coerce' will convert non-numeric values to NaN
+    merged_df['input_token_price'] = pd.to_numeric(merged_df['input_token_price'], errors='coerce')
+    merged_df['output_token_price'] = pd.to_numeric(merged_df['output_token_price'], errors='coerce')
 
+    # Calculate the Average Price column as the mean of input and output token prices
+    merged_df['average_price'] = pd.to_numeric(merged_df[['input_token_price', 'output_token_price']].mean(axis=1)).fillna("-")
+    
     # Drop the 'model_key' and 'source' columns
-    merged_df.drop(columns=['model_key', 'source'], inplace=True)
+    merged_df.drop(columns=['model_key', 'source', 'Knowledge cutoff date', 
+                            'input_token_price', 'output_token_price'], inplace=True)
+    
+    merged_df.to_csv('data/intermediate_merged_df.csv', index=False)
+    
+    # Merge with price_control_merged_ranking
+    price_control_df = pd.read_csv(price_control_merged_ranking_file)
+    final_merged_df = pd.merge(merged_df, price_control_df, on='key', how='left').fillna('-')
+    final_merged_df["Rank_after"] = pd.to_numeric(final_merged_df["Rank_after"], errors="coerce").fillna("-")
+    final_merged_df['Rank_after'] = final_merged_df['Rank_after'].apply(lambda x: ('%.15g' % x) if isinstance(x, float) else x)
+    
+    final_merged_df.drop(columns=['Price_cntrl_score', 'Rank_before', 'elo_rating'], inplace=True)
 
     # Save the merged dataframe to a new CSV file (temporary)
-    merged_file = 'data/merged_leaderboard_pricing.csv'
-    merged_df.to_csv(merged_file, index=False)
+    final_merged_file = 'data/merged_leaderboard_pricing.csv'
+    final_merged_df.to_csv(final_merged_file, index=False)
 
-    return merged_file
+    return final_merged_file
 
 
 def build_demo(elo_results_file, leaderboard_table_file, pricing_table_file):
