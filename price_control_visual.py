@@ -66,15 +66,17 @@ visualize_price_control(top_models, top_overall_scores, top_price_control_scores
 # -
 # Ranking change with ranking on the y-axis rather than scores
 
-models = ['gemini-1.5-flash-exp-0827', 'gpt-4o-mini-2024-07-18', 'gemini-1.5-flash-api-0514',
- 'deepseek-v2-api-0628', 'gemini-1.5-pro-exp-0827', 'athene-70b-0725', 
- 'llama-3.1-70b-instruct', 'deepseek-coder-v2-0724', 'reka-flash-20240722', 
- 'gemma-2-27b-it']
+# original top 10
+models = ['gemini-1.5-pro-exp-0827', 'gpt-4o-2024-05-13', 'gpt-4o-mini-2024-07-18',
+ 'claude-3-5-sonnet-20240620', 'gemini-1.5-flash-exp-0827', 'llama-3.1-405b-instruct', 
+ 'gpt-4o-2024-08-06', 'gemini-1.5-pro-api-0514', 'gpt-4-turbo-2024-04-09', 
+ 'gpt-4-1106-preview']
 ranks_before = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-ranks_after = [5, 3, 18, 19, 1, 12, 13, 21, 30, 20]
+ranks_after = [5, 20, 2, 25, 1, 13, 22, 16, 37, 39]
 
-visualize_price_control(models, ranks_before, ranks_after, 0, 35, True, "Rank")
+visualize_price_control(models, ranks_before, ranks_after, 0, 41, True, "Rank")
 
+# Ranks before and after for new top 10
 models = ['gemini-1.5-flash-exp-0827', 'gpt-4o-mini-2024-07-18', 'gemini-1.5-flash-api-0514',
  'deepseek-v2-api-0628', 'gemini-1.5-pro-exp-0827', 'athene-70b-0725', 
  'llama-3.1-70b-instruct', 'deepseek-coder-v2-0724', 'reka-flash-20240722', 
