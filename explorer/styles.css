@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+  
+h2 {
+    color: black;
+    margin-top: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    gap: 1px;
+    width: 95%;
+}
+
+.chart {
+    display: flex;
+    justify-content: center;
+    width: 90%
+}
+
+#example-text {
+    text-align: left;
+    font-size: 16px;
+    color: black;
+    max-height: 50%;
+    overflow: scroll;
+}
+
+svg {
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+      grid-template-rows: 2fr 1fr;
+      grid-template-columns: none;
+      align-items: center;
+    }
+  }
+  

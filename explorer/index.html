@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunburst Chart</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h2>Prompt Categories</h2>
+    <div class="container">
+        <div class="chart"></div>
+        <div id="example-text">
+        </div>
+    </div>
+
+    <script>
+        d3.json("./data.json").then(data => {
+            drawChart('.chart',data)
+        }).catch(error => console.error("Error loading data:", error));
+    </script>
+    
+</body>
+</html>
