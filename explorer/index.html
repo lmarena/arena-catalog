@@ -9,16 +9,19 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <h2>Prompt Categories</h2>
     <div class="container">
-        <div class="chart"></div>
-        <div id="example-text">
+        <div class="chart-container">
+          <div class="chart"></div>
         </div>
-    </div>
+        <div class="example-prompt-container">
+          <h3>Example Prompt: </h2>
+          <p id="prompt"></p>
+        </div>
+      </div>
 
     <script>
         d3.json("./data.json").then(data => {
-            drawChart('.chart',data)
+            drawChart(data)
         }).catch(error => console.error("Error loading data:", error));
     </script>
     
