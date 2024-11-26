@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -18,27 +18,106 @@ h2 {
     position: relative;
     width: 100%;
     height: 100%;
+    padding: 2%;
 }
 
 .chart-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.titles {
+    position: absolute;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+}
+
+.titles h1 {
+    margin: 0%;
+    font-size: clamp(2em, 5vw, 3em);
+}
+
+.titles p {
+    width: 20%;
+    font-size: 1.2vw;
+    padding-left: 5px;
+}
+
+.chart {
+    position: relative;
     width: 100%;
     height: 100%;
+    z-index: 1;
 }
 
-.example-prompt-container {
+.center-text {
+    position: absolute;
+    z-index: -1;
+    width: 20%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-text h2 {
+    font-size: clamp(1em, 2.5vw, 2em);
+}
+
+.center-text p {
+    font-size: clamp(0.5em, 1.5vw, 1em);
+}
+
+#undo {
+    color: grey;
+    visibility: hidden;
+    padding: 0%;
+}
+
+.info-container {
     position: absolute;
     top: 10%;
-    right: 3%;
-    width: 40%;
-    height: 100%;
+    right: 0%;
+    width: 38%;
+    height: 60vw;
     visibility: hidden;
+    align-content: start;
+    text-align: left;
+    margin-right: 3vw;
+    transition: all 0.3s ease;
+    z-index: 2;
 }
 
-#prompt {
-    max-height: 80%;
-    overflow: scroll;
-    text-align: left;
-}  
+.ex-prompt-container {
+    max-height: 40vw;
+    overflow-y: auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.example-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.example-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
 
 @media screen and (max-width: 900px) {
     .container {

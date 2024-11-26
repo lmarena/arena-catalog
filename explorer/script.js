@@ -1,7 +1,7 @@
-function drawChart(data){
+function drawChart(data, examples){
   const width = 1600;
-  const height = width / 2;
-  const radius = width / 9;
+  const height = 2 * width / 3;
+  const radius = width / 8;
 
   // Create the color scale.
   const color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1));
@@ -11,6 +11,12 @@ function drawChart(data){
       .sum(d => d.count)
       .sort((a, b) => b.value - a.value);
   
+  hierarchy.eachAfter(d => {
+    if (d.children) {
+        d.data.percent = d.children.reduce((sum, child) => sum + (child.data.percent || 0), 0);
+    }
+    });
+
   const root = d3.partition()
       .size([2 * Math.PI, hierarchy.height + 1])
     (hierarchy);
@@ -39,66 +45,48 @@ function drawChart(data){
       .attr("fill-opacity", d => arcVisible(d.current) ? (d.children ? 0.6 : 0.4) : 0)
       .attr("pointer-events", d => arcVisible(d.current) ? "auto" : "none")
       .attr("d", d => arc(d.current));
-
-  // Text in center
-  const centerText = svg
-    .append("text")
-    .attr("text-anchor", "middle")
-    .attr("fill", "#888")
-    .style("visibility", "hidden");
-  
-  centerText
-    .append("tspan")
-    .attr("class", "category")
-    .attr("x", 0)
-    .attr("y", 0)
-    .attr("dy", "-0.5em")
-    .attr("font-size", "1.6em")
-    .text("")
-
-  centerText
-    .append("tspan")
-    .attr("class", "count")
-    .attr("x", 0)
-    .attr("y", 0)
-    .attr("dy", "2.2em")
-    .attr("font-size", "1.4em")
-    .text("");
   
   // Clickable
+  var moved = false;
   path.style("cursor", "pointer")
-      .on("click", function(event, d) {
-        if (d.children) {
-          clicked(event, d);
-        } else {
-          leafClicked(event, d);
-        }
-      });
+    .on("click", function(event, d) {
+      if (d.children) {
+        moved = false;
+        clicked(event, d);
+      } else {
+        leafClicked(event, d);
+        moved = true;
+      }
+    });
 
   // Hover
   path.on("mouseover", function (event, d) {
-        console.log(`Hovered node depth: ${d.depth}, height: ${d.height}`);
-        d3.select(this)
-            .attr("fill-opacity", 1);
-
-        centerText.style("visibility", null)
-    
-        centerText.select(".category")
-          .text("Category: " + d.data.name)
-          .call(wrap, radius * 3/2);
-
-        const firstLineHeight = centerText.select(".category").node().getBBox().height;
-        console.log(`hight: ${firstLineHeight}`);
-    
-        centerText.select(".count")
-          .attr("dy", `${firstLineHeight + 5}px`)
-          .text("Count: " + d.value + " prompts");
-      })
-      .on("mouseout", function () {
-        d3.select(this)
-          .attr("fill-opacity", d => arcVisible(d.current) ? (d.children ? 0.6 : 0.4) : 0);
-        centerText.style("visibility", "hidden");
-      })
+    console.log("hovered", d.data.name)
+    d3.select(this)
+      .attr("fill-opacity", 1);
+    d3.select("#category")
+      .text(`${d.data.name}`);
+    d3.select("#count")
+      .text(`${d.value + " prompts"}`)
+    d3.select("#percent")
+      .text(`${Math.round(d.data.percent * 100) + "%"}`)
+    d3.select("#undo").style("visibility", "hidden");
+  })
+  .on("mouseout", function (event, d) {
+    d3.select(this)
+      .attr("fill-opacity", d => arcVisible(d.current) ? (d.children ? 0.6 : 0.4) : 0);
+    d3.select("#category")
+      .text("");
+    d3.select("#count")
+      .text("");
+    d3.select("#percent")
+      .text("");
+    console.log(d.depth);
+    console.log(d.moving);
+    if (d.depth !== 1 && !moving) {
+      d3.select("#undo").style("visibility", "visible");
+    }
+  })
   
   const format = d3.format(",d");
   path.append("title")
@@ -128,9 +116,12 @@ function drawChart(data){
   // Handle zoom on click.
   function clicked(event, p) {
     // examplePromptText.style("visibility", "hidden");
-    d3.select(".example-prompt-container").style("visibility", "hidden");
+    d3.select(".info-container").style("visibility", "hidden");
+    d3.select(".center-text").style("visibility", "hidden");
+    d3.select("#discription").style("visibility", "visible");
+    d3.select("#undo").style("visibility", "hidden");
     d3.select("#prompt").text("");
-  
+
     parent.datum(p.parent || root);
     
     root.each(d => d.target = {
@@ -155,9 +146,16 @@ function drawChart(data){
       })
         .attr("fill-opacity", d => arcVisible(d.target) ? (d.children ? 0.6 : 0.4) : 0)
         .attr("pointer-events", d => arcVisible(d.target) ? "auto" : "none") 
+        .attrTween("d", d => () => arc(d.current))
+        .on("end", function() {
+          if (p.depth !== 0) {
+            d3.select("#undo").style("visibility", "visible");
+          } else {
+            console.log('hidden');
+            d3.select("#undo").style("visibility", "hidden");
+          }
+        });
 
-        .attrTween("d", d => () => arc(d.current));
-    
     label.filter(function(d) {
         return + this.getAttribute("fill-opacity") || labelVisible(d.target);
       }).transition(t)
@@ -171,19 +169,57 @@ function drawChart(data){
                 d.wrapped = true;
             }
         });
-    t.attr("transform", `translate(0, 0)`);
+    
+    t.attr("transform", `translate(0, 0)`).on("end", () => {
+      d3.select(".center-text").style("left", "50%");
+      d3.select(".center-text").style("visibility", "visible");
+      d3.select("#undo").style("visibility", "visible");
+    });
   }
 
-  function leafClicked(event, d) {
-    if (d.data.example1 && d.data.example1.length > 0) {
-      svg.transition().transition()
-          .duration(750)
-          .attr("transform", `translate(${-width / 6}, 0)`)
-      d3.select(".example-prompt-container")
-        .style("visibility", "visible");
-      d3.select("#prompt")
-        .text(`${d.data.example1 || "No example available"}`);
+  var moving = false;
+  function leafClicked(event, d) {    
+    if (!moved) {
+      moving = true;
+      d3.select(".center-text").style("visibility", "hidden");
+      d3.select("#discription").style("visibility", "hidden");
+
+      const containerWidth = d3.select(".chart").node().getBoundingClientRect().width;
+      const translateX = - containerWidth / 4;
+
+      svg.transition()
+        .duration(750)
+        .attr("transform", `translate(${translateX}, 0)`)
+        .on("end", () => { 
+          moving = false;
+          randomExamplePrompts(d);
+          d3.select("#undo").style("visibility", "visible");
+          })
+    } else {
+      randomExamplePrompts(d);
     }
+  
+  }
+  
+  function randomExamplePrompts(d) {
+    const prompts = examples.find(b => b.id === d.data.id)?.examples || [];
+    const selectedPrompts = prompts.sort(() => 0.5 - Math.random()).slice(0, 5);
+
+    d3.select(".example-list").selectAll("li").remove();
+    
+    selectedPrompts.forEach((example, index) => {
+      d3.select(".example-list")
+        .append("li")
+        .attr("class", "example-item")
+        .text(`Ex ${index + 1}: ${example}`);
+    });
+    d3.select(".center-text").style("left", "25%");
+    d3.select(".center-text").style("visibility", "visible");
+    d3.select("#selected-cat")
+      .text(`${d.data.name}`);
+    d3.select("#selected-count")
+      .text(`${"Number of prompts: " + d.data.count}`);
+    d3.select(".info-container").style("visibility", "visible");
   }
   
   function arcVisible(d) {

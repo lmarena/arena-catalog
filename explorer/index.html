@@ -11,18 +11,41 @@
 <body>
     <div class="container">
         <div class="chart-container">
-          <div class="chart"></div>
+          <div class="titles">
+            <h1><b><i>Topic Explorer</i></b></h1>
+            <p id="discription">
+              <i>Explore the categories of prompts submitted by users.
+              Click on a segment to delve deeper into subcategories and 
+              discover example prompts.</i></p>
+          </div>
+          <div class="chart">
+            <div class="center-text">
+              <h2 id="category"></h2>
+              <p id="count"></p>
+              <p id="percent"></p>
+              <p id="undo"><i>click to go back</i></p>
+            </div>
+          </div>
         </div>
-        <div class="example-prompt-container">
-          <h3>Example Prompt: </h2>
-          <p id="prompt"></p>
+        <div class="info-container">
+          <h2 id="selected-cat"></h2>
+          <p id="selected-count"></p>
+          <div class="ex-prompt-container">
+            <h3>Example Prompt: </h3>
+            <ul class="example-list"></ul>
+          </div>
         </div>
       </div>
 
     <script>
-        d3.json("./data.json").then(data => {
-            drawChart(data)
-        }).catch(error => console.error("Error loading data:", error));
+        Promise.all([
+            d3.json("./data/data.json"),
+            d3.json("./data/examples.json")
+        ])
+        .then(([data, examples]) => {
+            drawChart(data, examples);
+        })
+        .catch(error => console.error("Error loading data:", error));
     </script>
     
 </body>
