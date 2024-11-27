@@ -10,32 +10,32 @@
 </head>
 <body>
     <div class="container">
-        <div class="chart-container">
-          <div class="titles">
-            <h1><b><i>Topic Explorer</i></b></h1>
-            <p id="discription">
-              <i>Explore the categories of prompts submitted by users.
-              Click on a segment to delve deeper into subcategories and 
-              discover example prompts.</i></p>
-          </div>
-          <div class="chart">
-            <div class="center-text">
-              <h2 id="category"></h2>
-              <p id="count"></p>
-              <p id="percent"></p>
-              <p id="undo"><i>click to go back</i></p>
-            </div>
-          </div>
-        </div>
-        <div class="info-container">
-          <h2 id="selected-cat"></h2>
-          <p id="selected-count"></p>
-          <div class="ex-prompt-container">
-            <h3>Example Prompt: </h3>
-            <ul class="example-list"></ul>
+      <div class="titles">
+        <h1><b><i>Topic Explorer</i></b></h1>
+        <p id="discription">
+          <i>Explore the categories of prompts submitted by users.
+          Click on a segment to delve deeper into subcategories and 
+          discover example prompts.</i></p>
+      </div>
+      <div class="chart-container">
+        <div class="chart">
+          <div class="center-text">
+            <h2 id="category"></h2>
+            <p id="count"></p>
+            <p id="percent"></p>
+            <p id="undo"><i>click to go back</i></p>
           </div>
         </div>
       </div>
+      <div class="info-container">
+        <h2 id="selected-cat"></h2>
+        <p id="selected-count"></p>
+        <div class="ex-prompt-container">
+          <h3>Example Prompt: </h3>
+          <ul class="example-list"></ul>
+        </div>
+      </div>
+    </div>
 
     <script>
         Promise.all([
