@@ -104,6 +104,7 @@ function drawChart(data, examples){
       .attr("font-size", d => calculateFontSize(d)) 
       .attr("fill-opacity", d => +labelVisible(d.current))
       .attr("transform", d => labelTransform(d.current))
+      .attr("fill", "light-dark(black, white)")
       .text(d => d.data.name);
   
   const parent = svg.append("circle")

@@ -1,5 +1,10 @@
+:root {
+    color-scheme: light dark;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: light-dark(black,white);
     text-align: center;
     width: 100%;
     height: 100%;
@@ -10,7 +15,6 @@ body {
 }
   
 h2 {
-    color: black;
     margin-top: 20px;
 }
   
@@ -66,7 +70,7 @@ h2 {
 }
 
 .center-text h2 {
-    font-size: clamp(1em, 2.5vw, 2em);
+    font-size: clamp(1em, 2vw, 2em);
 }
 
 .center-text p {
@@ -74,7 +78,7 @@ h2 {
 }
 
 #undo {
-    color: grey;
+    color: light-dark(grey, rgb(184, 183, 183));
     visibility: hidden;
     padding: 0%;
 }
@@ -96,7 +100,7 @@ h2 {
 .ex-prompt-container {
     max-height: 40vw;
     overflow-y: auto;
-    background-color: #fff;
+    background-color: light-dark(white, #333);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -109,8 +113,8 @@ h2 {
 }
   
 .example-item {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    background-color: light-dark(#f9f9f9, #555);
+    border: 1px solid light-dark(#ddd, #666);
     border-radius: 8px;
     padding: 10px;
     margin: 10px 0;

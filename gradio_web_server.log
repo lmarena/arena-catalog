@@ -1,0 +1,28 @@
+2024-11-26 23:56:41 | INFO | gradio_web_server | All models: []
+2024-11-26 23:56:41 | INFO | gradio_web_server | Visible models: []
+2024-11-26 23:56:41 | INFO | gradio_web_server | All models: []
+2024-11-26 23:56:41 | INFO | gradio_web_server | Visible models: []
+2024-11-26 23:56:41 | ERROR | stderr | /home/ygtang/miniconda3/envs/topic_clustering/lib/python3.12/site-packages/gradio/components/dropdown.py:188: UserWarning: The value passed into gr.Dropdown() is not in the list of choices. Please update the list of choices to include:  or set allow_custom_value=True.
+2024-11-26 23:56:41 | ERROR | stderr |   warnings.warn(
+2024-11-26 23:56:41 | INFO | stdout | Running on local URL:  http://0.0.0.0:7870
+2024-11-26 23:56:42 | INFO | stdout | Running on public URL: https://7883ce20c80c640a7d.gradio.live
+2024-11-26 23:56:42 | INFO | stdout | 
+2024-11-26 23:56:42 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-26 23:56:45 | ERROR | stderr | /home/ygtang/miniconda3/envs/topic_clustering/lib/python3.12/site-packages/gradio/components/dropdown.py:188: UserWarning: The value passed into gr.Dropdown() is not in the list of choices. Please update the list of choices to include:  or set allow_custom_value=True.
+2024-11-26 23:56:45 | ERROR | stderr |   warnings.warn(
+2024-11-27 00:02:10 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-27 00:02:15 | INFO | stdout | Killing tunnel 0.0.0.0:7870 <> https://7883ce20c80c640a7d.gradio.live
+2024-11-27 00:37:32 | INFO | gradio_web_server | All models: []
+2024-11-27 00:37:32 | INFO | gradio_web_server | Visible models: []
+2024-11-27 00:37:32 | INFO | gradio_web_server | All models: []
+2024-11-27 00:37:32 | INFO | gradio_web_server | Visible models: []
+2024-11-27 00:37:32 | ERROR | stderr | /home/ygtang/miniconda3/envs/topic_clustering/lib/python3.12/site-packages/gradio/components/dropdown.py:188: UserWarning: The value passed into gr.Dropdown() is not in the list of choices. Please update the list of choices to include:  or set allow_custom_value=True.
+2024-11-27 00:37:32 | ERROR | stderr |   warnings.warn(
+2024-11-27 00:37:33 | INFO | stdout | Running on local URL:  http://0.0.0.0:7870
+2024-11-27 00:37:33 | INFO | stdout | Running on public URL: https://48fc952f92c5b819e9.gradio.live
+2024-11-27 00:37:33 | INFO | stdout | 
+2024-11-27 00:37:33 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-27 00:37:36 | ERROR | stderr | /home/ygtang/miniconda3/envs/topic_clustering/lib/python3.12/site-packages/gradio/components/dropdown.py:188: UserWarning: The value passed into gr.Dropdown() is not in the list of choices. Please update the list of choices to include:  or set allow_custom_value=True.
+2024-11-27 00:37:36 | ERROR | stderr |   warnings.warn(
+2024-11-27 00:38:14 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-27 00:38:19 | INFO | stdout | Killing tunnel 0.0.0.0:7870 <> https://48fc952f92c5b819e9.gradio.live
