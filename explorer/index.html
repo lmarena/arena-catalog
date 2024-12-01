@@ -10,32 +10,53 @@
 </head>
 <body>
     <div class="container">
-      <div class="titles">
-        <h1><b><i>Topic Explorer</i></b></h1>
-        <p id="discription">
-          <i>Explore the categories of prompts submitted by users.
-          Click on a segment to delve deeper into subcategories and 
-          discover example prompts.</i></p>
-      </div>
-      <div class="chart-container">
-        <div class="chart">
-          <div class="center-text">
-            <h2 id="category"></h2>
-            <p id="count"></p>
-            <p id="percent"></p>
-            <p id="undo"><i>click to go back</i></p>
+      <section class="topic-explorer">
+        <header class="titles">
+          <h1><b><i>Topic Explorer</i></b></h1>
+          <p id="discription">
+            <i>Explore the categories of prompts submitted by users.
+            Click on a segment to delve deeper into subcategories and 
+            discover example prompts.</i></p>
+        </header>
+        <div class="chart-container">
+          <div class="chart">
+            <div class="center-text">
+              <h2 id="category"></h2>
+              <p id="count"></p>
+              <p id="percent"></p>
+              <p id="undo"><i>click to go back</i></p>
+            </div>
+          </div>
+        </div>
+        <div class="info-container">
+          <h2 id="selected-cat"></h2>
+          <p id="selected-count"></p>
+          <div class="ex-prompt-container">
+            <h3>Example Prompt: </h3>
+            <ul class="example-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="price-control">
+        <header class="price-titles">
+          <h1><b><i>Price Control Analysis</i></b></h1>
+          <p><i>Below are scatterplots depicting a model&#39;s arena 
+            score against its cost effectiveness (left plot) and 
+            output token price (right plot).</i></p>
+        </header>
+        <div class="price-charts-container">
+          <div class="single-chart-container">
+            <img src="./data/quality_cost.png" alt="Quality vs. Cost Effectiveness" class="price-chart-image" />
+            <p class="caption">Arena score against its cost effectiveness.</p>
+          </div>
+          <div class="single-chart-container">
+            <img src="./data/quality_token_price.png" alt="Quality vs. Token Price" class="price-chart-image" />
+            <p class="caption">Arena score against output token price.</p>
           </div>
         </div>
       </div>
-      <div class="info-container">
-        <h2 id="selected-cat"></h2>
-        <p id="selected-count"></p>
-        <div class="ex-prompt-container">
-          <h3>Example Prompt: </h3>
-          <ul class="example-list"></ul>
-        </div>
-      </div>
-    </div>
+    </section>
 
     <script>
         Promise.all([
