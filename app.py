@@ -1,4 +1,4 @@
-from monitor import build_leaderboard_tab, build_basic_stats_tab, basic_component_values, leader_component_values
+from fastchat.serve.monitor.monitor import build_leaderboard_tab, build_basic_stats_tab, basic_component_values, leader_component_values
 from fastchat.utils import build_logger, get_window_url_params_js
 
 import argparse

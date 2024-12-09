@@ -50,6 +50,7 @@ from fastchat.utils import (
     alert_js,
     parse_gradio_auth_creds,
 )
+from visualizer import build_visualizer
 
 logger = build_logger("gradio_web_server_multi", "gradio_web_server_multi.log")
 
@@ -200,13 +201,8 @@ window.__gradio_mode__ = "app";
                         show_plot=True,
                     )
 
-            with gr.Tab("🔍 Data Explorer", id=5):
-                frame = """
-                    <iframe width="100%" style="height: 1000px;" 
-                            src="https://storage.googleapis.com/public-arena-no-cors/index.html">
-                    </iframe>
-                """
-                gr.HTML(frame)
+            with gr.Tab("🔍 Data Visualizer", id=5):
+                build_visualizer()
 
             with gr.Tab("ℹ️ About Us", id=4):
                 about = build_about()
