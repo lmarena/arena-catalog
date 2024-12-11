@@ -1,7 +1,7 @@
 function drawChart(data, examples){
     const width = 1600;
     const height = 2 * width / 3;
-    const radius = width / 8;
+    const radius = width / 7;
   
     // Create the color scale.
     const color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1));

@@ -27,7 +27,7 @@ def build_visualizer():
             gr.Markdown(topic_markdown)
 
             frame = """
-                <iframe width="100%" style="height: 500px; border: 1px solid lightgrey; border-radius: 10px; overflow: hidden;" 
+                <iframe width="100%" scrolling="no" style="height: 800px; border: 1px solid lightgrey; border-radius: 10px;" 
                         src="https://storage.googleapis.com/public-arena-no-cors/index.html">
                 </iframe>
             """
@@ -38,6 +38,6 @@ def build_visualizer():
             price_markdown = """
             ## *Price Control Data Visualizations*
             Below are scatter-plots depicting a model's arena score against its cost effectiveness 
-            (left plot) and output token price (right plot).
+            and output token price.
             """
             gr.Markdown(price_markdown)
