@@ -88,11 +88,11 @@ h2 {
 }
 
 .center-text h2 {
-    font-size: clamp(0.75em, 2vw, 2em);
+    font-size: clamp(0.5em, 2vw, 2em);
 }
 
 .center-text p {
-    font-size: clamp(0.5em, 1vw, 1.2em);
+    font-size: clamp(0.25em, 1vw, 1.2em);
 }
 
 #undo {
@@ -203,6 +203,17 @@ h2 {
         align-items: center;
     }
 
+    .info-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .ex-prompt-container {
+        max-height: 100vw;
+    }
+
     .titles {
         position: relative;
         top: auto;
@@ -223,6 +234,10 @@ h2 {
 
     .chart-container {
         max-width: 1000px;
+    }
+
+    .chart-container.shift {
+        transform: translateX(0%);
     }
 
     .price-titles {
