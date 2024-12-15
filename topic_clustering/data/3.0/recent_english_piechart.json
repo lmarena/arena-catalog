@@ -1,0 +1,1223 @@
+{
+    "name": "categories",
+    "children": [
+        {
+            "id": 0,
+            "name": "AI Innovations",
+            "children": [
+                {
+                    "id": 0,
+                    "name": "Chinese Lyrics Generation",
+                    "count": 904,
+                    "percent": 0.0376698058171514
+                },
+                {
+                    "id": 4,
+                    "name": "Coronary Angiography Services Overview",
+                    "count": 485,
+                    "percent": 0.0202100175014584
+                },
+                {
+                    "id": 11,
+                    "name": "Novel Adaptive Learning Algorithm",
+                    "count": 325,
+                    "percent": 0.013542795232936
+                },
+                {
+                    "id": 13,
+                    "name": "Writing Poems and Haikus",
+                    "count": 317,
+                    "percent": 0.0132094341195099
+                },
+                {
+                    "id": 16,
+                    "name": "Multilingual Natural Translation Techniques",
+                    "count": 300,
+                    "percent": 0.0125010417534794
+                },
+                {
+                    "id": 20,
+                    "name": "Machine Consciousness and Hyperstition",
+                    "count": 275,
+                    "percent": 0.0114592882740228
+                },
+                {
+                    "id": 23,
+                    "name": "GPU and Storage Specifications",
+                    "count": 255,
+                    "percent": 0.0106258854904575
+                },
+                {
+                    "id": 25,
+                    "name": "Art Style Prompt Instructions",
+                    "count": 251,
+                    "percent": 0.0104592049337444
+                },
+                {
+                    "id": 28,
+                    "name": "Creating ASCII Art Images",
+                    "count": 227,
+                    "percent": 0.0094591215934661
+                },
+                {
+                    "id": 34,
+                    "name": "Neural Network Modeling and Optimization",
+                    "count": 206,
+                    "percent": 0.0085840486707225
+                },
+                {
+                    "id": 39,
+                    "name": "Video Processing and Analysis",
+                    "count": 193,
+                    "percent": 0.0080423368614051
+                },
+                {
+                    "id": 40,
+                    "name": "Video Conversion and Digitization",
+                    "count": 190,
+                    "percent": 0.0079173264438703
+                },
+                {
+                    "id": 47,
+                    "name": "Evaluating LLM Prompt Effectiveness",
+                    "count": 160,
+                    "percent": 0.0066672222685223
+                },
+                {
+                    "id": 51,
+                    "name": "AI in Language Learning",
+                    "count": 155,
+                    "percent": 0.006458871572631
+                },
+                {
+                    "id": 58,
+                    "name": "Generative AI in AWS Edge",
+                    "count": 143,
+                    "percent": 0.0059588299024918
+                },
+                {
+                    "id": 70,
+                    "name": "AI Description Generator Content",
+                    "count": 116,
+                    "percent": 0.0048337361446787
+                },
+                {
+                    "id": 85,
+                    "name": "Creative SVG Drawing Instructions",
+                    "count": 89,
+                    "percent": 0.0037086423868655
+                },
+                {
+                    "id": 92,
+                    "name": "Unconstrained AI Ethical Challenges",
+                    "count": 78,
+                    "percent": 0.0032502708559046
+                },
+                {
+                    "id": 104,
+                    "name": "Meta Prompt and Chatbots",
+                    "count": 66,
+                    "percent": 0.0027502291857654
+                },
+                {
+                    "id": 111,
+                    "name": "MediaPipe Facial Feature Detection",
+                    "count": 59,
+                    "percent": 0.0024585382115176
+                },
+                {
+                    "id": 114,
+                    "name": "Image Generation and Mapping",
+                    "count": 57,
+                    "percent": 0.002375197933161
+                },
+                {
+                    "id": 116,
+                    "name": "Emoji Bot Describes Films",
+                    "count": 56,
+                    "percent": 0.0023335277939828
+                },
+                {
+                    "id": 122,
+                    "name": "Sonic Characters' Media Preferences",
+                    "count": 51,
+                    "percent": 0.0021251770980915
+                },
+                {
+                    "id": 132,
+                    "name": "Matrix Diagonalization and Rank Factorization",
+                    "count": 45,
+                    "percent": 0.0018751562630219
+                },
+                {
+                    "id": 136,
+                    "name": "Advanced Japanese-English Translation Techniques",
+                    "count": 43,
+                    "percent": 0.0017918159846653
+                },
+                {
+                    "id": 140,
+                    "name": "Algorithmic Graph Transformations Analysis",
+                    "count": 42,
+                    "percent": 0.0017501458454871
+                },
+                {
+                    "id": 142,
+                    "name": "Shader Code and Techniques",
+                    "count": 42,
+                    "percent": 0.0017501458454871
+                },
+                {
+                    "id": 146,
+                    "name": "Language Learning Techniques Steps",
+                    "count": 41,
+                    "percent": 0.0017084757063088
+                },
+                {
+                    "id": 152,
+                    "name": "AI Art Critique Dialogue",
+                    "count": 39,
+                    "percent": 0.0016251354279523
+                },
+                {
+                    "id": 162,
+                    "name": "Higher Order Poisson Solver",
+                    "count": 36,
+                    "percent": 0.0015001250104175
+                },
+                {
+                    "id": 164,
+                    "name": "Computational Optimization and Integration",
+                    "count": 35,
+                    "percent": 0.0014584548712392
+                },
+                {
+                    "id": 165,
+                    "name": "Machine Learning Model Evaluation",
+                    "count": 35,
+                    "percent": 0.0014584548712392
+                },
+                {
+                    "id": 168,
+                    "name": "Apache Spark and PySpark Integration",
+                    "count": 35,
+                    "percent": 0.0014584548712392
+                },
+                {
+                    "id": 175,
+                    "name": "Artistic Style Variants Generation",
+                    "count": 33,
+                    "percent": 0.0013751145928827
+                },
+                {
+                    "id": 180,
+                    "name": "Creative Ways to Make Money",
+                    "count": 32,
+                    "percent": 0.0013334444537044
+                },
+                {
+                    "id": 181,
+                    "name": "AI Art Critique Discussion",
+                    "count": 32,
+                    "percent": 0.0013334444537044
+                },
+                {
+                    "id": 185,
+                    "name": "Markdown Copy Instructions Task",
+                    "count": 32,
+                    "percent": 0.0013334444537044
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Diverse Topics",
+            "children": [
+                {
+                    "id": 1,
+                    "name": "Mark's Narration and Drama",
+                    "count": 756,
+                    "percent": 0.0315026252187682
+                },
+                {
+                    "id": 8,
+                    "name": "Women in Science and Wildlife",
+                    "count": 366,
+                    "percent": 0.0152512709392449
+                },
+                {
+                    "id": 17,
+                    "name": "Humor and Jokes",
+                    "count": 297,
+                    "percent": 0.0123760313359446
+                },
+                {
+                    "id": 19,
+                    "name": "Ethengarian Spy & Legal Expert",
+                    "count": 281,
+                    "percent": 0.0117093091090924
+                },
+                {
+                    "id": 22,
+                    "name": "Albedo's Emotional Conflict with Klee",
+                    "count": 262,
+                    "percent": 0.0109175764647053
+                },
+                {
+                    "id": 24,
+                    "name": "Alice's Siblings and Brothers",
+                    "count": 251,
+                    "percent": 0.0104592049337444
+                },
+                {
+                    "id": 27,
+                    "name": "Fundamental Forces and Quantum Physics",
+                    "count": 232,
+                    "percent": 0.0096674722893574
+                },
+                {
+                    "id": 30,
+                    "name": "Right Eye Peace Sign",
+                    "count": 215,
+                    "percent": 0.0089590799233269
+                },
+                {
+                    "id": 37,
+                    "name": "Amazon EKS and Docker Troubleshooting",
+                    "count": 198,
+                    "percent": 0.0082506875572964
+                },
+                {
+                    "id": 38,
+                    "name": "Video Game Discussions and Trivia",
+                    "count": 194,
+                    "percent": 0.0080840070005833
+                },
+                {
+                    "id": 42,
+                    "name": "Board Games and Leaderboards",
+                    "count": 177,
+                    "percent": 0.0073756146345528
+                },
+                {
+                    "id": 45,
+                    "name": "<thinking>\n* I am Ben\n* Based on the Big Five personality traits I have these traits\n* Openness: Medium\n* Chloe shared her vulnerability, so I will express empathy and openness, then ask about her feelings.\n//...add your own items here\n\nI will use that plan to continue the story further.\n</thinking>\n\nBen: \"It's good to be open about things. I've had my own set of challenges too, you know? Sometimes it feels overwhelming trying to tick the right boxes. But like you said, there's more to life than that. How do you feel about this whole dating journey, Chloe?\"\n\nDating and Personal Growth",
+                    "count": 166,
+                    "percent": 0.0069172431035919
+                },
+                {
+                    "id": 49,
+                    "name": "Ergonomic Modular Sofa Comparison",
+                    "count": 158,
+                    "percent": 0.0065838819901658
+                },
+                {
+                    "id": 60,
+                    "name": "Viktoriya's Vampire Roleplay Character",
+                    "count": 142,
+                    "percent": 0.0059171597633136
+                },
+                {
+                    "id": 64,
+                    "name": "Professional and Technical Expertise",
+                    "count": 132,
+                    "percent": 0.0055004583715309
+                },
+                {
+                    "id": 68,
+                    "name": "Righteousness and Spiritual Life",
+                    "count": 122,
+                    "percent": 0.0050837569797483
+                },
+                {
+                    "id": 73,
+                    "name": "Casual Greetings and Check-ins",
+                    "count": 101,
+                    "percent": 0.0042086840570047
+                },
+                {
+                    "id": 77,
+                    "name": "Weight Comparison of Various Objects",
+                    "count": 96,
+                    "percent": 0.0040003333611134
+                },
+                {
+                    "id": 78,
+                    "name": "TV Series Recommendations Request",
+                    "count": 96,
+                    "percent": 0.0040003333611134
+                },
+                {
+                    "id": 82,
+                    "name": "Ashleigh's Scientific Exploration",
+                    "count": 91,
+                    "percent": 0.0037919826652221
+                },
+                {
+                    "id": 84,
+                    "name": "Multi-Robot Path Planning and Obstacles",
+                    "count": 89,
+                    "percent": 0.0037086423868655
+                },
+                {
+                    "id": 99,
+                    "name": "Meaning of Life Exploration",
+                    "count": 69,
+                    "percent": 0.0028752396033002
+                },
+                {
+                    "id": 100,
+                    "name": "Isekai Discussion Roleplay Scene",
+                    "count": 68,
+                    "percent": 0.002833569464122
+                },
+                {
+                    "id": 102,
+                    "name": "Speed, Distance, and Dynamics",
+                    "count": 66,
+                    "percent": 0.0027502291857654
+                },
+                {
+                    "id": 106,
+                    "name": "Sleep Challenges and Solutions",
+                    "count": 65,
+                    "percent": 0.0027085590465872
+                },
+                {
+                    "id": 110,
+                    "name": "Mixed Colors and Class Event",
+                    "count": 59,
+                    "percent": 0.0024585382115176
+                },
+                {
+                    "id": 113,
+                    "name": "Non-Fiction and Postmodern Literature",
+                    "count": 58,
+                    "percent": 0.0024168680723393
+                },
+                {
+                    "id": 119,
+                    "name": "Marvel Romantic Comedy Fanfic",
+                    "count": 54,
+                    "percent": 0.0022501875156263
+                },
+                {
+                    "id": 125,
+                    "name": "Divine Presence and Human Altruism",
+                    "count": 48,
+                    "percent": 0.0020001666805567
+                },
+                {
+                    "id": 128,
+                    "name": "Myopia Risk Factors in Adolescents",
+                    "count": 46,
+                    "percent": 0.0019168264022001
+                },
+                {
+                    "id": 137,
+                    "name": "S.T.A.L.K.E.R. Discussions and Drama",
+                    "count": 43,
+                    "percent": 0.0017918159846653
+                },
+                {
+                    "id": 151,
+                    "name": "Origins and Context of Quotes",
+                    "count": 39,
+                    "percent": 0.0016251354279523
+                },
+                {
+                    "id": 160,
+                    "name": "Biological Sex and Gender Concepts",
+                    "count": 36,
+                    "percent": 0.0015001250104175
+                },
+                {
+                    "id": 163,
+                    "name": "Resurrected Historical Figures Dialogues",
+                    "count": 36,
+                    "percent": 0.0015001250104175
+                },
+                {
+                    "id": 167,
+                    "name": "IQ and Population Comparison",
+                    "count": 35,
+                    "percent": 0.0014584548712392
+                },
+                {
+                    "id": 171,
+                    "name": "Topic: RPG Class Headgear Ratings",
+                    "count": 34,
+                    "percent": 0.001416784732061
+                },
+                {
+                    "id": 172,
+                    "name": "Fashion Outfits and Styles",
+                    "count": 34,
+                    "percent": 0.001416784732061
+                },
+                {
+                    "id": 182,
+                    "name": "Coffee and Rice Benefits",
+                    "count": 32,
+                    "percent": 0.0013334444537044
+                },
+                {
+                    "id": 183,
+                    "name": "Theresa, Afonso, and Rome Facts",
+                    "count": 32,
+                    "percent": 0.0013334444537044
+                },
+                {
+                    "id": 184,
+                    "name": "Gender, Marriage, Identity Issues",
+                    "count": 32,
+                    "percent": 0.0013334444537044
+                },
+                {
+                    "id": 192,
+                    "name": "Complex Family Dynamics London",
+                    "count": 31,
+                    "percent": 0.0012917743145262
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Number Analysis",
+            "children": [
+                {
+                    "id": 2,
+                    "name": "Counting 'r's in \"strawberry\"",
+                    "count": 512,
+                    "percent": 0.0213351112592716
+                },
+                {
+                    "id": 9,
+                    "name": "Topic: Random Number Combination Analysis",
+                    "count": 344,
+                    "percent": 0.0143345278773231
+                },
+                {
+                    "id": 43,
+                    "name": "Counting Letters in Words",
+                    "count": 171,
+                    "percent": 0.0071255937994832
+                },
+                {
+                    "id": 48,
+                    "name": "Sentences Ending with \"Apple\"",
+                    "count": 160,
+                    "percent": 0.0066672222685223
+                },
+                {
+                    "id": 63,
+                    "name": "Comparing Numbers 9.11 and 9.9",
+                    "count": 134,
+                    "percent": 0.0055837986498874
+                },
+                {
+                    "id": 67,
+                    "name": "Comparing Decimal Numbers",
+                    "count": 125,
+                    "percent": 0.0052087673972831
+                },
+                {
+                    "id": 80,
+                    "name": "Calculus Limits and Series",
+                    "count": 95,
+                    "percent": 0.0039586632219351
+                },
+                {
+                    "id": 97,
+                    "name": "Prime Numbers and Sums",
+                    "count": 69,
+                    "percent": 0.0028752396033002
+                },
+                {
+                    "id": 105,
+                    "name": "Word Count in Responses",
+                    "count": 65,
+                    "percent": 0.0027085590465872
+                },
+                {
+                    "id": 147,
+                    "name": "Measuring Water with Jugs",
+                    "count": 41,
+                    "percent": 0.0017084757063088
+                },
+                {
+                    "id": 149,
+                    "name": "George Floyd in Fortnite Greentext",
+                    "count": 40,
+                    "percent": 0.0016668055671305
+                },
+                {
+                    "id": 154,
+                    "name": "Pi Digit Sentence Construction",
+                    "count": 39,
+                    "percent": 0.0016251354279523
+                },
+                {
+                    "id": 155,
+                    "name": "Smallest Integer Square Range",
+                    "count": 38,
+                    "percent": 0.001583465288774
+                },
+                {
+                    "id": 157,
+                    "name": "Comparing Decimal Sizes",
+                    "count": 37,
+                    "percent": 0.0015417951495957
+                },
+                {
+                    "id": 159,
+                    "name": "Number Sequence and Patterns",
+                    "count": 37,
+                    "percent": 0.0015417951495957
+                },
+                {
+                    "id": 188,
+                    "name": "Counting \"a\" in Banana",
+                    "count": 31,
+                    "percent": 0.0012917743145262
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Analysis & Trends",
+            "children": [
+                {
+                    "id": 5,
+                    "name": "Trading and Financial Analysis",
+                    "count": 482,
+                    "percent": 0.0200850070839236
+                },
+                {
+                    "id": 10,
+                    "name": "Topic: Nutritional Analysis of Foods",
+                    "count": 341,
+                    "percent": 0.0142095174597883
+                },
+                {
+                    "id": 31,
+                    "name": "Statistical Analysis and Inference",
+                    "count": 211,
+                    "percent": 0.0087923993666138
+                },
+                {
+                    "id": 55,
+                    "name": "Economic Trends and Housing Analysis",
+                    "count": 149,
+                    "percent": 0.0062088507375614
+                },
+                {
+                    "id": 61,
+                    "name": "Brand Campaign Strategies Analysis",
+                    "count": 141,
+                    "percent": 0.0058754896241353
+                },
+                {
+                    "id": 66,
+                    "name": "Trading Strategy with Indicators",
+                    "count": 127,
+                    "percent": 0.0052921076756396
+                },
+                {
+                    "id": 98,
+                    "name": "Nitrate Impact on Crops",
+                    "count": 69,
+                    "percent": 0.0028752396033002
+                },
+                {
+                    "id": 112,
+                    "name": "Weather and Forecast Discussion",
+                    "count": 58,
+                    "percent": 0.0024168680723393
+                },
+                {
+                    "id": 127,
+                    "name": "Germany's Renewable Energy Transition",
+                    "count": 47,
+                    "percent": 0.0019584965413784
+                },
+                {
+                    "id": 141,
+                    "name": "Climate Change and Water Conservation",
+                    "count": 42,
+                    "percent": 0.0017501458454871
+                },
+                {
+                    "id": 189,
+                    "name": "Climate Change Impacts on Forests",
+                    "count": 31,
+                    "percent": 0.0012917743145262
+                },
+                {
+                    "id": 191,
+                    "name": "ATP Challenger Tournaments Insights",
+                    "count": 31,
+                    "percent": 0.0012917743145262
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Global Affairs",
+            "children": [
+                {
+                    "id": 7,
+                    "name": "Based on the information you provided, an appropriate topic label could be:\n\nEuro 2024 Football Tournament",
+                    "count": 413,
+                    "percent": 0.0172097674806233
+                },
+                {
+                    "id": 14,
+                    "name": "Email Deadlines and Passport Queries",
+                    "count": 312,
+                    "percent": 0.0130010834236186
+                },
+                {
+                    "id": 18,
+                    "name": "Global Politics and Power Struggle",
+                    "count": 287,
+                    "percent": 0.011959329944162
+                },
+                {
+                    "id": 21,
+                    "name": "Topic: 2024 Elections and Controversies",
+                    "count": 264,
+                    "percent": 0.0110009167430619
+                },
+                {
+                    "id": 59,
+                    "name": "Car and Bicycle Information",
+                    "count": 142,
+                    "percent": 0.0059171597633136
+                },
+                {
+                    "id": 62,
+                    "name": "Topic: Digital Forensics and Justice Reform",
+                    "count": 141,
+                    "percent": 0.0058754896241353
+                },
+                {
+                    "id": 89,
+                    "name": "Healthcare Innovation and Investment",
+                    "count": 80,
+                    "percent": 0.0033336111342611
+                },
+                {
+                    "id": 95,
+                    "name": "**Revised Statement:**\n\n\"On June 27, 2024, Cloudflare's 1.1.1.1 DNS faced disruptions due to BGP hijacking and route leak, exacerbated by inadequate RPKI validation across networks.\"\n\n**Topic Label:**\n\nCloudflare DNS BGP Incident",
+                    "count": 75,
+                    "percent": 0.0031252604383698
+                },
+                {
+                    "id": 96,
+                    "name": "Topic: Remote Work Cybersecurity Strategies",
+                    "count": 75,
+                    "percent": 0.0031252604383698
+                },
+                {
+                    "id": 126,
+                    "name": "Trump Assassination Attempt July 2024",
+                    "count": 48,
+                    "percent": 0.0020001666805567
+                },
+                {
+                    "id": 139,
+                    "name": "Ethical Dilemmas in Nuclear Threats",
+                    "count": 43,
+                    "percent": 0.0017918159846653
+                },
+                {
+                    "id": 158,
+                    "name": "Information Systems Development Insights",
+                    "count": 37,
+                    "percent": 0.0015417951495957
+                },
+                {
+                    "id": 179,
+                    "name": "China-US Relations and Education",
+                    "count": 32,
+                    "percent": 0.0013334444537044
+                },
+                {
+                    "id": 186,
+                    "name": "Bookmark Movement While Sleeping",
+                    "count": 31,
+                    "percent": 0.0012917743145262
+                },
+                {
+                    "id": 187,
+                    "name": "Wireless Power and Battery Technology",
+                    "count": 31,
+                    "percent": 0.0012917743145262
+                },
+                {
+                    "id": 190,
+                    "name": "Countries' Tax and Internet Policies",
+                    "count": 31,
+                    "percent": 0.0012917743145262
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Programming Challenges",
+            "children": [
+                {
+                    "id": 6,
+                    "name": "Dependency and Build Errors",
+                    "count": 440,
+                    "percent": 0.0183348612384365
+                },
+                {
+                    "id": 29,
+                    "name": "React Components with Dynamic Forms",
+                    "count": 226,
+                    "percent": 0.0094174514542878
+                },
+                {
+                    "id": 33,
+                    "name": "TLS/SSL Server Configuration Errors",
+                    "count": 209,
+                    "percent": 0.0087090590882573
+                },
+                {
+                    "id": 36,
+                    "name": "C++ Tuple Template Implementation",
+                    "count": 200,
+                    "percent": 0.0083340278356529
+                },
+                {
+                    "id": 44,
+                    "name": "Fitness Tracking Java Application",
+                    "count": 168,
+                    "percent": 0.0070005833819484
+                },
+                {
+                    "id": 46,
+                    "name": "Parsing Variable Types in Python",
+                    "count": 161,
+                    "percent": 0.0067088924077006
+                },
+                {
+                    "id": 50,
+                    "name": "HTML/CSS/JS Interactive Simulations",
+                    "count": 157,
+                    "percent": 0.0065422118509875
+                },
+                {
+                    "id": 52,
+                    "name": "Missing Files and Design Ideas",
+                    "count": 154,
+                    "percent": 0.0064172014334527
+                },
+                {
+                    "id": 74,
+                    "name": "### Commit Message:  \n```\nTheory classes can take constructor parameters\n```\n\n### Code Diff Notes:\nThe provided diff shows modifications to several files where the ability to handle constructor parameters in theory classes has been introduced. This involves changes and additions of methods that handle or utilize constructors where appropriate.\n\n### Evaluation\nHere's the evaluation of the provided commit message according to the defined rules and its ranking:\n\n```\n{\n  \"commit message\": \"Theory classes can take constructor parameters\",\n  \"detailed semantic description of commit message\": \"The commit modifies the behavior of theory classes to allow the usage of constructor parameters.\",\n  \"critical description\": \"The commit message succinctly describes the main feature added, but lacks detail on the reason or context for the change.\",\n  \"commit characteristics analysis\": {\n    \"clarity and conciseness analysis\": \"The message is concise but somewhat lacks context as to why such a change was necessary.\",\n    \"reason or issue reference, why\": \"The commit does not reference any specific issue or background information.\",\n    \"describes the code changes accurately\": \"Accurate in summarizing what was done but not why.\",\n    \"grammar, spelling, and active voice errors\": \"None identified.\",\n    \"match with diff errors\": \"The commit accurately reflects the nature of changes.\"\n  },\n  \"additional ranking considerations\": {},\n  \"classification\": {\n    \"describes what\": true,\n    \"describes why\": false,\n    \"ranking\": \"Average\"\n  }\n}\n```\n\n- The commit message clearly states what feature has been added but lacks context or reasoning for the change, resulting in an \"Average\" ranking.\n\n### Topic Label:\n```\nGitHub Repository Management Issues\n```",
+                    "count": 99,
+                    "percent": 0.0041253437786482
+                },
+                {
+                    "id": 75,
+                    "name": "Web Development UI Issues",
+                    "count": 99,
+                    "percent": 0.0041253437786482
+                },
+                {
+                    "id": 76,
+                    "name": "Unity Selection Groups Management",
+                    "count": 97,
+                    "percent": 0.0040420035002916
+                },
+                {
+                    "id": 81,
+                    "name": "Regex and HTML Parsing Challenges",
+                    "count": 91,
+                    "percent": 0.0037919826652221
+                },
+                {
+                    "id": 93,
+                    "name": "Certainly! Based on the provided code and description, here is a concise topic label:\n\nJavaScript DOM Manipulation Techniques",
+                    "count": 78,
+                    "percent": 0.0032502708559046
+                },
+                {
+                    "id": 103,
+                    "name": "Java Spring Application Development",
+                    "count": 66,
+                    "percent": 0.0027502291857654
+                },
+                {
+                    "id": 107,
+                    "name": "Neovim and Telerik Configurations",
+                    "count": 62,
+                    "percent": 0.0025835486290524
+                },
+                {
+                    "id": 109,
+                    "name": "Variations of \"Hello\"",
+                    "count": 62,
+                    "percent": 0.0025835486290524
+                },
+                {
+                    "id": 118,
+                    "name": "Java Code Patch Challenges",
+                    "count": 55,
+                    "percent": 0.0022918576548045
+                },
+                {
+                    "id": 130,
+                    "name": "Verb Usage and Examples",
+                    "count": 46,
+                    "percent": 0.0019168264022001
+                },
+                {
+                    "id": 144,
+                    "name": "Radical Surgery for Severe Infection",
+                    "count": 42,
+                    "percent": 0.0017501458454871
+                },
+                {
+                    "id": 145,
+                    "name": "Continent Countries and HTML List",
+                    "count": 41,
+                    "percent": 0.0017084757063088
+                },
+                {
+                    "id": 178,
+                    "name": "Interactive Data Visualization in Shiny",
+                    "count": 33,
+                    "percent": 0.0013751145928827
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Puzzle Solving",
+            "children": [
+                {
+                    "id": 3,
+                    "name": "Algebra Problem Solving Techniques",
+                    "count": 502,
+                    "percent": 0.0209184098674889
+                },
+                {
+                    "id": 15,
+                    "name": "Farmer River Crossing Puzzle",
+                    "count": 303,
+                    "percent": 0.0126260521710142
+                },
+                {
+                    "id": 32,
+                    "name": "Word Puzzle Constraints and Solutions",
+                    "count": 211,
+                    "percent": 0.0087923993666138
+                },
+                {
+                    "id": 41,
+                    "name": "Marble Position Under Upside Cup",
+                    "count": 186,
+                    "percent": 0.0077506458871572
+                },
+                {
+                    "id": 65,
+                    "name": "Creative Project Naming Ideas",
+                    "count": 130,
+                    "percent": 0.0054171180931744
+                },
+                {
+                    "id": 83,
+                    "name": "Python Snake Game Development",
+                    "count": 89,
+                    "percent": 0.0037086423868655
+                },
+                {
+                    "id": 86,
+                    "name": "Unique Naming Challenges Puzzle",
+                    "count": 87,
+                    "percent": 0.003625302108509
+                },
+                {
+                    "id": 91,
+                    "name": "Killers Puzzle in Room",
+                    "count": 78,
+                    "percent": 0.0032502708559046
+                },
+                {
+                    "id": 101,
+                    "name": "Monty Hall Game Show Problem",
+                    "count": 67,
+                    "percent": 0.0027918993249437
+                },
+                {
+                    "id": 117,
+                    "name": "Logical Reasoning and Satisfiability",
+                    "count": 56,
+                    "percent": 0.0023335277939828
+                },
+                {
+                    "id": 121,
+                    "name": "Logic Puzzles and General Knowledge",
+                    "count": 51,
+                    "percent": 0.0021251770980915
+                },
+                {
+                    "id": 124,
+                    "name": "Zebra Puzzle Logic Problem",
+                    "count": 48,
+                    "percent": 0.0020001666805567
+                },
+                {
+                    "id": 133,
+                    "name": "Crossword Clue Solutions",
+                    "count": 45,
+                    "percent": 0.0018751562630219
+                },
+                {
+                    "id": 143,
+                    "name": "Why the Sky is Blue",
+                    "count": 42,
+                    "percent": 0.0017501458454871
+                },
+                {
+                    "id": 148,
+                    "name": "Riddle about Mysterious Creature",
+                    "count": 41,
+                    "percent": 0.0017084757063088
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Problem Solving",
+            "children": [
+                {
+                    "id": 12,
+                    "name": "European City Travel Itineraries",
+                    "count": 319,
+                    "percent": 0.0132927743978664
+                },
+                {
+                    "id": 35,
+                    "name": "\u0421\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u0438 \u0438 PR \u044d\u043a\u0441\u043f\u0435\u0440\u0442\u0438\u0437\u0430",
+                    "count": 205,
+                    "percent": 0.0085423785315442
+                },
+                {
+                    "id": 53,
+                    "name": "Apple Consumption and Math Calculations",
+                    "count": 153,
+                    "percent": 0.0063755312942745
+                },
+                {
+                    "id": 88,
+                    "name": "Regular Hexagon Diagonals Calculation",
+                    "count": 82,
+                    "percent": 0.0034169514126177
+                },
+                {
+                    "id": 90,
+                    "name": "Day and Date Calculations",
+                    "count": 79,
+                    "percent": 0.0032919409950829
+                },
+                {
+                    "id": 115,
+                    "name": "Ok Explain with Keywords",
+                    "count": 57,
+                    "percent": 0.002375197933161
+                },
+                {
+                    "id": 120,
+                    "name": "Probability Calculations with Dice",
+                    "count": 53,
+                    "percent": 0.002208517376448
+                },
+                {
+                    "id": 129,
+                    "name": "Astrology and Time Travel Scenarios",
+                    "count": 46,
+                    "percent": 0.0019168264022001
+                },
+                {
+                    "id": 131,
+                    "name": "Currency and Change Computation",
+                    "count": 45,
+                    "percent": 0.0018751562630219
+                },
+                {
+                    "id": 156,
+                    "name": "Age and Year Problems",
+                    "count": 38,
+                    "percent": 0.001583465288774
+                },
+                {
+                    "id": 161,
+                    "name": "Towel Drying Time Calculation",
+                    "count": 36,
+                    "percent": 0.0015001250104175
+                },
+                {
+                    "id": 169,
+                    "name": "Melting Ice Cubes Rate Calculation",
+                    "count": 35,
+                    "percent": 0.0014584548712392
+                },
+                {
+                    "id": 170,
+                    "name": "VBA Excel Worksheet Operations",
+                    "count": 34,
+                    "percent": 0.001416784732061
+                },
+                {
+                    "id": 173,
+                    "name": "Solving Math Problems with Python",
+                    "count": 34,
+                    "percent": 0.001416784732061
+                },
+                {
+                    "id": 176,
+                    "name": "Common Practice Harmonic Progressions",
+                    "count": 33,
+                    "percent": 0.0013751145928827
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Technical Systems",
+            "children": [
+                {
+                    "id": 57,
+                    "name": "Data Visualization and Error Handling",
+                    "count": 144,
+                    "percent": 0.0060005000416701
+                },
+                {
+                    "id": 71,
+                    "name": "Rust Lifetimes and Arc Handling",
+                    "count": 106,
+                    "percent": 0.004417034752896
+                },
+                {
+                    "id": 79,
+                    "name": "Chaotic Brawl: Hammond vs. Fanny",
+                    "count": 95,
+                    "percent": 0.0039586632219351
+                },
+                {
+                    "id": 87,
+                    "name": "Intermediate Hypertrophy Workout Program",
+                    "count": 83,
+                    "percent": 0.0034586215517959
+                },
+                {
+                    "id": 108,
+                    "name": "Flame Retardancy in Materials",
+                    "count": 62,
+                    "percent": 0.0025835486290524
+                },
+                {
+                    "id": 123,
+                    "name": "Weapon Systems and Mechanics",
+                    "count": 49,
+                    "percent": 0.0020418368197349
+                },
+                {
+                    "id": 134,
+                    "name": "PV Simulation and Degradation Analysis",
+                    "count": 45,
+                    "percent": 0.0018751562630219
+                },
+                {
+                    "id": 138,
+                    "name": "Electric and Magnetic Fields",
+                    "count": 43,
+                    "percent": 0.0017918159846653
+                },
+                {
+                    "id": 150,
+                    "name": "Explosive Devices Construction Guidance",
+                    "count": 40,
+                    "percent": 0.0016668055671305
+                },
+                {
+                    "id": 174,
+                    "name": "Thermal and Mechanical Resistance Analysis",
+                    "count": 34,
+                    "percent": 0.001416784732061
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Data Management",
+            "children": [
+                {
+                    "id": 26,
+                    "name": "SQL Database Schema and Triggers",
+                    "count": 250,
+                    "percent": 0.0104175347945662
+                },
+                {
+                    "id": 54,
+                    "name": "Telegram Bot with SQLite Database",
+                    "count": 152,
+                    "percent": 0.0063338611550962
+                },
+                {
+                    "id": 56,
+                    "name": "Data Processing and Modeling Challenges",
+                    "count": 145,
+                    "percent": 0.0060421701808484
+                },
+                {
+                    "id": 69,
+                    "name": "PyQt5 UI and Database Management",
+                    "count": 117,
+                    "percent": 0.0048754062838569
+                },
+                {
+                    "id": 72,
+                    "name": "Moon Landing and Solar System",
+                    "count": 106,
+                    "percent": 0.004417034752896
+                },
+                {
+                    "id": 94,
+                    "name": "Disk Partition and Management",
+                    "count": 76,
+                    "percent": 0.0031669305775481
+                },
+                {
+                    "id": 135,
+                    "name": "Sorting and Data Structures in Python",
+                    "count": 45,
+                    "percent": 0.0018751562630219
+                },
+                {
+                    "id": 153,
+                    "name": "PDF and EPUB Processing Issues",
+                    "count": 39,
+                    "percent": 0.0016251354279523
+                },
+                {
+                    "id": 166,
+                    "name": "IoT System and Data Communication",
+                    "count": 35,
+                    "percent": 0.0014584548712392
+                },
+                {
+                    "id": 177,
+                    "name": "Objective Observational Past Tense",
+                    "count": 33,
+                    "percent": 0.0013751145928827
+                }
+            ]
+        }
+    ]
+}

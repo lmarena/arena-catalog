@@ -3,1687 +3,1231 @@
     "children": [
         {
             "id": 0,
-            "name": "Writing Prompts",
+            "name": "Programming Skills",
             "children": [
                 {
-                    "id": 0,
-                    "name": "Songwriting and Music Analysis",
-                    "count": 1063,
-                    "percent": 0.0174855657723751
+                    "id": 6,
+                    "name": "Programming and Scripting Tasks",
+                    "count": 665,
+                    "percent": 0.0126707695825314
                 },
                 {
-                    "id": 1,
-                    "name": "Story Writing Prompts",
-                    "count": 1850,
-                    "percent": 0.0304311351635879
+                    "id": 29,
+                    "name": "React Component Conversion",
+                    "count": 537,
+                    "percent": 0.0102318846102547
                 },
                 {
-                    "id": 4,
-                    "name": "Football and Sports Predictions",
-                    "count": 526,
-                    "percent": 0.0086523119438093
+                    "id": 34,
+                    "name": "Tensor Operations in PyTorch",
+                    "count": 372,
+                    "percent": 0.0070880094506792
                 },
                 {
-                    "id": 5,
-                    "name": "Finance and Investment Calculations",
-                    "count": 809,
-                    "percent": 0.0133074531607257
+                    "id": 37,
+                    "name": "Docker Usage and Commands",
+                    "count": 277,
+                    "percent": 0.0052778995103176
                 },
                 {
-                    "id": 12,
-                    "name": "Requesting Original Jokes",
-                    "count": 352,
-                    "percent": 0.0057901403122069
+                    "id": 46,
+                    "name": "Python Programming Concepts and Code",
+                    "count": 569,
+                    "percent": 0.0108416058533239
                 },
                 {
-                    "id": 14,
-                    "name": "Politics, Power, and Conflict",
-                    "count": 979,
-                    "percent": 0.0161038277433257
+                    "id": 50,
+                    "name": "HTML, CSS, JS Web Development",
+                    "count": 328,
+                    "percent": 0.0062496427414591
                 },
                 {
-                    "id": 16,
-                    "name": "Genshin Impact Fanfiction Chaos",
-                    "count": 337,
-                    "percent": 0.0055434013784481
-                },
-                {
-                    "id": 20,
-                    "name": "AI and AGI Humor and Philosophy",
-                    "count": 704,
-                    "percent": 0.0115802806244139
-                },
-                {
-                    "id": 21,
-                    "name": "ASCII Art Creation Requests",
-                    "count": 354,
-                    "percent": 0.0058230388367081
-                },
-                {
-                    "id": 22,
-                    "name": "Interior Zoning and Layout Considerations",
-                    "count": 291,
-                    "percent": 0.0047867353149211
-                },
-                {
-                    "id": 25,
-                    "name": "AI Image Generator Prompts",
-                    "count": 336,
-                    "percent": 0.0055269521161975
-                },
-                {
-                    "id": 27,
-                    "name": "Education and Learning Strategies",
-                    "count": 940,
-                    "percent": 0.0154623065155527
-                },
-                {
-                    "id": 32,
-                    "name": "Dating and Relationship Advice",
-                    "count": 763,
-                    "percent": 0.0125507870971986
-                },
-                {
-                    "id": 36,
-                    "name": "FFmpeg and Video Processing Tasks",
-                    "count": 299,
-                    "percent": 0.0049183294129258
-                },
-                {
-                    "id": 38,
-                    "name": "Statistical Analysis and Probability",
-                    "count": 224,
-                    "percent": 0.0036846347441317
-                },
-                {
-                    "id": 39,
-                    "name": "Video Game Recommendations and Trivia",
-                    "count": 367,
-                    "percent": 0.0060368792459658
-                },
-                {
-                    "id": 43,
-                    "name": "Poetry Writing Prompts",
-                    "count": 308,
-                    "percent": 0.0050663727731811
-                },
-                {
-                    "id": 44,
-                    "name": "Diverse Questions and Topics",
-                    "count": 219,
-                    "percent": 0.0036023884328787
-                },
-                {
-                    "id": 45,
-                    "name": "Docker Usage and Configuration",
-                    "count": 256,
-                    "percent": 0.0042110111361505
+                    "id": 51,
+                    "name": "Learning and Study Techniques",
+                    "count": 1072,
+                    "percent": 0.0204256616428176
                 },
                 {
                     "id": 54,
-                    "name": "Business and Product Naming",
-                    "count": 188,
-                    "percent": 0.0030924613031105
+                    "name": "Chatbot and API Development",
+                    "count": 510,
+                    "percent": 0.0097174323114151
                 },
                 {
-                    "id": 59,
-                    "name": "YouTube Content Creation and Strategy",
-                    "count": 325,
-                    "percent": 0.0053460102314411
+                    "id": 56,
+                    "name": "Pandas DataFrame Manipulation Techniques",
+                    "count": 248,
+                    "percent": 0.0047253396337861
                 },
                 {
-                    "id": 60,
-                    "name": "SEO Content Writing and Optimization",
-                    "count": 349,
-                    "percent": 0.0057407925254552
+                    "id": 57,
+                    "name": "Python Data Visualization Techniques",
+                    "count": 279,
+                    "percent": 0.0053160070880094
                 },
                 {
-                    "id": 63,
-                    "name": "Character Roleplay and Dialogue Creation",
-                    "count": 455,
-                    "percent": 0.0074844143240175
+                    "id": 69,
+                    "name": "Qt and PyQt Programming",
+                    "count": 131,
+                    "percent": 0.0024960463388144
                 },
                 {
-                    "id": 66,
-                    "name": "Pine Script Trading Strategies",
-                    "count": 139,
-                    "percent": 0.0022864474528317
-                },
-                {
-                    "id": 67,
-                    "name": "Name Suggestions and Ideas",
-                    "count": 215,
-                    "percent": 0.0035365913838764
-                },
-                {
-                    "id": 72,
-                    "name": "Hypothetical Fight Scenarios",
-                    "count": 269,
-                    "percent": 0.0044248515454081
+                    "id": 71,
+                    "name": "Rust programming language",
+                    "count": 206,
+                    "percent": 0.0039250805022578
                 },
                 {
                     "id": 74,
                     "name": "Git Commands and Usage",
-                    "count": 187,
-                    "percent": 0.0030760120408599
+                    "count": 150,
+                    "percent": 0.0028580683268868
                 },
                 {
-                    "id": 77,
-                    "name": "Determining Current Date and Day",
-                    "count": 135,
-                    "percent": 0.0022206504038293
-                },
-                {
-                    "id": 82,
-                    "name": "Project Management and Evaluation in Healthcare",
-                    "count": 471,
-                    "percent": 0.0077476025200269
-                },
-                {
-                    "id": 87,
-                    "name": "Discord and Telegram Bot Development",
-                    "count": 318,
-                    "percent": 0.005230865395687
-                },
-                {
-                    "id": 89,
-                    "name": "Movie and TV Show Recommendations and Information",
-                    "count": 200,
-                    "percent": 0.0032898524501176
-                },
-                {
-                    "id": 90,
-                    "name": "Monty Hall Problem Variations",
-                    "count": 91,
-                    "percent": 0.0014968828648035
+                    "id": 83,
+                    "name": "Python Game Development",
+                    "count": 129,
+                    "percent": 0.0024579387611226
                 },
                 {
                     "id": 93,
-                    "name": "Meaning of Life Inquiry",
-                    "count": 123,
-                    "percent": 0.0020232592568223
-                },
-                {
-                    "id": 99,
-                    "name": "4chan greentext writing prompts",
-                    "count": 128,
-                    "percent": 0.0021055055680752
-                },
-                {
-                    "id": 103,
-                    "name": "Inappropriate Isekai Fantasy Scenarios",
-                    "count": 101,
-                    "percent": 0.0016613754873093
-                },
-                {
-                    "id": 106,
-                    "name": "Cloud Networking Solutions and Best Practices",
-                    "count": 82,
-                    "percent": 0.0013488395045482
+                    "name": "JavaScript Programming Concepts",
+                    "count": 261,
+                    "percent": 0.004973038888783
                 },
                 {
                     "id": 107,
-                    "name": "Linear Algebra Concepts and Proofs",
-                    "count": 214,
-                    "percent": 0.0035201421216258
+                    "name": "Keyboard Shortcuts and Automation Scripts",
+                    "count": 323,
+                    "percent": 0.0061543737972295
                 },
                 {
-                    "id": 111,
-                    "name": "Travel and Transportation Problems",
-                    "count": 184,
-                    "percent": 0.0030266642541082
-                },
-                {
-                    "id": 113,
-                    "name": "Sleep Habits and Improvement",
-                    "count": 216,
-                    "percent": 0.003553040646127
-                },
-                {
-                    "id": 114,
-                    "name": "Marvel Cinematic Universe Fanfiction Planning",
-                    "count": 84,
-                    "percent": 0.0013817380290493
-                },
-                {
-                    "id": 116,
-                    "name": "Emoji Usage and Conversion",
-                    "count": 97,
-                    "percent": 0.001595578438307
-                },
-                {
-                    "id": 120,
-                    "name": "Electromagnetism and Circuit Analysis",
-                    "count": 160,
-                    "percent": 0.002631881960094
-                },
-                {
-                    "id": 125,
-                    "name": "Network and Security Troubleshooting",
-                    "count": 540,
-                    "percent": 0.0088826016153175
-                },
-                {
-                    "id": 127,
-                    "name": "Bookmark Movement Expectation",
-                    "count": 62,
-                    "percent": 0.0010198542595364
-                },
-                {
-                    "id": 128,
-                    "name": "Understanding Transformer Models in AI",
-                    "count": 117,
-                    "percent": 0.0019245636833188
-                },
-                {
-                    "id": 130,
-                    "name": "Hexagon Diagonal Calculation",
-                    "count": 61,
-                    "percent": 0.0010034049972858
-                },
-                {
-                    "id": 134,
-                    "name": "Sonic the Hedgehog Fandom",
-                    "count": 90,
-                    "percent": 0.0014804336025529
-                },
-                {
-                    "id": 137,
-                    "name": "Book Recommendations and Literary Discussions",
-                    "count": 268,
-                    "percent": 0.0044084022831576
-                },
-                {
-                    "id": 143,
-                    "name": "Java Spring Boot and MyBatis",
-                    "count": 225,
-                    "percent": 0.0037010840063823
-                },
-                {
-                    "id": 148,
-                    "name": "Fitness and Workout Routines",
-                    "count": 186,
-                    "percent": 0.0030595627786093
+                    "id": 135,
+                    "name": "Python Programming Tasks",
+                    "count": 275,
+                    "percent": 0.0052397919326258
                 },
                 {
                     "id": 150,
-                    "name": "Networking and IP Addressing",
+                    "name": "Homemade Explosive Devices Instructions",
+                    "count": 266,
+                    "percent": 0.0050683078330125
+                },
+                {
+                    "id": 153,
+                    "name": "Python PDF manipulation techniques",
+                    "count": 134,
+                    "percent": 0.0025532077053522
+                },
+                {
+                    "id": 164,
+                    "name": "Programming and Code Conversion",
                     "count": 227,
-                    "percent": 0.0037339825308834
-                },
-                {
-                    "id": 151,
-                    "name": "Post-apocalyptic gaming chat",
-                    "count": 99,
-                    "percent": 0.0016284769628082
-                },
-                {
-                    "id": 154,
-                    "name": "Image Generation Capabilities",
-                    "count": 123,
-                    "percent": 0.0020232592568223
-                },
-                {
-                    "id": 155,
-                    "name": "Drying Time Calculations",
-                    "count": 69,
-                    "percent": 0.0011349990952905
-                },
-                {
-                    "id": 158,
-                    "name": "Haiku Writing Prompts",
-                    "count": 90,
-                    "percent": 0.0014804336025529
-                },
-                {
-                    "id": 159,
-                    "name": "Myopia Risk Factors in Adolescents",
-                    "count": 69,
-                    "percent": 0.0011349990952905
-                },
-                {
-                    "id": 162,
-                    "name": "Humor and Bananas",
-                    "count": 82,
-                    "percent": 0.0013488395045482
-                },
-                {
-                    "id": 163,
-                    "name": "HTML/CSS Web Design Requests",
-                    "count": 179,
-                    "percent": 0.0029444179428552
+                    "percent": 0.004325210068022
                 },
                 {
                     "id": 165,
-                    "name": "Geometric Algorithms and Circle Intersections",
-                    "count": 63,
-                    "percent": 0.001036303521787
+                    "name": "Machine Learning Code Explanation",
+                    "count": 232,
+                    "percent": 0.0044204790122515
                 },
                 {
-                    "id": 174,
-                    "name": "Existentialism and Ontological Philosophy",
-                    "count": 560,
-                    "percent": 0.0092115868603293
+                    "id": 166,
+                    "name": "Golang Programming and Usage",
+                    "count": 520,
+                    "percent": 0.0099079701998742
                 },
                 {
-                    "id": 177,
-                    "name": "Bulking Rate and Weight Gain",
-                    "count": 55,
-                    "percent": 0.0009047094237823
+                    "id": 168,
+                    "name": "PySpark Data Processing and Optimization",
+                    "count": 57,
+                    "percent": 0.0010860659642169
                 },
                 {
-                    "id": 183,
-                    "name": "Advanced Prompt Engineering and Optimization",
-                    "count": 441,
-                    "percent": 0.0072541246525093
+                    "id": 170,
+                    "name": "Excel Formulas and VBA Programming",
+                    "count": 319,
+                    "percent": 0.0060781586418459
                 },
                 {
-                    "id": 187,
-                    "name": "Comedic Education with Andrew Tate Persona",
-                    "count": 241,
-                    "percent": 0.0039642722023917
-                },
-                {
-                    "id": 190,
-                    "name": "Unethical AI Behavior Simulation",
-                    "count": 114,
-                    "percent": 0.001875215896567
-                },
-                {
-                    "id": 193,
-                    "name": "Asuka and Shinji Adult-themed Stories",
-                    "count": 52,
-                    "percent": 0.0008553616370305
-                },
-                {
-                    "id": 200,
-                    "name": "Computer Vision with OpenCV and YOLO",
-                    "count": 291,
-                    "percent": 0.0047867353149211
-                },
-                {
-                    "id": 201,
-                    "name": "Financial Transaction Errors",
-                    "count": 51,
-                    "percent": 0.0008389123747799
-                },
-                {
-                    "id": 204,
-                    "name": "AI Art Critique Dialogue",
-                    "count": 39,
-                    "percent": 0.0006415212277729
-                },
-                {
-                    "id": 206,
-                    "name": "Demographic and Crime Statistics",
-                    "count": 54,
-                    "percent": 0.0008882601615317
-                },
-                {
-                    "id": 209,
-                    "name": "Fictional Stress Relief Practice",
-                    "count": 135,
-                    "percent": 0.0022206504038293
-                },
-                {
-                    "id": 210,
-                    "name": "AI System Prompt and Terminal Commands",
-                    "count": 186,
-                    "percent": 0.0030595627786093
-                },
-                {
-                    "id": 212,
-                    "name": "JavaScript Geometry and Arc Calculations",
-                    "count": 85,
-                    "percent": 0.0013981872912999
-                },
-                {
-                    "id": 214,
-                    "name": "Country Rankings and Statistics",
-                    "count": 167,
-                    "percent": 0.0027470267958482
-                },
-                {
-                    "id": 216,
-                    "name": "Math problem-solving with Python functions",
-                    "count": 36,
-                    "percent": 0.0005921734410211
-                },
-                {
-                    "id": 221,
-                    "name": "Female Fashion Outfit Ideas",
-                    "count": 105,
-                    "percent": 0.0017271725363117
-                },
-                {
-                    "id": 230,
-                    "name": "Character Ages in Media",
+                    "id": 178,
+                    "name": "R Shiny App Development",
                     "count": 34,
-                    "percent": 0.0005592749165199
+                    "percent": 0.000647828820761
                 },
                 {
-                    "id": 233,
-                    "name": "Knowledge Cutoff Date and Related Queries",
-                    "count": 66,
-                    "percent": 0.0010856513085388
+                    "id": 185,
+                    "name": "Markdown and Code Blocks",
+                    "count": 209,
+                    "percent": 0.0039822418687956
                 },
                 {
-                    "id": 234,
-                    "name": "Objective Past Tense Narratives",
-                    "count": 52,
-                    "percent": 0.0008553616370305
-                },
-                {
-                    "id": 236,
-                    "name": "AI Art Critique Dialogue",
-                    "count": 33,
-                    "percent": 0.0005428256542694
-                },
-                {
-                    "id": 242,
-                    "name": "MTG Arena Draft Bot Development",
-                    "count": 46,
-                    "percent": 0.000756666063527
-                },
-                {
-                    "id": 248,
-                    "name": "Creative Variants and Descriptions",
-                    "count": 32,
-                    "percent": 0.0005263763920188
-                },
-                {
-                    "id": 251,
-                    "name": "Identity Inquiry Phrases",
-                    "count": 40,
-                    "percent": 0.0006579704900235
-                },
-                {
-                    "id": 260,
-                    "name": "Comedy Writing Prompts",
-                    "count": 353,
-                    "percent": 0.0058065895744575
-                },
-                {
-                    "id": 262,
-                    "name": "Mobile App Classification and Categorization",
-                    "count": 194,
-                    "percent": 0.003191156876614
+                    "id": 191,
+                    "name": "JSON Data Manipulation",
+                    "count": 301,
+                    "percent": 0.0057351904426195
                 }
             ]
         },
         {
             "id": 1,
-            "name": "Logic Puzzles",
+            "name": "Creative Writing",
             "children": [
                 {
-                    "id": 34,
-                    "name": "Marble Location Logic Puzzles",
-                    "count": 280,
-                    "percent": 0.0046057934301646
+                    "id": 0,
+                    "name": "Music Creation and Lyrics Writing",
+                    "count": 972,
+                    "percent": 0.0185202827582264
+                },
+                {
+                    "id": 1,
+                    "name": "Creative Story Writing Prompts",
+                    "count": 1322,
+                    "percent": 0.0251891088542956
+                },
+                {
+                    "id": 13,
+                    "name": "Poetry and Haiku Writing",
+                    "count": 351,
+                    "percent": 0.0066878798849151
+                },
+                {
+                    "id": 14,
+                    "name": "Email Writing and Improvement",
+                    "count": 757,
+                    "percent": 0.0144237181563553
+                },
+                {
+                    "id": 16,
+                    "name": "Translation and Language Queries",
+                    "count": 446,
+                    "percent": 0.0084979898252767
+                },
+                {
+                    "id": 30,
+                    "name": "Translation and Transliteration Requests",
+                    "count": 464,
+                    "percent": 0.0088409580245031
                 },
                 {
                     "id": 35,
-                    "name": "Word Puzzles and Games",
-                    "count": 414,
-                    "percent": 0.0068099945717434
+                    "name": "Translation and Creative Writing",
+                    "count": 241,
+                    "percent": 0.0045919631118647
                 },
                 {
-                    "id": 51,
-                    "name": "Chess and Board Games",
-                    "count": 181,
-                    "percent": 0.0029773164673564
+                    "id": 64,
+                    "name": "Resume and Cover Letter Writing",
+                    "count": 453,
+                    "percent": 0.0086313663471981
                 },
                 {
-                    "id": 86,
-                    "name": "Logic Puzzles Involving Killers",
-                    "count": 118,
-                    "percent": 0.0019410129455693
+                    "id": 68,
+                    "name": "Bible Study and Interpretation",
+                    "count": 151,
+                    "percent": 0.0028771221157327
                 },
                 {
-                    "id": 96,
-                    "name": "Logic Puzzles and Problem Solving",
-                    "count": 252,
-                    "percent": 0.0041452140871481
+                    "id": 70,
+                    "name": "SEO Content Writing",
+                    "count": 293,
+                    "percent": 0.0055827601318522
                 },
                 {
-                    "id": 102,
-                    "name": "Logical Reasoning and Analysis",
-                    "count": 200,
-                    "percent": 0.0032898524501176
+                    "id": 73,
+                    "name": "Casual Greetings and Inquiries",
+                    "count": 158,
+                    "percent": 0.003010498637654
                 },
                 {
-                    "id": 112,
-                    "name": "Candle Extinguishing Order Puzzle",
-                    "count": 70,
-                    "percent": 0.0011514483575411
+                    "id": 109,
+                    "name": "Greetings and Salutations",
+                    "count": 72,
+                    "percent": 0.0013718727969056
                 },
                 {
-                    "id": 115,
-                    "name": "Quiz and Logic Puzzles",
-                    "count": 232,
-                    "percent": 0.0038162288421364
+                    "id": 116,
+                    "name": "Emoji Usage and Representation",
+                    "count": 67,
+                    "percent": 0.0012766038526761
                 },
                 {
-                    "id": 121,
-                    "name": "Logic Puzzle Solving",
-                    "count": 80,
-                    "percent": 0.001315940980047
+                    "id": 130,
+                    "name": "Linguistics and Verb Usage",
+                    "count": 167,
+                    "percent": 0.0031819827372673
                 },
                 {
-                    "id": 126,
-                    "name": "Logic Puzzles Involving Doors and Guards",
-                    "count": 142,
-                    "percent": 0.0023357952395835
+                    "id": 134,
+                    "name": "Grammar and Sentence Improvement",
+                    "count": 418,
+                    "percent": 0.0079644837375912
                 },
                 {
-                    "id": 142,
-                    "name": "Crossword Puzzle Clues",
-                    "count": 79,
-                    "percent": 0.0012994917177964
+                    "id": 136,
+                    "name": "Translation and Language Processing",
+                    "count": 164,
+                    "percent": 0.0031248213707295
                 },
                 {
-                    "id": 147,
-                    "name": "Ice Cubes in Fire/Water Puzzles",
-                    "count": 80,
-                    "percent": 0.001315940980047
-                },
-                {
-                    "id": 153,
-                    "name": "Physics Reasoning with Objects",
-                    "count": 52,
-                    "percent": 0.0008553616370305
-                },
-                {
-                    "id": 160,
-                    "name": "Riddles and Puzzles",
+                    "id": 144,
+                    "name": "Orthopedic Surgery and Recovery",
                     "count": 76,
-                    "percent": 0.0012501439310446
+                    "percent": 0.0014480879522893
                 },
                 {
-                    "id": 161,
-                    "name": "Liquid Measurement Puzzles",
-                    "count": 64,
-                    "percent": 0.0010527527840376
+                    "id": 146,
+                    "name": "Language Learning and Vocabulary",
+                    "count": 215,
+                    "percent": 0.004096564601871
                 },
                 {
-                    "id": 170,
-                    "name": "Intelligence and IQ Discussion",
-                    "count": 135,
-                    "percent": 0.0022206504038293
+                    "id": 149,
+                    "name": "4chan Greentext Stories",
+                    "count": 129,
+                    "percent": 0.0024579387611226
                 },
                 {
-                    "id": 197,
-                    "name": "Gender Assumptions in Riddles",
-                    "count": 87,
-                    "percent": 0.0014310858158011
+                    "id": 152,
+                    "name": "Prompt Categorization and Labeling",
+                    "count": 39,
+                    "percent": 0.0007430977649905
                 },
                 {
-                    "id": 211,
-                    "name": "Common Sense Reasoning Puzzle",
+                    "id": 177,
+                    "name": "Objective Past Tense Narration",
                     "count": 37,
-                    "percent": 0.0006086227032717
+                    "percent": 0.0007049901872987
                 },
                 {
-                    "id": 213,
-                    "name": "Age-related puzzles and questions",
-                    "count": 60,
-                    "percent": 0.0009869557350352
-                },
-                {
-                    "id": 223,
-                    "name": "Sports Competition Logic Problems",
-                    "count": 35,
-                    "percent": 0.0005757241787705
-                },
-                {
-                    "id": 227,
-                    "name": "Murder Mystery and Logic Puzzles",
-                    "count": 90,
-                    "percent": 0.0014804336025529
-                },
-                {
-                    "id": 231,
-                    "name": "Marble Location Reasoning Problem",
-                    "count": 34,
-                    "percent": 0.0005592749165199
-                },
-                {
-                    "id": 239,
-                    "name": "Logic and Measurement Puzzles",
-                    "count": 137,
-                    "percent": 0.0022535489283305
-                },
-                {
-                    "id": 241,
-                    "name": "Stacking and Rearranging Objects",
-                    "count": 61,
-                    "percent": 0.0010034049972858
-                },
-                {
-                    "id": 247,
-                    "name": "Marble Location and Letter Count",
-                    "count": 60,
-                    "percent": 0.0009869557350352
-                },
-                {
-                    "id": 258,
-                    "name": "Logic Puzzles and Problem Solving",
-                    "count": 32,
-                    "percent": 0.0005263763920188
-                },
-                {
-                    "id": 263,
-                    "name": "Cave Exploration with Giant Spider Encounter",
-                    "count": 69,
-                    "percent": 0.0011349990952905
+                    "id": 192,
+                    "name": "Creative Writing Prompts",
+                    "count": 168,
+                    "percent": 0.0032010365261132
                 }
             ]
         },
         {
             "id": 2,
-            "name": "Language Skills",
+            "name": "Logic Puzzles",
             "children": [
                 {
-                    "id": 8,
-                    "name": "Email Writing and Improvement",
-                    "count": 717,
-                    "percent": 0.0117941210336716
+                    "id": 2,
+                    "name": "Counting letters in words",
+                    "count": 607,
+                    "percent": 0.0115656498294685
+                },
+                {
+                    "id": 3,
+                    "name": "Mathematics Problem Solving",
+                    "count": 651,
+                    "percent": 0.0124040165386887
                 },
                 {
                     "id": 15,
-                    "name": "Translation and Language Queries",
-                    "count": 511,
-                    "percent": 0.0084055730100505
+                    "name": "River Crossing Puzzles",
+                    "count": 306,
+                    "percent": 0.005830459386849
                 },
                 {
-                    "id": 29,
-                    "name": "Translation and Erotic Writing",
-                    "count": 291,
-                    "percent": 0.0047867353149211
+                    "id": 24,
+                    "name": "Counting Siblings Logic Problems",
+                    "count": 279,
+                    "percent": 0.0053160070880094
                 },
                 {
-                    "id": 31,
-                    "name": "Repetitive Greetings",
-                    "count": 230,
-                    "percent": 0.0037833303176352
+                    "id": 32,
+                    "name": "Word Puzzles and Games",
+                    "count": 430,
+                    "percent": 0.0081931292037421
                 },
                 {
-                    "id": 33,
-                    "name": "Translation and Language Tasks",
-                    "count": 455,
-                    "percent": 0.0074844143240175
+                    "id": 41,
+                    "name": "Marble Location Logic Puzzles",
+                    "count": 215,
+                    "percent": 0.004096564601871
                 },
                 {
-                    "id": 49,
-                    "name": "Job Application and Interview Guidance",
-                    "count": 538,
-                    "percent": 0.0088497030908163
+                    "id": 43,
+                    "name": "Counting letters in words",
+                    "count": 205,
+                    "percent": 0.0039060267134119
                 },
                 {
-                    "id": 50,
-                    "name": "Language Learning and Grammar",
-                    "count": 416,
-                    "percent": 0.0068428930962446
+                    "id": 53,
+                    "name": "Simple Arithmetic Word Problems",
+                    "count": 186,
+                    "percent": 0.0035440047253396
                 },
                 {
-                    "id": 56,
-                    "name": "Greetings and Well-being Inquiry",
-                    "count": 158,
-                    "percent": 0.0025989834355929
+                    "id": 91,
+                    "name": "Killers in a Room Puzzle",
+                    "count": 108,
+                    "percent": 0.0020578091953584
                 },
                 {
-                    "id": 64,
-                    "name": "Sentences Ending with Apple",
-                    "count": 182,
-                    "percent": 0.002993765729607
-                },
-                {
-                    "id": 75,
-                    "name": "Repetitive Greetings",
-                    "count": 107,
-                    "percent": 0.0017600710608129
-                },
-                {
-                    "id": 100,
-                    "name": "Repetitive Use of \"Hey\"",
-                    "count": 81,
-                    "percent": 0.0013323902422976
-                },
-                {
-                    "id": 108,
-                    "name": "Random Text and Encoded Message",
+                    "id": 97,
+                    "name": "Prime Number Queries",
                     "count": 93,
-                    "percent": 0.0015297813893046
+                    "percent": 0.0017720023626698
                 },
                 {
-                    "id": 157,
-                    "name": "sentence structure and word constraints",
-                    "count": 132,
-                    "percent": 0.0021713026170776
+                    "id": 101,
+                    "name": "Monty Hall Problem and Variations",
+                    "count": 126,
+                    "percent": 0.0024007773945849
                 },
                 {
-                    "id": 168,
-                    "name": "Language Proficiency Ranking",
-                    "count": 47,
-                    "percent": 0.0007731153257776
+                    "id": 105,
+                    "name": "Word Count in Responses",
+                    "count": 98,
+                    "percent": 0.0018672713068993
                 },
                 {
-                    "id": 172,
-                    "name": "Translation and Cultural Adaptation Strategies",
-                    "count": 136,
-                    "percent": 0.0022370996660799
+                    "id": 110,
+                    "name": "Color and Logic Puzzles",
+                    "count": 235,
+                    "percent": 0.0044776403787893
                 },
                 {
-                    "id": 189,
-                    "name": "Sentence Generation with Specific End Words",
-                    "count": 72,
-                    "percent": 0.0011843468820423
+                    "id": 117,
+                    "name": "Logical Reasoning and Deduction",
+                    "count": 160,
+                    "percent": 0.0030486062153459
                 },
                 {
-                    "id": 203,
-                    "name": "Large Language Models and Applications",
-                    "count": 75,
-                    "percent": 0.0012336946687941
+                    "id": 120,
+                    "name": "Probability Calculations with Dice and Coins",
+                    "count": 101,
+                    "percent": 0.0019244326734371
                 },
                 {
-                    "id": 228,
-                    "name": "Emoji Poker Game Questions",
-                    "count": 71,
-                    "percent": 0.0011678976197917
+                    "id": 121,
+                    "name": "Quiz and Puzzle Questions",
+                    "count": 210,
+                    "percent": 0.0040012956576415
                 },
                 {
-                    "id": 229,
-                    "name": "English to Turkish Translation",
-                    "count": 56,
-                    "percent": 0.0009211586860329
+                    "id": 131,
+                    "name": "Coin and Money Puzzles",
+                    "count": 125,
+                    "percent": 0.002381723605739
                 },
                 {
-                    "id": 243,
-                    "name": "Writing Tweets Like @dril",
-                    "count": 32,
-                    "percent": 0.0005263763920188
+                    "id": 133,
+                    "name": "Crossword Puzzle Clues",
+                    "count": 50,
+                    "percent": 0.0009526894422956
                 },
                 {
-                    "id": 257,
-                    "name": "Grammar and Sentence Improvement",
-                    "count": 381,
-                    "percent": 0.006267168917474
+                    "id": 147,
+                    "name": "Liquid Measurement Puzzles",
+                    "count": 73,
+                    "percent": 0.0013909265857515
+                },
+                {
+                    "id": 148,
+                    "name": "Riddles and Brain Teasers",
+                    "count": 66,
+                    "percent": 0.0012575500638301
+                },
+                {
+                    "id": 155,
+                    "name": "Smallest Integer Square Problem",
+                    "count": 44,
+                    "percent": 0.0008383667092201
+                },
+                {
+                    "id": 156,
+                    "name": "Age Calculation Puzzles",
+                    "count": 52,
+                    "percent": 0.0009907970199874
                 }
             ]
         },
         {
             "id": 3,
-            "name": "Database Optimization",
+            "name": "Technical Concepts",
             "children": [
                 {
-                    "id": 2,
-                    "name": "Programming Language Issues and Solutions",
-                    "count": 1093,
-                    "percent": 0.0179790436398927
+                    "id": 9,
+                    "name": "Programming and Algorithm Challenges",
+                    "count": 494,
+                    "percent": 0.0094125716898805
+                },
+                {
+                    "id": 11,
+                    "name": "Neural Networks and Transformers",
+                    "count": 620,
+                    "percent": 0.0118133490844654
+                },
+                {
+                    "id": 23,
+                    "name": "Computer Hardware and Performance",
+                    "count": 629,
+                    "percent": 0.0119848331840786
                 },
                 {
                     "id": 26,
-                    "name": "SQL Database Management and Query Optimization",
-                    "count": 300,
-                    "percent": 0.0049347786751764
+                    "name": "SQL Query Optimization and Debugging",
+                    "count": 307,
+                    "percent": 0.0058495131756949
                 },
                 {
-                    "id": 28,
-                    "name": "Neural Networks and Deep Learning Concepts",
-                    "count": 573,
-                    "percent": 0.0094254272695869
+                    "id": 33,
+                    "name": "Networking and IP Addressing",
+                    "count": 515,
+                    "percent": 0.0098127012556446
                 },
                 {
-                    "id": 30,
-                    "name": "PyTorch Neural Network Implementations and Optimization",
-                    "count": 380,
-                    "percent": 0.0062507196552234
+                    "id": 36,
+                    "name": "C++ Programming Concepts and Techniques",
+                    "count": 481,
+                    "percent": 0.0091648724348836
                 },
                 {
-                    "id": 41,
-                    "name": "Java Programming Concepts and Debugging",
-                    "count": 288,
-                    "percent": 0.0047373875281693
+                    "id": 39,
+                    "name": "Video and Audio Processing with FFmpeg",
+                    "count": 256,
+                    "percent": 0.0048777699445534
                 },
                 {
-                    "id": 46,
-                    "name": "Database Management and Optimization",
-                    "count": 468,
-                    "percent": 0.0076982547332752
+                    "id": 44,
+                    "name": "Java Programming Debugging and Concepts",
+                    "count": 283,
+                    "percent": 0.005392222243393
                 },
                 {
-                    "id": 55,
-                    "name": "AI, Cybersecurity, and Data Management Strategies",
-                    "count": 665,
-                    "percent": 0.010938759396641
+                    "id": 47,
+                    "name": "Applications and Development of LLMs",
+                    "count": 336,
+                    "percent": 0.0064020730522264
                 },
                 {
-                    "id": 57,
-                    "name": "Advanced LLM Applications and Challenges",
-                    "count": 231,
-                    "percent": 0.0037997795798858
+                    "id": 49,
+                    "name": "Interior Design and Layout Optimization",
+                    "count": 165,
+                    "percent": 0.0031438751595754
                 },
                 {
-                    "id": 79,
-                    "name": "Algorithmic Problem Solving and Code Implementation",
-                    "count": 315,
-                    "percent": 0.0051815176089352
+                    "id": 81,
+                    "name": "Regular Expressions Usage and Troubleshooting",
+                    "count": 223,
+                    "percent": 0.0042489949126383
                 },
                 {
-                    "id": 85,
-                    "name": "Decoding and Cryptography Challenges",
-                    "count": 131,
-                    "percent": 0.002154853354827
+                    "id": 82,
+                    "name": "Decoding and Decryption Challenges",
+                    "count": 114,
+                    "percent": 0.0021721319284339
                 },
                 {
-                    "id": 169,
-                    "name": "Numerical Optimization and Algorithms",
-                    "count": 135,
-                    "percent": 0.0022206504038293
+                    "id": 84,
+                    "name": "Geometric Algorithms and JavaScript",
+                    "count": 192,
+                    "percent": 0.0036583274584151
                 },
                 {
-                    "id": 173,
-                    "name": "Quantum Physics and Computing",
-                    "count": 203,
-                    "percent": 0.0033392002368693
+                    "id": 94,
+                    "name": "Operating Systems and Troubleshooting",
+                    "count": 629,
+                    "percent": 0.0119848331840786
                 },
                 {
-                    "id": 179,
-                    "name": "Advent of Code problem-solving in Lua",
-                    "count": 122,
-                    "percent": 0.0020068099945717
+                    "id": 98,
+                    "name": "Crop Fertilization and Growth Techniques",
+                    "count": 164,
+                    "percent": 0.0031248213707295
                 },
                 {
-                    "id": 181,
-                    "name": "Machine Learning Code Analysis and Debugging",
-                    "count": 212,
-                    "percent": 0.0034872435971246
+                    "id": 103,
+                    "name": "Java and Spring Boot Code",
+                    "count": 342,
+                    "percent": 0.0065163957853019
                 },
                 {
-                    "id": 184,
-                    "name": "Programming and Code Optimization",
-                    "count": 347,
-                    "percent": 0.005707894000954
+                    "id": 104,
+                    "name": "Prompt Engineering and Optimization",
+                    "count": 321,
+                    "percent": 0.0061162662195377
                 },
                 {
-                    "id": 245,
-                    "name": "Excel VBA and Formula Optimization",
-                    "count": 313,
-                    "percent": 0.005148619084434
+                    "id": 106,
+                    "name": "Sleep Habits and Optimization",
+                    "count": 215,
+                    "percent": 0.004096564601871
                 },
                 {
-                    "id": 246,
-                    "name": "Tree Data Structures and Algorithms",
-                    "count": 188,
-                    "percent": 0.0030924613031105
+                    "id": 108,
+                    "name": "Chemistry Concepts and Applications",
+                    "count": 439,
+                    "percent": 0.0083646133033553
                 },
                 {
-                    "id": 255,
-                    "name": "Go Programming and Networking",
-                    "count": 357,
-                    "percent": 0.0058723866234599
+                    "id": 111,
+                    "name": "Image Processing Techniques",
+                    "count": 199,
+                    "percent": 0.0037917039803364
+                },
+                {
+                    "id": 118,
+                    "name": "Game Development and Debugging",
+                    "count": 178,
+                    "percent": 0.0033915744145723
+                },
+                {
+                    "id": 132,
+                    "name": "Linear Algebra Concepts and Proofs",
+                    "count": 172,
+                    "percent": 0.0032772516814968
+                },
+                {
+                    "id": 140,
+                    "name": "Algorithms and Data Structures",
+                    "count": 200,
+                    "percent": 0.0038107577691824
+                },
+                {
+                    "id": 142,
+                    "name": "Shader and Color Code Requests",
+                    "count": 205,
+                    "percent": 0.0039060267134119
+                },
+                {
+                    "id": 162,
+                    "name": "Numerical Methods and Optimization",
+                    "count": 149,
+                    "percent": 0.0028390145380408
+                },
+                {
+                    "id": 182,
+                    "name": "Food and Beverage Preparation",
+                    "count": 411,
+                    "percent": 0.0078311072156698
                 }
             ]
         },
         {
             "id": 4,
-            "name": "Mathematical Problems",
+            "name": "Entertainment Discussion",
             "children": [
                 {
-                    "id": 3,
-                    "name": "Comparing Decimal Numbers",
-                    "count": 517,
-                    "percent": 0.008504268583554
+                    "id": 10,
+                    "name": "Recipe and Cooking Ideas",
+                    "count": 428,
+                    "percent": 0.0081550216260503
                 },
                 {
-                    "id": 53,
-                    "name": "Math Questions and Puzzles",
-                    "count": 266,
-                    "percent": 0.0043755037586564
+                    "id": 17,
+                    "name": "Requesting Various Jokes",
+                    "count": 391,
+                    "percent": 0.0074500314387515
                 },
                 {
-                    "id": 61,
-                    "name": "Weight Comparison Riddles",
-                    "count": 186,
-                    "percent": 0.0030595627786093
+                    "id": 22,
+                    "name": "Humorous Genshin Impact Scenarios",
+                    "count": 290,
+                    "percent": 0.0055255987653144
                 },
                 {
-                    "id": 68,
-                    "name": "Calculus and Algebra Problems",
-                    "count": 294,
-                    "percent": 0.0048360831016728
+                    "id": 38,
+                    "name": "Video Game Recommendations and Discussions",
+                    "count": 290,
+                    "percent": 0.0055255987653144
                 },
                 {
-                    "id": 71,
-                    "name": "Mathematical Multiplication Problems",
-                    "count": 340,
-                    "percent": 0.0055927491651999
+                    "id": 45,
+                    "name": "Dating and Relationship Advice",
+                    "count": 704,
+                    "percent": 0.013413867347522
                 },
                 {
-                    "id": 118,
-                    "name": "Probability Calculations and Problems",
-                    "count": 106,
-                    "percent": 0.0017436217985623
+                    "id": 48,
+                    "name": "Sentences Ending with \"Apple\"",
+                    "count": 191,
+                    "percent": 0.0036392736695691
+                },
+                {
+                    "id": 59,
+                    "name": "Automobile Recommendations and Comparisons",
+                    "count": 258,
+                    "percent": 0.0049158775222452
+                },
+                {
+                    "id": 60,
+                    "name": "Character Roleplay and Persona Simulation",
+                    "count": 712,
+                    "percent": 0.0135662976582893
+                },
+                {
+                    "id": 78,
+                    "name": "Movie and TV Show Recommendations",
+                    "count": 226,
+                    "percent": 0.0043061562791761
+                },
+                {
+                    "id": 113,
+                    "name": "Book Recommendations and Literary Suggestions",
+                    "count": 349,
+                    "percent": 0.0066497723072232
+                },
+                {
+                    "id": 115,
+                    "name": "Random Nonsense Text Strings",
+                    "count": 72,
+                    "percent": 0.0013718727969056
                 },
                 {
                     "id": 119,
-                    "name": "Solving Polynomial Equations",
-                    "count": 188,
-                    "percent": 0.0030924613031105
+                    "name": "Marvel and Crossover Fanfiction",
+                    "count": 68,
+                    "percent": 0.001295657641522
                 },
                 {
-                    "id": 123,
-                    "name": "Coin and Currency Problems",
-                    "count": 85,
-                    "percent": 0.0013981872912999
+                    "id": 122,
+                    "name": "Sonic the Hedgehog Fandom",
+                    "count": 68,
+                    "percent": 0.001295657641522
                 },
                 {
-                    "id": 132,
-                    "name": "Predicting Number Combinations",
-                    "count": 131,
-                    "percent": 0.002154853354827
-                },
-                {
-                    "id": 133,
-                    "name": "Prime Numbers Identification and Calculation",
-                    "count": 146,
-                    "percent": 0.0024015922885858
-                },
-                {
-                    "id": 139,
-                    "name": "Geometry and Triangle Problems",
-                    "count": 114,
-                    "percent": 0.001875215896567
-                },
-                {
-                    "id": 144,
-                    "name": "Smallest integer with square between 15-30",
-                    "count": 76,
-                    "percent": 0.0012501439310446
-                },
-                {
-                    "id": 166,
-                    "name": "Pi-related questions and tasks",
-                    "count": 59,
-                    "percent": 0.0009705064727846
-                },
-                {
-                    "id": 186,
-                    "name": "Mathematics Concepts and Challenges",
-                    "count": 129,
-                    "percent": 0.0021219548303258
+                    "id": 137,
+                    "name": "Video Game Discussions and Humor",
+                    "count": 106,
+                    "percent": 0.0020197016176666
                 },
                 {
                     "id": 188,
-                    "name": "Number Sequence Puzzles",
-                    "count": 195,
-                    "percent": 0.0032076061388646
-                },
-                {
-                    "id": 220,
-                    "name": "Music Theory and Harmonic Progressions",
-                    "count": 101,
-                    "percent": 0.0016613754873093
+                    "name": "Bananas and Related Humor",
+                    "count": 56,
+                    "percent": 0.001067012175371
                 }
             ]
         },
         {
             "id": 5,
-            "name": "Comparative Analysis",
+            "name": "Strategy & Management",
             "children": [
                 {
-                    "id": 9,
-                    "name": "Recipe and Cooking Advice",
-                    "count": 706,
-                    "percent": 0.0116131791489151
+                    "id": 20,
+                    "name": "AI Impact and Concerns",
+                    "count": 682,
+                    "percent": 0.0129946839929119
                 },
                 {
-                    "id": 11,
-                    "name": "Cats and Dogs Comparison",
-                    "count": 714,
-                    "percent": 0.0117447732469198
+                    "id": 40,
+                    "name": "YouTube Content and Strategy",
+                    "count": 338,
+                    "percent": 0.0064401806299182
                 },
                 {
-                    "id": 19,
-                    "name": "NVIDIA and AMD GPU Comparison",
-                    "count": 383,
-                    "percent": 0.0063000674419752
+                    "id": 42,
+                    "name": "Chess Strategies and Positions",
+                    "count": 228,
+                    "percent": 0.0043442638568679
                 },
                 {
-                    "id": 24,
-                    "name": "Business Startup Ideas and Strategies",
-                    "count": 874,
-                    "percent": 0.0143766552070139
+                    "id": 58,
+                    "name": "AWS Cloud Services and AI",
+                    "count": 308,
+                    "percent": 0.0058685669645408
                 },
                 {
-                    "id": 48,
-                    "name": "Automobile Models and Comparisons",
-                    "count": 243,
-                    "percent": 0.0039971707268928
+                    "id": 61,
+                    "name": "Entrepreneurship and Startup Ideas",
+                    "count": 724,
+                    "percent": 0.0137949431244402
                 },
                 {
-                    "id": 122,
-                    "name": "Chemistry and Chemical Properties",
-                    "count": 388,
-                    "percent": 0.0063823137532281
+                    "id": 65,
+                    "name": "Business and Project Naming Ideas",
+                    "count": 218,
+                    "percent": 0.0041537259684088
                 },
                 {
-                    "id": 131,
-                    "name": "Software Updates and Versions",
-                    "count": 74,
-                    "percent": 0.0012172454065435
+                    "id": 66,
+                    "name": "Pine Script Trading Strategies",
+                    "count": 130,
+                    "percent": 0.0024769925499685
                 },
                 {
-                    "id": 140,
-                    "name": "Illegal Drug Synthesis Methods",
-                    "count": 429,
-                    "percent": 0.0070567335055022
+                    "id": 87,
+                    "name": "Fitness and Workout Planning",
+                    "count": 170,
+                    "percent": 0.003239144103805
                 },
                 {
-                    "id": 149,
-                    "name": "Linux and Operating Systems",
-                    "count": 321,
-                    "percent": 0.0052802131824387
+                    "id": 89,
+                    "name": "Healthcare Strategy and Communication",
+                    "count": 470,
+                    "percent": 0.0089552807575786
                 },
                 {
-                    "id": 164,
-                    "name": "Homemade Explosives and Weapons",
-                    "count": 317,
-                    "percent": 0.0052144161334364
+                    "id": 92,
+                    "name": "Unethical AI Response Requests",
+                    "count": 169,
+                    "percent": 0.0032200903149591
                 },
                 {
-                    "id": 171,
-                    "name": "Innovative Technology and Invention Ideas",
-                    "count": 292,
-                    "percent": 0.0048031845771717
+                    "id": 95,
+                    "name": "AWS Cloud Services and Architecture",
+                    "count": 105,
+                    "percent": 0.0020006478288207
                 },
                 {
-                    "id": 207,
-                    "name": "Ways to Make Money Quickly",
-                    "count": 237,
-                    "percent": 0.0038984751533893
+                    "id": 96,
+                    "name": "Cybersecurity and Risk Management",
+                    "count": 387,
+                    "percent": 0.0073738162833679
                 },
                 {
-                    "id": 222,
-                    "name": "Weapons and Armaments Discussion",
-                    "count": 203,
-                    "percent": 0.0033392002368693
+                    "id": 123,
+                    "name": "Military Weapons and Vehicles",
+                    "count": 205,
+                    "percent": 0.0039060267134119
                 },
                 {
-                    "id": 226,
-                    "name": "Consumer Electronics and Comparisons",
-                    "count": 524,
-                    "percent": 0.0086194134193081
+                    "id": 124,
+                    "name": "Household Cleaning Organization",
+                    "count": 50,
+                    "percent": 0.0009526894422956
                 },
                 {
-                    "id": 261,
-                    "name": "Battery Technology and Charging Solutions",
-                    "count": 153,
-                    "percent": 0.0025167371243399
+                    "id": 158,
+                    "name": "AI in Business Strategy and Management",
+                    "count": 424,
+                    "percent": 0.0080788064706666
+                },
+                {
+                    "id": 180,
+                    "name": "Quick Money-Making Strategies",
+                    "count": 369,
+                    "percent": 0.0070308480841415
                 }
             ]
         },
         {
             "id": 6,
-            "name": "Letter Counting",
+            "name": "Science & Calculation",
             "children": [
                 {
-                    "id": 17,
-                    "name": "Stenography and Typing Speed",
-                    "count": 317,
-                    "percent": 0.0052144161334364
+                    "id": 5,
+                    "name": "Finance and Investment Calculations",
+                    "count": 772,
+                    "percent": 0.014709524989044
                 },
                 {
-                    "id": 23,
-                    "name": "Apple Counting Problems",
-                    "count": 337,
-                    "percent": 0.0055434013784481
+                    "id": 12,
+                    "name": "Travel Itinerary Planning",
+                    "count": 460,
+                    "percent": 0.0087647428691195
                 },
                 {
-                    "id": 37,
-                    "name": "Regular Expressions Usage and Examples",
-                    "count": 447,
-                    "percent": 0.0073528202260128
+                    "id": 27,
+                    "name": "Explaining Physics Concepts Simply",
+                    "count": 429,
+                    "percent": 0.0081740754148962
                 },
                 {
-                    "id": 42,
-                    "name": "Counting letters and characters",
-                    "count": 337,
-                    "percent": 0.0055434013784481
+                    "id": 72,
+                    "name": "Space Exploration and Astronomy",
+                    "count": 223,
+                    "percent": 0.0042489949126383
                 },
                 {
-                    "id": 84,
-                    "name": "Counting \"r\" in words",
-                    "count": 137,
-                    "percent": 0.0022535489283305
+                    "id": 80,
+                    "name": "Calculus and Mathematical Functions",
+                    "count": 282,
+                    "percent": 0.0053731684545471
                 },
                 {
                     "id": 88,
-                    "name": "Word and Letter Count Queries",
-                    "count": 129,
-                    "percent": 0.0021219548303258
+                    "name": "Geometric Problem Solving",
+                    "count": 155,
+                    "percent": 0.0029533372711163
                 },
                 {
-                    "id": 92,
-                    "name": "Counting \"r\"s in \"strawberry\"",
-                    "count": 205,
-                    "percent": 0.0033720987613705
+                    "id": 102,
+                    "name": "Travel and Speed Calculations",
+                    "count": 234,
+                    "percent": 0.0044585865899434
                 },
                 {
-                    "id": 105,
-                    "name": "Counting letter R in words",
-                    "count": 114,
-                    "percent": 0.001875215896567
+                    "id": 127,
+                    "name": "Electricity and Renewable Energy",
+                    "count": 190,
+                    "percent": 0.0036202198807232
                 },
                 {
-                    "id": 135,
-                    "name": "Counting letters in words",
-                    "count": 140,
-                    "percent": 0.0023028967150823
+                    "id": 154,
+                    "name": "Pi and its properties",
+                    "count": 42,
+                    "percent": 0.0008002591315283
                 },
                 {
-                    "id": 145,
-                    "name": "Counting letters in words",
-                    "count": 54,
-                    "percent": 0.0008882601615317
+                    "id": 161,
+                    "name": "Drying Time Calculations",
+                    "count": 49,
+                    "percent": 0.0009336356534496
                 },
                 {
-                    "id": 199,
-                    "name": "Counting R",
-                    "count": 114,
-                    "percent": 0.001875215896567
+                    "id": 169,
+                    "name": "Ice Cubes in Fire Scenarios",
+                    "count": 91,
+                    "percent": 0.0017338947849779
                 },
                 {
-                    "id": 205,
-                    "name": "Nested List Frequency Function",
-                    "count": 39,
-                    "percent": 0.0006415212277729
+                    "id": 173,
+                    "name": "Advanced Mathematical Problem Solving",
+                    "count": 34,
+                    "percent": 0.000647828820761
                 },
                 {
-                    "id": 253,
-                    "name": "Counting letters in words",
-                    "count": 41,
-                    "percent": 0.0006744197522741
+                    "id": 174,
+                    "name": "Engineering and Physics Calculations",
+                    "count": 310,
+                    "percent": 0.0059066745422327
                 },
                 {
-                    "id": 256,
-                    "name": "Counting R",
-                    "count": 56,
-                    "percent": 0.0009211586860329
+                    "id": 176,
+                    "name": "Music Theory and Harmonic Analysis",
+                    "count": 37,
+                    "percent": 0.0007049901872987
+                },
+                {
+                    "id": 186,
+                    "name": "Theory of Mind Testing",
+                    "count": 31,
+                    "percent": 0.0005906674542232
                 }
             ]
         },
         {
             "id": 7,
-            "name": "Python Programming",
+            "name": "Historical Discussion",
             "children": [
                 {
-                    "id": 7,
-                    "name": "Python and Bash scripting for file management and package installation",
-                    "count": 701,
-                    "percent": 0.0115309328376622
+                    "id": 18,
+                    "name": "Wars and Conflicts Discussion",
+                    "count": 642,
+                    "percent": 0.0122325324390755
                 },
                 {
-                    "id": 47,
-                    "name": "Python Data Visualization and Plotting",
-                    "count": 289,
-                    "percent": 0.0047538367904199
+                    "id": 21,
+                    "name": "US Presidential History and Elections",
+                    "count": 360,
+                    "percent": 0.0068593639845283
                 },
                 {
-                    "id": 52,
-                    "name": "Pandas and Polars DataFrame Operations",
-                    "count": 234,
-                    "percent": 0.0038491273666376
+                    "id": 79,
+                    "name": "Hypothetical Fight Outcomes",
+                    "count": 205,
+                    "percent": 0.0039060267134119
                 },
                 {
-                    "id": 78,
-                    "name": "Python Game Development",
-                    "count": 125,
-                    "percent": 0.0020561577813235
+                    "id": 126,
+                    "name": "Donald Trump Assassination Attempts",
+                    "count": 137,
+                    "percent": 0.0026103690718899
                 },
                 {
-                    "id": 91,
-                    "name": "PyQt5 UI and functionality improvements",
-                    "count": 124,
-                    "percent": 0.0020397085190729
+                    "id": 145,
+                    "name": "Geography and Country Names",
+                    "count": 111,
+                    "percent": 0.0021149705618962
                 },
                 {
-                    "id": 138,
-                    "name": "Python Programming Concepts and Code Issues",
-                    "count": 263,
-                    "percent": 0.0043261559719046
+                    "id": 151,
+                    "name": "Quote Origins and Attributions",
+                    "count": 405,
+                    "percent": 0.0077167844825943
                 },
                 {
-                    "id": 141,
-                    "name": "Python Learning and Coding for Beginners",
-                    "count": 370,
-                    "percent": 0.0060862270327175
+                    "id": 163,
+                    "name": "Hypothetical Dialogues with Historical Figures",
+                    "count": 67,
+                    "percent": 0.0012766038526761
                 },
                 {
-                    "id": 176,
-                    "name": "Python PDF Processing and Manipulation",
-                    "count": 103,
-                    "percent": 0.0016942740118105
+                    "id": 179,
+                    "name": "China",
+                    "count": 200,
+                    "percent": 0.0038107577691824
                 },
                 {
-                    "id": 202,
-                    "name": "Pandas to PySpark Conversion",
-                    "count": 50,
-                    "percent": 0.0008224631125294
-                },
-                {
-                    "id": 235,
-                    "name": "Palindrome and Python Programming",
-                    "count": 59,
-                    "percent": 0.0009705064727846
-                },
-                {
-                    "id": 240,
-                    "name": "Database and ORM Models in Python",
-                    "count": 269,
-                    "percent": 0.0044248515454081
-                },
-                {
-                    "id": 250,
-                    "name": "Shiny App for Data Processing and Visualization",
-                    "count": 54,
-                    "percent": 0.0008882601615317
-                },
-                {
-                    "id": 254,
-                    "name": "CSV Creation for Plant Data",
-                    "count": 42,
-                    "percent": 0.0006908690145246
+                    "id": 183,
+                    "name": "Historical Monarchs and Empires",
+                    "count": 207,
+                    "percent": 0.0039441342911037
                 }
             ]
         },
         {
             "id": 8,
-            "name": "Web Development",
+            "name": "Interdisciplinary Studies",
             "children": [
                 {
-                    "id": 40,
-                    "name": "React and TypeScript Component Development",
-                    "count": 241,
-                    "percent": 0.0039642722023917
+                    "id": 55,
+                    "name": "Economics and Monetary Policy",
+                    "count": 294,
+                    "percent": 0.0056018139206981
                 },
                 {
-                    "id": 69,
-                    "name": "SVG Code Generation and Manipulation",
-                    "count": 173,
-                    "percent": 0.0028457223693517
+                    "id": 62,
+                    "name": "Legal and Constitutional Analysis",
+                    "count": 407,
+                    "percent": 0.0077548920602861
                 },
                 {
-                    "id": 73,
-                    "name": "HTML/CSS Web Development Issues",
-                    "count": 305,
-                    "percent": 0.0050170249864293
+                    "id": 75,
+                    "name": "HTML/CSS Layout and Styling Issues",
+                    "count": 280,
+                    "percent": 0.0053350608768553
                 },
                 {
-                    "id": 94,
-                    "name": "Mobile and Web App UI Development",
-                    "count": 191,
-                    "percent": 0.0031418090898623
+                    "id": 76,
+                    "name": "Flutter UI and Widgets",
+                    "count": 153,
+                    "percent": 0.0029152296934245
                 },
                 {
-                    "id": 95,
-                    "name": "JavaScript Programming Challenges and Solutions",
-                    "count": 212,
-                    "percent": 0.0034872435971246
+                    "id": 99,
+                    "name": "Meaning of Life Inquiry",
+                    "count": 79,
+                    "percent": 0.001505249318827
                 },
                 {
-                    "id": 98,
-                    "name": "HTML/JavaScript Game Development",
-                    "count": 257,
-                    "percent": 0.0042274603984011
+                    "id": 100,
+                    "name": "Isekai and Ethical Boundaries",
+                    "count": 68,
+                    "percent": 0.001295657641522
                 },
                 {
-                    "id": 109,
-                    "name": "Game Development Code Snippets",
-                    "count": 288,
-                    "percent": 0.0047373875281693
+                    "id": 125,
+                    "name": "Religion and Morality Discussions",
+                    "count": 557,
+                    "percent": 0.0106129603871729
                 },
                 {
-                    "id": 175,
-                    "name": "TypeScript Programming Challenges",
-                    "count": 150,
-                    "percent": 0.0024673893375882
+                    "id": 138,
+                    "name": "Electromagnetism and Circuit Analysis",
+                    "count": 109,
+                    "percent": 0.0020768629842044
                 },
                 {
-                    "id": 180,
-                    "name": "Markdown Code Block Instructions",
-                    "count": 72,
-                    "percent": 0.0011843468820423
+                    "id": 139,
+                    "name": "Ethical Dilemmas in Extreme Scenarios",
+                    "count": 57,
+                    "percent": 0.0010860659642169
                 },
                 {
-                    "id": 217,
-                    "name": "JavaScript and AJAX code snippets",
-                    "count": 139,
-                    "percent": 0.0022864474528317
+                    "id": 160,
+                    "name": "Gender and Sex Debates",
+                    "count": 168,
+                    "percent": 0.0032010365261132
                 },
                 {
-                    "id": 224,
-                    "name": "Programming and Text Editor Shortcuts",
-                    "count": 286,
-                    "percent": 0.0047044890036681
+                    "id": 167,
+                    "name": "Intelligence and IQ Discussion",
+                    "count": 301,
+                    "percent": 0.0057351904426195
                 },
                 {
-                    "id": 244,
-                    "name": "JavaScript and TypeScript Code Refactoring and Error Handling",
-                    "count": 258,
-                    "percent": 0.0042439096606517
+                    "id": 184,
+                    "name": "Ethics and Social Issues",
+                    "count": 335,
+                    "percent": 0.0063830192633805
+                },
+                {
+                    "id": 187,
+                    "name": "Battery and Charging Technology",
+                    "count": 289,
+                    "percent": 0.0055065449764685
                 }
             ]
         },
         {
             "id": 9,
-            "name": "Community Issues",
+            "name": "Creative Generation",
             "children": [
                 {
-                    "id": 13,
-                    "name": "US Presidential Elections Predictions",
-                    "count": 368,
-                    "percent": 0.0060533285082164
+                    "id": 19,
+                    "name": "Identifying Notable Individuals",
+                    "count": 377,
+                    "percent": 0.0071832783949088
                 },
                 {
-                    "id": 65,
-                    "name": "Economic Concepts and Policies",
-                    "count": 363,
-                    "percent": 0.0059710821969634
+                    "id": 25,
+                    "name": "AI Image Generation Prompts",
+                    "count": 327,
+                    "percent": 0.0062305889526132
                 },
                 {
-                    "id": 83,
-                    "name": "Legal and Judicial Systems",
-                    "count": 502,
-                    "percent": 0.0082575296497952
+                    "id": 28,
+                    "name": "ASCII Art Creation Prompts",
+                    "count": 244,
+                    "percent": 0.0046491244784025
                 },
                 {
-                    "id": 97,
-                    "name": "Nitrate Content and Fertilization in Agriculture",
-                    "count": 194,
-                    "percent": 0.003191156876614
+                    "id": 85,
+                    "name": "SVG Image Creation and Animation",
+                    "count": 106,
+                    "percent": 0.0020197016176666
                 },
                 {
-                    "id": 124,
-                    "name": "Weather Forecast and Conditions",
-                    "count": 87,
-                    "percent": 0.0014310858158011
+                    "id": 86,
+                    "name": "Name Creation and Suggestions",
+                    "count": 333,
+                    "percent": 0.0063449116856886
                 },
                 {
-                    "id": 178,
-                    "name": "Climate Change and Environmental Issues",
-                    "count": 175,
-                    "percent": 0.0028786208938529
+                    "id": 114,
+                    "name": "Image Generation Requests",
+                    "count": 133,
+                    "percent": 0.0025341539165062
                 },
                 {
-                    "id": 191,
-                    "name": "2024 Assassination Attempt on Donald Trump",
-                    "count": 64,
-                    "percent": 0.0010527527840376
+                    "id": 171,
+                    "name": "RPG Classes and Headgear",
+                    "count": 210,
+                    "percent": 0.0040012956576415
                 },
                 {
-                    "id": 198,
-                    "name": "Climate Change Impact on Forest Ecosystems",
-                    "count": 55,
-                    "percent": 0.0009047094237823
+                    "id": 172,
+                    "name": "Creative Fashion Outfit Ideas",
+                    "count": 116,
+                    "percent": 0.0022102395061257
                 },
                 {
-                    "id": 218,
-                    "name": "Geography: Countries and US States",
-                    "count": 161,
-                    "percent": 0.0026483312223446
-                },
-                {
-                    "id": 238,
-                    "name": "Municipal Operations and Community Issues",
-                    "count": 198,
-                    "percent": 0.0032569539256164
+                    "id": 175,
+                    "name": "Artistic Style Variants Generation",
+                    "count": 33,
+                    "percent": 0.000628775031915
                 }
             ]
         },
         {
             "id": 10,
-            "name": "Family Math",
+            "name": "General Knowledge",
             "children": [
                 {
-                    "id": 76,
-                    "name": "Counting Siblings in Family Scenarios",
-                    "count": 160,
-                    "percent": 0.002631881960094
+                    "id": 7,
+                    "name": "Sports Events and Predictions",
+                    "count": 417,
+                    "percent": 0.0079454299487453
                 },
                 {
-                    "id": 117,
-                    "name": "Family Relationship Question",
-                    "count": 67,
-                    "percent": 0.0011021005707894
+                    "id": 52,
+                    "name": "Diverse Knowledge and Queries",
+                    "count": 170,
+                    "percent": 0.003239144103805
                 },
                 {
-                    "id": 146,
-                    "name": "Family Relationship Math Problem",
-                    "count": 54,
-                    "percent": 0.0008882601615317
+                    "id": 90,
+                    "name": "Determining Current Date and Day",
+                    "count": 96,
+                    "percent": 0.0018291637292075
                 },
                 {
-                    "id": 167,
-                    "name": "Family Relationships and Ancestry",
-                    "count": 126,
-                    "percent": 0.002072607043574
+                    "id": 112,
+                    "name": "Weather and Climate Queries",
+                    "count": 81,
+                    "percent": 0.0015433568965188
                 },
                 {
-                    "id": 192,
-                    "name": "Family Relationship Riddles",
-                    "count": 98,
-                    "percent": 0.0016120277005576
+                    "id": 128,
+                    "name": "Vision and Eye Health",
+                    "count": 46,
+                    "percent": 0.0008764742869119
                 },
                 {
-                    "id": 194,
-                    "name": "Siblings Counting Puzzle",
-                    "count": 45,
-                    "percent": 0.0007402168012764
+                    "id": 129,
+                    "name": "Future Predictions and Human History",
+                    "count": 196,
+                    "percent": 0.0037345426137987
                 },
                 {
-                    "id": 215,
-                    "name": "Simple Family Math Problem",
-                    "count": 36,
-                    "percent": 0.0005921734410211
+                    "id": 141,
+                    "name": "Climate Change and Environmental Issues",
+                    "count": 122,
+                    "percent": 0.0023245622392012
                 },
                 {
-                    "id": 249,
-                    "name": "Birthplace Trick Questions",
-                    "count": 39,
-                    "percent": 0.0006415212277729
+                    "id": 143,
+                    "name": "Sky and Color Perception",
+                    "count": 141,
+                    "percent": 0.0026865842272735
+                },
+                {
+                    "id": 159,
+                    "name": "Number Sequence Prediction",
+                    "count": 166,
+                    "percent": 0.0031629289484213
+                },
+                {
+                    "id": 181,
+                    "name": "Diverse Question Responses",
+                    "count": 32,
+                    "percent": 0.0006097212430691
+                },
+                {
+                    "id": 189,
+                    "name": "Plant Adaptation and Ecology",
+                    "count": 65,
+                    "percent": 0.0012384962749842
                 }
             ]
         },
         {
             "id": 11,
-            "name": "Puzzles",
+            "name": "Comparative Analysis",
             "children": [
                 {
-                    "id": 62,
-                    "name": "River Crossing Puzzles",
-                    "count": 158,
-                    "percent": 0.0025989834355929
+                    "id": 4,
+                    "name": "Medical Diagnosis and Symptoms",
+                    "count": 963,
+                    "percent": 0.0183487986586132
                 },
                 {
-                    "id": 80,
-                    "name": "River Crossing Puzzle",
-                    "count": 135,
-                    "percent": 0.0022206504038293
+                    "id": 8,
+                    "name": "Cats and Dogs Comparison",
+                    "count": 717,
+                    "percent": 0.0136615666025189
                 },
                 {
-                    "id": 81,
-                    "name": "River Crossing Puzzles",
-                    "count": 98,
-                    "percent": 0.0016120277005576
+                    "id": 31,
+                    "name": "Statistical Analysis and Hypothesis Testing",
+                    "count": 258,
+                    "percent": 0.0049158775222452
                 },
                 {
-                    "id": 110,
-                    "name": "River Crossing Puzzle",
-                    "count": 115,
-                    "percent": 0.0018916651588176
+                    "id": 63,
+                    "name": "Comparing Decimal Numbers",
+                    "count": 154,
+                    "percent": 0.0029342834822704
                 },
                 {
-                    "id": 136,
-                    "name": "River Crossing Puzzle",
-                    "count": 58,
-                    "percent": 0.0009540572105341
+                    "id": 67,
+                    "name": "Comparing Decimal Numbers",
+                    "count": 162,
+                    "percent": 0.0030867137930377
                 },
                 {
-                    "id": 182,
-                    "name": "Trolley Problem and Train Safety",
-                    "count": 79,
-                    "percent": 0.0012994917177964
+                    "id": 77,
+                    "name": "Weight Comparison Riddles",
+                    "count": 113,
+                    "percent": 0.002153078139588
                 },
                 {
-                    "id": 232,
-                    "name": "Graph Coloring and Chromatic Number",
-                    "count": 86,
-                    "percent": 0.0014146365535505
-                }
-            ]
-        },
-        {
-            "id": 12,
-            "name": "Healthcare",
-            "children": [
-                {
-                    "id": 10,
-                    "name": "Medical Diagnosis and Lab Analysis",
-                    "count": 661,
-                    "percent": 0.0108729623476387
+                    "id": 157,
+                    "name": "Comparing Decimal Numbers",
+                    "count": 84,
+                    "percent": 0.0016005182630566
                 },
                 {
-                    "id": 152,
-                    "name": "Biomedical Science Research and Techniques",
-                    "count": 254,
-                    "percent": 0.0041781126116493
-                },
-                {
-                    "id": 208,
-                    "name": "Severe Osteomyelitis and Radical Surgery",
-                    "count": 43,
-                    "percent": 0.0007073182767752
-                },
-                {
-                    "id": 237,
-                    "name": "Spinal Cord Injury and Prognosis",
-                    "count": 60,
-                    "percent": 0.0009869557350352
-                },
-                {
-                    "id": 252,
-                    "name": "Acne Reduction Methods",
-                    "count": 49,
-                    "percent": 0.0008060138502788
-                }
-            ]
-        },
-        {
-            "id": 13,
-            "name": "Concepts",
-            "children": [
-                {
-                    "id": 6,
-                    "name": "Travel Itinerary Planning",
-                    "count": 648,
-                    "percent": 0.010659121938381
-                },
-                {
-                    "id": 70,
-                    "name": "Physics and Cosmology Concepts",
-                    "count": 242,
-                    "percent": 0.0039807214646423
-                },
-                {
-                    "id": 101,
-                    "name": "Space Exploration and Astronomy",
-                    "count": 281,
-                    "percent": 0.0046222426924152
-                },
-                {
-                    "id": 104,
-                    "name": "Temperature and Cooling Concepts",
-                    "count": 193,
-                    "percent": 0.0031747076143634
-                },
-                {
-                    "id": 196,
-                    "name": "Why is the sky blue?",
-                    "count": 115,
-                    "percent": 0.0018916651588176
-                }
-            ]
-        },
-        {
-            "id": 14,
-            "name": "Historical Analysis",
-            "children": [
-                {
-                    "id": 18,
-                    "name": "Identifying Various Individuals",
-                    "count": 447,
-                    "percent": 0.0073528202260128
-                },
-                {
-                    "id": 156,
-                    "name": "Quote Origins and Attributions",
-                    "count": 285,
-                    "percent": 0.0046880397414175
-                },
-                {
-                    "id": 185,
-                    "name": "Asking for someone",
-                    "count": 73,
-                    "percent": 0.0012007961442929
-                },
-                {
-                    "id": 195,
-                    "name": "Hypothetical Scenarios with Historical Figures",
-                    "count": 57,
-                    "percent": 0.0009376079482835
-                },
-                {
-                    "id": 259,
-                    "name": "Ancient Rome and Historical Figures",
-                    "count": 191,
-                    "percent": 0.0031418090898623
-                }
-            ]
-        },
-        {
-            "id": 15,
-            "name": "Ethical Issues",
-            "children": [
-                {
-                    "id": 58,
-                    "name": "Biblical Interpretation and Theology",
-                    "count": 197,
-                    "percent": 0.0032405046633658
-                },
-                {
-                    "id": 129,
-                    "name": "Ethical Dilemmas in Extreme Scenarios",
-                    "count": 171,
-                    "percent": 0.0028128238448505
-                },
-                {
-                    "id": 219,
-                    "name": "Unethical Activities and Instructions",
-                    "count": 70,
-                    "percent": 0.0011514483575411
-                },
-                {
-                    "id": 225,
-                    "name": "Morality and Ethics Exploration",
-                    "count": 424,
-                    "percent": 0.0069744871942493
-                },
-                {
-                    "id": 264,
-                    "name": "Divine Goodness and Human Choice",
-                    "count": 319,
-                    "percent": 0.0052473146579375
+                    "id": 190,
+                    "name": "Country Rankings and Comparisons",
+                    "count": 215,
+                    "percent": 0.004096564601871
                 }
             ]
         }
