@@ -69,7 +69,10 @@ function drawChart(data, examples){
       d3.select("#count")
         .text(`${d.value + " prompts"}`)
       d3.select("#percent")
-        .text(`${Math.round(d.data.percent * 100) + "%"}`)
+        .text(() => {
+          const value = Math.round(d.data.percent * 10000) / 100;
+          return value < 0.01 ? "less than 1%" : value + "%";
+        });
       d3.select("#undo").style("visibility", "hidden");
     })
     .on("mouseout", function (event, d) {
