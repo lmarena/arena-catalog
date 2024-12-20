@@ -1,0 +1,637 @@
+[
+  {
+    "model_key": "gemini-exp-1206",
+    "output_token_price": "0.6",
+    "organization": "gemini"
+  },
+  {
+    "model_key": "gemini-exp-1121",
+    "output_token_price": "0.6",
+    "organization": "gemini"
+  },
+  {
+    "model_key": "gemini-2.0-flash-exp",
+    "output_token_price": "0.6",
+    "organization": "gemini"
+  },
+  {
+    "model_key": "gemini-exp-1114",
+    "output_token_price": "0.6",
+    "organization": "gemini"
+  },
+  {
+    "model_key": "chatgpt-4o-latest-20241120",
+    "output_token_price": "15",
+    "organization": "chatgpt"
+  },
+  {
+    "model_key": "chatgpt-4o-latest-20240903",
+    "output_token_price": "15",
+    "organization": "chatgpt"
+  },
+  {
+    "model_key": "chatgpt-4o-latest-20240808",
+    "output_token_price": "15",
+    "organization": "chatgpt"
+  },
+  {
+    "model_key": "o1-preview",
+    "output_token_price": "60",
+    "organization": "o1"
+  },
+  {
+    "model_key": "o1-mini",
+    "output_token_price": "12",
+    "organization": "o1"
+  },
+  {
+    "model_key": "grok-2-2024-08-13",
+    "output_token_price": "n/a",
+    "organization": "grok"
+  },
+  {
+    "model_key": "grok-2-mini-2024-08-13",
+    "output_token_price": "n/a",
+    "organization": "grok"
+  },
+  {
+    "model_key": "yi-lightning",
+    "output_token_price": "0.0063",
+    "organization": "yi"
+  },
+  {
+    "model_key": "yi-lightning-lite",
+    "output_token_price": "0.0063",
+    "organization": "yi"
+  },
+  {
+    "model_key": "yi-large-preview",
+    "output_token_price": "2.85",
+    "organization": "yi"
+  },
+  {
+    "model_key": "yi-large",
+    "output_token_price": "3",
+    "organization": "yi"
+  },
+  {
+    "model_key": "gpt-4o-2024-05-13",
+    "output_token_price": "15",
+    "organization": "gpt"
+  },
+  {
+    "model_key": "gpt-4o-mini-2024-07-18",
+    "output_token_price": "0.6",
+    "organization": "gpt"
+  },
+  {
+    "model_key": "gpt-4o-2024-08-06",
+    "output_token_price": "10",
+    "organization": "gpt"
+  },
+  {
+    "model_key": "gpt-4-turbo-2024-04-09",
+    "output_token_price": "30",
+    "organization": "gpt"
+  },
+  {
+    "model_key": "claude-3-5-sonnet-20241022-sp",
+    "output_token_price": "15",
+    "organization": "claude"
+  },
+  {
+    "model_key": "claude-3-5-sonnet-20241022",
+    "output_token_price": "15",
+    "organization": "claude"
+  },
+  {
+    "model_key": "claude-3-5-sonnet-20240620",
+    "output_token_price": "15",
+    "organization": "claude"
+  },
+  {
+    "model_key": "claude-3-opus-20240229",
+    "output_token_price": "75",
+    "organization": "claude"
+  },
+  {
+    "model_key": "athene-v2-chat",
+    "output_token_price": "0.79",
+    "organization": "athene"
+  },
+  {
+    "model_key": "athene-70b-0725",
+    "output_token_price": "0.79",
+    "organization": "athene"
+  },
+  {
+    "model_key": "glm-4-plus",
+    "output_token_price": "0.32",
+    "organization": "glm"
+  },
+  {
+    "model_key": "glm-4-0520",
+    "output_token_price": "0.67",
+    "organization": "glm"
+  },
+  {
+    "model_key": "glm-4-0116",
+    "output_token_price": "0.67",
+    "organization": "glm"
+  },
+  {
+    "model_key": "llama-3.1-nemotron-70b-instruct",
+    "output_token_price": "0.88",
+    "organization": "llama"
+  },
+  {
+    "model_key": "llama-3.1-405b-instruct-fp8",
+    "output_token_price": "3.5",
+    "organization": "llama"
+  },
+  {
+    "model_key": "llama-3.1-405b-instruct-bf16",
+    "output_token_price": "3.5",
+    "organization": "llama"
+  },
+  {
+    "model_key": "llama-3.1-70b-instruct",
+    "output_token_price": "0.88",
+    "organization": "llama"
+  },
+  {
+    "model_key": "f1-mini-preview",
+    "output_token_price": "n/a",
+    "organization": "f1"
+  },
+  {
+    "model_key": "qwen-max-0919",
+    "output_token_price": "1.8",
+    "organization": "qwen"
+  },
+  {
+    "model_key": "qwen-plus-0828",
+    "output_token_price": "1.2",
+    "organization": "qwen"
+  },
+  {
+    "model_key": "qwen-max-0428",
+    "output_token_price": "1.8",
+    "organization": "qwen"
+  },
+  {
+    "model_key": "qwen-14b-chat",
+    "output_token_price": "0.3",
+    "organization": "qwen"
+  },
+  {
+    "model_key": "qwen2.5-72b-instruct",
+    "output_token_price": "1.2",
+    "organization": "qwen2.5"
+  },
+  {
+    "model_key": "qwen2.5-coder-32b-instruct",
+    "output_token_price": "0.8",
+    "organization": "qwen2.5"
+  },
+  {
+    "model_key": "deepseek-v2.5",
+    "output_token_price": "0.28",
+    "organization": "deepseek"
+  },
+  {
+    "model_key": "deepseek-v2-api-0628",
+    "output_token_price": "0.28",
+    "organization": "deepseek"
+  },
+  {
+    "model_key": "deepseek-coder-v2-0724",
+    "output_token_price": "0.28",
+    "organization": "deepseek"
+  },
+  {
+    "model_key": "deepseek-coder-v2",
+    "output_token_price": "0.28",
+    "organization": "deepseek"
+  },
+  {
+    "model_key": "mistral-large-2407",
+    "output_token_price": "6",
+    "organization": "mistral"
+  },
+  {
+    "model_key": "mistral-large-2411",
+    "output_token_price": "6",
+    "organization": "mistral"
+  },
+  {
+    "model_key": "mistral-large-2402",
+    "output_token_price": "6",
+    "organization": "mistral"
+  },
+  {
+    "model_key": "mistral-medium",
+    "output_token_price": "8.1",
+    "organization": "mistral"
+  },
+  {
+    "model_key": "reka-core-20240904",
+    "output_token_price": "2",
+    "organization": "reka"
+  },
+  {
+    "model_key": "reka-core-20240722",
+    "output_token_price": "2",
+    "organization": "reka"
+  },
+  {
+    "model_key": "reka-flash-20240904",
+    "output_token_price": "0.8",
+    "organization": "reka"
+  },
+  {
+    "model_key": "reka-flash-20240722",
+    "output_token_price": "0.8",
+    "organization": "reka"
+  },
+  {
+    "model_key": "jamba-1.5-large",
+    "output_token_price": "8",
+    "organization": "jamba"
+  },
+  {
+    "model_key": "jamba-1.5-mini",
+    "output_token_price": "0.4",
+    "organization": "jamba"
+  },
+  {
+    "model_key": "gemma-2-27b-it",
+    "output_token_price": "0.8",
+    "organization": "gemma"
+  },
+  {
+    "model_key": "gemma-2-9b-it-simpo",
+    "output_token_price": "0.15",
+    "organization": "gemma"
+  },
+  {
+    "model_key": "gemma-2-9b-it",
+    "output_token_price": "0.15",
+    "organization": "gemma"
+  },
+  {
+    "model_key": "gemma-2-2b-it",
+    "output_token_price": "0.1",
+    "organization": "gemma"
+  },
+  {
+    "model_key": "command-r-plus-08-2024",
+    "output_token_price": "15",
+    "organization": "command"
+  },
+  {
+    "model_key": "command-r-plus",
+    "output_token_price": "15",
+    "organization": "command"
+  },
+  {
+    "model_key": "command-r-08-2024",
+    "output_token_price": "1.5",
+    "organization": "command"
+  },
+  {
+    "model_key": "command-r",
+    "output_token_price": "1.5",
+    "organization": "command"
+  },
+  {
+    "model_key": "nemotron-4-340b-instruct",
+    "output_token_price": "2.4",
+    "organization": "nemotron"
+  },
+  {
+    "model_key": "bard-jan-24-gemini-pro",
+    "output_token_price": "10",
+    "organization": "bard"
+  },
+  {
+    "model_key": "c4ai-aya-expanse-32b",
+    "output_token_price": "1.5",
+    "organization": "c4ai"
+  },
+  {
+    "model_key": "amazon-nova-micro-v1.0",
+    "output_token_price": "0.14",
+    "organization": "amazon"
+  },
+  {
+    "model_key": "hunyuan-standard-256k",
+    "output_token_price": "8.4",
+    "organization": "hunyuan"
+  },
+  {
+    "model_key": "qwen2-72b-instruct",
+    "output_token_price": "1.2",
+    "organization": "qwen2"
+  },
+  {
+    "model_key": "eureka-chatbot",
+    "output_token_price": "n/a",
+    "organization": "eureka"
+  },
+  {
+    "model_key": "ministral-8b-2410",
+    "output_token_price": "0.2",
+    "organization": "ministral"
+  },
+  {
+    "model_key": "qwen1.5-110b-chat",
+    "output_token_price": "1.8",
+    "organization": "qwen1.5"
+  },
+  {
+    "model_key": "qwen1.5-72b-chat",
+    "output_token_price": "1.2",
+    "organization": "qwen1.5"
+  },
+  {
+    "model_key": "qwen1.5-32b-chat",
+    "output_token_price": "0.8",
+    "organization": "qwen1.5"
+  },
+  {
+    "model_key": "qwen1.5-14b-chat",
+    "output_token_price": "0.3",
+    "organization": "qwen1.5"
+  },
+  {
+    "model_key": "internlm2_5-20b-chat",
+    "output_token_price": "0.3",
+    "organization": "internlm2_5"
+  },
+  {
+    "model_key": "qwq-32b-preview",
+    "output_token_price": "0.8",
+    "organization": "qwq"
+  },
+  {
+    "model_key": "mixtral-8x22b-instruct-v0.1",
+    "output_token_price": "6",
+    "organization": "mixtral"
+  },
+  {
+    "model_key": "mixtral-8x7b-instruct-v0.1",
+    "output_token_price": "0.7",
+    "organization": "mixtral"
+  },
+  {
+    "model_key": "zephyr-orpo-141b-A35b-v0.1",
+    "output_token_price": "6",
+    "organization": "zephyr"
+  },
+  {
+    "model_key": "zephyr-7b-beta",
+    "output_token_price": "0.2",
+    "organization": "zephyr"
+  },
+  {
+    "model_key": "zephyr-7b-alpha",
+    "output_token_price": "0.2",
+    "organization": "zephyr"
+  },
+  {
+    "model_key": "phi-3-medium-4k-instruct",
+    "output_token_price": "0.3",
+    "organization": "phi"
+  },
+  {
+    "model_key": "phi-3-small-8k-instruct",
+    "output_token_price": "0.2",
+    "organization": "phi"
+  },
+  {
+    "model_key": "phi-3-mini-4k-instruct-june-2024",
+    "output_token_price": "0.1",
+    "organization": "phi"
+  },
+  {
+    "model_key": "phi-3-mini-4k-instruct",
+    "output_token_price": "0.1",
+    "organization": "phi"
+  },
+  {
+    "model_key": "starling-lm-7b-beta",
+    "output_token_price": "0.2",
+    "organization": "starling"
+  },
+  {
+    "model_key": "starling-lm-7b-alpha",
+    "output_token_price": "0.2",
+    "organization": "starling"
+  },
+  {
+    "model_key": "wizardlm-70b",
+    "output_token_price": "0.9",
+    "organization": "wizardlm"
+  },
+  {
+    "model_key": "wizardlm-13b",
+    "output_token_price": "0.3",
+    "organization": "wizardlm"
+  },
+  {
+    "model_key": "dbrx-instruct-preview",
+    "output_token_price": "0.8",
+    "organization": "dbrx"
+  },
+  {
+    "model_key": "dbrx-next",
+    "output_token_price": "0.8",
+    "organization": "dbrx"
+  },
+  {
+    "model_key": "tulu-2-dpo-70b",
+    "output_token_price": "0.9",
+    "organization": "tulu"
+  },
+  {
+    "model_key": "codestral-2405",
+    "output_token_price": "0.6",
+    "organization": "codestral"
+  },
+  {
+    "model_key": "granite-3.0-8b-instruct",
+    "output_token_price": "0.2",
+    "organization": "granite"
+  },
+  {
+    "model_key": "granite-3.0-2b-instruct",
+    "output_token_price": "0.1",
+    "organization": "granite"
+  },
+  {
+    "model_key": "openchat-3.5-0106",
+    "output_token_price": "0.2",
+    "organization": "openchat"
+  },
+  {
+    "model_key": "openchat-3.5",
+    "output_token_price": "0.2",
+    "organization": "openchat"
+  },
+  {
+    "model_key": "vicuna-33b",
+    "output_token_price": "0.8",
+    "organization": "vicuna"
+  },
+  {
+    "model_key": "vicuna-13b",
+    "output_token_price": "0.3",
+    "organization": "vicuna"
+  },
+  {
+    "model_key": "vicuna-7b",
+    "output_token_price": "0.2",
+    "organization": "vicuna"
+  },
+  {
+    "model_key": "snowflake-arctic-instruct",
+    "output_token_price": "2.4",
+    "organization": "snowflake"
+  },
+  {
+    "model_key": "nous-hermes-2-mixtral-8x7b-dpo",
+    "output_token_price": "0.9",
+    "organization": "nous"
+  },
+  {
+    "model_key": "llama2-70b-steerlm-chat",
+    "output_token_price": "2.75",
+    "organization": "llama2"
+  },
+  {
+    "model_key": "pplx-70b-online",
+    "output_token_price": "1",
+    "organization": "pplx"
+  },
+  {
+    "model_key": "pplx-7b-online",
+    "output_token_price": "0.2",
+    "organization": "pplx"
+  },
+  {
+    "model_key": "openhermes-2.5-mistral-7b",
+    "output_token_price": "0.2",
+    "organization": "openhermes"
+  },
+  {
+    "model_key": "dolphin-2.2.1-mistral-7b",
+    "output_token_price": "0.2",
+    "organization": "dolphin"
+  },
+  {
+    "model_key": "solar-10.7b-instruct-v1.0",
+    "output_token_price": "0.3",
+    "organization": "solar"
+  },
+  {
+    "model_key": "mpt-30b-chat",
+    "output_token_price": "0.8",
+    "organization": "mpt"
+  },
+  {
+    "model_key": "mpt-7b-chat",
+    "output_token_price": "0.2",
+    "organization": "mpt"
+  },
+  {
+    "model_key": "codellama-34b-instruct",
+    "output_token_price": "0.8",
+    "organization": "codellama"
+  },
+  {
+    "model_key": "codellama-70b-instruct",
+    "output_token_price": "0.9",
+    "organization": "codellama"
+  },
+  {
+    "model_key": "falcon-180b-chat",
+    "output_token_price": "1.8",
+    "organization": "falcon"
+  },
+  {
+    "model_key": "guanaco-33b",
+    "output_token_price": "0.8",
+    "organization": "guanaco"
+  },
+  {
+    "model_key": "stripedhyena-nous-7b",
+    "output_token_price": "0.2",
+    "organization": "stripedhyena"
+  },
+  {
+    "model_key": "olmo-7b-instruct",
+    "output_token_price": "0.2",
+    "organization": "olmo"
+  },
+  {
+    "model_key": "palm-2",
+    "output_token_price": "n/a",
+    "organization": "palm"
+  },
+  {
+    "model_key": "koala-13b",
+    "output_token_price": "0.3",
+    "organization": "koala"
+  },
+  {
+    "model_key": "chatglm3-6b",
+    "output_token_price": "0.2",
+    "organization": "chatglm3"
+  },
+  {
+    "model_key": "gpt4all-13b-snoozy",
+    "output_token_price": "0.3",
+    "organization": "gpt4all"
+  },
+  {
+    "model_key": "chatglm2-6b",
+    "output_token_price": "0.2",
+    "organization": "chatglm2"
+  },
+  {
+    "model_key": "RWKV-4-Raven-14B",
+    "output_token_price": "0.3",
+    "organization": "RWKV"
+  },
+  {
+    "model_key": "alpaca-13b",
+    "output_token_price": "0.3",
+    "organization": "alpaca"
+  },
+  {
+    "model_key": "oasst-pythia-12b",
+    "output_token_price": "0.3",
+    "organization": "oasst"
+  },
+  {
+    "model_key": "chatglm-6b",
+    "output_token_price": "0.2",
+    "organization": "chatglm"
+  },
+  {
+    "model_key": "fastchat-t5-3b",
+    "output_token_price": "0.1",
+    "organization": "fastchat"
+  },
+  {
+    "model_key": "stablelm-tuned-alpha-7b",
+    "output_token_price": "0.2",
+    "organization": "stablelm"
+  },
+  {
+    "model_key": "dolly-v2-12b",
+    "output_token_price": "0.3",
+    "organization": "dolly"
+  }
+]
