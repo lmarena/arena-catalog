@@ -1,0 +1,548 @@
+{
+  "gemini-exp-1206": {
+    "elo_rating": "1375.546906655185"
+  },
+  "chatgpt-4o-latest-20241120": {
+    "elo_rating": "1364.0560541458321"
+  },
+  "gemini-exp-1121": {
+    "elo_rating": "1363.8765553763121"
+  },
+  "gemini-2.0-flash-exp": {
+    "elo_rating": "1355.2586154334053"
+  },
+  "gemini-exp-1114": {
+    "elo_rating": "1342.324184997506"
+  },
+  "chatgpt-4o-latest-20240903": {
+    "elo_rating": "1338.4971065111642"
+  },
+  "o1-preview": {
+    "elo_rating": "1333.2886618361053"
+  },
+  "chatgpt-4o-latest-20240808": {
+    "elo_rating": "1316.6466676143718"
+  },
+  "o1-mini": {
+    "elo_rating": "1306.4662348606237"
+  },
+  "gemini-1.5-pro-002": {
+    "elo_rating": "1300.801271485298"
+  },
+  "gemini-1.5-pro-exp-0827": {
+    "elo_rating": "1299.18485647626"
+  },
+  "gemini-1.5-pro-exp-0801": {
+    "elo_rating": "1298.0555108074986"
+  },
+  "grok-2-2024-08-13": {
+    "elo_rating": "1288.4975078919258"
+  },
+  "yi-lightning": {
+    "elo_rating": "1287.4149124219596"
+  },
+  "gpt-4o-2024-05-13": {
+    "elo_rating": "1284.5048031293084"
+  },
+  "claude-3-5-sonnet-20241022-sp": {
+    "elo_rating": "1282.9566004758806"
+  },
+  "claude-3-5-sonnet-20241022": {
+    "elo_rating": "1281.2600323848274"
+  },
+  "athene-v2-chat": {
+    "elo_rating": "1278.1979387779654"
+  },
+  "glm-4-plus": {
+    "elo_rating": "1273.374493755956"
+  },
+  "gpt-4o-mini-2024-07-18": {
+    "elo_rating": "1272.6225957805214"
+  },
+  "gemini-1.5-flash-002": {
+    "elo_rating": "1270.507347721827"
+  },
+  "gemini-1.5-flash-exp-0827": {
+    "elo_rating": "1269.6178527594132"
+  },
+  "claude-3-5-sonnet-20240620": {
+    "elo_rating": "1268.1722783757948"
+  },
+  "llama-3.1-nemotron-70b-instruct": {
+    "elo_rating": "1268.0890091966544"
+  },
+  "f1-mini-preview": {
+    "elo_rating": "1267.5066064361574"
+  },
+  "llama-3.1-405b-instruct-fp8": {
+    "elo_rating": "1267.5008146788552"
+  },
+  "gemini-advanced-0514": {
+    "elo_rating": "1266.556328256399"
+  },
+  "llama-3.1-405b-instruct-bf16": {
+    "elo_rating": "1266.5139662612094"
+  },
+  "grok-2-mini-2024-08-13": {
+    "elo_rating": "1266.5044278623373"
+  },
+  "gpt-4o-2024-08-06": {
+    "elo_rating": "1264.975668425101"
+  },
+  "yi-lightning-lite": {
+    "elo_rating": "1263.916674056708"
+  },
+  "qwen-max-0919": {
+    "elo_rating": "1262.9893295219795"
+  },
+  "gemini-1.5-pro-001": {
+    "elo_rating": "1259.6956080451487"
+  },
+  "qwen2.5-72b-instruct": {
+    "elo_rating": "1258.1291749745333"
+  },
+  "deepseek-v2.5": {
+    "elo_rating": "1257.2617491252627"
+  },
+  "gemini-1.5-pro-api-0409-preview": {
+    "elo_rating": "1257.176074544295"
+  },
+  "gpt-4-turbo-2024-04-09": {
+    "elo_rating": "1256.3585074834673"
+  },
+  "mistral-large-2407": {
+    "elo_rating": "1251.0522500999211"
+  },
+  "gpt-4-1106-preview": {
+    "elo_rating": "1249.8981528153363"
+  },
+  "athene-70b-0725": {
+    "elo_rating": "1249.790426474491"
+  },
+  "mistral-large-2411": {
+    "elo_rating": "1247.6399000849185"
+  },
+  "llama-3.1-70b-instruct": {
+    "elo_rating": "1247.5288383860657"
+  },
+  "claude-3-opus-20240229": {
+    "elo_rating": "1247.3372718548726"
+  },
+  "gpt-4-0125-preview": {
+    "elo_rating": "1244.878865843753"
+  },
+  "claude-3-5-haiku-20241022": {
+    "elo_rating": "1240.3823147866233"
+  },
+  "yi-large-preview": {
+    "elo_rating": "1239.436097996084"
+  },
+  "reka-core-20240904": {
+    "elo_rating": "1236.8383482697293"
+  },
+  "reka-core-20240722": {
+    "elo_rating": "1230.902377123296"
+  },
+  "qwen-plus-0828": {
+    "elo_rating": "1226.5259716741027"
+  },
+  "gemini-1.5-flash-001": {
+    "elo_rating": "1226.5225522492233"
+  },
+  "jamba-1.5-large": {
+    "elo_rating": "1220.7124228117161"
+  },
+  "gemma-2-27b-it": {
+    "elo_rating": "1220.2007774617284"
+  },
+  "deepseek-v2-api-0628": {
+    "elo_rating": "1219.534353559992"
+  },
+  "command-r-plus-08-2024": {
+    "elo_rating": "1216.7510761278743"
+  },
+  "qwen2.5-coder-32b-instruct": {
+    "elo_rating": "1216.234546851369"
+  },
+  "gemma-2-9b-it-simpo": {
+    "elo_rating": "1216.0482267968162"
+  },
+  "deepseek-coder-v2-0724": {
+    "elo_rating": "1214.0817767480648"
+  },
+  "yi-large": {
+    "elo_rating": "1212.4843832661807"
+  },
+  "gemini-1.5-flash-8b-001": {
+    "elo_rating": "1212.4474925153288"
+  },
+  "llama-3.1-nemotron-51b-instruct": {
+    "elo_rating": "1209.7798878948436"
+  },
+  "nemotron-4-340b-instruct": {
+    "elo_rating": "1209.325040711381"
+  },
+  "bard-jan-24-gemini-pro": {
+    "elo_rating": "1208.3545977483611"
+  },
+  "c4ai-aya-expanse-32b": {
+    "elo_rating": "1206.960288591425"
+  },
+  "glm-4-0520": {
+    "elo_rating": "1206.2344217113637"
+  },
+  "llama-3-70b-instruct": {
+    "elo_rating": "1206.1934604901212"
+  },
+  "gemini-1.5-flash-8b-exp-0827": {
+    "elo_rating": "1205.1738294042448"
+  },
+  "reka-flash-20240904": {
+    "elo_rating": "1204.4510434039648"
+  },
+  "reka-flash-20240722": {
+    "elo_rating": "1201.163250897504"
+  },
+  "claude-3-sonnet-20240229": {
+    "elo_rating": "1200.9579565426293"
+  },
+  "reka-core-20240501": {
+    "elo_rating": "1199.5870469703368"
+  },
+  "amazon-nova-micro-v1.0": {
+    "elo_rating": "1199.1819828017703"
+  },
+  "gemma-2-9b-it": {
+    "elo_rating": "1190.0963577829598"
+  },
+  "command-r-plus": {
+    "elo_rating": "1189.7056896146207"
+  },
+  "hunyuan-standard-256k": {
+    "elo_rating": "1187.6615131140413"
+  },
+  "qwen2-72b-instruct": {
+    "elo_rating": "1187.0874858456134"
+  },
+  "gpt-4-0314": {
+    "elo_rating": "1186.1867590315749"
+  },
+  "command-r-08-2024": {
+    "elo_rating": "1183.9755948320685"
+  },
+  "glm-4-0116": {
+    "elo_rating": "1183.3356255287927"
+  },
+  "qwen-max-0428": {
+    "elo_rating": "1182.8364678247056"
+  },
+  "eureka-chatbot": {
+    "elo_rating": "1182.6657688401488"
+  },
+  "ministral-8b-2410": {
+    "elo_rating": "1182.2354043335085"
+  },
+  "claude-3-haiku-20240307": {
+    "elo_rating": "1179.198077530032"
+  },
+  "deepseek-coder-v2": {
+    "elo_rating": "1178.4749352908598"
+  },
+  "jamba-1.5-mini": {
+    "elo_rating": "1175.9424295645338"
+  },
+  "llama-3.1-8b-instruct": {
+    "elo_rating": "1174.7235098897431"
+  },
+  "reka-flash-preview-20240611": {
+    "elo_rating": "1165.7505734083989"
+  },
+  "gpt-4-0613": {
+    "elo_rating": "1163.1217601503897"
+  },
+  "qwen1.5-110b-chat": {
+    "elo_rating": "1161.4389011328876"
+  },
+  "mistral-large-2402": {
+    "elo_rating": "1157.1735291576229"
+  },
+  "yi-1.5-34b-chat": {
+    "elo_rating": "1156.8225416030623"
+  },
+  "reka-flash-21b-20240226-online": {
+    "elo_rating": "1155.7657881339208"
+  },
+  "internlm2_5-20b-chat": {
+    "elo_rating": "1152.6833764912503"
+  },
+  "qwq-32b-preview": {
+    "elo_rating": "1152.642614679887"
+  },
+  "llama-3-8b-instruct": {
+    "elo_rating": "1151.8083000625115"
+  },
+  "claude-1": {
+    "elo_rating": "1148.805020620096"
+  },
+  "command-r": {
+    "elo_rating": "1148.6663945507119"
+  },
+  "mistral-medium": {
+    "elo_rating": "1147.7152267874321"
+  },
+  "mixtral-8x22b-instruct-v0.1": {
+    "elo_rating": "1147.5577479324675"
+  },
+  "reka-flash-21b-20240226": {
+    "elo_rating": "1147.488046968611"
+  },
+  "qwen1.5-72b-chat": {
+    "elo_rating": "1147.3516593000868"
+  },
+  "gemma-2-2b-it": {
+    "elo_rating": "1140.6128560515497"
+  },
+  "claude-2.0": {
+    "elo_rating": "1131.7269687823666"
+  },
+  "gemini-pro-dev-api": {
+    "elo_rating": "1131.3252561441377"
+  },
+  "zephyr-orpo-141b-A35b-v0.1": {
+    "elo_rating": "1126.973943577526"
+  },
+  "qwen1.5-32b-chat": {
+    "elo_rating": "1125.3858558105599"
+  },
+  "mistral-next": {
+    "elo_rating": "1124.2438913163028"
+  },
+  "phi-3-medium-4k-instruct": {
+    "elo_rating": "1122.8037550682166"
+  },
+  "starling-lm-7b-beta": {
+    "elo_rating": "1119.0458468023348"
+  },
+  "claude-2.1": {
+    "elo_rating": "1118.1912583838175"
+  },
+  "gpt-3.5-turbo-0613": {
+    "elo_rating": "1116.7695101368818"
+  },
+  "mixtral-8x7b-instruct-v0.1": {
+    "elo_rating": "1114.0"
+  },
+  "yi-34b-chat": {
+    "elo_rating": "1111.2225559142757"
+  },
+  "claude-instant-1": {
+    "elo_rating": "1111.0561815559759"
+  },
+  "gemini-pro": {
+    "elo_rating": "1110.5374366479941"
+  },
+  "qwen1.5-14b-chat": {
+    "elo_rating": "1108.775853899277"
+  },
+  "llama-3.2-3b-instruct": {
+    "elo_rating": "1107.811647355081"
+  },
+  "gpt-3.5-turbo-0314": {
+    "elo_rating": "1106.574652304556"
+  },
+  "wizardlm-70b": {
+    "elo_rating": "1106.16176111386"
+  },
+  "gpt-3.5-turbo-0125": {
+    "elo_rating": "1105.805157839731"
+  },
+  "dbrx-instruct-preview": {
+    "elo_rating": "1103.6487835744465"
+  },
+  "phi-3-small-8k-instruct": {
+    "elo_rating": "1101.7832146811793"
+  },
+  "tulu-2-dpo-70b": {
+    "elo_rating": "1099.0895053973206"
+  },
+  "dbrx-next": {
+    "elo_rating": "1099.0641032490569"
+  },
+  "codestral-2405": {
+    "elo_rating": "1095.8756372585947"
+  },
+  "granite-3.0-8b-instruct": {
+    "elo_rating": "1094.050175142941"
+  },
+  "llama-2-70b-chat": {
+    "elo_rating": "1093.042281417627"
+  },
+  "openchat-3.5-0106": {
+    "elo_rating": "1091.4417494328263"
+  },
+  "vicuna-33b": {
+    "elo_rating": "1090.6676810634945"
+  },
+  "snowflake-arctic-instruct": {
+    "elo_rating": "1090.0170424681269"
+  },
+  "starling-lm-7b-alpha": {
+    "elo_rating": "1088.5005904410268"
+  },
+  "nous-hermes-2-mixtral-8x7b-dpo": {
+    "elo_rating": "1084.1930782806023"
+  },
+  "gemma-1.1-7b-it": {
+    "elo_rating": "1083.620490657282"
+  },
+  "llama2-70b-steerlm-chat": {
+    "elo_rating": "1080.5998327561927"
+  },
+  "pplx-70b-online": {
+    "elo_rating": "1077.8566371080565"
+  },
+  "deepseek-llm-67b-chat": {
+    "elo_rating": "1076.9376345757469"
+  },
+  "openchat-3.5": {
+    "elo_rating": "1076.5283141982122"
+  },
+  "openhermes-2.5-mistral-7b": {
+    "elo_rating": "1074.4313912456064"
+  },
+  "granite-3.0-2b-instruct": {
+    "elo_rating": "1073.98307473136"
+  },
+  "mistral-7b-instruct-v0.2": {
+    "elo_rating": "1072.4084464452158"
+  },
+  "phi-3-mini-4k-instruct-june-2024": {
+    "elo_rating": "1070.6483564774285"
+  },
+  "qwen1.5-7b-chat": {
+    "elo_rating": "1070.0172513436873"
+  },
+  "gpt-3.5-turbo-1106": {
+    "elo_rating": "1067.691647651211"
+  },
+  "phi-3-mini-4k-instruct": {
+    "elo_rating": "1066.0882499793297"
+  },
+  "llama-2-13b-chat": {
+    "elo_rating": "1063.0549202716738"
+  },
+  "dolphin-2.2.1-mistral-7b": {
+    "elo_rating": "1062.351657866651"
+  },
+  "solar-10.7b-instruct-v1.0": {
+    "elo_rating": "1062.016254392359"
+  },
+  "llama-3.2-1b-instruct": {
+    "elo_rating": "1058.735203665006"
+  },
+  "wizardlm-13b": {
+    "elo_rating": "1058.5393966168954"
+  },
+  "zephyr-7b-beta": {
+    "elo_rating": "1053.2853060252855"
+  },
+  "mpt-30b-chat": {
+    "elo_rating": "1045.6402506749187"
+  },
+  "pplx-7b-online": {
+    "elo_rating": "1044.4549312174645"
+  },
+  "codellama-34b-instruct": {
+    "elo_rating": "1042.81440891111"
+  },
+  "vicuna-13b": {
+    "elo_rating": "1042.01068197899"
+  },
+  "zephyr-7b-alpha": {
+    "elo_rating": "1041.2488944244042"
+  },
+  "codellama-70b-instruct": {
+    "elo_rating": "1041.0311948116155"
+  },
+  "gemma-7b-it": {
+    "elo_rating": "1037.5721778204966"
+  },
+  "llama-2-7b-chat": {
+    "elo_rating": "1036.700668169544"
+  },
+  "phi-3-mini-128k-instruct": {
+    "elo_rating": "1036.6859655137125"
+  },
+  "qwen-14b-chat": {
+    "elo_rating": "1034.992848449916"
+  },
+  "falcon-180b-chat": {
+    "elo_rating": "1033.6430035376025"
+  },
+  "guanaco-33b": {
+    "elo_rating": "1032.5089672574115"
+  },
+  "gemma-1.1-2b-it": {
+    "elo_rating": "1020.8484632894332"
+  },
+  "stripedhyena-nous-7b": {
+    "elo_rating": "1017.4459767319129"
+  },
+  "olmo-7b-instruct": {
+    "elo_rating": "1015.4129470726098"
+  },
+  "mistral-7b-instruct": {
+    "elo_rating": "1008.0640298049452"
+  },
+  "vicuna-7b": {
+    "elo_rating": "1005.1827647829394"
+  },
+  "palm-2": {
+    "elo_rating": "1003.639527679258"
+  },
+  "gemma-2b-it": {
+    "elo_rating": "989.3657742813261"
+  },
+  "qwen1.5-4b-chat": {
+    "elo_rating": "988.3464504009502"
+  },
+  "koala-13b": {
+    "elo_rating": "964.3317543108515"
+  },
+  "chatglm3-6b": {
+    "elo_rating": "955.1622324266378"
+  },
+  "gpt4all-13b-snoozy": {
+    "elo_rating": "931.8497046350817"
+  },
+  "mpt-7b-chat": {
+    "elo_rating": "927.7025403675752"
+  },
+  "chatglm2-6b": {
+    "elo_rating": "924.3025276193"
+  },
+  "RWKV-4-Raven-14B": {
+    "elo_rating": "921.6481762912533"
+  },
+  "alpaca-13b": {
+    "elo_rating": "901.4603618718486"
+  },
+  "oasst-pythia-12b": {
+    "elo_rating": "893.3685182791089"
+  },
+  "chatglm-6b": {
+    "elo_rating": "879.2076879035288"
+  },
+  "fastchat-t5-3b": {
+    "elo_rating": "868.1725911417855"
+  },
+  "stablelm-tuned-alpha-7b": {
+    "elo_rating": "840.2913089009503"
+  },
+  "dolly-v2-12b": {
+    "elo_rating": "822.1418580827435"
+  },
+  "llama-13b": {
+    "elo_rating": "799.5433171650747"
+  }
+}
