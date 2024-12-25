@@ -175,7 +175,7 @@ function drawChart(data, examples){
               if (d.wrapped === undefined) d.wrapped = false;
   
               if (!d.wrapped) {
-                  d3.select(this).call(wrap, radius);
+                  d3.select(this).call(wrap, (7/8) * radius);
                   d.wrapped = true;
               }
           });
@@ -249,7 +249,7 @@ function drawChart(data, examples){
     function calculateFontSize(d) {
       const r = (d.y1 + d.y0) / 2 * radius; 
       const angle = (d.x1 - d.x0) * r; 
-      const baseFontSize = 10; 
+      const baseFontSize = 16; 
       return Math.min(baseFontSize, angle * 3 / 5); 
     }
   
@@ -260,7 +260,7 @@ function drawChart(data, examples){
             word,
             line = [],
             lineNumber = 0,
-            lineHeight = 1.1, // ems
+            lineHeight = 1.1,
             y = text.attr("y"),
             dy = parseFloat(text.attr("dy")),
             tspan = text.text(null).append("tspan")
