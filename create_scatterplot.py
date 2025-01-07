@@ -1,6 +1,4 @@
 import json
-import csv
-from os import close
 import pandas as pd
 
 """ Restructure pricing data """
@@ -11,11 +9,36 @@ import pandas as pd
 #     pricing_json = json.load(jsonfile)
 #     for batch in pricing_json:
 #         models = list(pricing_json[batch].keys())
-#         for model in models[:4]:
+#         models_accounted_for = models[:2]
+#         # To account for different claude models
+#         if batch == 'claude':
+#             models_accounted_for = [models[0], models[3]]
+#         # To account for different llama models
+#         if batch == 'llama':
+#             models_accounted_for = [models[1], models[4]]
+#         # To grab specific models for yi
+#         if batch == "yi":
+#             models_accounted_for = [models[0], models[3]]
+#         # Grab more gemini models
+#         if batch == 'gemini':
+#             models_accounted_for = models[:3]
+#         # Grab specific qwen models
+#         if batch == 'qwen' :
+#             models_accounted_for = [models[1], models[2]]
+#         # Choose latest model for mistral, reka, glm, qwen2.5, and chatgpt-4o-latest
+#         if batch == 'mistral' or batch == 'reka' or batch == 'glm' or batch == 'qwen2.5' or batch == 'chatgpt':
+#             models_accounted_for = models[:1]
+#         # Choose specific deepseek model so no overlapping
+#         if batch == 'deepseek':
+#             models_accounted_for = [models[1]]
+#         # Disregard glm and gpt models for now (too much overlapping) (& gpt models seem out of date)
+#         if batch == 'glm' or batch == "gpt":
+#             models_accounted_for = []
+#         for model in models_accounted_for:
 #             info = {}
 #             info["model_key"] = model
 #             info["output_token_price"] = pricing_json[batch][model]["output_token_price"]
-#             info["organization"] = batch
+#             info["batch"] = batch
 #             all_info.append(info)
 
 # json.dump(all_info, write_to, indent = 2)
@@ -38,48 +61,41 @@ pricing_data['score'] = pricing_data.apply(update_data_with_rank, axis=1)
 pricing_data.dropna(subset=['output_token_price'], inplace=True)
 pricing_data.dropna(subset=['score'], inplace=True)
 
+def update_data_with_license(row):
+    model_key = row['batch']
+    if model_key in ['gpt', 'chatgpt', 'o1', 'gemini', 'yi', 'claude', 'reka', 'qwen']:
+        return 'Proprietary'
+    return 'Non-proprietary'
+pricing_data["license"] = pricing_data.apply(update_data_with_license, axis=1)
+
+""" Graph scatterplot """
 import plotly.express as px
 import plotly.graph_objects as go
 
-fig = px.scatter(pricing_data[:30], y="score", x="output_token_price", title="Quality vs. Cost Effectiveness", labels={
-                     "output_tokens_per_USD": "# of output tokens per USD (in thousands)",
-                     "score": "Arena score"}, color="organization", log_x=True, text="model_key")
+fig = px.scatter(pricing_data[:25], y="score", x="output_token_price", title="Quality vs. Price", labels={
+                     "output_token_price": "Output Token Price (USD)",
+                     "score": "Arena score", "model_key": "Model", "license": "License"}, color="license", log_x=True, text="model_key")
 fig.update_traces(
     textposition="bottom center",  # Change position if needed (e.g., 'top center', 'bottom right')
-    textfont=dict(size=13.2),    # Adjust font size for better readability
+    textfont=dict(size=15),    # Adjust font size for better readability
     texttemplate='%{text}',   # Control text formatting
+    marker=dict(size=9), 
 )
-fig.update_traces(marker=dict(size=8.5))
 
-fig.update_xaxes(range=[-3,
-                        2])
+fig.update_xaxes(range=[-2.4,
+                        2.33])
 
-fig.update_yaxes(range=[1230,
+fig.update_yaxes(range=[1165,
                         1380])
-
 fig.update_layout(
-    height=1000,  # Set the height to a larger value
+    showlegend=False,
+    height=800,  # Set the height to a larger value
     margin=dict(
-        l=50,  # Left margin
-        r=50,  # Right margin
-        t=100,  # Top margin
-        b=50   # Bottom margin
-    )
+        l=80,  # Left margin
+        r=30,  # Right margin
+        t=80,  # Top margin
+        b=80   # Bottom margin
+    ),
+    template="plotly_dark"
 )
-fig.update_layout(template="plotly_dark")
-fig.update_layout(
-    legend=dict(
-        x=0.01,
-        y=1,
-        traceorder="reversed",
-        font=dict(
-            size=12,
-            color="black"
-        ),
-        bgcolor="LightSteelBlue",
-        bordercolor="White",
-        borderwidth=2
-    )
-)
-# fig.update_traces(showlegend=False)
 fig.write_html("figure.html")
