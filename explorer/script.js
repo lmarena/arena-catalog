@@ -190,7 +190,11 @@ function drawChart(data, examples){
     function leafClicked(event, d) {
         const chartContainer = d3.select(".chart-container");
         const infoContainer = d3.select(".info-container");
-    
+        const exampleContainer = document.querySelector(".ex-prompt-container");
+        if (exampleContainer) {
+          exampleContainer.scrollTop = 0;
+        }
+
         if (!moved) {
             moving = true;
             d3.select(".center-text").style("visibility", "hidden");

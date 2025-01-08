@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>Sunburst Chart</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -11,13 +14,6 @@
 <body>
     <div class="container">
       <section class="topic-explorer">
-        <!-- <header class="titles">
-          <h1><b><i>Topic Explorer</i></b></h1>
-          <p id="discription">
-            <i>Explore the categories of prompts submitted by users.
-            Click on a segment to delve deeper into subcategories and 
-            discover example prompts.</i></p>
-        </header> -->
         <div class="chart-container">
           <div class="chart">
             <div class="center-text">
@@ -37,27 +33,6 @@
           </div>
         </div>
       </section>
-
-      <!-- <section class="price-control">
-        <header class="price-titles">
-          <h1><b><i>Price Control Analysis</i></b></h1>
-          <p><i>Below are scatterplots depicting a model&#39;s arena 
-            score against its cost effectiveness (left plot) and 
-            output token price (right plot).</i></p>
-        </header>
-        <div class="price-charts-container">
-          <div class="single-chart-container">
-            <img src="./data/quality_cost.png" alt="Quality vs. Cost Effectiveness" class="price-chart-image" />
-            <p class="caption">Arena score against its cost effectiveness.</p>
-          </div>
-          <div class="single-chart-container">
-            <img src="./data/quality_token_price.png" alt="Quality vs. Token Price" class="price-chart-image" />
-            <p class="caption">Arena score against output token price.</p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
     <script>
         Promise.all([
             d3.json("./data/data.json"),
