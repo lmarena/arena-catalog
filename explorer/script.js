@@ -13,7 +13,7 @@ function drawChart(data, examples){
     
     hierarchy.eachAfter(d => {
       if (d.children) {
-          d.data.percent = d.children.reduce((sum, child) => sum + (child.data.percent || 0), 0);
+        d.data.percent = d.children.reduce((sum, child) => sum + (child.data.percent || 0), 0);
       }
       });
   
@@ -34,7 +34,7 @@ function drawChart(data, examples){
     // Create the SVG container.
     const svg = d3.select(".chart").append('svg')
         .attr("viewBox", [-width / 2, -height / 2, width, height])
-        .style("font", "10px sans-serif");
+        .style("font", "10px Poppins");
     
     // Append the arcs.
     const path = svg.append("g")
@@ -47,16 +47,27 @@ function drawChart(data, examples){
         .attr("d", d => arc(d.current));
     
     // Clickable
+    let lastClicked = null; // Track the last clicked data
     var moved = false;
     path.style("cursor", "pointer")
       .on("click", function(event, d) {
         if (d.children) {
-          moved = false;
-          clicked(event, d);
+          if (!isSmallScreen() || lastClicked === d) {
+            moved = false;
+            clicked(event, d);
+          } else if (isSmallScreen()) {
+            showSmallScreenCap();
+          }
         } else {
-          leafClicked(event, d);
-          moved = true;
+          if (!isSmallScreen() || lastClicked === d) {
+            hideSmallScreenCap();
+            leafClicked(event, d);
+            moved = true;
+          } else if (isSmallScreen()) {
+            showSmallScreenCap();
+          }
         }
+        lastClicked = d;
       });
   
     // Hover
@@ -66,9 +77,18 @@ function drawChart(data, examples){
         .attr("fill-opacity", 1);
       d3.select("#category")
         .text(`${d.data.name}`);
+        d3.select("#category-small")
+        .text(`${d.data.name}`);
       d3.select("#count")
         .text(`${d.value + " prompts"}`)
+      d3.select("#count-small")
+        .text(`${d.value + " prompts"}`)
       d3.select("#percent")
+        .text(() => {
+          const value = Math.round(d.data.percent * 10000) / 100;
+          return value < 0.01 ? "less than 1%" : value + "%";
+        });
+      d3.select("#percent-small")
         .text(() => {
           const value = Math.round(d.data.percent * 10000) / 100;
           return value < 0.01 ? "less than 1%" : value + "%";
@@ -84,8 +104,6 @@ function drawChart(data, examples){
         .text("");
       d3.select("#percent")
         .text("");
-      console.log(d.depth);
-      console.log(d.moving);
       if (d.depth !== 1 && !moving) {
         d3.select("#undo").style("visibility", "visible");
       }
@@ -119,20 +137,21 @@ function drawChart(data, examples){
     
     // Handle zoom on click.
     function clicked(event, p) {
-        const chartContainer = d3.select(".chart-container");
-        const infoContainer = d3.select(".info-container");
-    
-        // Reset positions
-        chartContainer.classed("shift", false);
-        infoContainer.classed("visible", false);
-    
-        d3.select(".info-container").style("visibility", "hidden");
-        d3.select(".center-text").style("visibility", "hidden");
-        d3.select("#discription").style("visibility", "visible");
-        d3.select("#undo").style("visibility", "hidden");
-        d3.select("#prompt").text("");
-    
-        parent.datum(p.parent || root);
+      const chartContainer = d3.select(".chart-container");
+      const infoContainer = d3.select(".info-container");
+  
+      // Reset positions
+      chartContainer.classed("shift", false);
+      infoContainer.classed("visible", false);
+  
+      d3.select(".info-container").style("visibility", "hidden");
+      d3.select(".center-text").style("visibility", "hidden");
+      hideSmallScreenCap();
+      d3.select("#discription").style("visibility", "visible");
+      d3.select("#undo").style("visibility", "hidden");
+      d3.select("#prompt").text("");
+  
+      parent.datum(p.parent || root);
       
       root.each(d => d.target = {
         x0: Math.max(0, Math.min(1, (d.x0 - p.x0) / (p.x1 - p.x0))) * 2 * Math.PI,
@@ -161,7 +180,6 @@ function drawChart(data, examples){
             if (p.depth !== 0) {
               d3.select("#undo").style("visibility", "visible");
             } else {
-              console.log('hidden');
               d3.select("#undo").style("visibility", "hidden");
             }
           });
@@ -173,16 +191,16 @@ function drawChart(data, examples){
           .attrTween("transform", d => () => labelTransform(d.current))
           .each(function(d) { 
               if (d.wrapped === undefined) d.wrapped = false;
-  
+              
               if (!d.wrapped) {
-                  d3.select(this).call(wrap, (7/8) * radius);
+                  d3.select(this).call(wrap, 8/9 * radius);
                   d.wrapped = true;
               }
           });
       
       t.attr("transform", `translate(0, 0)`).on("end", () => {
-        d3.select(".center-text").style("visibility", "visible");
-        d3.select("#undo").style("visibility", "visible");
+          d3.select(".center-text").style("visibility", "visible");
+          d3.select("#undo").style("visibility", "visible");
       });
     }
   
@@ -198,6 +216,7 @@ function drawChart(data, examples){
         if (!moved) {
             moving = true;
             d3.select(".center-text").style("visibility", "hidden");
+            hideSmallScreenCap();
             d3.select("#discription").style("visibility", "hidden");
     
             // Shift the chart to the left and show info-container
@@ -254,7 +273,7 @@ function drawChart(data, examples){
       const r = (d.y1 + d.y0) / 2 * radius; 
       const angle = (d.x1 - d.x0) * r; 
       const baseFontSize = 16; 
-      return Math.min(baseFontSize, angle * 3 / 5); 
+      return Math.min(baseFontSize, angle * 1/2); 
     }
   
     function wrap(text, width) {
@@ -283,5 +302,22 @@ function drawChart(data, examples){
         }
       });
     }
+
+    function isSmallScreen() {
+      return window.matchMedia("(max-width: 768px)").matches;
+    }
+
+    function showSmallScreenCap() {
+      d3.select(".center-text-small").style("max-height", "100%");
+      d3.select(".center-text-small").style("max-width", "70vw");
+      d3.select(".center-text-small").style("visibility", "visible");
+    }
+
+    function hideSmallScreenCap() {
+      d3.select(".center-text-small").style("visibility", "hidden");
+      d3.select(".center-text-small").style("max-width", "0");
+      d3.select(".center-text-small").style("max-height", "0");
+    }
   }
+  
   

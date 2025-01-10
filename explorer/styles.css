@@ -1,9 +1,10 @@
 :root {
     color-scheme: light dark;
+    overflow-x: hidden;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins';
     color: light-dark(black, white);
     text-align: center;
     margin: 0;
@@ -93,6 +94,17 @@ h2 {
 
 .center-text p {
     font-size: clamp(0.25em, 1vw, 1.2em);
+}
+
+.center-text-small {
+    width: 100%;
+    max-width: 0;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
 }
 
 #undo {
@@ -197,6 +209,14 @@ h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+@media screen and (min-width: 768px) {
+    .center-text-small {
+        max-width: 0;
+        max-height: 0;
+        visibility: hidden;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .topic-explorer {
         flex-direction: column;
@@ -204,10 +224,13 @@ h2 {
     }
 
     .info-container {
+        width: 100%;
+        max-width: 70vw;
+        align-items: center;
+        text-align: center;
         position: relative;
         display: flex;
         flex-direction: column;
-        width: 80%;
     }
 
     .ex-prompt-container {
