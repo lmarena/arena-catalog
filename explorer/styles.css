@@ -107,6 +107,14 @@ h2 {
     visibility: hidden;
 }
 
+.center-text-small h2 {
+    margin: 0;
+}
+
+.center-text-small p {
+    margin: 0;
+}
+
 #undo {
     color: light-dark(grey, rgb(184, 183, 183));
     visibility: hidden;
@@ -157,58 +165,6 @@ h2 {
     font-size: clamp(0.8em, 1vw, 1.2em);
 }
 
-.price-control {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    width: 90%;
-}
-
-.price-titles {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    text-align: left;
-}
-
-.price-titles h1 {
-    margin: 0;
-    font-size: clamp(2em, 5vw, 3em);
-}
-
-.price-titles p {
-    width: 50%;
-    padding-left: 5px;
-    font-size: clamp(0.75em, 1.2vw, 1.5em);
-}
-
-.price-charts-container {
-    display: flex;
-    flex-direction: row;
-    column-gap: 2%;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-.single-chart-container {
-    display: flex;
-    flex-direction: column;
-    font-size: clamp(0.5em, 1vw, 1.2em);
-    color: light-dark(grey, white);
-}
-
-.price-chart-image {
-    width: 100%;
-    height: auto;
-    margin: 10px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 @media screen and (min-width: 768px) {
     .center-text-small {
         max-width: 0;
@@ -225,7 +181,7 @@ h2 {
 
     .info-container {
         width: 100%;
-        max-width: 70vw;
+        max-width: 95vw;
         align-items: center;
         text-align: center;
         position: relative;
@@ -233,8 +189,25 @@ h2 {
         flex-direction: column;
     }
 
+    .info-container.visible {
+        right: 0;
+        padding-top: 0;
+        visibility: visible;
+    }
+
+    .info-container h2 {
+        margin: 0;
+    }
+    
+    .info-container p {
+        margin: 0;
+    }
+
     .ex-prompt-container {
+        margin-top: 5vw;
         max-height: 100vw;
+        max-width: 95vw;
+        overflow-x: hidden;
     }
 
     .titles {
@@ -261,16 +234,5 @@ h2 {
 
     .chart-container.shift {
         transform: translateX(0%);
-    }
-
-    .price-titles {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .price-charts-container {
-        flex-direction: column;
     }
 }

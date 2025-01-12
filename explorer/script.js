@@ -59,11 +59,12 @@ function drawChart(data, examples){
             showSmallScreenCap();
           }
         } else {
-          if (!isSmallScreen() || lastClicked === d) {
+          if (!isSmallScreen() || lastClicked === d || moved) {
             hideSmallScreenCap();
             leafClicked(event, d);
             moved = true;
           } else if (isSmallScreen()) {
+            d3.select("#undo").style("visibility", "visible");
             showSmallScreenCap();
           }
         }
@@ -72,28 +73,30 @@ function drawChart(data, examples){
   
     // Hover
     path.on("mouseover", function (event, d) {
-      console.log("hovered", d.data.name)
       d3.select(this)
         .attr("fill-opacity", 1);
-      d3.select("#category")
-        .text(`${d.data.name}`);
+      if (isSmallScreen()) {
         d3.select("#category-small")
-        .text(`${d.data.name}`);
-      d3.select("#count")
-        .text(`${d.value + " prompts"}`)
-      d3.select("#count-small")
-        .text(`${d.value + " prompts"}`)
-      d3.select("#percent")
-        .text(() => {
-          const value = Math.round(d.data.percent * 10000) / 100;
-          return value < 0.01 ? "less than 1%" : value + "%";
-        });
-      d3.select("#percent-small")
-        .text(() => {
-          const value = Math.round(d.data.percent * 10000) / 100;
-          return value < 0.01 ? "less than 1%" : value + "%";
-        });
-      d3.select("#undo").style("visibility", "hidden");
+          .text(`${d.data.name}`);
+        d3.select("#count-small")
+          .text(`${d.value + " prompts"}`)
+        d3.select("#percent-small")
+          .text(() => {
+            const value = Math.round(d.data.percent * 10000) / 100;
+            return value < 0.01 ? "less than 1%" : value + "%";
+          });
+          d3.select("#undo").style("visibility", "hidden");
+      } else {
+        d3.select("#category")
+          .text(`${d.data.name}`);
+        d3.select("#count")
+          .text(`${d.value + " prompts"}`)
+        d3.select("#percent")
+          .text(() => {
+            const value = Math.round(d.data.percent * 10000) / 100;
+            return value < 0.01 ? "less than 1%" : value + "%";
+          });
+      }
     })
     .on("mouseout", function (event, d) {
       d3.select(this)
@@ -108,12 +111,7 @@ function drawChart(data, examples){
         d3.select("#undo").style("visibility", "visible");
       }
     })
-    
-    const format = d3.format(",d");
-    path.append("title")
-        .text(d => `${d.ancestors()
-        .map(d => d.data.name).reverse().join("/")}\n${format(d.count)}`);
-  
+      
     const label = svg.append("g")
         .attr("pointer-events", "none")
         .attr("text-anchor", "middle")
@@ -147,7 +145,6 @@ function drawChart(data, examples){
       d3.select(".info-container").style("visibility", "hidden");
       d3.select(".center-text").style("visibility", "hidden");
       hideSmallScreenCap();
-      d3.select("#discription").style("visibility", "visible");
       d3.select("#undo").style("visibility", "hidden");
       d3.select("#prompt").text("");
   
@@ -193,7 +190,7 @@ function drawChart(data, examples){
               if (d.wrapped === undefined) d.wrapped = false;
               
               if (!d.wrapped) {
-                  d3.select(this).call(wrap, 8/9 * radius);
+                  d3.select(this).call(wrap, 7/8 * radius);
                   d.wrapped = true;
               }
           });
@@ -212,12 +209,10 @@ function drawChart(data, examples){
         if (exampleContainer) {
           exampleContainer.scrollTop = 0;
         }
-
         if (!moved) {
             moving = true;
             d3.select(".center-text").style("visibility", "hidden");
             hideSmallScreenCap();
-            d3.select("#discription").style("visibility", "hidden");
     
             // Shift the chart to the left and show info-container
             chartContainer.classed("shift", true);
@@ -231,6 +226,7 @@ function drawChart(data, examples){
                     d3.select("#undo").style("visibility", "visible");
                 });
         } else {
+            d3.select("#undo").style("visibility", "visible");
             randomExamplePrompts(d);
         }
     }
@@ -272,7 +268,7 @@ function drawChart(data, examples){
     function calculateFontSize(d) {
       const r = (d.y1 + d.y0) / 2 * radius; 
       const angle = (d.x1 - d.x0) * r; 
-      const baseFontSize = 16; 
+      const baseFontSize = 15; 
       return Math.min(baseFontSize, angle * 1/2); 
     }
   
@@ -308,15 +304,17 @@ function drawChart(data, examples){
     }
 
     function showSmallScreenCap() {
-      d3.select(".center-text-small").style("max-height", "100%");
-      d3.select(".center-text-small").style("max-width", "70vw");
-      d3.select(".center-text-small").style("visibility", "visible");
+      d3.select(".center-text-small")
+          .style("max-height", "100%")
+          .style("max-width", "70vw")
+          .style("visibility", "visible");
     }
 
     function hideSmallScreenCap() {
-      d3.select(".center-text-small").style("visibility", "hidden");
-      d3.select(".center-text-small").style("max-width", "0");
-      d3.select(".center-text-small").style("max-height", "0");
+      d3.select(".center-text-small")
+        .style("visibility", "hidden")
+        .style("max-width", "0")
+        .style("max-height", "0");
     }
   }
   
