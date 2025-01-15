@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Scatterplot</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: white;
+      font-family: 'Poppins', sans-serif;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .scatterplot-container {
+      width: 100%;
+      height: 100vh;
+    }
+
+    .tooltip {
+      position: absolute;
+      background-color: rgb(255, 255, 255);
+      border: 1px solid black;
+      padding: 5px;
+      pointer-events: none;
+      font-size: 12px;
+      border-radius: 4px;
+      transition: opacity 0.3s;
+    }
+
+    .dark-mode {
+      background-color: #050505;
+      color: #dbdbdb;
+    }
+
+    .dark-mode .tooltip {
+      background-color: #333;
+      color: #f0f0f0;
+      border-color: #555;
+    }
+
+    .toggle-dark-mode {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: #007acc;
+      color: rgb(255, 255, 255);
+      border: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      font-family: 'Poppins', sans-serif;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .dark-mode .toggle-dark-mode {
+      background-color: #444;
+    }
+  </style>
+</head>
+<body class="dark-mode">
+  <button class="toggle-dark-mode">Light Mode</button>
+  <div id="scatterplot" class="scatterplot-container"></div>
+  <script>
+    d3.json("data/price-data.json").then(function (data) {
+      const container = d3.select("#scatterplot");
+      const svg = container.append("svg");
+      const defs = svg.append("defs");
+      const shadowFilter = defs.append("filter")
+        .attr("id", "dotShadow")
+        .attr("x", "-50%")
+        .attr("y", "-50%")
+        .attr("width", "200%")
+        .attr("height", "200%");
+  
+      shadowFilter.append("feDropShadow")
+        .attr("dx", 0)
+        .attr("dy", 2)
+        .attr("stdDeviation", 3)
+        .attr("flood-color", "rgba(0, 0, 0, 0.5)");
+  
+      const margin = { top: 50, right: 150, bottom: 100, left: 100 }; // Increased bottom margin
+      const resize = () => {
+        const width = container.node().clientWidth;
+        const height = container.node().clientHeight;
+        svg.attr("width", width).attr("height", height);
+        return { width, height };
+      };
+  
+      const { width, height } = resize();
+      window.addEventListener("resize", () => {
+        const dimensions = resize();
+        renderScatterplot(dimensions.width, dimensions.height);
+      });
+  
+      const xScale = d3.scaleLog().domain([0.05, 90]).range([margin.left, width - margin.right]);
+      const yScale = d3.scaleLinear().domain([1160, 1385]).range([height - margin.bottom, margin.top]);
+      const colorScale = d3.scaleOrdinal(d3.schemeObservable10);
+      const tooltip = d3.select("body").append("div").attr("class", "tooltip").style("opacity", 0);
+  
+      const selectedCategories = new Set();
+  
+      function renderScatterplot(w, h) {
+        svg.selectAll("*").remove();
+  
+        xScale.range([margin.left, w - margin.right]);
+        yScale.range([h - margin.bottom, margin.top]);
+  
+        // Add grid lines for x-axis
+        svg.append("g")
+          .attr("class", "x-grid")
+          .selectAll("line")
+          .data(xScale.ticks(10))
+          .join("line")
+          .attr("x1", d => xScale(d))
+          .attr("x2", d => xScale(d))
+          .attr("y1", margin.top)
+          .attr("y2", h - margin.bottom)
+          .attr("stroke", "#ccc")
+          .attr("stroke-width", 1)
+          .attr("stroke-opacity", document.body.classList.contains("dark-mode") ? 0.1 : 0.2);  // Lower opacity in dark mode
+  
+        // Add grid lines for y-axis
+        svg.append("g")
+          .attr("class", "y-grid")
+          .selectAll("line")
+          .data(yScale.ticks(10))
+          .join("line")
+          .attr("y1", d => yScale(d))
+          .attr("y2", d => yScale(d))
+          .attr("x1", margin.left)
+          .attr("x2", w - margin.right)
+          .attr("stroke", "#ccc")
+          .attr("stroke-width", 1)
+          .attr("stroke-opacity", document.body.classList.contains("dark-mode") ? 0.1 : 0.2);  // Lower opacity in dark mode
+  
+        // Add x-axis
+        svg.append("g")
+          .attr("transform", `translate(0,${h - margin.bottom})`)
+          .call(d3.axisBottom(xScale).ticks(10, ","))
+          .selectAll("text")
+          .style("font-family", "Poppins");
+  
+        // Add y-axis
+        svg.append("g")
+          .attr("transform", `translate(${margin.left},0)`)
+          .call(d3.axisLeft(yScale))
+          .selectAll("text")
+          .style("font-family", "Poppins");
+        
+        // Add legedn title
+        svg.append("text")
+          .attr("class", "legend-title")
+          .attr("x", w - margin.right + 77)
+          .attr("y", margin.top + 30)
+          .style("text-anchor", "middle")
+          .style("font-family", "Poppins")
+          .style("font-weight", "bold")
+          .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
+          .style("font-size", "15px")
+          .text("Organization");
+
+        // Add x-axis title
+        svg.append("text")
+          .attr("class", "x-axis-title")
+          .attr("x", w / 2)
+          .attr("y", h - margin.bottom / 3)
+          .attr("text-anchor", "middle")
+          .style("font-family", "Poppins")
+          .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
+          .text("Cost ($/1M Output Tokens)");
+
+        // Add y-axis title
+        svg.append("text")
+          .attr("class", "y-axis-title")
+          .attr("x", -h / 2)
+          .attr("y", margin.left / 3)
+          .attr("transform", "rotate(-90)")
+          .attr("text-anchor", "middle")
+          .style("font-family", "Poppins")
+          .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
+          .text("Arena Score");
+  
+        const labels = svg.selectAll(".point-label").data(data).join("text")
+          .attr("class", "point-label")
+          .attr("x", d => xScale(d.output_token_price))
+          .attr("y", d => yScale(d.arena_score) - 15)
+          .attr("text-anchor", "middle")
+          .attr("font-size", "14px")
+          .attr("font-family", "Poppins")
+          .attr("fill", document.body.classList.contains("dark-mode") ? "#f0f0f0" : "#000000")
+          .style("opacity", 1)
+          .each(function(d) {
+            if (d.show_text) {
+                d3.select(this).append("tspan").text(d.model_key).attr("font-weight", "bold");
+            }
+        });
+  
+        const desiredOrder = ["Google", "OpenAI", "Anthropic", "Meta", "01 AI", "Nvidia", "Alibaba", "Mistral", "Cohere", "Other"];
+  
+        const categories = [...new Set(data.map(d => d.legend_item))];
+        const sortedCategories = categories.sort((a, b) => {
+            return desiredOrder.indexOf(a) - desiredOrder.indexOf(b);
+        });
+        const legend = svg.append("g")
+          .attr("transform", `translate(${w - margin.right + 30}, ${margin.top + 40})`)
+          .selectAll(".legend-item")
+          .data(sortedCategories)
+          .join("g")
+          .attr("class", "legend-item")
+          .attr("transform", (d, i) => `translate(0, ${i * 20})`)
+          .style("cursor", "pointer")
+          .on("mouseover", (_, category) => {
+            points
+                .style("opacity", d => selectedCategories.has(d.legend_item) || d.legend_item === category ? 1 : 0.1)
+                .style("stroke-width", d => d.legend_item === category ? 2 : null);
+  
+            labels
+                .style("opacity", d => selectedCategories.has(d.legend_item) || d.legend_item === category ? 1 : 0);
+  
+            legend.selectAll("rect")
+                .style("opacity", d => selectedCategories.has(d) || d === category ? 1 : 0.1);
+            legend.selectAll("text")
+                .style("opacity", d => selectedCategories.has(d) || d === category ? 1 : 0.1);
+          })
+          .on("mouseout", () => {
+            points
+                .style("opacity", d => selectedCategories.size === 0 || selectedCategories.has(d.legend_item) ? 1 : 0.1)
+                .style("stroke", null)
+                .style("stroke-width", null);
+  
+            labels
+                .style("opacity", d => selectedCategories.size === 0 || selectedCategories.has(d.legend_item) ? 1 : 0);
+  
+            legend.selectAll("rect")
+                .style("opacity", d => selectedCategories.size === 0 || selectedCategories.has(d) ? 1 : 0.1);
+            legend.selectAll("text")
+                .style("opacity", d => selectedCategories.size === 0 || selectedCategories.has(d) ? 1 : 0.1);
+          })
+          .on("click", (_, category) => {
+            if (selectedCategories.has(category)) {
+                selectedCategories.delete(category);
+            } else {
+                selectedCategories.add(category);
+            }
+  
+            if (selectedCategories.size === categories.length) {
+                selectedCategories.clear();
+            }
+  
+            points
+                .style("opacity", d => selectedCategories.size === 0 || selectedCategories.has(d.legend_item) ? 1 : 0.1);
+  
+            labels
+                .style("opacity", d => selectedCategories.size === 0 || selectedCategories.has(d.legend_item) ? 1 : 0);
+  
+            legend.selectAll("rect")
+                .style("opacity", d => selectedCategories.size === 0 || selectedCategories.has(d) ? 1 : 0.1);
+            legend.selectAll("text")
+                .style("opacity", d => selectedCategories.size === 0 || selectedCategories.has(d) ? 1 : 0.1);
+          });
+  
+        const points = svg.selectAll(".point").data(data).join("circle")
+          .attr("class", "point")
+          .attr("cx", d => xScale(d.output_token_price))
+          .attr("cy", d => yScale(d.arena_score))
+          .attr("r", 9)
+          .attr("fill", d => colorScale(d.legend_item))
+          .style("filter", "url(#dotShadow)")
+          .style("opacity", 1)
+          .on("mouseover", (event, d) => {
+            d3.select(event.currentTarget)
+              .attr("r", 11)
+              .style("opacity", 1);
+  
+            points
+              .filter(other => other !== d)
+              .style("opacity", 0.1);
+  
+            labels
+              .filter(other => other !== d)
+              .style("opacity", 0);
+  
+            const tooltipWidth = 150;
+            const tooltipHeight = 70;
+            const svgWidth = svg.node().getBoundingClientRect().width - 300;
+  
+            let tooltipX = event.pageX + 30;
+            let tooltipY = event.pageY - tooltipHeight - 40;
+  
+            if (tooltipX + tooltipWidth > svgWidth) {
+              tooltipX = event.pageX - tooltipWidth - 70;
+            }
+  
+            if (tooltipY - tooltipHeight < 300) {
+              tooltipY = event.pageY + 5;
+            }
+  
+            tooltip.style("opacity", 1)
+              .html(`<b>${d.model_key}</b><br>
+                      Arena Score: ${parseFloat(d.arena_score).toFixed(2)}<br>
+                      Cost ($/1M Output Tokens): ${d.output_token_price}<br>
+                      Organization: ${d.organization}<br>
+                      License: ${d.license}`)
+              .style("left", `${tooltipX}px`)
+              .style("top", `${tooltipY}px`);
+  
+            legend.filter(l => l !== d.legend_item && (selectedCategories.size === 0 || selectedCategories.has(l))).style("opacity", 0.1);
+          })
+          .on("mouseout", () => {
+            points
+              .attr("r", 9)
+              .style("opacity", d => selectedCategories.size === 0 || selectedCategories.has(d.legend_item) ? 1 : 0.1);
+  
+            labels
+              .style("opacity", d => selectedCategories.size === 0 || selectedCategories.has(d.legend_item) ? 1 : 0);
+  
+            tooltip.style("opacity", 0);
+            legend.filter(l => selectedCategories.size === 0 || selectedCategories.has(l)).style("opacity", 1);
+          });
+
+        legend.append("rect")
+          .attr("width", 15)
+          .attr("height", 15)
+          .attr("fill", d => colorScale(d))
+          .style("opacity", 1);
+  
+        legend.append("text")
+          .attr("x", 20)
+          .attr("y", 12)
+          .style("font-family", "Poppins")
+          .style("fill", document.body.classList.contains("dark-mode") ? "#f0f0f0" : "#000000")
+          .text(d => d);
+      }
+  
+      renderScatterplot(width, height);
+  
+      document.querySelector(".toggle-dark-mode").addEventListener("click", () => {
+        const body = document.body;
+        const isDarkMode = body.classList.toggle("dark-mode");
+  
+        const button = document.querySelector(".toggle-dark-mode");
+        button.textContent = isDarkMode ? "Light Mode" : "Dark Mode";
+  
+        svg.selectAll(".point-label")
+          .attr("fill", isDarkMode ? "#f0f0f0" : "#000000");
+  
+        svg.selectAll(".legend-item text")
+          .style("fill", isDarkMode ? "#f0f0f0" : "#000000");
+  
+        svg.selectAll(".x-grid line, .y-grid line")
+          .attr("stroke-opacity", isDarkMode ? 0.1 : 0.2);
+
+        svg.selectAll(".x-axis-title, .y-axis-title, .legend-title")
+          .style("fill", isDarkMode ? "#fff" : "#000");
+      });
+    });
+  </script>  
+</body>
+</html>
