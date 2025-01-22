@@ -1,0 +1,762 @@
+2024-11-07 16:53:00 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 16:53:01 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 16:53:01 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 131, in <module>
+2024-11-07 16:53:01 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 16:53:01 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 16:53:01 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 96, in build_demo
+2024-11-07 16:53:01 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 16:53:01 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 16:53:01 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 991, in build_leaderboard_tab
+2024-11-07 16:53:01 | ERROR | stderr |     data = load_leaderboard_table_csv(leaderboard_table_file)
+2024-11-07 16:53:01 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 16:53:01 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 203, in load_leaderboard_table_csv
+2024-11-07 16:53:01 | ERROR | stderr |     v = float("{:.2f}".format(float(v)))
+2024-11-07 16:53:01 | ERROR | stderr |                               ^^^^^^^^
+2024-11-07 16:53:01 | ERROR | stderr | ValueError: could not convert string to float: '-'
+2024-11-07 16:55:27 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 16:55:41 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-07 16:55:41 | INFO | stdout | Running on public URL: https://ab626dbd0db0a2a2e3.gradio.live
+2024-11-07 16:55:41 | INFO | stdout | 
+2024-11-07 16:55:41 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-07 18:24:11 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-07 18:24:11 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://ab626dbd0db0a2a2e3.gradio.live
+2024-11-07 18:36:39 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 18:36:40 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 18:36:40 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 131, in <module>
+2024-11-07 18:36:40 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 18:36:40 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:36:40 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 96, in build_demo
+2024-11-07 18:36:40 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 18:36:40 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:36:40 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 996, in build_leaderboard_tab
+2024-11-07 18:36:40 | ERROR | stderr |     data = load_leaderboard_table_csv(leaderboard_table_file)
+2024-11-07 18:36:40 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:36:40 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 208, in load_leaderboard_table_csv
+2024-11-07 18:36:40 | ERROR | stderr |     v = int(v)
+2024-11-07 18:36:40 | ERROR | stderr |         ^^^^^^
+2024-11-07 18:36:40 | ERROR | stderr | ValueError: invalid literal for int() with base 10: '39.0'
+2024-11-07 18:37:53 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 18:37:56 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 18:37:56 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 939, in _finalize_columns_and_data
+2024-11-07 18:37:56 | ERROR | stderr |     columns = _validate_or_indexify_columns(contents, columns)
+2024-11-07 18:37:56 | ERROR | stderr |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:37:56 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 986, in _validate_or_indexify_columns
+2024-11-07 18:37:56 | ERROR | stderr |     raise AssertionError(
+2024-11-07 18:37:56 | ERROR | stderr | AssertionError: 9 columns passed, passed data had 8 columns
+2024-11-07 18:37:56 | ERROR | stderr | 
+2024-11-07 18:37:56 | ERROR | stderr | The above exception was the direct cause of the following exception:
+2024-11-07 18:37:56 | ERROR | stderr | 
+2024-11-07 18:37:56 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 18:37:56 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 131, in <module>
+2024-11-07 18:37:56 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 18:37:56 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:37:56 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 96, in build_demo
+2024-11-07 18:37:56 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 18:37:56 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:37:56 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1001, in build_leaderboard_tab
+2024-11-07 18:37:56 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-11-07 18:37:56 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-11-07 18:37:56 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 665, in build_arena_tab
+2024-11-07 18:37:56 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-11-07 18:37:56 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:37:56 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 444, in update_overall_leaderboard_df
+2024-11-07 18:37:56 | ERROR | stderr |     elo_dataframe = pd.DataFrame(arena_table_vals, columns=columns)
+2024-11-07 18:37:56 | ERROR | stderr |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:37:56 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 851, in __init__
+2024-11-07 18:37:56 | ERROR | stderr |     arrays, columns, index = nested_data_to_arrays(
+2024-11-07 18:37:56 | ERROR | stderr |                              ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:37:56 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 520, in nested_data_to_arrays
+2024-11-07 18:37:56 | ERROR | stderr |     arrays, columns = to_arrays(data, columns, dtype=dtype)
+2024-11-07 18:37:56 | ERROR | stderr |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:37:56 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 845, in to_arrays
+2024-11-07 18:37:56 | ERROR | stderr |     content, columns = _finalize_columns_and_data(arr, columns, dtype)
+2024-11-07 18:37:56 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:37:56 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 942, in _finalize_columns_and_data
+2024-11-07 18:37:56 | ERROR | stderr |     raise ValueError(err) from err
+2024-11-07 18:37:56 | ERROR | stderr | ValueError: 9 columns passed, passed data had 8 columns
+2024-11-07 18:41:10 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 18:41:12 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 18:41:12 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 131, in <module>
+2024-11-07 18:41:12 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 18:41:12 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:41:12 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 96, in build_demo
+2024-11-07 18:41:12 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 18:41:12 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:41:12 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1002, in build_leaderboard_tab
+2024-11-07 18:41:12 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-11-07 18:41:12 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-11-07 18:41:12 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 666, in build_arena_tab
+2024-11-07 18:41:12 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-11-07 18:41:12 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:41:12 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 463, in update_overall_leaderboard_df
+2024-11-07 18:41:12 | ERROR | stderr |     comparison = elo_dataframe.apply(
+2024-11-07 18:41:12 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:41:12 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-11-07 18:41:12 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-11-07 18:41:12 | ERROR | stderr |            ^^^^^^^^^^
+2024-11-07 18:41:12 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-11-07 18:41:12 | ERROR | stderr |     return self.apply_standard()
+2024-11-07 18:41:12 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:41:12 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-11-07 18:41:12 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-11-07 18:41:12 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:41:12 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-11-07 18:41:12 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-11-07 18:41:12 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:41:12 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 458, in compare_func
+2024-11-07 18:41:12 | ERROR | stderr |     elif row["Rank (StyleCtrl)"] < row["Rank* (UB)"] or row["Rank (PriceCtrl)"] < row["Rank* (UB)"]:
+2024-11-07 18:41:12 | ERROR | stderr |                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 18:41:12 | ERROR | stderr | TypeError: '<' not supported between instances of 'str' and 'int'
+2024-11-07 19:07:26 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:07:28 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:07:28 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 132, in <module>
+2024-11-07 19:07:28 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 19:07:28 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:07:28 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 97, in build_demo
+2024-11-07 19:07:28 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 19:07:28 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:07:28 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1020, in build_leaderboard_tab
+2024-11-07 19:07:28 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-11-07 19:07:28 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-11-07 19:07:28 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 684, in build_arena_tab
+2024-11-07 19:07:28 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-11-07 19:07:28 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:07:28 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 480, in update_overall_leaderboard_df
+2024-11-07 19:07:28 | ERROR | stderr |     comparison_price_ctrl = elo_dataframe.apply(
+2024-11-07 19:07:28 | ERROR | stderr |                             ^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:07:28 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-11-07 19:07:28 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-11-07 19:07:28 | ERROR | stderr |            ^^^^^^^^^^
+2024-11-07 19:07:28 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-11-07 19:07:28 | ERROR | stderr |     return self.apply_standard()
+2024-11-07 19:07:28 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:07:28 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-11-07 19:07:28 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-11-07 19:07:28 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:07:28 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-11-07 19:07:28 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-11-07 19:07:28 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:07:28 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 468, in compare_func_price_ctrl
+2024-11-07 19:07:28 | ERROR | stderr |     elif row["Rank (PriceCtrl)"] < row["Rank* (UB)"]:
+2024-11-07 19:07:28 | ERROR | stderr |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:07:28 | ERROR | stderr | TypeError: '<' not supported between instances of 'str' and 'int'
+2024-11-07 19:10:05 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:10:06 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:10:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 132, in <module>
+2024-11-07 19:10:06 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 19:10:06 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:10:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 97, in build_demo
+2024-11-07 19:10:06 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 19:10:06 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:10:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1015, in build_leaderboard_tab
+2024-11-07 19:10:06 | ERROR | stderr |     data = load_leaderboard_table_csv(leaderboard_table_file)
+2024-11-07 19:10:06 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:10:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 206, in load_leaderboard_table_csv
+2024-11-07 19:10:06 | ERROR | stderr |     v = int(ast.literal_eval(v))
+2024-11-07 19:10:06 | ERROR | stderr |             ^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:10:06 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 64, in literal_eval
+2024-11-07 19:10:06 | ERROR | stderr |     node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+2024-11-07 19:10:06 | ERROR | stderr |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:10:06 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 50, in parse
+2024-11-07 19:10:06 | ERROR | stderr |     return compile(source, filename, mode, flags,
+2024-11-07 19:10:06 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:10:06 | ERROR | stderr |   File "<unknown>", line 0
+2024-11-07 19:10:06 | ERROR | stderr | 
+2024-11-07 19:10:06 | ERROR | stderr | SyntaxError: invalid syntax
+2024-11-07 19:12:14 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:12:15 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:12:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 132, in <module>
+2024-11-07 19:12:15 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 19:12:15 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:12:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 97, in build_demo
+2024-11-07 19:12:15 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 19:12:15 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:12:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1015, in build_leaderboard_tab
+2024-11-07 19:12:15 | ERROR | stderr |     data = load_leaderboard_table_csv(leaderboard_table_file)
+2024-11-07 19:12:15 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:12:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 203, in load_leaderboard_table_csv
+2024-11-07 19:12:15 | ERROR | stderr |     v = float("{:.2f}".format(float(v)))
+2024-11-07 19:12:15 | ERROR | stderr |                               ^^^^^^^^
+2024-11-07 19:12:15 | ERROR | stderr | ValueError: could not convert string to float: '-'
+2024-11-07 19:13:32 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:13:33 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:13:33 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 131, in <module>
+2024-11-07 19:13:33 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 19:13:33 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:13:33 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 96, in build_demo
+2024-11-07 19:13:33 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 19:13:33 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:13:33 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1015, in build_leaderboard_tab
+2024-11-07 19:13:33 | ERROR | stderr |     data = load_leaderboard_table_csv(leaderboard_table_file)
+2024-11-07 19:13:33 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:13:33 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 206, in load_leaderboard_table_csv
+2024-11-07 19:13:33 | ERROR | stderr |     v = int(ast.literal_eval(v))
+2024-11-07 19:13:33 | ERROR | stderr |             ^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:13:33 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 64, in literal_eval
+2024-11-07 19:13:33 | ERROR | stderr |     node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+2024-11-07 19:13:33 | ERROR | stderr |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:13:33 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 50, in parse
+2024-11-07 19:13:33 | ERROR | stderr |     return compile(source, filename, mode, flags,
+2024-11-07 19:13:33 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:13:33 | ERROR | stderr |   File "<unknown>", line 0
+2024-11-07 19:13:33 | ERROR | stderr | 
+2024-11-07 19:13:33 | ERROR | stderr | SyntaxError: invalid syntax
+2024-11-07 19:14:03 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:14:04 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:14:04 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 132, in <module>
+2024-11-07 19:14:04 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 19:14:04 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:14:04 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 97, in build_demo
+2024-11-07 19:14:04 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 19:14:04 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:14:04 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1015, in build_leaderboard_tab
+2024-11-07 19:14:04 | ERROR | stderr |     data = load_leaderboard_table_csv(leaderboard_table_file)
+2024-11-07 19:14:04 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:14:04 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 203, in load_leaderboard_table_csv
+2024-11-07 19:14:04 | ERROR | stderr |     v = float("{:.2f}".format(float(v)))
+2024-11-07 19:14:04 | ERROR | stderr |                               ^^^^^^^^
+2024-11-07 19:14:04 | ERROR | stderr | ValueError: could not convert string to float: '-'
+2024-11-07 19:14:44 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:14:45 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:14:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 132, in <module>
+2024-11-07 19:14:45 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 19:14:45 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:14:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 97, in build_demo
+2024-11-07 19:14:45 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 19:14:45 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:14:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1015, in build_leaderboard_tab
+2024-11-07 19:14:45 | ERROR | stderr |     data = load_leaderboard_table_csv(leaderboard_table_file)
+2024-11-07 19:14:45 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:14:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 206, in load_leaderboard_table_csv
+2024-11-07 19:14:45 | ERROR | stderr |     v = int(ast.literal_eval(v))
+2024-11-07 19:14:45 | ERROR | stderr |             ^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:14:45 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 64, in literal_eval
+2024-11-07 19:14:45 | ERROR | stderr |     node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+2024-11-07 19:14:45 | ERROR | stderr |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:14:45 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 50, in parse
+2024-11-07 19:14:45 | ERROR | stderr |     return compile(source, filename, mode, flags,
+2024-11-07 19:14:45 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:14:45 | ERROR | stderr |   File "<unknown>", line 0
+2024-11-07 19:14:45 | ERROR | stderr | 
+2024-11-07 19:14:45 | ERROR | stderr | SyntaxError: invalid syntax
+2024-11-07 19:15:36 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:15:39 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:15:39 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 132, in <module>
+2024-11-07 19:15:39 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 19:15:39 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:15:39 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 97, in build_demo
+2024-11-07 19:15:39 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 19:15:39 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:15:39 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1020, in build_leaderboard_tab
+2024-11-07 19:15:39 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-11-07 19:15:39 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-11-07 19:15:39 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 684, in build_arena_tab
+2024-11-07 19:15:39 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-11-07 19:15:39 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:15:39 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 480, in update_overall_leaderboard_df
+2024-11-07 19:15:39 | ERROR | stderr |     comparison_price_ctrl = elo_dataframe.apply(
+2024-11-07 19:15:39 | ERROR | stderr |                             ^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:15:39 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-11-07 19:15:39 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-11-07 19:15:39 | ERROR | stderr |            ^^^^^^^^^^
+2024-11-07 19:15:39 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-11-07 19:15:39 | ERROR | stderr |     return self.apply_standard()
+2024-11-07 19:15:39 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:15:39 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-11-07 19:15:39 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-11-07 19:15:39 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:15:39 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-11-07 19:15:39 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-11-07 19:15:39 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:15:39 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 468, in compare_func_price_ctrl
+2024-11-07 19:15:39 | ERROR | stderr |     elif row["Rank (PriceCtrl)"] < row["Rank* (UB)"]:
+2024-11-07 19:15:39 | ERROR | stderr |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:15:39 | ERROR | stderr | TypeError: '<' not supported between instances of 'str' and 'int'
+2024-11-07 19:21:05 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:21:07 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:21:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 134, in <module>
+2024-11-07 19:21:07 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 19:21:07 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:21:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 99, in build_demo
+2024-11-07 19:21:07 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 19:21:07 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:21:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1020, in build_leaderboard_tab
+2024-11-07 19:21:07 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-11-07 19:21:07 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-11-07 19:21:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 684, in build_arena_tab
+2024-11-07 19:21:07 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-11-07 19:21:07 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:21:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 480, in update_overall_leaderboard_df
+2024-11-07 19:21:07 | ERROR | stderr |     comparison_price_ctrl = elo_dataframe.apply(
+2024-11-07 19:21:07 | ERROR | stderr |                             ^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:21:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-11-07 19:21:07 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-11-07 19:21:07 | ERROR | stderr |            ^^^^^^^^^^
+2024-11-07 19:21:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-11-07 19:21:07 | ERROR | stderr |     return self.apply_standard()
+2024-11-07 19:21:07 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:21:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-11-07 19:21:07 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-11-07 19:21:07 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:21:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-11-07 19:21:07 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-11-07 19:21:07 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:21:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 468, in compare_func_price_ctrl
+2024-11-07 19:21:07 | ERROR | stderr |     elif row["Rank (PriceCtrl)"] < row["Rank* (UB)"]:
+2024-11-07 19:21:07 | ERROR | stderr |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:21:07 | ERROR | stderr | TypeError: '<' not supported between instances of 'str' and 'int'
+2024-11-07 19:21:44 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:21:47 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:21:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 134, in <module>
+2024-11-07 19:21:47 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 19:21:47 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:21:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 99, in build_demo
+2024-11-07 19:21:47 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 19:21:47 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:21:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1020, in build_leaderboard_tab
+2024-11-07 19:21:47 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-11-07 19:21:47 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-11-07 19:21:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 684, in build_arena_tab
+2024-11-07 19:21:47 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-11-07 19:21:47 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:21:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 480, in update_overall_leaderboard_df
+2024-11-07 19:21:47 | ERROR | stderr |     comparison_price_ctrl = elo_dataframe.apply(
+2024-11-07 19:21:47 | ERROR | stderr |                             ^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:21:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-11-07 19:21:47 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-11-07 19:21:47 | ERROR | stderr |            ^^^^^^^^^^
+2024-11-07 19:21:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-11-07 19:21:47 | ERROR | stderr |     return self.apply_standard()
+2024-11-07 19:21:47 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:21:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-11-07 19:21:47 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-11-07 19:21:47 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:21:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-11-07 19:21:47 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-11-07 19:21:47 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:21:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 468, in compare_func_price_ctrl
+2024-11-07 19:21:47 | ERROR | stderr |     elif row["Rank (PriceCtrl)"] < row["Rank* (UB)"]:
+2024-11-07 19:21:47 | ERROR | stderr |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:21:47 | ERROR | stderr | TypeError: '<' not supported between instances of 'str' and 'int'
+2024-11-07 19:23:13 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:23:16 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 134, in <module>
+2024-11-07 19:23:16 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 19:23:16 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 99, in build_demo
+2024-11-07 19:23:16 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 19:23:16 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1020, in build_leaderboard_tab
+2024-11-07 19:23:16 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-11-07 19:23:16 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-11-07 19:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 684, in build_arena_tab
+2024-11-07 19:23:16 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-11-07 19:23:16 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 480, in update_overall_leaderboard_df
+2024-11-07 19:23:16 | ERROR | stderr |     comparison_price_ctrl = elo_dataframe.apply(
+2024-11-07 19:23:16 | ERROR | stderr |                             ^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-11-07 19:23:16 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-11-07 19:23:16 | ERROR | stderr |            ^^^^^^^^^^
+2024-11-07 19:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-11-07 19:23:16 | ERROR | stderr |     return self.apply_standard()
+2024-11-07 19:23:16 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-11-07 19:23:16 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-11-07 19:23:16 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-11-07 19:23:16 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-11-07 19:23:16 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 466, in compare_func_price_ctrl
+2024-11-07 19:23:16 | ERROR | stderr |     if int(row["Rank (PriceCtrl)"]) == row["Rank* (UB)"]:
+2024-11-07 19:23:16 | ERROR | stderr |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:23:16 | ERROR | stderr | ValueError: invalid literal for int() with base 10: '<a target="_blank" href="https://help.openai.com/en/articles/9624314-model-release-notes" style="color: var(--link-text-color); text-decoration: underline;text-decoration-style: dotted;">ChatGPT-4o-l
+2024-11-07 19:28:51 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:28:53 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:28:53 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 134, in <module>
+2024-11-07 19:28:53 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 19:28:53 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:28:53 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 99, in build_demo
+2024-11-07 19:28:53 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 19:28:53 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:28:53 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1020, in build_leaderboard_tab
+2024-11-07 19:28:53 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-11-07 19:28:53 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-11-07 19:28:53 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 684, in build_arena_tab
+2024-11-07 19:28:53 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-11-07 19:28:53 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:28:53 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 480, in update_overall_leaderboard_df
+2024-11-07 19:28:53 | ERROR | stderr |     comparison_price_ctrl = elo_dataframe.apply(
+2024-11-07 19:28:53 | ERROR | stderr |                             ^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:28:53 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-11-07 19:28:53 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-11-07 19:28:53 | ERROR | stderr |            ^^^^^^^^^^
+2024-11-07 19:28:53 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-11-07 19:28:53 | ERROR | stderr |     return self.apply_standard()
+2024-11-07 19:28:53 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:28:53 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-11-07 19:28:53 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-11-07 19:28:53 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:28:53 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-11-07 19:28:53 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-11-07 19:28:53 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:28:53 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 466, in compare_func_price_ctrl
+2024-11-07 19:28:53 | ERROR | stderr |     if int(row["Rank (PriceCtrl)"]) == row["Rank* (UB)"]:
+2024-11-07 19:28:53 | ERROR | stderr |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:28:53 | ERROR | stderr | ValueError: invalid literal for int() with base 10: '<a target="_blank" href="https://help.openai.com/en/articles/9624314-model-release-notes" style="color: var(--link-text-color); text-decoration: underline;text-decoration-style: dotted;">ChatGPT-4o-l
+2024-11-07 19:35:19 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:35:19 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:35:19 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 137, in <module>
+2024-11-07 19:35:19 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 19:35:19 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:35:19 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 95, in build_demo
+2024-11-07 19:35:19 | ERROR | stderr |     merged_leaderboard_file = join_leaderboard_and_pricing(leaderboard_table_file, pricing_table_file)
+2024-11-07 19:35:19 | ERROR | stderr |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:35:19 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 50, in join_leaderboard_and_pricing
+2024-11-07 19:35:19 | ERROR | stderr |     merged_df.drop(columns=['model_key', 'source', 'Knowledge cutoff date',
+2024-11-07 19:35:19 | ERROR | stderr |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:35:19 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 5581, in drop
+2024-11-07 19:35:19 | ERROR | stderr |     return super().drop(
+2024-11-07 19:35:19 | ERROR | stderr |            ^^^^^^^^^^^^^
+2024-11-07 19:35:19 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 4788, in drop
+2024-11-07 19:35:19 | ERROR | stderr |     obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+2024-11-07 19:35:19 | ERROR | stderr |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:35:19 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 4830, in _drop_axis
+2024-11-07 19:35:19 | ERROR | stderr |     new_axis = axis.drop(labels, errors=errors)
+2024-11-07 19:35:19 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:35:19 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 7070, in drop
+2024-11-07 19:35:19 | ERROR | stderr |     raise KeyError(f"{labels[mask].tolist()} not found in axis")
+2024-11-07 19:35:19 | ERROR | stderr | KeyError: "['Price_cntrl_score', 'Rank_before', 'elo_rating'] not found in axis"
+2024-11-07 19:36:10 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:36:10 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:36:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 136, in <module>
+2024-11-07 19:36:10 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 19:36:10 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:36:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 94, in build_demo
+2024-11-07 19:36:10 | ERROR | stderr |     merged_leaderboard_file = join_leaderboard_and_pricing(leaderboard_table_file, pricing_table_file)
+2024-11-07 19:36:10 | ERROR | stderr |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:36:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 59, in join_leaderboard_and_pricing
+2024-11-07 19:36:10 | ERROR | stderr |     final_merged_df.drop(columns=['Rank_after', 'Price_cntrl_score', 'Rank_before', 'elo_rating'], inplace=True)
+2024-11-07 19:36:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 5581, in drop
+2024-11-07 19:36:10 | ERROR | stderr |     return super().drop(
+2024-11-07 19:36:10 | ERROR | stderr |            ^^^^^^^^^^^^^
+2024-11-07 19:36:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 4788, in drop
+2024-11-07 19:36:10 | ERROR | stderr |     obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+2024-11-07 19:36:10 | ERROR | stderr |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:36:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 4830, in _drop_axis
+2024-11-07 19:36:10 | ERROR | stderr |     new_axis = axis.drop(labels, errors=errors)
+2024-11-07 19:36:10 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:36:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 7070, in drop
+2024-11-07 19:36:10 | ERROR | stderr |     raise KeyError(f"{labels[mask].tolist()} not found in axis")
+2024-11-07 19:36:10 | ERROR | stderr | KeyError: "['elo_rating'] not found in axis"
+2024-11-07 19:36:55 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:36:56 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:36:56 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 136, in <module>
+2024-11-07 19:36:56 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 19:36:56 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:36:56 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 101, in build_demo
+2024-11-07 19:36:56 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 19:36:56 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:36:56 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1016, in build_leaderboard_tab
+2024-11-07 19:36:56 | ERROR | stderr |     data = load_leaderboard_table_csv(leaderboard_table_file)
+2024-11-07 19:36:56 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:36:56 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 212, in load_leaderboard_table_csv
+2024-11-07 19:36:56 | ERROR | stderr |     item["Model"] = model_hyperlink(item["Model"], item["Link"])
+2024-11-07 19:36:56 | ERROR | stderr |                                                    ~~~~^^^^^^^^
+2024-11-07 19:36:56 | ERROR | stderr | KeyError: 'Link'
+2024-11-07 19:37:23 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:37:25 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:37:25 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 136, in <module>
+2024-11-07 19:37:25 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 19:37:25 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:37:25 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 101, in build_demo
+2024-11-07 19:37:25 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 19:37:25 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:37:25 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1021, in build_leaderboard_tab
+2024-11-07 19:37:25 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-11-07 19:37:25 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-11-07 19:37:25 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 685, in build_arena_tab
+2024-11-07 19:37:25 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-11-07 19:37:25 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:37:25 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 481, in update_overall_leaderboard_df
+2024-11-07 19:37:25 | ERROR | stderr |     comparison_price_ctrl = elo_dataframe.apply(
+2024-11-07 19:37:25 | ERROR | stderr |                             ^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:37:25 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-11-07 19:37:25 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-11-07 19:37:25 | ERROR | stderr |            ^^^^^^^^^^
+2024-11-07 19:37:25 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-11-07 19:37:25 | ERROR | stderr |     return self.apply_standard()
+2024-11-07 19:37:25 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:37:25 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-11-07 19:37:25 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-11-07 19:37:25 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:37:25 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-11-07 19:37:25 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-11-07 19:37:25 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:37:25 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 467, in compare_func_price_ctrl
+2024-11-07 19:37:25 | ERROR | stderr |     if int(row["Rank (PriceCtrl)"]) == row["Rank* (UB)"]:
+2024-11-07 19:37:25 | ERROR | stderr |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:37:25 | ERROR | stderr | ValueError: invalid literal for int() with base 10: '<a target="_blank" href="https://help.openai.com/en/articles/9624314-model-release-notes" style="color: var(--link-text-color); text-decoration: underline;text-decoration-style: dotted;">ChatGPT-4o-l
+2024-11-07 19:38:45 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:38:47 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:38:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 136, in <module>
+2024-11-07 19:38:47 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 19:38:47 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:38:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 101, in build_demo
+2024-11-07 19:38:47 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 19:38:47 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:38:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1020, in build_leaderboard_tab
+2024-11-07 19:38:47 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-11-07 19:38:47 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-11-07 19:38:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 684, in build_arena_tab
+2024-11-07 19:38:47 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-11-07 19:38:47 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:38:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 480, in update_overall_leaderboard_df
+2024-11-07 19:38:47 | ERROR | stderr |     comparison_price_ctrl = elo_dataframe.apply(
+2024-11-07 19:38:47 | ERROR | stderr |                             ^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:38:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-11-07 19:38:47 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-11-07 19:38:47 | ERROR | stderr |            ^^^^^^^^^^
+2024-11-07 19:38:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-11-07 19:38:47 | ERROR | stderr |     return self.apply_standard()
+2024-11-07 19:38:47 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:38:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-11-07 19:38:47 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-11-07 19:38:47 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:38:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-11-07 19:38:47 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-11-07 19:38:47 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:38:47 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 466, in compare_func_price_ctrl
+2024-11-07 19:38:47 | ERROR | stderr |     if int(row["Rank (PriceCtrl)"]) == row["Rank* (UB)"]:
+2024-11-07 19:38:47 | ERROR | stderr |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:38:47 | ERROR | stderr | ValueError: cannot convert float NaN to integer
+2024-11-07 19:41:59 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:42:13 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:42:13 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+2024-11-07 19:42:13 | ERROR | stderr |     return self._engine.get_loc(casted_key)
+2024-11-07 19:42:13 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:42:13 | ERROR | stderr |   File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+2024-11-07 19:42:13 | ERROR | stderr |   File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+2024-11-07 19:42:13 | ERROR | stderr |   File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+2024-11-07 19:42:13 | ERROR | stderr |   File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+2024-11-07 19:42:13 | ERROR | stderr | KeyError: 'License'
+2024-11-07 19:42:13 | ERROR | stderr | 
+2024-11-07 19:42:13 | ERROR | stderr | The above exception was the direct cause of the following exception:
+2024-11-07 19:42:13 | ERROR | stderr | 
+2024-11-07 19:42:13 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 19:42:13 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 136, in <module>
+2024-11-07 19:42:13 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 19:42:13 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:42:13 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 101, in build_demo
+2024-11-07 19:42:13 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 19:42:13 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:42:13 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1115, in build_leaderboard_tab
+2024-11-07 19:42:13 | ERROR | stderr |     build_full_leaderboard_tab(
+2024-11-07 19:42:13 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 800, in build_full_leaderboard_tab
+2024-11-07 19:42:13 | ERROR | stderr |     full_table_vals = get_full_table(arena_df, model_table_df, model_to_score)
+2024-11-07 19:42:13 | ERROR | stderr |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:42:13 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 259, in get_full_table
+2024-11-07 19:42:13 | ERROR | stderr |     row.append(model_table_df.iloc[i]["License"])
+2024-11-07 19:42:13 | ERROR | stderr |                ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+2024-11-07 19:42:13 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/series.py", line 1121, in __getitem__
+2024-11-07 19:42:13 | ERROR | stderr |     return self._get_value(key)
+2024-11-07 19:42:13 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:42:13 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/series.py", line 1237, in _get_value
+2024-11-07 19:42:13 | ERROR | stderr |     loc = self.index.get_loc(label)
+2024-11-07 19:42:13 | ERROR | stderr |           ^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 19:42:13 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+2024-11-07 19:42:13 | ERROR | stderr |     raise KeyError(key) from err
+2024-11-07 19:42:13 | ERROR | stderr | KeyError: 'License'
+2024-11-07 19:42:43 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:42:56 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-07 19:42:57 | INFO | stdout | Running on public URL: https://9f24fe77b54e057251.gradio.live
+2024-11-07 19:42:57 | INFO | stdout | 
+2024-11-07 19:42:57 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-07 19:45:32 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-07 19:45:32 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://9f24fe77b54e057251.gradio.live
+2024-11-07 19:45:37 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:45:51 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-07 19:45:51 | INFO | stdout | Running on public URL: https://8a6211d78062fe35a7.gradio.live
+2024-11-07 19:45:51 | INFO | stdout | 
+2024-11-07 19:45:51 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-07 19:51:09 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-07 19:51:09 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://8a6211d78062fe35a7.gradio.live
+2024-11-07 19:51:15 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:51:29 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-07 19:51:29 | INFO | stdout | Running on public URL: https://4a3a5fbf64e97ec2ea.gradio.live
+2024-11-07 19:51:29 | INFO | stdout | 
+2024-11-07 19:51:29 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-07 19:52:11 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-07 19:52:11 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://4a3a5fbf64e97ec2ea.gradio.live
+2024-11-07 19:53:35 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:53:49 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-07 19:53:50 | INFO | stdout | Running on public URL: https://feee7e12dcd4cf18bb.gradio.live
+2024-11-07 19:53:50 | INFO | stdout | 
+2024-11-07 19:53:50 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-07 19:54:55 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-07 19:54:56 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://feee7e12dcd4cf18bb.gradio.live
+2024-11-07 19:55:01 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:55:14 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-07 19:55:15 | INFO | stdout | Running on public URL: https://727f32024b1ebc2037.gradio.live
+2024-11-07 19:55:15 | INFO | stdout | 
+2024-11-07 19:55:15 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-07 19:56:24 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-07 19:56:24 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://727f32024b1ebc2037.gradio.live
+2024-11-07 19:56:29 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 19:56:43 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-07 19:56:43 | INFO | stdout | Running on public URL: https://d812ba3f36b0ed6f8e.gradio.live
+2024-11-07 19:56:43 | INFO | stdout | 
+2024-11-07 19:56:43 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-07 20:05:46 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-07 20:05:46 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://d812ba3f36b0ed6f8e.gradio.live
+2024-11-07 20:05:51 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 20:05:51 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 20:05:51 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/blocks.py", line 2328, in fillna
+2024-11-07 20:05:51 | ERROR | stderr |     new_values = self.values.fillna(
+2024-11-07 20:05:51 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^
+2024-11-07 20:05:51 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/arrays/masked.py", line 266, in fillna
+2024-11-07 20:05:51 | ERROR | stderr |     new_values[mask] = value
+2024-11-07 20:05:51 | ERROR | stderr |     ~~~~~~~~~~^^^^^^
+2024-11-07 20:05:51 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/arrays/masked.py", line 314, in __setitem__
+2024-11-07 20:05:51 | ERROR | stderr |     value = self._validate_setitem_value(value)
+2024-11-07 20:05:51 | ERROR | stderr |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 20:05:51 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/arrays/masked.py", line 305, in _validate_setitem_value
+2024-11-07 20:05:51 | ERROR | stderr |     raise TypeError(f"Invalid value '{str(value)}' for dtype {self.dtype}")
+2024-11-07 20:05:51 | ERROR | stderr | TypeError: Invalid value '-' for dtype Int64
+2024-11-07 20:05:51 | ERROR | stderr | 
+2024-11-07 20:05:51 | ERROR | stderr | During handling of the above exception, another exception occurred:
+2024-11-07 20:05:51 | ERROR | stderr | 
+2024-11-07 20:05:51 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 20:05:51 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 137, in <module>
+2024-11-07 20:05:51 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 20:05:51 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 20:05:51 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 95, in build_demo
+2024-11-07 20:05:51 | ERROR | stderr |     merged_leaderboard_file = join_leaderboard_and_pricing(leaderboard_table_file, pricing_table_file)
+2024-11-07 20:05:51 | ERROR | stderr |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 20:05:51 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 58, in join_leaderboard_and_pricing
+2024-11-07 20:05:51 | ERROR | stderr |     final_merged_df["Rank_after"] = pd.to_numeric(final_merged_df["Rank_after"], errors="coerce").astype("Int64").fillna("-")
+2024-11-07 20:05:51 | ERROR | stderr |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 20:05:51 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 7349, in fillna
+2024-11-07 20:05:51 | ERROR | stderr |     new_data = self._mgr.fillna(
+2024-11-07 20:05:51 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^
+2024-11-07 20:05:51 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/base.py", line 186, in fillna
+2024-11-07 20:05:51 | ERROR | stderr |     return self.apply_with_block(
+2024-11-07 20:05:51 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 20:05:51 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 363, in apply
+2024-11-07 20:05:51 | ERROR | stderr |     applied = getattr(b, f)(**kwargs)
+2024-11-07 20:05:51 | ERROR | stderr |               ^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 20:05:51 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/blocks.py", line 2334, in fillna
+2024-11-07 20:05:51 | ERROR | stderr |     new_values = self.values.fillna(value=value, method=None, limit=limit)
+2024-11-07 20:05:51 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 20:05:51 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/arrays/masked.py", line 266, in fillna
+2024-11-07 20:05:51 | ERROR | stderr |     new_values[mask] = value
+2024-11-07 20:05:51 | ERROR | stderr |     ~~~~~~~~~~^^^^^^
+2024-11-07 20:05:51 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/arrays/masked.py", line 314, in __setitem__
+2024-11-07 20:05:51 | ERROR | stderr |     value = self._validate_setitem_value(value)
+2024-11-07 20:05:51 | ERROR | stderr |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 20:05:51 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/arrays/masked.py", line 305, in _validate_setitem_value
+2024-11-07 20:05:51 | ERROR | stderr |     raise TypeError(f"Invalid value '{str(value)}' for dtype {self.dtype}")
+2024-11-07 20:05:51 | ERROR | stderr | TypeError: Invalid value '-' for dtype Int64
+2024-11-07 20:06:16 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 20:06:30 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-07 20:06:30 | INFO | stdout | Running on public URL: https://e8b616dcb902e8a83f.gradio.live
+2024-11-07 20:06:30 | INFO | stdout | 
+2024-11-07 20:06:30 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-07 20:07:57 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-07 20:07:57 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://e8b616dcb902e8a83f.gradio.live
+2024-11-07 20:08:03 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 20:08:17 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-07 20:08:18 | INFO | stdout | Running on public URL: https://7947f342bb5e1e102d.gradio.live
+2024-11-07 20:08:18 | INFO | stdout | 
+2024-11-07 20:08:18 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-07 20:09:16 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-07 20:09:17 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://7947f342bb5e1e102d.gradio.live
+2024-11-07 20:09:51 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 20:10:05 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-07 20:10:05 | INFO | stdout | Running on public URL: https://b00ef452c1ff88df1a.gradio.live
+2024-11-07 20:10:05 | INFO | stdout | 
+2024-11-07 20:10:05 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-07 20:12:13 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-07 20:12:13 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://b00ef452c1ff88df1a.gradio.live
+2024-11-07 20:12:18 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 20:12:32 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-07 20:12:33 | INFO | stdout | Running on public URL: https://545689c30b6708cc32.gradio.live
+2024-11-07 20:12:33 | INFO | stdout | 
+2024-11-07 20:12:33 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-07 20:15:19 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-07 20:15:19 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://545689c30b6708cc32.gradio.live
+2024-11-07 20:15:24 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 20:15:38 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-07 20:15:39 | INFO | stdout | Running on public URL: https://259d906b966a54d082.gradio.live
+2024-11-07 20:15:39 | INFO | stdout | 
+2024-11-07 20:15:39 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-07 20:20:36 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-07 20:20:36 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://259d906b966a54d082.gradio.live
+2024-11-07 20:20:41 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 20:20:55 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-07 20:20:56 | INFO | stdout | Running on public URL: https://d8c7fc408709977a19.gradio.live
+2024-11-07 20:20:56 | INFO | stdout | 
+2024-11-07 20:20:56 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-07 20:21:24 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-07 20:21:24 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://d8c7fc408709977a19.gradio.live
+2024-11-07 20:23:31 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 20:23:33 | ERROR | stderr | Traceback (most recent call last):
+2024-11-07 20:23:33 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 138, in <module>
+2024-11-07 20:23:33 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-07 20:23:33 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 20:23:33 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 103, in build_demo
+2024-11-07 20:23:33 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-07 20:23:33 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 20:23:33 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1025, in build_leaderboard_tab
+2024-11-07 20:23:33 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-11-07 20:23:33 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-11-07 20:23:33 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 687, in build_arena_tab
+2024-11-07 20:23:33 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-11-07 20:23:33 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 20:23:33 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 481, in update_overall_leaderboard_df
+2024-11-07 20:23:33 | ERROR | stderr |     comparison_price_ctrl = elo_dataframe.apply(
+2024-11-07 20:23:33 | ERROR | stderr |                             ^^^^^^^^^^^^^^^^^^^^
+2024-11-07 20:23:33 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-11-07 20:23:33 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-11-07 20:23:33 | ERROR | stderr |            ^^^^^^^^^^
+2024-11-07 20:23:33 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-11-07 20:23:33 | ERROR | stderr |     return self.apply_standard()
+2024-11-07 20:23:33 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 20:23:33 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-11-07 20:23:33 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-11-07 20:23:33 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 20:23:33 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-11-07 20:23:33 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-11-07 20:23:33 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 20:23:33 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 465, in compare_func_price_ctrl
+2024-11-07 20:23:33 | ERROR | stderr |     if row["Rank (PriceCtrl)"] is None or np.isnan(row["Rank (PriceCtrl)"]):
+2024-11-07 20:23:33 | ERROR | stderr |                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-07 20:23:33 | ERROR | stderr | TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2024-11-07 20:24:52 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 20:25:06 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-07 20:25:06 | INFO | stdout | Running on public URL: https://2320198b052e4fc251.gradio.live
+2024-11-07 20:25:06 | INFO | stdout | 
+2024-11-07 20:25:06 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-07 20:26:34 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-07 20:26:34 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://2320198b052e4fc251.gradio.live
+2024-11-07 20:31:46 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 20:32:00 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-07 20:32:00 | INFO | stdout | Running on public URL: https://a94d0d2221d1db01af.gradio.live
+2024-11-07 20:32:00 | INFO | stdout | 
+2024-11-07 20:32:00 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-07 20:36:16 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-07 20:36:16 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://a94d0d2221d1db01af.gradio.live
+2024-11-07 20:36:21 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 20:36:35 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-07 20:36:35 | INFO | stdout | Running on public URL: https://1c0db41cbb7b6279ed.gradio.live
+2024-11-07 20:36:35 | INFO | stdout | 
+2024-11-07 20:36:35 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-07 20:38:51 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-07 20:38:52 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://1c0db41cbb7b6279ed.gradio.live
+2024-11-07 20:38:58 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-07 20:39:12 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-07 20:39:12 | INFO | stdout | Running on public URL: https://9ad796da1a39d6c67e.gradio.live
+2024-11-07 20:39:12 | INFO | stdout | 
+2024-11-07 20:39:12 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-07 20:59:50 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-07 20:59:51 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://9ad796da1a39d6c67e.gradio.live

@@ -1,0 +1,151 @@
+2024-11-18 15:03:53 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-18 15:03:54 | ERROR | stderr | Traceback (most recent call last):
+2024-11-18 15:03:54 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 139, in <module>
+2024-11-18 15:03:54 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-18 15:03:54 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-18 15:03:54 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 104, in build_demo
+2024-11-18 15:03:54 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-18 15:03:54 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-18 15:03:54 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1026, in build_leaderboard_tab
+2024-11-18 15:03:54 | ERROR | stderr |     data = load_leaderboard_table_csv(leaderboard_table_file)
+2024-11-18 15:03:54 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-18 15:03:54 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 212, in load_leaderboard_table_csv
+2024-11-18 15:03:54 | ERROR | stderr |     item["Model"] = model_hyperlink(item["Model"], item["Link"])
+2024-11-18 15:03:54 | ERROR | stderr |                                     ~~~~^^^^^^^^^
+2024-11-18 15:03:54 | ERROR | stderr | KeyError: 'Model'
+2024-11-18 15:13:04 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-18 15:13:18 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-18 15:13:19 | INFO | stdout | Running on public URL: https://b356afd773da925dec.gradio.live
+2024-11-18 15:13:19 | INFO | stdout | 
+2024-11-18 15:13:19 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-18 15:14:10 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-18 15:14:10 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://b356afd773da925dec.gradio.live
+2024-11-18 15:15:40 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-18 15:15:53 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-18 15:15:54 | INFO | stdout | Running on public URL: https://37c9d34592cc65a23e.gradio.live
+2024-11-18 15:15:54 | INFO | stdout | 
+2024-11-18 15:15:54 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-18 15:16:45 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-18 15:16:45 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://37c9d34592cc65a23e.gradio.live
+2024-11-18 15:17:08 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-18 15:17:08 | ERROR | stderr | Traceback (most recent call last):
+2024-11-18 15:17:08 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 138, in <module>
+2024-11-18 15:17:08 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-18 15:17:08 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-18 15:17:08 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 96, in build_demo
+2024-11-18 15:17:08 | ERROR | stderr |     merged_leaderboard_file = join_leaderboard_and_pricing(leaderboard_table_file, pricing_table_file)
+2024-11-18 15:17:08 | ERROR | stderr |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-18 15:17:08 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 25, in join_leaderboard_and_pricing
+2024-11-18 15:17:08 | ERROR | stderr |     csvfile = open(pricing_csv_file, 'w')
+2024-11-18 15:17:08 | ERROR | stderr |                    ^^^^^^^^^^^^^^^^
+2024-11-18 15:17:08 | ERROR | stderr | NameError: name 'pricing_csv_file' is not defined. Did you mean: 'pricing_file'?
+2024-11-18 15:33:02 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-18 15:33:17 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-18 15:33:17 | INFO | stdout | Running on public URL: https://df2ffc14453446bd64.gradio.live
+2024-11-18 15:33:17 | INFO | stdout | 
+2024-11-18 15:33:17 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-18 15:33:57 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-18 15:33:57 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://df2ffc14453446bd64.gradio.live
+2024-11-18 16:16:21 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-18 16:16:24 | ERROR | stderr | Traceback (most recent call last):
+2024-11-18 16:16:24 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 138, in <module>
+2024-11-18 16:16:24 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-18 16:16:24 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-18 16:16:24 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 103, in build_demo
+2024-11-18 16:16:24 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-18 16:16:24 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-18 16:16:24 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1032, in build_leaderboard_tab
+2024-11-18 16:16:24 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-11-18 16:16:24 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-11-18 16:16:24 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 656, in build_arena_tab
+2024-11-18 16:16:24 | ERROR | stderr |     arena_table_vals = get_arena_table(
+2024-11-18 16:16:24 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^
+2024-11-18 16:16:24 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 391, in get_arena_table
+2024-11-18 16:16:24 | ERROR | stderr |     values = [
+2024-11-18 16:16:24 | ERROR | stderr |              ^
+2024-11-18 16:16:24 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 394, in <listcomp>
+2024-11-18 16:16:24 | ERROR | stderr |     if process_row(row) is not None
+2024-11-18 16:16:24 | ERROR | stderr |        ^^^^^^^^^^^^^^^^
+2024-11-18 16:16:24 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 386, in process_row
+2024-11-18 16:16:24 | ERROR | stderr |     int(round(model_info.get("average_price", "-"))),
+2024-11-18 16:16:24 | ERROR | stderr |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-18 16:16:24 | ERROR | stderr | ValueError: cannot convert float NaN to integer
+2024-11-18 16:16:41 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-18 16:16:43 | ERROR | stderr | Traceback (most recent call last):
+2024-11-18 16:16:43 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 138, in <module>
+2024-11-18 16:16:43 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-18 16:16:43 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-18 16:16:43 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 103, in build_demo
+2024-11-18 16:16:43 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-18 16:16:43 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-18 16:16:43 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1032, in build_leaderboard_tab
+2024-11-18 16:16:43 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-11-18 16:16:43 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-11-18 16:16:43 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 656, in build_arena_tab
+2024-11-18 16:16:43 | ERROR | stderr |     arena_table_vals = get_arena_table(
+2024-11-18 16:16:43 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^
+2024-11-18 16:16:43 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 391, in get_arena_table
+2024-11-18 16:16:43 | ERROR | stderr |     values = [
+2024-11-18 16:16:43 | ERROR | stderr |              ^
+2024-11-18 16:16:43 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 394, in <listcomp>
+2024-11-18 16:16:43 | ERROR | stderr |     if process_row(row) is not None
+2024-11-18 16:16:43 | ERROR | stderr |        ^^^^^^^^^^^^^^^^
+2024-11-18 16:16:43 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 386, in process_row
+2024-11-18 16:16:43 | ERROR | stderr |     round(model_info.get("average_price", "-")),
+2024-11-18 16:16:43 | ERROR | stderr |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-18 16:16:43 | ERROR | stderr | ValueError: cannot convert float NaN to integer
+2024-11-18 16:19:57 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-18 16:19:59 | ERROR | stderr | Traceback (most recent call last):
+2024-11-18 16:19:59 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 138, in <module>
+2024-11-18 16:19:59 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-18 16:19:59 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-18 16:19:59 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 103, in build_demo
+2024-11-18 16:19:59 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-18 16:19:59 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-18 16:19:59 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1038, in build_leaderboard_tab
+2024-11-18 16:19:59 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-11-18 16:19:59 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-11-18 16:19:59 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 662, in build_arena_tab
+2024-11-18 16:19:59 | ERROR | stderr |     arena_table_vals = get_arena_table(
+2024-11-18 16:19:59 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^
+2024-11-18 16:19:59 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 391, in get_arena_table
+2024-11-18 16:19:59 | ERROR | stderr |     values = [
+2024-11-18 16:19:59 | ERROR | stderr |              ^
+2024-11-18 16:19:59 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 394, in <listcomp>
+2024-11-18 16:19:59 | ERROR | stderr |     if process_row(row) is not None
+2024-11-18 16:19:59 | ERROR | stderr |        ^^^^^^^^^^^^^^^^
+2024-11-18 16:19:59 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 386, in process_row
+2024-11-18 16:19:59 | ERROR | stderr |     round_decimal(model_info.get("average_price", "-")),
+2024-11-18 16:19:59 | ERROR | stderr |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-18 16:19:59 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 400, in round_decimal
+2024-11-18 16:19:59 | ERROR | stderr |     if isinstance(value, (int, float)) and not math.isnan(value):
+2024-11-18 16:19:59 | ERROR | stderr |                                                ^^^^
+2024-11-18 16:19:59 | ERROR | stderr | NameError: name 'math' is not defined
+2024-11-18 16:20:20 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-18 16:20:34 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-18 16:20:35 | INFO | stdout | Running on public URL: https://8594dc5b2010bd056f.gradio.live
+2024-11-18 16:20:35 | INFO | stdout | 
+2024-11-18 16:20:35 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-18 16:22:26 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-18 16:22:26 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://8594dc5b2010bd056f.gradio.live
+2024-11-18 16:22:32 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-18 16:22:46 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-18 16:22:47 | INFO | stdout | Running on public URL: https://6325524d24b63dbac0.gradio.live
+2024-11-18 16:22:47 | INFO | stdout | 
+2024-11-18 16:22:47 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-18 16:23:10 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-18 16:23:10 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://6325524d24b63dbac0.gradio.live
+2024-11-18 16:23:17 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-18 16:23:31 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-18 16:23:31 | INFO | stdout | Running on public URL: https://6bf175b8e23518e367.gradio.live
+2024-11-18 16:23:31 | INFO | stdout | 
+2024-11-18 16:23:31 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-18 16:23:56 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-18 16:23:57 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://6bf175b8e23518e367.gradio.live
+2024-11-18 16:24:04 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-18 16:24:19 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-18 16:24:19 | INFO | stdout | Running on public URL: https://83ef1c1b1db0949025.gradio.live
+2024-11-18 16:24:19 | INFO | stdout | 
+2024-11-18 16:24:19 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-18 16:41:37 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-18 16:41:37 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://83ef1c1b1db0949025.gradio.live

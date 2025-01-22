@@ -1,0 +1,16 @@
+2024-12-19 14:33:54 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-19 14:33:57 | INFO | stdout | Update overall leaderboard df
+2024-12-19 14:33:57 | INFO | stdout | initial loads
+2024-12-19 14:34:09 | INFO | stdout | Update overall leaderboard df
+2024-12-19 14:34:09 | INFO | stdout | initial loads
+2024-12-19 14:34:09 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-19 14:34:09 | INFO | stdout | 
+2024-12-19 14:34:09 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-19 14:34:29 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-19 14:40:25 | INFO | stdout | In overall category
+2024-12-19 14:40:25 | INFO | stdout | Update overall leaderboard df
+2024-12-19 14:43:17 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-19 14:44:03 | INFO | stdout | In overall category
+2024-12-19 14:44:03 | INFO | stdout | Update overall leaderboard df
+2024-12-19 14:44:05 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-19 14:48:47 | INFO | stdout | Keyboard interruption in main thread... closing server.

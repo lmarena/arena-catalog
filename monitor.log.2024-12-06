@@ -1,0 +1,1173 @@
+2024-12-04 20:09:26 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-04 20:09:29 | INFO | stdout | Update overall leaderboard df
+2024-12-04 20:09:29 | INFO | stdout | Before highlighting red and green
+2024-12-04 20:09:29 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 20:09:41 | INFO | stdout | Update overall leaderboard df
+2024-12-04 20:09:41 | INFO | stdout | Before highlighting red and green
+2024-12-04 20:09:41 | INFO | stdout | Indices red:  []
+2024-12-04 20:09:41 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-04 20:09:41 | INFO | stdout | 
+2024-12-04 20:09:41 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-04 20:10:04 | INFO | stdout | In overall category
+2024-12-04 20:10:04 | INFO | stdout | Update overall leaderboard df
+2024-12-04 20:10:04 | INFO | stdout | Before highlighting red and green
+2024-12-04 20:10:04 | INFO | stdout | Indices red:  []
+2024-12-04 20:10:04 | INFO | stdout | price control value True
+2024-12-04 20:14:55 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-04 21:09:21 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-04 21:09:24 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:09:24 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:09:24 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 21:09:35 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:09:35 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:09:35 | INFO | stdout | Indices red:  []
+2024-12-04 21:09:35 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-04 21:09:35 | INFO | stdout | 
+2024-12-04 21:09:35 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-04 21:10:01 | INFO | stdout | In overall category
+2024-12-04 21:10:01 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:10:01 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:10:01 | INFO | stdout | Indices red:  []
+2024-12-04 21:10:01 | INFO | stdout | price control value True
+2024-12-04 21:10:04 | INFO | stdout | In overall category
+2024-12-04 21:10:04 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:10:04 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:10:04 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 21:10:04 | INFO | stdout | price control value False
+2024-12-04 21:10:04 | INFO | stdout | Reapplying colors...
+2024-12-04 21:10:10 | INFO | stdout | In overall category
+2024-12-04 21:10:10 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:10:10 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:10:10 | INFO | stdout | Indices red:  []
+2024-12-04 21:10:10 | INFO | stdout | price control value True
+2024-12-04 21:10:12 | INFO | stdout | In overall category
+2024-12-04 21:10:12 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:10:12 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:10:12 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 21:10:12 | INFO | stdout | price control value False
+2024-12-04 21:10:12 | INFO | stdout | Reapplying colors...
+2024-12-04 21:10:27 | INFO | stdout | In overall category
+2024-12-04 21:10:27 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:10:27 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:10:27 | INFO | stdout | Indices red:  []
+2024-12-04 21:10:27 | INFO | stdout | price control value True
+2024-12-04 21:10:33 | INFO | stdout | In overall category
+2024-12-04 21:10:33 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:10:33 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:10:33 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 21:10:33 | INFO | stdout | price control value False
+2024-12-04 21:10:33 | INFO | stdout | Reapplying colors...
+2024-12-04 21:10:36 | INFO | stdout | In overall category
+2024-12-04 21:10:36 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:10:36 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:10:36 | INFO | stdout | Indices red:  [3, 7, 9, 10, 12, 15, 19, 20, 22, 24, 26, 40, 41, 43, 44, 46, 48, 54, 58, 59, 65, 66, 67, 74, 78, 80, 81, 85, 88, 89, 90, 92, 94, 95, 97, 100, 101, 103, 104, 108, 109, 110, 111, 113, 115, 117, 118, 120, 122, 127, 133, 143, 147]
+2024-12-04 21:10:36 | INFO | stdout | price control value False
+2024-12-04 21:10:36 | INFO | stdout | Reapplying colors...
+2024-12-04 21:10:38 | INFO | stdout | In overall category
+2024-12-04 21:10:38 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:10:38 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:10:38 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 21:10:38 | INFO | stdout | price control value False
+2024-12-04 21:10:38 | INFO | stdout | Reapplying colors...
+2024-12-04 21:10:41 | INFO | stdout | Price control applied...
+2024-12-04 21:10:43 | INFO | stdout | In overall category
+2024-12-04 21:10:43 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:10:43 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:10:43 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 21:10:43 | INFO | stdout | price control value False
+2024-12-04 21:10:43 | INFO | stdout | Reapplying colors...
+2024-12-04 21:11:15 | INFO | stdout | In overall category
+2024-12-04 21:11:15 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:11:15 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:11:15 | INFO | stdout | Indices red:  []
+2024-12-04 21:11:15 | INFO | stdout | price control value True
+2024-12-04 21:11:50 | INFO | stdout | In overall category
+2024-12-04 21:11:50 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:11:50 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:11:50 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 21:11:50 | INFO | stdout | price control value False
+2024-12-04 21:11:50 | INFO | stdout | Reapplying colors...
+2024-12-04 21:11:57 | INFO | stdout | In overall category
+2024-12-04 21:11:57 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:11:57 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:11:57 | INFO | stdout | Indices red:  []
+2024-12-04 21:11:57 | INFO | stdout | price control value True
+2024-12-04 21:13:11 | INFO | stdout | In overall category
+2024-12-04 21:13:11 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:13:11 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:13:11 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 21:13:11 | INFO | stdout | price control value False
+2024-12-04 21:13:11 | INFO | stdout | Reapplying colors...
+2024-12-04 21:13:52 | INFO | stdout | In overall category
+2024-12-04 21:13:52 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:13:52 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:13:52 | INFO | stdout | Indices red:  []
+2024-12-04 21:13:52 | INFO | stdout | price control value True
+2024-12-04 21:13:59 | INFO | stdout | In overall category
+2024-12-04 21:13:59 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:13:59 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:13:59 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 21:13:59 | INFO | stdout | price control value False
+2024-12-04 21:13:59 | INFO | stdout | Reapplying colors...
+2024-12-04 21:15:03 | INFO | stdout | Price control applied...
+2024-12-04 21:15:06 | INFO | stdout | In overall category
+2024-12-04 21:15:06 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:15:06 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:15:06 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 21:15:06 | INFO | stdout | price control value False
+2024-12-04 21:15:06 | INFO | stdout | Reapplying colors...
+2024-12-04 21:15:07 | INFO | stdout | In overall category
+2024-12-04 21:15:07 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:15:07 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:15:07 | INFO | stdout | Indices red:  [3, 7, 9, 10, 12, 15, 19, 20, 22, 24, 26, 40, 41, 43, 44, 46, 48, 54, 58, 59, 65, 66, 67, 74, 78, 80, 81, 85, 88, 89, 90, 92, 94, 95, 97, 100, 101, 103, 104, 108, 109, 110, 111, 113, 115, 117, 118, 120, 122, 127, 133, 143, 147]
+2024-12-04 21:15:07 | INFO | stdout | price control value False
+2024-12-04 21:15:07 | INFO | stdout | Reapplying colors...
+2024-12-04 21:15:10 | INFO | stdout | In overall category
+2024-12-04 21:15:10 | INFO | stdout | Update overall leaderboard df
+2024-12-04 21:15:10 | INFO | stdout | Before highlighting red and green
+2024-12-04 21:15:10 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 21:15:10 | INFO | stdout | price control value False
+2024-12-04 21:15:10 | INFO | stdout | Reapplying colors...
+2024-12-04 22:05:15 | INFO | stdout | Price control applied...
+2024-12-04 22:05:20 | INFO | stdout | In overall category
+2024-12-04 22:05:20 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:05:20 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:05:20 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:05:20 | INFO | stdout | price control value False
+2024-12-04 22:05:20 | INFO | stdout | Reapplying colors...
+2024-12-04 22:15:31 | INFO | stdout | Price control applied...
+2024-12-04 22:15:33 | INFO | stdout | Price control applied...
+2024-12-04 22:16:37 | INFO | stdout | Price control applied...
+2024-12-04 22:16:41 | INFO | stdout | Price control applied...
+2024-12-04 22:17:38 | INFO | stdout | Price control applied...
+2024-12-04 22:17:42 | INFO | stdout | In overall category
+2024-12-04 22:17:42 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:17:42 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:17:42 | INFO | stdout | Indices red:  []
+2024-12-04 22:17:42 | INFO | stdout | price control value True
+2024-12-04 22:17:46 | INFO | stdout | Price control applied...
+2024-12-04 22:17:52 | INFO | stdout | In overall category
+2024-12-04 22:17:52 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:17:52 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:17:52 | INFO | stdout | Indices red:  []
+2024-12-04 22:17:52 | INFO | stdout | price control value True
+2024-12-04 22:18:09 | INFO | stdout | Price control applied...
+2024-12-04 22:18:21 | INFO | stdout | Price control applied...
+2024-12-04 22:18:59 | INFO | stdout | In overall category
+2024-12-04 22:18:59 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:18:59 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:18:59 | INFO | stdout | Indices red:  []
+2024-12-04 22:18:59 | INFO | stdout | price control value True
+2024-12-04 22:24:01 | INFO | stdout | In overall category
+2024-12-04 22:24:01 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:24:01 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:24:01 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:24:01 | INFO | stdout | price control value False
+2024-12-04 22:24:01 | INFO | stdout | Reapplying colors...
+2024-12-04 22:24:08 | INFO | stdout | Price control applied...
+2024-12-04 22:24:12 | INFO | stdout | In overall category
+2024-12-04 22:24:12 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:24:12 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:24:12 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:24:12 | INFO | stdout | price control value False
+2024-12-04 22:24:12 | INFO | stdout | Reapplying colors...
+2024-12-04 22:24:14 | INFO | stdout | Price control applied...
+2024-12-04 22:27:46 | INFO | stdout | Price control applied...
+2024-12-04 22:27:51 | INFO | stdout | Price control applied...
+2024-12-04 22:28:04 | INFO | stdout | In overall category
+2024-12-04 22:28:04 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:28:04 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:28:04 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:28:04 | INFO | stdout | price control value False
+2024-12-04 22:28:04 | INFO | stdout | Reapplying colors...
+2024-12-04 22:28:12 | INFO | stdout | In overall category
+2024-12-04 22:28:12 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:28:12 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:28:12 | INFO | stdout | Indices red:  [3, 7, 9, 10, 12, 15, 19, 20, 22, 24, 26, 40, 41, 43, 44, 46, 48, 54, 58, 59, 65, 66, 67, 74, 78, 80, 81, 85, 88, 89, 90, 92, 94, 95, 97, 100, 101, 103, 104, 108, 109, 110, 111, 113, 115, 117, 118, 120, 122, 127, 133, 143, 147]
+2024-12-04 22:28:12 | INFO | stdout | price control value False
+2024-12-04 22:28:12 | INFO | stdout | Reapplying colors...
+2024-12-04 22:28:16 | INFO | stdout | In overall category
+2024-12-04 22:28:16 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:28:16 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:28:16 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:28:16 | INFO | stdout | price control value False
+2024-12-04 22:28:16 | INFO | stdout | Reapplying colors...
+2024-12-04 22:28:19 | INFO | stdout | In overall category
+2024-12-04 22:28:19 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:28:19 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:28:19 | INFO | stdout | Indices red:  []
+2024-12-04 22:28:19 | INFO | stdout | price control value True
+2024-12-04 22:28:22 | INFO | stdout | In overall category
+2024-12-04 22:28:22 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:28:22 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:28:22 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:28:22 | INFO | stdout | price control value False
+2024-12-04 22:28:22 | INFO | stdout | Reapplying colors...
+2024-12-04 22:28:24 | INFO | stdout | Price control applied...
+2024-12-04 22:28:28 | INFO | stdout | Price control applied...
+2024-12-04 22:28:31 | INFO | stdout | In overall category
+2024-12-04 22:28:31 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:28:31 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:28:31 | INFO | stdout | Indices red:  [3, 7, 9, 10, 12, 15, 19, 20, 22, 24, 26, 40, 41, 43, 44, 46, 48, 54, 58, 59, 65, 66, 67, 74, 78, 80, 81, 85, 88, 89, 90, 92, 94, 95, 97, 100, 101, 103, 104, 108, 109, 110, 111, 113, 115, 117, 118, 120, 122, 127, 133, 143, 147]
+2024-12-04 22:28:31 | INFO | stdout | price control value False
+2024-12-04 22:28:31 | INFO | stdout | Reapplying colors...
+2024-12-04 22:28:36 | INFO | stdout | In overall category
+2024-12-04 22:28:36 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:28:36 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:28:36 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:28:36 | INFO | stdout | price control value False
+2024-12-04 22:28:36 | INFO | stdout | Reapplying colors...
+2024-12-04 22:28:42 | INFO | stdout | Price control applied...
+2024-12-04 22:28:51 | INFO | stdout | In overall category
+2024-12-04 22:28:51 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:28:51 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:28:51 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:28:51 | INFO | stdout | price control value False
+2024-12-04 22:28:51 | INFO | stdout | Reapplying colors...
+2024-12-04 22:29:03 | INFO | stdout | Price control applied...
+2024-12-04 22:29:06 | INFO | stdout | In overall category
+2024-12-04 22:29:06 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:29:06 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:29:06 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:29:06 | INFO | stdout | price control value False
+2024-12-04 22:29:06 | INFO | stdout | Reapplying colors...
+2024-12-04 22:29:09 | INFO | stdout | In overall category
+2024-12-04 22:29:09 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:29:09 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:29:09 | INFO | stdout | Indices red:  [3, 7, 9, 10, 12, 15, 19, 20, 22, 24, 26, 40, 41, 43, 44, 46, 48, 54, 58, 59, 65, 66, 67, 74, 78, 80, 81, 85, 88, 89, 90, 92, 94, 95, 97, 100, 101, 103, 104, 108, 109, 110, 111, 113, 115, 117, 118, 120, 122, 127, 133, 143, 147]
+2024-12-04 22:29:09 | INFO | stdout | price control value False
+2024-12-04 22:29:09 | INFO | stdout | Reapplying colors...
+2024-12-04 22:29:12 | INFO | stdout | In overall category
+2024-12-04 22:29:12 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:29:12 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:29:12 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:29:12 | INFO | stdout | price control value False
+2024-12-04 22:29:12 | INFO | stdout | Reapplying colors...
+2024-12-04 22:29:14 | INFO | stdout | In overall category
+2024-12-04 22:29:14 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:29:14 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:29:14 | INFO | stdout | Indices red:  []
+2024-12-04 22:29:14 | INFO | stdout | price control value True
+2024-12-04 22:29:17 | INFO | stdout | In overall category
+2024-12-04 22:29:17 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:29:17 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:29:17 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:29:17 | INFO | stdout | price control value False
+2024-12-04 22:29:17 | INFO | stdout | Reapplying colors...
+2024-12-04 22:29:23 | INFO | stdout | Price control applied...
+2024-12-04 22:29:30 | INFO | stdout | Price control applied...
+2024-12-04 22:29:33 | INFO | stdout | Price control applied...
+2024-12-04 22:29:40 | INFO | stdout | In overall category
+2024-12-04 22:29:40 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:29:40 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:29:40 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:29:40 | INFO | stdout | price control value False
+2024-12-04 22:29:40 | INFO | stdout | Reapplying colors...
+2024-12-04 22:29:54 | INFO | stdout | In overall category
+2024-12-04 22:29:54 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:29:54 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:29:54 | INFO | stdout | Indices red:  [3, 7, 9, 10, 12, 15, 19, 20, 22, 24, 26, 40, 41, 43, 44, 46, 48, 54, 58, 59, 65, 66, 67, 74, 78, 80, 81, 85, 88, 89, 90, 92, 94, 95, 97, 100, 101, 103, 104, 108, 109, 110, 111, 113, 115, 117, 118, 120, 122, 127, 133, 143, 147]
+2024-12-04 22:29:54 | INFO | stdout | price control value False
+2024-12-04 22:29:54 | INFO | stdout | Reapplying colors...
+2024-12-04 22:29:57 | INFO | stdout | In overall category
+2024-12-04 22:29:57 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:29:57 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:29:57 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:29:57 | INFO | stdout | price control value False
+2024-12-04 22:29:57 | INFO | stdout | Reapplying colors...
+2024-12-04 22:30:04 | INFO | stdout | In overall category
+2024-12-04 22:30:04 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:30:04 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:30:04 | INFO | stdout | Indices red:  [3, 7, 9, 10, 12, 15, 19, 20, 22, 24, 26, 40, 41, 43, 44, 46, 48, 54, 58, 59, 65, 66, 67, 74, 78, 80, 81, 85, 88, 89, 90, 92, 94, 95, 97, 100, 101, 103, 104, 108, 109, 110, 111, 113, 115, 117, 118, 120, 122, 127, 133, 143, 147]
+2024-12-04 22:30:04 | INFO | stdout | price control value False
+2024-12-04 22:30:04 | INFO | stdout | Reapplying colors...
+2024-12-04 22:30:08 | INFO | stdout | In overall category
+2024-12-04 22:30:08 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:30:08 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:30:08 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:30:08 | INFO | stdout | price control value False
+2024-12-04 22:30:08 | INFO | stdout | Reapplying colors...
+2024-12-04 22:30:11 | INFO | stdout | Price control applied...
+2024-12-04 22:30:13 | INFO | stdout | In overall category
+2024-12-04 22:30:13 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:30:13 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:30:13 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:30:13 | INFO | stdout | price control value False
+2024-12-04 22:30:13 | INFO | stdout | Reapplying colors...
+2024-12-04 22:30:15 | INFO | stdout | In overall category
+2024-12-04 22:30:15 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:30:15 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:30:15 | INFO | stdout | Indices red:  []
+2024-12-04 22:30:15 | INFO | stdout | price control value True
+2024-12-04 22:30:19 | INFO | stdout | In overall category
+2024-12-04 22:30:19 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:30:19 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:30:19 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:30:19 | INFO | stdout | price control value False
+2024-12-04 22:30:19 | INFO | stdout | Reapplying colors...
+2024-12-04 22:30:22 | INFO | stdout | Price control applied...
+2024-12-04 22:30:26 | INFO | stdout | Price control applied...
+2024-12-04 22:30:30 | INFO | stdout | In overall category
+2024-12-04 22:30:30 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:30:30 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:30:30 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:30:30 | INFO | stdout | price control value False
+2024-12-04 22:30:30 | INFO | stdout | Reapplying colors...
+2024-12-04 22:31:37 | INFO | stdout | Price control applied...
+2024-12-04 22:31:40 | INFO | stdout | Price control applied...
+2024-12-04 22:31:59 | INFO | stdout | Price control applied...
+2024-12-04 22:32:15 | INFO | stdout | In overall category
+2024-12-04 22:32:15 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:32:15 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:32:15 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:32:15 | INFO | stdout | price control value False
+2024-12-04 22:32:15 | INFO | stdout | Reapplying colors...
+2024-12-04 22:32:46 | INFO | stdout | In overall category
+2024-12-04 22:32:46 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:32:46 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:32:46 | INFO | stdout | Indices red:  [3, 7, 9, 10, 12, 15, 19, 20, 22, 24, 26, 40, 41, 43, 44, 46, 48, 54, 58, 59, 65, 66, 67, 74, 78, 80, 81, 85, 88, 89, 90, 92, 94, 95, 97, 100, 101, 103, 104, 108, 109, 110, 111, 113, 115, 117, 118, 120, 122, 127, 133, 143, 147]
+2024-12-04 22:32:46 | INFO | stdout | price control value False
+2024-12-04 22:32:46 | INFO | stdout | Reapplying colors...
+2024-12-04 22:32:49 | INFO | stdout | In overall category
+2024-12-04 22:32:49 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:32:49 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:32:49 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:32:49 | INFO | stdout | price control value False
+2024-12-04 22:32:49 | INFO | stdout | Reapplying colors...
+2024-12-04 22:33:05 | INFO | stdout | In overall category
+2024-12-04 22:33:05 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:33:05 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:33:05 | INFO | stdout | Indices red:  [3, 7, 9, 10, 12, 15, 19, 20, 22, 24, 26, 40, 41, 43, 44, 46, 48, 54, 58, 59, 65, 66, 67, 74, 78, 80, 81, 85, 88, 89, 90, 92, 94, 95, 97, 100, 101, 103, 104, 108, 109, 110, 111, 113, 115, 117, 118, 120, 122, 127, 133, 143, 147]
+2024-12-04 22:33:05 | INFO | stdout | price control value False
+2024-12-04 22:33:05 | INFO | stdout | Reapplying colors...
+2024-12-04 22:33:09 | INFO | stdout | In overall category
+2024-12-04 22:33:09 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:33:09 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:33:09 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:33:09 | INFO | stdout | price control value False
+2024-12-04 22:33:09 | INFO | stdout | Reapplying colors...
+2024-12-04 22:33:26 | INFO | stdout | In overall category
+2024-12-04 22:33:26 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:33:26 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:33:26 | INFO | stdout | Indices red:  []
+2024-12-04 22:33:26 | INFO | stdout | price control value True
+2024-12-04 22:33:28 | INFO | stdout | In overall category
+2024-12-04 22:33:28 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:33:28 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:33:28 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:33:28 | INFO | stdout | price control value False
+2024-12-04 22:33:28 | INFO | stdout | Reapplying colors...
+2024-12-04 22:33:31 | INFO | stdout | Price control applied...
+2024-12-04 22:33:50 | INFO | stdout | Price control applied...
+2024-12-04 22:33:56 | INFO | stdout | In overall category
+2024-12-04 22:33:56 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:33:56 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:33:56 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:33:56 | INFO | stdout | price control value False
+2024-12-04 22:33:56 | INFO | stdout | Reapplying colors...
+2024-12-04 22:34:07 | INFO | stdout | In overall category
+2024-12-04 22:34:07 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:34:07 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:34:07 | INFO | stdout | Indices red:  [3, 7, 9, 10, 12, 15, 19, 20, 22, 24, 26, 40, 41, 43, 44, 46, 48, 54, 58, 59, 65, 66, 67, 74, 78, 80, 81, 85, 88, 89, 90, 92, 94, 95, 97, 100, 101, 103, 104, 108, 109, 110, 111, 113, 115, 117, 118, 120, 122, 127, 133, 143, 147]
+2024-12-04 22:34:07 | INFO | stdout | price control value False
+2024-12-04 22:34:07 | INFO | stdout | Reapplying colors...
+2024-12-04 22:34:11 | INFO | stdout | In overall category
+2024-12-04 22:34:11 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:34:11 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:34:11 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:34:11 | INFO | stdout | price control value False
+2024-12-04 22:34:11 | INFO | stdout | Reapplying colors...
+2024-12-04 22:34:19 | INFO | stdout | Price control applied...
+2024-12-04 22:34:22 | INFO | stdout | Price control applied...
+2024-12-04 22:34:25 | INFO | stdout | Price control applied...
+2024-12-04 22:37:12 | INFO | stdout | In overall category
+2024-12-04 22:37:12 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:37:12 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:37:12 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:37:12 | INFO | stdout | price control value False
+2024-12-04 22:37:12 | INFO | stdout | Reapplying colors...
+2024-12-04 22:37:15 | INFO | stdout | In overall category
+2024-12-04 22:37:15 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:37:15 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:37:15 | INFO | stdout | Indices red:  [3, 7, 9, 10, 12, 15, 19, 20, 22, 24, 26, 40, 41, 43, 44, 46, 48, 54, 58, 59, 65, 66, 67, 74, 78, 80, 81, 85, 88, 89, 90, 92, 94, 95, 97, 100, 101, 103, 104, 108, 109, 110, 111, 113, 115, 117, 118, 120, 122, 127, 133, 143, 147]
+2024-12-04 22:37:15 | INFO | stdout | price control value False
+2024-12-04 22:37:15 | INFO | stdout | Reapplying colors...
+2024-12-04 22:37:17 | INFO | stdout | In overall category
+2024-12-04 22:37:17 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:37:17 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:37:17 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:37:17 | INFO | stdout | price control value False
+2024-12-04 22:37:17 | INFO | stdout | Reapplying colors...
+2024-12-04 22:49:59 | INFO | stdout | Price control applied...
+2024-12-04 22:50:02 | INFO | stdout | In overall category
+2024-12-04 22:50:02 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:50:02 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:50:02 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:50:02 | INFO | stdout | price control value False
+2024-12-04 22:50:02 | INFO | stdout | Reapplying colors...
+2024-12-04 22:50:06 | INFO | stdout | Price control applied...
+2024-12-04 22:50:15 | INFO | stdout | In overall category
+2024-12-04 22:50:15 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:50:15 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:50:15 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:50:15 | INFO | stdout | price control value False
+2024-12-04 22:50:15 | INFO | stdout | Reapplying colors...
+2024-12-04 22:50:21 | INFO | stdout | Price control applied...
+2024-12-04 22:50:25 | INFO | stdout | Price control applied...
+2024-12-04 22:50:35 | INFO | stdout | Price control applied...
+2024-12-04 22:50:40 | INFO | stdout | Price control applied...
+2024-12-04 22:50:48 | INFO | stdout | In overall category
+2024-12-04 22:50:48 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:50:48 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:50:48 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:50:48 | INFO | stdout | price control value False
+2024-12-04 22:50:48 | INFO | stdout | Reapplying colors...
+2024-12-04 22:50:56 | INFO | stdout | In overall category
+2024-12-04 22:50:56 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:50:56 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:50:56 | INFO | stdout | Indices red:  []
+2024-12-04 22:50:56 | INFO | stdout | price control value True
+2024-12-04 22:51:16 | INFO | stdout | In overall category
+2024-12-04 22:51:16 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:51:16 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:51:16 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:51:16 | INFO | stdout | price control value False
+2024-12-04 22:51:16 | INFO | stdout | Reapplying colors...
+2024-12-04 22:52:50 | INFO | stdout | Price control applied...
+2024-12-04 22:53:03 | INFO | stdout | Price control applied...
+2024-12-04 22:53:06 | INFO | stdout | Price control applied...
+2024-12-04 22:53:13 | INFO | stdout | Price control applied...
+2024-12-04 22:54:02 | INFO | stdout | Price control applied...
+2024-12-04 22:54:06 | INFO | stdout | In overall category
+2024-12-04 22:54:06 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:54:06 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:54:06 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:54:06 | INFO | stdout | price control value False
+2024-12-04 22:54:06 | INFO | stdout | Reapplying colors...
+2024-12-04 22:56:03 | INFO | stdout | In overall category
+2024-12-04 22:56:03 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:56:03 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:56:03 | INFO | stdout | Indices red:  []
+2024-12-04 22:56:03 | INFO | stdout | price control value True
+2024-12-04 22:56:07 | INFO | stdout | Price control applied...
+2024-12-04 22:56:13 | INFO | stdout | Price control applied...
+2024-12-04 22:56:17 | INFO | stdout | In overall category
+2024-12-04 22:56:17 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:56:17 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:56:17 | INFO | stdout | Indices red:  []
+2024-12-04 22:56:17 | INFO | stdout | price control value True
+2024-12-04 22:56:28 | INFO | stdout | In overall category
+2024-12-04 22:56:28 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:56:28 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:56:28 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:56:28 | INFO | stdout | price control value False
+2024-12-04 22:56:28 | INFO | stdout | Reapplying colors...
+2024-12-04 22:56:31 | INFO | stdout | In overall category
+2024-12-04 22:56:31 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:56:31 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:56:31 | INFO | stdout | Indices red:  []
+2024-12-04 22:56:31 | INFO | stdout | price control value True
+2024-12-04 22:56:37 | INFO | stdout | Price control applied...
+2024-12-04 22:56:42 | INFO | stdout | In overall category
+2024-12-04 22:56:42 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:56:42 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:56:42 | INFO | stdout | Indices red:  []
+2024-12-04 22:56:42 | INFO | stdout | price control value True
+2024-12-04 22:56:44 | INFO | stdout | In overall category
+2024-12-04 22:56:44 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:56:44 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:56:44 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:56:44 | INFO | stdout | price control value False
+2024-12-04 22:56:44 | INFO | stdout | Reapplying colors...
+2024-12-04 22:56:47 | INFO | stdout | Price control applied...
+2024-12-04 22:56:49 | INFO | stdout | In overall category
+2024-12-04 22:56:49 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:56:49 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:56:49 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:56:49 | INFO | stdout | price control value False
+2024-12-04 22:56:49 | INFO | stdout | Reapplying colors...
+2024-12-04 22:56:52 | INFO | stdout | Price control applied...
+2024-12-04 22:56:55 | INFO | stdout | In overall category
+2024-12-04 22:56:55 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:56:55 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:56:55 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:56:55 | INFO | stdout | price control value False
+2024-12-04 22:56:55 | INFO | stdout | Reapplying colors...
+2024-12-04 22:56:59 | INFO | stdout | Price control applied...
+2024-12-04 22:57:03 | INFO | stdout | In overall category
+2024-12-04 22:57:03 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:57:03 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:57:03 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:57:03 | INFO | stdout | price control value False
+2024-12-04 22:57:03 | INFO | stdout | Reapplying colors...
+2024-12-04 22:57:22 | INFO | stdout | In overall category
+2024-12-04 22:57:22 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:57:22 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:57:22 | INFO | stdout | Indices red:  []
+2024-12-04 22:57:22 | INFO | stdout | price control value True
+2024-12-04 22:57:35 | INFO | stdout | In overall category
+2024-12-04 22:57:35 | INFO | stdout | Update overall leaderboard df
+2024-12-04 22:57:35 | INFO | stdout | Before highlighting red and green
+2024-12-04 22:57:35 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 22:57:35 | INFO | stdout | price control value False
+2024-12-04 22:57:35 | INFO | stdout | Reapplying colors...
+2024-12-04 22:59:45 | INFO | stdout | Price control applied...
+2024-12-04 22:59:57 | INFO | stdout | Price control applied...
+2024-12-04 23:00:02 | INFO | stdout | Price control applied...
+2024-12-04 23:00:09 | INFO | stdout | Price control applied...
+2024-12-04 23:01:39 | INFO | stdout | In overall category
+2024-12-04 23:01:39 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:01:39 | INFO | stdout | Before highlighting red and green
+2024-12-04 23:01:39 | INFO | stdout | Indices red:  []
+2024-12-04 23:01:39 | INFO | stdout | price control value True
+2024-12-04 23:01:41 | INFO | stdout | In overall category
+2024-12-04 23:01:41 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:01:41 | INFO | stdout | Before highlighting red and green
+2024-12-04 23:01:41 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 23:01:41 | INFO | stdout | price control value False
+2024-12-04 23:01:41 | INFO | stdout | Reapplying colors...
+2024-12-04 23:01:44 | INFO | stdout | Price control applied...
+2024-12-04 23:01:46 | INFO | stdout | Price control applied...
+2024-12-04 23:01:49 | INFO | stdout | Price control applied...
+2024-12-04 23:02:07 | INFO | stdout | Price control applied...
+2024-12-04 23:02:10 | INFO | stdout | Price control applied...
+2024-12-04 23:02:41 | INFO | stdout | Price control applied...
+2024-12-04 23:02:43 | INFO | stdout | Price control applied...
+2024-12-04 23:03:04 | INFO | stdout | Price control applied...
+2024-12-04 23:03:06 | INFO | stdout | Price control applied...
+2024-12-04 23:13:27 | INFO | stdout | In overall category
+2024-12-04 23:13:27 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:13:27 | INFO | stdout | Before highlighting red and green
+2024-12-04 23:13:27 | INFO | stdout | Indices red:  []
+2024-12-04 23:13:27 | INFO | stdout | price control value True
+2024-12-04 23:13:29 | INFO | stdout | In overall category
+2024-12-04 23:13:29 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:13:29 | INFO | stdout | Before highlighting red and green
+2024-12-04 23:13:29 | INFO | stdout | Indices red:  [5, 7, 8, 10, 13, 17, 19, 21, 23, 37, 39, 40, 42, 44, 49, 50, 54, 55, 61, 62, 63, 70, 74, 76, 77, 81, 84, 85, 86, 88, 90, 91, 93, 96, 97, 99, 100, 104, 105, 106, 107, 109, 111, 113, 114, 116, 118, 123, 129, 139, 143]
+2024-12-04 23:13:29 | INFO | stdout | price control value False
+2024-12-04 23:13:29 | INFO | stdout | Reapplying colors...
+2024-12-04 23:13:33 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-04 23:13:38 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-04 23:13:38 | ERROR | stderr | Traceback (most recent call last):
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 138, in <module>
+2024-12-04 23:13:38 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-12-04 23:13:38 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 103, in build_demo
+2024-12-04 23:13:38 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-12-04 23:13:38 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1081, in build_leaderboard_tab
+2024-12-04 23:13:38 | ERROR | stderr |     elo_results = pickle.load(fin)
+2024-12-04 23:13:38 | ERROR | stderr |                   ^^^^^^^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/plotly/graph_objs/_figure.py", line 646, in __init__
+2024-12-04 23:13:38 | ERROR | stderr |     super(Figure, self).__init__(data, layout, frames, skip_invalid, **kwargs)
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 555, in __init__
+2024-12-04 23:13:38 | ERROR | stderr |     self._layout_obj = self._layout_validator.validate_coerce(
+2024-12-04 23:13:38 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/_plotly_utils/basevalidators.py", line 2512, in validate_coerce
+2024-12-04 23:13:38 | ERROR | stderr |     v = self.data_class(v, skip_invalid=skip_invalid, _validate=_validate)
+2024-12-04 23:13:38 | ERROR | stderr |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/plotly/graph_objs/_layout.py", line 7223, in __init__
+2024-12-04 23:13:38 | ERROR | stderr |     self["template"] = _v
+2024-12-04 23:13:38 | ERROR | stderr |     ~~~~^^^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 5906, in __setitem__
+2024-12-04 23:13:38 | ERROR | stderr |     super(BaseLayoutHierarchyType, self).__setitem__(prop, value)
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4860, in __setitem__
+2024-12-04 23:13:38 | ERROR | stderr |     self._set_compound_prop(prop, value)
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 5271, in _set_compound_prop
+2024-12-04 23:13:38 | ERROR | stderr |     val = validator.validate_coerce(val, skip_invalid=self._skip_invalid)
+2024-12-04 23:13:38 | ERROR | stderr |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/_plotly_utils/basevalidators.py", line 2805, in validate_coerce
+2024-12-04 23:13:38 | ERROR | stderr |     return super(BaseTemplateValidator, self).validate_coerce(
+2024-12-04 23:13:38 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/_plotly_utils/basevalidators.py", line 2512, in validate_coerce
+2024-12-04 23:13:38 | ERROR | stderr |     v = self.data_class(v, skip_invalid=skip_invalid, _validate=_validate)
+2024-12-04 23:13:38 | ERROR | stderr |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/plotly/graph_objs/layout/_template.py", line 339, in __init__
+2024-12-04 23:13:38 | ERROR | stderr |     self["layout"] = _v
+2024-12-04 23:13:38 | ERROR | stderr |     ~~~~^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4860, in __setitem__
+2024-12-04 23:13:38 | ERROR | stderr |     self._set_compound_prop(prop, value)
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 5271, in _set_compound_prop
+2024-12-04 23:13:38 | ERROR | stderr |     val = validator.validate_coerce(val, skip_invalid=self._skip_invalid)
+2024-12-04 23:13:38 | ERROR | stderr |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/_plotly_utils/basevalidators.py", line 2512, in validate_coerce
+2024-12-04 23:13:38 | ERROR | stderr |     v = self.data_class(v, skip_invalid=skip_invalid, _validate=_validate)
+2024-12-04 23:13:38 | ERROR | stderr |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/plotly/graph_objs/_layout.py", line 7167, in __init__
+2024-12-04 23:13:38 | ERROR | stderr |     self["scene"] = _v
+2024-12-04 23:13:38 | ERROR | stderr |     ~~~~^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 5906, in __setitem__
+2024-12-04 23:13:38 | ERROR | stderr |     super(BaseLayoutHierarchyType, self).__setitem__(prop, value)
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4860, in __setitem__
+2024-12-04 23:13:38 | ERROR | stderr |     self._set_compound_prop(prop, value)
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 5271, in _set_compound_prop
+2024-12-04 23:13:38 | ERROR | stderr |     val = validator.validate_coerce(val, skip_invalid=self._skip_invalid)
+2024-12-04 23:13:38 | ERROR | stderr |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/_plotly_utils/basevalidators.py", line 2512, in validate_coerce
+2024-12-04 23:13:38 | ERROR | stderr |     v = self.data_class(v, skip_invalid=skip_invalid, _validate=_validate)
+2024-12-04 23:13:38 | ERROR | stderr |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/plotly/graph_objs/layout/_scene.py", line 1799, in __init__
+2024-12-04 23:13:38 | ERROR | stderr |     self["zaxis"] = _v
+2024-12-04 23:13:38 | ERROR | stderr |     ~~~~^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4856, in __setitem__
+2024-12-04 23:13:38 | ERROR | stderr |     validator = self._get_validator(prop)
+2024-12-04 23:13:38 | ERROR | stderr |                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/plotly/basedatatypes.py", line 4338, in _get_validator
+2024-12-04 23:13:38 | ERROR | stderr |     return ValidatorCache.get_validator(self._path_str, prop)
+2024-12-04 23:13:38 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/plotly/validator_cache.py", line 28, in get_validator
+2024-12-04 23:13:38 | ERROR | stderr |     validator = getattr(
+2024-12-04 23:13:38 | ERROR | stderr |                 ^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/_plotly_utils/importers.py", line 36, in __getattr__
+2024-12-04 23:13:38 | ERROR | stderr |     class_module = importlib.import_module(rel_module, parent_name)
+2024-12-04 23:13:38 | ERROR | stderr |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.py", line 126, in import_module
+2024-12-04 23:13:38 | ERROR | stderr |     return _bootstrap._gcd_import(name[level:], package, level)
+2024-12-04 23:13:38 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:13:38 | ERROR | stderr |   File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+2024-12-04 23:13:38 | ERROR | stderr |   File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+2024-12-04 23:13:38 | ERROR | stderr |   File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+2024-12-04 23:13:38 | ERROR | stderr |   File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+2024-12-04 23:13:38 | ERROR | stderr |   File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+2024-12-04 23:13:38 | ERROR | stderr |   File "<frozen importlib._bootstrap_external>", line 1032, in get_code
+2024-12-04 23:13:38 | ERROR | stderr |   File "<frozen importlib._bootstrap_external>", line 1131, in get_data
+2024-12-04 23:13:38 | ERROR | stderr | KeyboardInterrupt
+2024-12-04 23:15:54 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-04 23:15:56 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:16:08 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:16:08 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-04 23:16:08 | INFO | stdout | 
+2024-12-04 23:16:08 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-04 23:16:19 | INFO | stdout | In overall category
+2024-12-04 23:16:19 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:16:19 | INFO | stdout | price control value True
+2024-12-04 23:16:22 | INFO | stdout | In overall category
+2024-12-04 23:16:22 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:16:22 | INFO | stdout | price control value False
+2024-12-04 23:16:22 | INFO | stdout | Reapplying colors...
+2024-12-04 23:16:26 | INFO | stdout | Price control applied...
+2024-12-04 23:16:26 | ERROR | stderr | Traceback (most recent call last):
+2024-12-04 23:16:26 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/queueing.py", line 536, in process_events
+2024-12-04 23:16:26 | ERROR | stderr |     response = await route_utils.call_process_api(
+2024-12-04 23:16:26 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:16:26 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/route_utils.py", line 322, in call_process_api
+2024-12-04 23:16:26 | ERROR | stderr |     output = await app.get_blocks().process_api(
+2024-12-04 23:16:26 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:16:26 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1935, in process_api
+2024-12-04 23:16:26 | ERROR | stderr |     result = await self.call_function(
+2024-12-04 23:16:26 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:16:26 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1520, in call_function
+2024-12-04 23:16:26 | ERROR | stderr |     prediction = await anyio.to_thread.run_sync(  # type: ignore
+2024-12-04 23:16:26 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:16:26 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 56, in run_sync
+2024-12-04 23:16:26 | ERROR | stderr |     return await get_async_backend().run_sync_in_worker_thread(
+2024-12-04 23:16:26 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:16:26 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2441, in run_sync_in_worker_thread
+2024-12-04 23:16:26 | ERROR | stderr |     return await future
+2024-12-04 23:16:26 | ERROR | stderr |            ^^^^^^^^^^^^
+2024-12-04 23:16:26 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 943, in run
+2024-12-04 23:16:26 | ERROR | stderr |     result = context.run(func, *args)
+2024-12-04 23:16:26 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:16:26 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/utils.py", line 826, in wrapper
+2024-12-04 23:16:26 | ERROR | stderr |     response = f(*args, **kwargs)
+2024-12-04 23:16:26 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^
+2024-12-04 23:16:26 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 650, in update_leaderboard_and_plots
+2024-12-04 23:16:26 | ERROR | stderr |     del arena_column_widths[2]
+2024-12-04 23:16:26 | ERROR | stderr |         ^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:16:26 | ERROR | stderr | UnboundLocalError: cannot access local variable 'arena_column_widths' where it is not associated with a value
+2024-12-04 23:18:02 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-04 23:18:07 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-04 23:18:10 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:18:18 | ERROR | stderr | Traceback (most recent call last):
+2024-12-04 23:18:18 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 138, in <module>
+2024-12-04 23:18:18 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-12-04 23:18:18 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:18:18 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 103, in build_demo
+2024-12-04 23:18:18 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-12-04 23:18:18 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:18:18 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1130, in build_leaderboard_tab
+2024-12-04 23:18:18 | ERROR | stderr |     combined_table = get_combined_table(elo_results_text, model_table_df)
+2024-12-04 23:18:18 | ERROR | stderr |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:18:18 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1053, in get_combined_table
+2024-12-04 23:18:18 | ERROR | stderr |     ranking = recompute_final_ranking(df)
+2024-12-04 23:18:18 | ERROR | stderr |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:18:18 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 111, in recompute_final_ranking
+2024-12-04 23:18:18 | ERROR | stderr |     > arena_df.loc[model_a]["rating_q975"]
+2024-12-04 23:18:18 | ERROR | stderr |       ~~~~~~~~~~~~^^^^^^^^^
+2024-12-04 23:18:18 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+2024-12-04 23:18:18 | ERROR | stderr |     return self._getitem_axis(maybe_callable, axis=axis)
+2024-12-04 23:18:18 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:18:18 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/indexing.py", line 1431, in _getitem_axis
+2024-12-04 23:18:18 | ERROR | stderr |     return self._get_label(key, axis=axis)
+2024-12-04 23:18:18 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:18:18 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/indexing.py", line 1381, in _get_label
+2024-12-04 23:18:18 | ERROR | stderr |     return self.obj.xs(label, axis=axis)
+2024-12-04 23:18:18 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:18:18 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 4321, in xs
+2024-12-04 23:18:18 | ERROR | stderr |     new_mgr = self._mgr.fast_xs(loc)
+2024-12-04 23:18:18 | ERROR | stderr |               ^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:18:18 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 984, in fast_xs
+2024-12-04 23:18:18 | ERROR | stderr |     dtype = interleaved_dtype([blk.dtype for blk in self.blocks])
+2024-12-04 23:18:18 | ERROR | stderr |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:18:18 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 984, in <listcomp>
+2024-12-04 23:18:18 | ERROR | stderr |     dtype = interleaved_dtype([blk.dtype for blk in self.blocks])
+2024-12-04 23:18:18 | ERROR | stderr |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-04 23:18:18 | ERROR | stderr | KeyboardInterrupt
+2024-12-04 23:18:38 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-04 23:18:40 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:18:51 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:18:52 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-04 23:18:52 | INFO | stdout | 
+2024-12-04 23:18:52 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-04 23:19:26 | INFO | stdout | Non overall category...
+2024-12-04 23:19:29 | INFO | stdout | In overall category
+2024-12-04 23:19:29 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:19:29 | INFO | stdout | price control value False
+2024-12-04 23:19:29 | INFO | stdout | Reapplying colors...
+2024-12-04 23:19:34 | INFO | stdout | Non overall category...
+2024-12-04 23:19:38 | INFO | stdout | In overall category
+2024-12-04 23:19:38 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:19:38 | INFO | stdout | price control value False
+2024-12-04 23:19:38 | INFO | stdout | Reapplying colors...
+2024-12-04 23:20:12 | INFO | stdout | Non overall category...
+2024-12-04 23:20:24 | INFO | stdout | Non overall category...
+2024-12-04 23:25:20 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-04 23:25:25 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-04 23:25:27 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:25:39 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:25:39 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-04 23:25:39 | INFO | stdout | 
+2024-12-04 23:25:39 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-04 23:26:07 | INFO | stdout | Non overall category...
+2024-12-04 23:26:13 | INFO | stdout | Non overall category...
+2024-12-04 23:26:18 | INFO | stdout | Non overall category...
+2024-12-04 23:26:26 | INFO | stdout | Non overall category...
+2024-12-04 23:26:32 | INFO | stdout | Non overall category...
+2024-12-04 23:27:11 | INFO | stdout | Non overall category...
+2024-12-04 23:27:17 | INFO | stdout | Non overall category...
+2024-12-04 23:27:20 | INFO | stdout | Non overall category...
+2024-12-04 23:27:28 | INFO | stdout | Non overall category...
+2024-12-04 23:27:33 | INFO | stdout | Non overall category...
+2024-12-04 23:27:37 | INFO | stdout | Non overall category...
+2024-12-04 23:28:26 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-04 23:28:50 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-04 23:28:52 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:29:04 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:29:04 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-04 23:29:04 | INFO | stdout | 
+2024-12-04 23:29:04 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-04 23:29:27 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-04 23:29:40 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-04 23:29:56 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-04 23:30:00 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-04 23:30:02 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-04 23:30:05 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-04 23:30:07 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-04 23:30:11 | INFO | stdout | In overall category
+2024-12-04 23:30:11 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:30:11 | INFO | stdout | price control value False
+2024-12-04 23:30:11 | INFO | stdout | Reapplying colors...
+2024-12-04 23:30:52 | INFO | stdout | In overall category
+2024-12-04 23:30:52 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:30:52 | INFO | stdout | price control value True
+2024-12-04 23:30:54 | INFO | stdout | In overall category
+2024-12-04 23:30:54 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:30:54 | INFO | stdout | price control value False
+2024-12-04 23:30:54 | INFO | stdout | Reapplying colors...
+2024-12-04 23:30:57 | INFO | stdout | In overall category
+2024-12-04 23:30:57 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:30:57 | INFO | stdout | price control value True
+2024-12-04 23:30:59 | INFO | stdout | In overall category
+2024-12-04 23:30:59 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:30:59 | INFO | stdout | price control value False
+2024-12-04 23:30:59 | INFO | stdout | Reapplying colors...
+2024-12-04 23:31:02 | INFO | stdout | In overall category
+2024-12-04 23:31:02 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:31:02 | INFO | stdout | price control value True
+2024-12-04 23:31:04 | INFO | stdout | In overall category
+2024-12-04 23:31:04 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:31:04 | INFO | stdout | price control value False
+2024-12-04 23:31:04 | INFO | stdout | Reapplying colors...
+2024-12-04 23:32:37 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-04 23:33:03 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-04 23:33:06 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-04 23:33:08 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-04 23:33:11 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-04 23:42:11 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-04 23:43:32 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-04 23:43:34 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:43:35 | INFO | stdout | initial loads
+2024-12-04 23:43:46 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:43:46 | INFO | stdout | initial loads
+2024-12-04 23:43:46 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-04 23:43:46 | INFO | stdout | 
+2024-12-04 23:43:46 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-04 23:45:32 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-04 23:56:27 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-04 23:56:30 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:56:30 | INFO | stdout | initial loads
+2024-12-04 23:56:41 | INFO | stdout | Update overall leaderboard df
+2024-12-04 23:56:41 | INFO | stdout | initial loads
+2024-12-04 23:56:41 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-04 23:56:41 | INFO | stdout | 
+2024-12-04 23:56:41 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-05 00:01:58 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-05 00:02:03 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-05 00:02:06 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:02:06 | ERROR | stderr | Traceback (most recent call last):
+2024-12-05 00:02:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 138, in <module>
+2024-12-05 00:02:06 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-12-05 00:02:06 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-05 00:02:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 103, in build_demo
+2024-12-05 00:02:06 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-12-05 00:02:06 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-12-05 00:02:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1105, in build_leaderboard_tab
+2024-12-05 00:02:06 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-12-05 00:02:06 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-12-05 00:02:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 786, in build_arena_tab
+2024-12-05 00:02:06 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-12-05 00:02:06 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-05 00:02:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 548, in update_overall_leaderboard_df
+2024-12-05 00:02:06 | ERROR | stderr |     elo_dataframe = elo_dataframe.drop(elo_dataframe.columns[2], axis=1)
+2024-12-05 00:02:06 | ERROR | stderr |                     ^^^^^^^^^^^^^^^^^^
+2024-12-05 00:02:06 | ERROR | stderr | AttributeError: 'Styler' object has no attribute 'drop'
+2024-12-05 00:05:50 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-05 00:05:52 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:05:52 | INFO | stdout | initial loads
+2024-12-05 00:06:03 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:06:03 | INFO | stdout | initial loads
+2024-12-05 00:06:03 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-05 00:06:03 | INFO | stdout | 
+2024-12-05 00:06:03 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-05 00:06:18 | INFO | stdout | In overall category
+2024-12-05 00:06:19 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:06:19 | INFO | stdout | price control value True
+2024-12-05 00:07:27 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-05 00:07:43 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-05 00:07:46 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:07:46 | INFO | stdout | initial loads
+2024-12-05 00:07:57 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:07:57 | INFO | stdout | initial loads
+2024-12-05 00:07:58 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-05 00:07:58 | INFO | stdout | 
+2024-12-05 00:07:58 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-05 00:09:52 | INFO | stdout | In overall category
+2024-12-05 00:09:52 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:09:52 | INFO | stdout | price control value True
+2024-12-05 00:10:02 | INFO | stdout | In overall category
+2024-12-05 00:10:02 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:10:02 | INFO | stdout | price control value False
+2024-12-05 00:10:02 | ERROR | stderr | Traceback (most recent call last):
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+2024-12-05 00:10:02 | ERROR | stderr |     return self._engine.get_loc(casted_key)
+2024-12-05 00:10:02 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-05 00:10:02 | ERROR | stderr |   File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+2024-12-05 00:10:02 | ERROR | stderr |   File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+2024-12-05 00:10:02 | ERROR | stderr |   File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+2024-12-05 00:10:02 | ERROR | stderr |   File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+2024-12-05 00:10:02 | ERROR | stderr | KeyError: 'Rank (StyleCtrl)'
+2024-12-05 00:10:02 | ERROR | stderr | 
+2024-12-05 00:10:02 | ERROR | stderr | The above exception was the direct cause of the following exception:
+2024-12-05 00:10:02 | ERROR | stderr | 
+2024-12-05 00:10:02 | ERROR | stderr | Traceback (most recent call last):
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/queueing.py", line 536, in process_events
+2024-12-05 00:10:02 | ERROR | stderr |     response = await route_utils.call_process_api(
+2024-12-05 00:10:02 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/route_utils.py", line 322, in call_process_api
+2024-12-05 00:10:02 | ERROR | stderr |     output = await app.get_blocks().process_api(
+2024-12-05 00:10:02 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1935, in process_api
+2024-12-05 00:10:02 | ERROR | stderr |     result = await self.call_function(
+2024-12-05 00:10:02 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1520, in call_function
+2024-12-05 00:10:02 | ERROR | stderr |     prediction = await anyio.to_thread.run_sync(  # type: ignore
+2024-12-05 00:10:02 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 56, in run_sync
+2024-12-05 00:10:02 | ERROR | stderr |     return await get_async_backend().run_sync_in_worker_thread(
+2024-12-05 00:10:02 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2441, in run_sync_in_worker_thread
+2024-12-05 00:10:02 | ERROR | stderr |     return await future
+2024-12-05 00:10:02 | ERROR | stderr |            ^^^^^^^^^^^^
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 943, in run
+2024-12-05 00:10:02 | ERROR | stderr |     result = context.run(func, *args)
+2024-12-05 00:10:02 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/utils.py", line 826, in wrapper
+2024-12-05 00:10:02 | ERROR | stderr |     response = f(*args, **kwargs)
+2024-12-05 00:10:02 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 701, in update_leaderboard_and_plots
+2024-12-05 00:10:02 | ERROR | stderr |     comparison = df.apply(
+2024-12-05 00:10:02 | ERROR | stderr |                  ^^^^^^^^^
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-12-05 00:10:02 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-12-05 00:10:02 | ERROR | stderr |            ^^^^^^^^^^
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-12-05 00:10:02 | ERROR | stderr |     return self.apply_standard()
+2024-12-05 00:10:02 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-12-05 00:10:02 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-12-05 00:10:02 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-12-05 00:10:02 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-12-05 00:10:02 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 683, in compare_func
+2024-12-05 00:10:02 | ERROR | stderr |     if row["Rank (StyleCtrl)"] is None:
+2024-12-05 00:10:02 | ERROR | stderr |        ~~~^^^^^^^^^^^^^^^^^^^^
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/series.py", line 1121, in __getitem__
+2024-12-05 00:10:02 | ERROR | stderr |     return self._get_value(key)
+2024-12-05 00:10:02 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/series.py", line 1237, in _get_value
+2024-12-05 00:10:02 | ERROR | stderr |     loc = self.index.get_loc(label)
+2024-12-05 00:10:02 | ERROR | stderr |           ^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-05 00:10:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+2024-12-05 00:10:02 | ERROR | stderr |     raise KeyError(key) from err
+2024-12-05 00:10:02 | ERROR | stderr | KeyError: 'Rank (StyleCtrl)'
+2024-12-05 00:10:13 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-05 00:14:17 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-05 00:14:19 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:14:19 | INFO | stdout | initial loads
+2024-12-05 00:14:30 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:14:30 | INFO | stdout | initial loads
+2024-12-05 00:14:30 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-05 00:14:30 | INFO | stdout | 
+2024-12-05 00:14:30 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-05 00:15:46 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-05 00:15:58 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-05 00:16:01 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:16:01 | INFO | stdout | initial loads
+2024-12-05 00:16:12 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:16:12 | INFO | stdout | initial loads
+2024-12-05 00:16:12 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-05 00:16:12 | INFO | stdout | 
+2024-12-05 00:16:12 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-05 00:16:21 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-05 00:17:34 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-05 00:17:36 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:17:37 | INFO | stdout | initial loads
+2024-12-05 00:17:48 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:17:48 | INFO | stdout | initial loads
+2024-12-05 00:17:48 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-05 00:17:48 | INFO | stdout | 
+2024-12-05 00:17:48 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-05 00:22:31 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-05 00:22:36 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-05 00:22:38 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:22:39 | INFO | stdout | initial loads
+2024-12-05 00:22:50 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:22:50 | INFO | stdout | initial loads
+2024-12-05 00:22:50 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-05 00:22:50 | INFO | stdout | 
+2024-12-05 00:22:50 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-05 00:26:50 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-05 00:26:59 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-05 00:27:01 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:27:01 | INFO | stdout | initial loads
+2024-12-05 00:27:12 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:27:12 | INFO | stdout | initial loads
+2024-12-05 00:27:12 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-05 00:27:13 | INFO | stdout | 
+2024-12-05 00:27:13 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-05 00:27:21 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:32:49 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-05 00:32:53 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-05 00:32:56 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:32:56 | INFO | stdout | initial loads
+2024-12-05 00:33:07 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:33:07 | INFO | stdout | initial loads
+2024-12-05 00:33:07 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-05 00:33:07 | INFO | stdout | 
+2024-12-05 00:33:07 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-05 00:33:14 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:33:19 | INFO | stdout | In overall category
+2024-12-05 00:33:19 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:33:25 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:33:35 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-05 00:33:51 | INFO | stdout | In overall category
+2024-12-05 00:33:51 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:33:56 | INFO | stdout | In overall category
+2024-12-05 00:33:56 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:34:07 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:34:12 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:34:17 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:34:25 | INFO | stdout | In overall category
+2024-12-05 00:34:25 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:34:54 | INFO | stdout | In overall category
+2024-12-05 00:34:54 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:34:58 | INFO | stdout | In overall category
+2024-12-05 00:34:58 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:35:50 | INFO | stdout | In overall category
+2024-12-05 00:35:50 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:35:59 | INFO | stdout | In overall category
+2024-12-05 00:35:59 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:36:18 | INFO | stdout | In overall category
+2024-12-05 00:36:18 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:36:20 | INFO | stdout | In overall category
+2024-12-05 00:36:20 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:38:06 | INFO | stdout | In overall category
+2024-12-05 00:38:06 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:38:11 | INFO | stdout | In overall category
+2024-12-05 00:38:11 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:40:07 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-05 00:40:12 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-05 00:40:14 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:40:14 | INFO | stdout | initial loads
+2024-12-05 00:40:25 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:40:25 | INFO | stdout | initial loads
+2024-12-05 00:40:26 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-05 00:40:26 | INFO | stdout | 
+2024-12-05 00:40:26 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-05 00:42:12 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-05 00:42:16 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-05 00:42:19 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:42:19 | INFO | stdout | initial loads
+2024-12-05 00:42:30 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:42:30 | INFO | stdout | initial loads
+2024-12-05 00:42:30 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-05 00:42:30 | INFO | stdout | 
+2024-12-05 00:42:30 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-05 00:42:37 | INFO | stdout | In overall category
+2024-12-05 00:42:37 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:42:40 | INFO | stdout | In overall category
+2024-12-05 00:42:40 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:42:43 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:42:47 | INFO | stdout | In overall category
+2024-12-05 00:42:47 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:42:50 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:42:53 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:43:00 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:43:02 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:43:05 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:43:09 | INFO | stdout | In overall category
+2024-12-05 00:43:09 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:43:12 | INFO | stdout | In overall category
+2024-12-05 00:43:12 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:43:15 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-05 00:43:17 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:43:19 | INFO | stdout | In overall category
+2024-12-05 00:43:19 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:43:28 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-05 00:43:33 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-05 00:43:35 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:43:36 | INFO | stdout | initial loads
+2024-12-05 00:43:47 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:43:47 | INFO | stdout | initial loads
+2024-12-05 00:43:47 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-05 00:43:47 | INFO | stdout | 
+2024-12-05 00:43:47 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-05 00:43:54 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:43:58 | INFO | stdout | In overall category
+2024-12-05 00:43:58 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:44:00 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:44:03 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-05 00:44:05 | INFO | stdout | In overall category
+2024-12-05 00:44:05 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:44:08 | INFO | stdout | In overall category
+2024-12-05 00:44:08 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:44:11 | INFO | stdout | In overall category
+2024-12-05 00:44:11 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:44:15 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:44:43 | INFO | stdout | In overall category
+2024-12-05 00:44:43 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:44:46 | INFO | stdout | In overall category
+2024-12-05 00:44:46 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:44:56 | INFO | stdout | In overall category
+2024-12-05 00:44:56 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:44:58 | INFO | stdout | In overall category
+2024-12-05 00:44:58 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:45:01 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:45:04 | INFO | stdout | In overall category
+2024-12-05 00:45:04 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:45:18 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:45:33 | INFO | stdout | In overall category
+2024-12-05 00:45:33 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:46:10 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-05 00:46:15 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-05 00:46:17 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:46:17 | INFO | stdout | initial loads
+2024-12-05 00:46:29 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:46:29 | INFO | stdout | initial loads
+2024-12-05 00:46:29 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-05 00:46:29 | INFO | stdout | 
+2024-12-05 00:46:29 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-05 00:46:52 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-05 00:47:41 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-05 00:47:43 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:47:44 | INFO | stdout | initial loads
+2024-12-05 00:47:55 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:47:55 | INFO | stdout | initial loads
+2024-12-05 00:47:55 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-05 00:47:55 | INFO | stdout | 
+2024-12-05 00:47:55 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-05 00:48:12 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:48:15 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:48:18 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:48:20 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-05 00:48:23 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-05 00:48:26 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-05 00:48:29 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:48:34 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:48:38 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:48:41 | INFO | stdout | In overall category
+2024-12-05 00:48:41 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:49:10 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:49:17 | INFO | stdout | In overall category
+2024-12-05 00:49:17 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:49:43 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-05 00:49:47 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-05 00:49:50 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:49:50 | INFO | stdout | initial loads
+2024-12-05 00:50:01 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:50:01 | INFO | stdout | initial loads
+2024-12-05 00:50:01 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-05 00:50:01 | INFO | stdout | 
+2024-12-05 00:50:01 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-05 00:50:18 | INFO | stdout | In overall category
+2024-12-05 00:50:18 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:50:21 | INFO | stdout | In overall category
+2024-12-05 00:50:21 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:50:28 | INFO | stdout | In overall category
+2024-12-05 00:50:28 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:50:30 | INFO | stdout | In overall category
+2024-12-05 00:50:30 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:50:33 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:50:36 | INFO | stdout | In overall category
+2024-12-05 00:50:36 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:50:38 | INFO | stdout | In overall category
+2024-12-05 00:50:38 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:50:40 | INFO | stdout | In overall category
+2024-12-05 00:50:40 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:50:46 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:50:48 | INFO | stdout | In overall category
+2024-12-05 00:50:48 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:50:51 | INFO | stdout | In overall category
+2024-12-05 00:50:51 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:50:55 | INFO | stdout | In overall category
+2024-12-05 00:50:55 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:50:58 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:51:00 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:51:08 | INFO | stdout | In overall category
+2024-12-05 00:51:08 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:56:25 | INFO | stdout | In overall category
+2024-12-05 00:56:25 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:56:41 | INFO | stdout | In overall category
+2024-12-05 00:56:41 | INFO | stdout | Update overall leaderboard df
+2024-12-05 00:56:43 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-05 00:56:45 | INFO | stdout | In overall category
+2024-12-05 00:56:45 | INFO | stdout | Update overall leaderboard df
+2024-12-05 20:01:18 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-06 14:18:06 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-06 14:18:08 | INFO | stdout | Update overall leaderboard df
+2024-12-06 14:18:09 | INFO | stdout | initial loads
+2024-12-06 14:18:20 | INFO | stdout | Update overall leaderboard df
+2024-12-06 14:18:20 | INFO | stdout | initial loads
+2024-12-06 14:18:20 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-06 14:18:20 | INFO | stdout | 
+2024-12-06 14:18:20 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-06 14:19:12 | INFO | stdout | In overall category
+2024-12-06 14:19:12 | INFO | stdout | Update overall leaderboard df
+2024-12-06 14:19:14 | INFO | stdout | In overall category
+2024-12-06 14:19:14 | INFO | stdout | Update overall leaderboard df
+2024-12-06 14:19:16 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-06 14:19:23 | INFO | stdout | In overall category
+2024-12-06 14:19:23 | INFO | stdout | Update overall leaderboard df
+2024-12-06 14:19:24 | INFO | stdout | In overall category
+2024-12-06 14:19:24 | INFO | stdout | Update overall leaderboard df

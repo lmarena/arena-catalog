@@ -1,0 +1,1099 @@
+2024-12-14 19:52:39 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 19:52:41 | INFO | stdout | Update overall leaderboard df
+2024-12-14 19:52:42 | INFO | stdout | initial loads
+2024-12-14 19:52:53 | INFO | stdout | Update overall leaderboard df
+2024-12-14 19:52:53 | INFO | stdout | initial loads
+2024-12-14 19:52:53 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 19:52:53 | INFO | stdout | 
+2024-12-14 19:52:53 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 19:53:34 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 19:53:43 | INFO | stdout | In overall category
+2024-12-14 19:53:43 | INFO | stdout | Update overall leaderboard df
+2024-12-14 19:53:45 | INFO | stdout | In overall category
+2024-12-14 19:53:45 | INFO | stdout | Update overall leaderboard df
+2024-12-14 19:54:59 | INFO | stdout | In overall category
+2024-12-14 19:54:59 | INFO | stdout | Update overall leaderboard df
+2024-12-14 19:55:52 | INFO | stdout | In overall category
+2024-12-14 19:55:52 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:05:51 | INFO | stdout | In overall category
+2024-12-14 20:05:51 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:05:55 | INFO | stdout | In overall category
+2024-12-14 20:05:55 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:05:59 | INFO | stdout | In overall category
+2024-12-14 20:05:59 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:06:06 | INFO | stdout | In overall category
+2024-12-14 20:06:06 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:06:29 | INFO | stdout | In overall category
+2024-12-14 20:06:29 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:07:05 | INFO | stdout | In overall category
+2024-12-14 20:07:05 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:07:15 | INFO | stdout | In overall category
+2024-12-14 20:07:15 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:07:17 | INFO | stdout | In overall category
+2024-12-14 20:07:17 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:07:30 | INFO | stdout | In overall category
+2024-12-14 20:07:30 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:07:32 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:07:58 | INFO | stdout | In overall category
+2024-12-14 20:07:58 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:08:04 | INFO | stdout | In overall category
+2024-12-14 20:08:04 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:08:07 | INFO | stdout | In overall category
+2024-12-14 20:08:07 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:08:09 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:08:37 | INFO | stdout | In overall category
+2024-12-14 20:08:37 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:09:56 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:10:36 | INFO | stdout | In overall category
+2024-12-14 20:10:36 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:11:25 | INFO | stdout | In overall category
+2024-12-14 20:11:25 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:23:15 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 20:23:22 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 20:23:24 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:23:24 | INFO | stdout | initial loads
+2024-12-14 20:23:36 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:23:36 | INFO | stdout | initial loads
+2024-12-14 20:23:36 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 20:23:36 | INFO | stdout | 
+2024-12-14 20:23:36 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 20:24:17 | INFO | stdout | In overall category
+2024-12-14 20:24:17 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:24:27 | INFO | stdout | In overall category
+2024-12-14 20:24:27 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:24:28 | INFO | stdout | In overall category
+2024-12-14 20:24:28 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:24:40 | INFO | stdout | In overall category
+2024-12-14 20:24:40 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:25:58 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 20:26:03 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 20:26:05 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:26:05 | INFO | stdout | initial loads
+2024-12-14 20:26:16 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:26:16 | INFO | stdout | initial loads
+2024-12-14 20:26:16 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 20:26:16 | INFO | stdout | 
+2024-12-14 20:26:16 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 20:26:37 | INFO | stdout | In overall category
+2024-12-14 20:26:37 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:26:42 | INFO | stdout | In overall category
+2024-12-14 20:26:42 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:26:44 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:26:50 | INFO | stdout | In overall category
+2024-12-14 20:26:50 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:26:52 | INFO | stdout | In overall category
+2024-12-14 20:26:52 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:27:19 | INFO | stdout | In overall category
+2024-12-14 20:27:19 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:27:21 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:27:32 | INFO | stdout | In overall category
+2024-12-14 20:27:32 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:27:52 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:27:55 | INFO | stdout | In overall category
+2024-12-14 20:27:55 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:28:44 | INFO | stdout | In overall category
+2024-12-14 20:28:44 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:29:51 | INFO | stdout | In overall category
+2024-12-14 20:29:51 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:30:23 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:30:36 | INFO | stdout | In overall category
+2024-12-14 20:30:36 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:30:40 | INFO | stdout | In overall category
+2024-12-14 20:30:40 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:30:56 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 20:31:45 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:31:47 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:32:21 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:32:23 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:32:27 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:32:31 | INFO | stdout | In overall category
+2024-12-14 20:32:31 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:32:34 | INFO | stdout | In overall category
+2024-12-14 20:32:34 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:32:38 | INFO | stdout | In overall category
+2024-12-14 20:32:38 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:33:31 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 20:33:36 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 20:33:38 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:33:38 | INFO | stdout | initial loads
+2024-12-14 20:33:50 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:33:50 | INFO | stdout | initial loads
+2024-12-14 20:33:50 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 20:33:50 | INFO | stdout | 
+2024-12-14 20:33:50 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 20:34:24 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 20:34:27 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 20:34:30 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:34:30 | INFO | stdout | initial loads
+2024-12-14 20:34:41 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:34:41 | INFO | stdout | initial loads
+2024-12-14 20:34:41 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 20:34:41 | INFO | stdout | 
+2024-12-14 20:34:41 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 20:34:46 | ERROR | stderr | Traceback (most recent call last):
+2024-12-14 20:34:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/queueing.py", line 536, in process_events
+2024-12-14 20:34:46 | ERROR | stderr |     response = await route_utils.call_process_api(
+2024-12-14 20:34:46 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:34:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/route_utils.py", line 322, in call_process_api
+2024-12-14 20:34:46 | ERROR | stderr |     output = await app.get_blocks().process_api(
+2024-12-14 20:34:46 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:34:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1935, in process_api
+2024-12-14 20:34:46 | ERROR | stderr |     result = await self.call_function(
+2024-12-14 20:34:46 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:34:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1520, in call_function
+2024-12-14 20:34:46 | ERROR | stderr |     prediction = await anyio.to_thread.run_sync(  # type: ignore
+2024-12-14 20:34:46 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:34:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 56, in run_sync
+2024-12-14 20:34:46 | ERROR | stderr |     return await get_async_backend().run_sync_in_worker_thread(
+2024-12-14 20:34:46 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:34:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2441, in run_sync_in_worker_thread
+2024-12-14 20:34:46 | ERROR | stderr |     return await future
+2024-12-14 20:34:46 | ERROR | stderr |            ^^^^^^^^^^^^
+2024-12-14 20:34:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 943, in run
+2024-12-14 20:34:46 | ERROR | stderr |     result = context.run(func, *args)
+2024-12-14 20:34:46 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:34:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/utils.py", line 826, in wrapper
+2024-12-14 20:34:46 | ERROR | stderr |     response = f(*args, **kwargs)
+2024-12-14 20:34:46 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^
+2024-12-14 20:34:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 635, in update_leaderboard_and_plots
+2024-12-14 20:34:46 | ERROR | stderr |     arena_subset_df = arena_dfs[category]
+2024-12-14 20:34:46 | ERROR | stderr |                       ~~~~~~~~~^^^^^^^^^^
+2024-12-14 20:34:46 | ERROR | stderr | KeyError: 'Overall w/ Price Control'
+2024-12-14 20:35:07 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 20:36:34 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 20:36:36 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:36:36 | INFO | stdout | initial loads
+2024-12-14 20:36:47 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:36:47 | INFO | stdout | initial loads
+2024-12-14 20:36:47 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 20:36:47 | INFO | stdout | 
+2024-12-14 20:36:47 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 20:36:57 | INFO | stdout | In overall category
+2024-12-14 20:36:57 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:37:05 | INFO | stdout | In overall category
+2024-12-14 20:37:05 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:37:15 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:37:21 | INFO | stdout | In overall category
+2024-12-14 20:37:21 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:37:31 | INFO | stdout | In overall category
+2024-12-14 20:37:31 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:37:36 | INFO | stdout | In overall category
+2024-12-14 20:37:36 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:37:40 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:37:50 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:37:52 | INFO | stdout | In overall category
+2024-12-14 20:37:52 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:38:02 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 20:38:14 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 20:38:16 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:38:16 | INFO | stdout | initial loads
+2024-12-14 20:38:28 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:38:28 | INFO | stdout | initial loads
+2024-12-14 20:38:28 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 20:38:28 | INFO | stdout | 
+2024-12-14 20:38:28 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 20:38:36 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 20:38:56 | INFO | stdout | In overall category
+2024-12-14 20:38:56 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:38:59 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 20:39:01 | INFO | stdout | In overall category
+2024-12-14 20:39:01 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:39:02 | INFO | stdout | In overall category
+2024-12-14 20:39:02 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:39:08 | INFO | stdout | In overall category
+2024-12-14 20:39:08 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:39:11 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:39:18 | INFO | stdout | In overall category
+2024-12-14 20:39:18 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:39:20 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:39:29 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 20:39:31 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 20:39:37 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 20:41:30 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 20:41:33 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:41:33 | INFO | stdout | initial loads
+2024-12-14 20:41:45 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:41:45 | INFO | stdout | initial loads
+2024-12-14 20:41:45 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 20:41:45 | INFO | stdout | 
+2024-12-14 20:41:45 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 20:41:49 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 20:43:28 | INFO | stdout | In overall category
+2024-12-14 20:43:28 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:43:31 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:43:33 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:43:35 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:43:37 | INFO | stdout | In overall category
+2024-12-14 20:43:37 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:43:39 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 20:43:42 | INFO | stdout | In overall category
+2024-12-14 20:43:42 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:45:40 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 20:46:19 | INFO | stdout | In overall category
+2024-12-14 20:46:19 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:46:24 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 20:49:17 | INFO | stdout | In overall category
+2024-12-14 20:49:17 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:49:26 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 20:49:34 | INFO | stdout | In overall category
+2024-12-14 20:49:34 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:49:36 | INFO | stdout | In overall category
+2024-12-14 20:49:36 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:49:41 | INFO | stdout | In overall category
+2024-12-14 20:49:41 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:52:24 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 20:52:29 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 20:52:31 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:52:32 | INFO | stdout | initial loads
+2024-12-14 20:52:43 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:52:43 | INFO | stdout | initial loads
+2024-12-14 20:52:43 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 20:52:43 | INFO | stdout | 
+2024-12-14 20:52:43 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 20:54:08 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 20:54:13 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 20:54:15 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:54:16 | INFO | stdout | initial loads
+2024-12-14 20:54:27 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:54:27 | INFO | stdout | initial loads
+2024-12-14 20:54:27 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 20:54:27 | INFO | stdout | 
+2024-12-14 20:54:27 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 20:58:02 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 20:58:08 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 20:58:10 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:58:10 | ERROR | stderr | Traceback (most recent call last):
+2024-12-14 20:58:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 138, in <module>
+2024-12-14 20:58:10 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-12-14 20:58:10 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:58:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 103, in build_demo
+2024-12-14 20:58:10 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-12-14 20:58:10 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:58:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1066, in build_leaderboard_tab
+2024-12-14 20:58:10 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-12-14 20:58:10 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-12-14 20:58:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 749, in build_arena_tab
+2024-12-14 20:58:10 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-12-14 20:58:10 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:58:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 536, in update_overall_leaderboard_df
+2024-12-14 20:58:10 | ERROR | stderr |     comparison_price_ctrl = elo_dataframe.apply(
+2024-12-14 20:58:10 | ERROR | stderr |                             ^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:58:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-12-14 20:58:10 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-12-14 20:58:10 | ERROR | stderr |            ^^^^^^^^^^
+2024-12-14 20:58:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-12-14 20:58:10 | ERROR | stderr |     return self.apply_standard()
+2024-12-14 20:58:10 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:58:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-12-14 20:58:10 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-12-14 20:58:10 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:58:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-12-14 20:58:10 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-12-14 20:58:10 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:58:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 520, in compare_func_price_ctrl
+2024-12-14 20:58:10 | ERROR | stderr |     if int(row["Delta"]) == row["Rank* (UB)"]:
+2024-12-14 20:58:10 | ERROR | stderr |        ^^^^^^^^^^^^^^^^^
+2024-12-14 20:58:10 | ERROR | stderr | ValueError: invalid literal for int() with base 10: 'N/A'
+2024-12-14 20:59:22 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 20:59:24 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:59:24 | INFO | stdout | initial loads
+2024-12-14 20:59:35 | INFO | stdout | Update overall leaderboard df
+2024-12-14 20:59:35 | INFO | stdout | initial loads
+2024-12-14 20:59:36 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 20:59:36 | INFO | stdout | 
+2024-12-14 20:59:36 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 20:59:45 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 20:59:45 | ERROR | stderr | Traceback (most recent call last):
+2024-12-14 20:59:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/queueing.py", line 536, in process_events
+2024-12-14 20:59:45 | ERROR | stderr |     response = await route_utils.call_process_api(
+2024-12-14 20:59:45 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:59:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/route_utils.py", line 322, in call_process_api
+2024-12-14 20:59:45 | ERROR | stderr |     output = await app.get_blocks().process_api(
+2024-12-14 20:59:45 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:59:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1945, in process_api
+2024-12-14 20:59:45 | ERROR | stderr |     data = await self.postprocess_data(block_fn, result["prediction"], state)
+2024-12-14 20:59:45 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:59:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1756, in postprocess_data
+2024-12-14 20:59:45 | ERROR | stderr |     prediction_value = postprocess_update_dict(
+2024-12-14 20:59:45 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:59:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 622, in postprocess_update_dict
+2024-12-14 20:59:45 | ERROR | stderr |     update_dict["value"] = block.postprocess(value)
+2024-12-14 20:59:45 | ERROR | stderr |                            ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:59:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/components/dataframe.py", line 294, in postprocess
+2024-12-14 20:59:45 | ERROR | stderr |     metadata=self.__extract_metadata(value),  # type: ignore
+2024-12-14 20:59:45 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:59:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/components/dataframe.py", line 336, in __extract_metadata
+2024-12-14 20:59:45 | ERROR | stderr |     style_data = df._compute()._translate(None, None)  # type: ignore
+2024-12-14 20:59:45 | ERROR | stderr |                  ^^^^^^^^^^^^^
+2024-12-14 20:59:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style_render.py", line 256, in _compute
+2024-12-14 20:59:45 | ERROR | stderr |     r = func(self)(*args, **kwargs)
+2024-12-14 20:59:45 | ERROR | stderr |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:59:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style.py", line 1726, in _apply
+2024-12-14 20:59:45 | ERROR | stderr |     result = data.apply(func, axis=0, **kwargs)
+2024-12-14 20:59:45 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:59:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-12-14 20:59:45 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-12-14 20:59:45 | ERROR | stderr |            ^^^^^^^^^^
+2024-12-14 20:59:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-12-14 20:59:45 | ERROR | stderr |     return self.apply_standard()
+2024-12-14 20:59:45 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:59:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-12-14 20:59:45 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-12-14 20:59:45 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:59:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-12-14 20:59:45 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-12-14 20:59:45 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 20:59:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 467, in highlight_rank_max
+2024-12-14 20:59:45 | ERROR | stderr |     return [
+2024-12-14 20:59:45 | ERROR | stderr |            ^
+2024-12-14 20:59:45 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 470, in <listcomp>
+2024-12-14 20:59:45 | ERROR | stderr |     if v < 0
+2024-12-14 20:59:45 | ERROR | stderr |        ^^^^^
+2024-12-14 20:59:45 | ERROR | stderr | TypeError: '<' not supported between instances of 'str' and 'int'
+2024-12-14 21:04:25 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 21:04:30 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 21:04:33 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:04:33 | INFO | stdout | initial loads
+2024-12-14 21:04:44 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:04:44 | INFO | stdout | initial loads
+2024-12-14 21:04:44 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 21:04:44 | INFO | stdout | 
+2024-12-14 21:04:44 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 21:04:54 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:05:13 | INFO | stdout | In overall category
+2024-12-14 21:05:13 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:05:16 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 21:06:17 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 21:06:22 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 21:06:24 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:06:25 | INFO | stdout | initial loads
+2024-12-14 21:06:36 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:06:36 | INFO | stdout | initial loads
+2024-12-14 21:06:36 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 21:06:36 | INFO | stdout | 
+2024-12-14 21:06:36 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 21:06:59 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 21:07:17 | INFO | stdout | In overall category
+2024-12-14 21:07:17 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:07:20 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:08:04 | INFO | stdout | In overall category
+2024-12-14 21:08:04 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:08:12 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 21:08:25 | INFO | stdout | In overall category
+2024-12-14 21:08:25 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:08:27 | INFO | stdout | In overall category
+2024-12-14 21:08:27 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:08:35 | INFO | stdout | In overall category
+2024-12-14 21:08:35 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:08:51 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:08:59 | INFO | stdout | In overall category
+2024-12-14 21:08:59 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:09:01 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 21:10:06 | INFO | stdout | In overall category
+2024-12-14 21:10:06 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:10:22 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 21:10:57 | INFO | stdout | In overall category
+2024-12-14 21:10:57 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:10:59 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:11:06 | INFO | stdout | In overall category
+2024-12-14 21:11:06 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:11:13 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 21:12:01 | INFO | stdout | In overall category
+2024-12-14 21:12:01 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:12:15 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 21:12:52 | INFO | stdout | In overall category
+2024-12-14 21:12:52 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:13:15 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 21:13:36 | INFO | stdout | In overall category
+2024-12-14 21:13:36 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:15:25 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 21:15:28 | INFO | stdout | In overall category
+2024-12-14 21:15:28 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:16:30 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 21:17:36 | INFO | stdout | In overall category
+2024-12-14 21:17:36 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:18:30 | INFO | stdout | In overall category
+2024-12-14 21:18:30 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:18:36 | INFO | stdout | In overall category
+2024-12-14 21:18:36 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:18:38 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 21:19:12 | INFO | stdout | In overall category
+2024-12-14 21:19:12 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:19:40 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:19:48 | INFO | stdout | In overall category
+2024-12-14 21:19:48 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:19:50 | INFO | stdout | In overall category
+2024-12-14 21:19:50 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:19:54 | INFO | stdout | In overall category
+2024-12-14 21:19:54 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:20:03 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 21:21:09 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 21:21:13 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 21:21:16 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:21:16 | INFO | stdout | initial loads
+2024-12-14 21:21:27 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:21:27 | INFO | stdout | initial loads
+2024-12-14 21:21:27 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 21:21:27 | INFO | stdout | 
+2024-12-14 21:21:27 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 21:21:52 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 21:22:18 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 21:22:22 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 21:22:25 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:22:25 | INFO | stdout | initial loads
+2024-12-14 21:22:36 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:22:36 | INFO | stdout | initial loads
+2024-12-14 21:22:36 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 21:22:36 | INFO | stdout | 
+2024-12-14 21:22:36 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 21:23:09 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 21:23:13 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 21:23:16 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:23:16 | ERROR | stderr | Traceback (most recent call last):
+2024-12-14 21:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 138, in <module>
+2024-12-14 21:23:16 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-12-14 21:23:16 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 103, in build_demo
+2024-12-14 21:23:16 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-12-14 21:23:16 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1066, in build_leaderboard_tab
+2024-12-14 21:23:16 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-12-14 21:23:16 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-12-14 21:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 749, in build_arena_tab
+2024-12-14 21:23:16 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-12-14 21:23:16 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 536, in update_overall_leaderboard_df
+2024-12-14 21:23:16 | ERROR | stderr |     comparison_price_ctrl = elo_dataframe.apply(
+2024-12-14 21:23:16 | ERROR | stderr |                             ^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-12-14 21:23:16 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-12-14 21:23:16 | ERROR | stderr |            ^^^^^^^^^^
+2024-12-14 21:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-12-14 21:23:16 | ERROR | stderr |     return self.apply_standard()
+2024-12-14 21:23:16 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-12-14 21:23:16 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-12-14 21:23:16 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-12-14 21:23:16 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-12-14 21:23:16 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:23:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 520, in compare_func_price_ctrl
+2024-12-14 21:23:16 | ERROR | stderr |     if int(row["Delta"]) == row["Rank* (UB)"]:
+2024-12-14 21:23:16 | ERROR | stderr |        ^^^^^^^^^^^^^^^^^
+2024-12-14 21:23:16 | ERROR | stderr | ValueError: invalid literal for int() with base 10: 'AAAA'
+2024-12-14 21:24:22 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 21:24:24 | ERROR | stderr | Traceback (most recent call last):
+2024-12-14 21:24:24 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 138, in <module>
+2024-12-14 21:24:24 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-12-14 21:24:24 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:24:24 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 103, in build_demo
+2024-12-14 21:24:24 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-12-14 21:24:24 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:24:24 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1066, in build_leaderboard_tab
+2024-12-14 21:24:24 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-12-14 21:24:24 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-12-14 21:24:24 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 713, in build_arena_tab
+2024-12-14 21:24:24 | ERROR | stderr |     arena_table_vals = get_arena_table(
+2024-12-14 21:24:24 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^
+2024-12-14 21:24:24 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 435, in get_arena_table
+2024-12-14 21:24:24 | ERROR | stderr |     values = [
+2024-12-14 21:24:24 | ERROR | stderr |              ^
+2024-12-14 21:24:24 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 438, in <listcomp>
+2024-12-14 21:24:24 | ERROR | stderr |     if process_row(row) is not None
+2024-12-14 21:24:24 | ERROR | stderr |        ^^^^^^^^^^^^^^^^
+2024-12-14 21:24:24 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 400, in process_row
+2024-12-14 21:24:24 | ERROR | stderr |     "N/A" if price_control and rank_after == "N/A" else int(ranking) - int(rank_after),
+2024-12-14 21:24:24 | ERROR | stderr |                                                                        ^^^^^^^^^^^^^^^
+2024-12-14 21:24:24 | ERROR | stderr | ValueError: invalid literal for int() with base 10: 'N/A'
+2024-12-14 21:26:11 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 21:26:13 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:26:13 | INFO | stdout | initial loads
+2024-12-14 21:26:24 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:26:24 | INFO | stdout | initial loads
+2024-12-14 21:26:24 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 21:26:24 | INFO | stdout | 
+2024-12-14 21:26:24 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 21:26:46 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 21:26:55 | INFO | stdout | In overall category
+2024-12-14 21:26:55 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:26:57 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:27:46 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:27:55 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 21:27:59 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:28:30 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 21:28:34 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 21:28:37 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:28:37 | INFO | stdout | initial loads
+2024-12-14 21:28:48 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:28:48 | INFO | stdout | initial loads
+2024-12-14 21:28:48 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 21:28:48 | INFO | stdout | 
+2024-12-14 21:28:48 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 21:28:56 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:29:28 | INFO | stdout | In overall category
+2024-12-14 21:29:28 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:29:31 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:29:45 | INFO | stdout | In overall category
+2024-12-14 21:29:45 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:29:49 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 21:29:52 | INFO | stdout | In overall category
+2024-12-14 21:29:52 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:29:56 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:30:43 | INFO | stdout | In overall category
+2024-12-14 21:30:43 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:30:44 | INFO | stdout | In overall category
+2024-12-14 21:30:44 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:30:50 | INFO | stdout | In overall category
+2024-12-14 21:30:50 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:30:52 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 21:30:58 | INFO | stdout | In overall category
+2024-12-14 21:30:58 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:31:01 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:31:22 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 21:31:28 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 21:31:30 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:31:30 | INFO | stdout | initial loads
+2024-12-14 21:31:41 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:31:41 | INFO | stdout | initial loads
+2024-12-14 21:31:41 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 21:31:41 | INFO | stdout | 
+2024-12-14 21:31:41 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 21:44:01 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 21:44:06 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 21:44:09 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:44:09 | INFO | stdout | initial loads
+2024-12-14 21:44:20 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:44:20 | INFO | stdout | initial loads
+2024-12-14 21:44:20 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 21:44:20 | INFO | stdout | 
+2024-12-14 21:44:20 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 21:44:29 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:44:29 | ERROR | stderr | Traceback (most recent call last):
+2024-12-14 21:44:29 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/queueing.py", line 536, in process_events
+2024-12-14 21:44:29 | ERROR | stderr |     response = await route_utils.call_process_api(
+2024-12-14 21:44:29 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:44:29 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/route_utils.py", line 322, in call_process_api
+2024-12-14 21:44:29 | ERROR | stderr |     output = await app.get_blocks().process_api(
+2024-12-14 21:44:29 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:44:29 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1945, in process_api
+2024-12-14 21:44:29 | ERROR | stderr |     data = await self.postprocess_data(block_fn, result["prediction"], state)
+2024-12-14 21:44:29 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:44:29 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1756, in postprocess_data
+2024-12-14 21:44:29 | ERROR | stderr |     prediction_value = postprocess_update_dict(
+2024-12-14 21:44:29 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:44:29 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 622, in postprocess_update_dict
+2024-12-14 21:44:29 | ERROR | stderr |     update_dict["value"] = block.postprocess(value)
+2024-12-14 21:44:29 | ERROR | stderr |                            ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:44:29 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/components/dataframe.py", line 294, in postprocess
+2024-12-14 21:44:29 | ERROR | stderr |     metadata=self.__extract_metadata(value),  # type: ignore
+2024-12-14 21:44:29 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:44:29 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/components/dataframe.py", line 336, in __extract_metadata
+2024-12-14 21:44:29 | ERROR | stderr |     style_data = df._compute()._translate(None, None)  # type: ignore
+2024-12-14 21:44:29 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:44:29 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style_render.py", line 335, in _translate
+2024-12-14 21:44:29 | ERROR | stderr |     body: list = self._translate_body(idx_lengths, max_rows, max_cols)
+2024-12-14 21:44:29 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:44:29 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style_render.py", line 629, in _translate_body
+2024-12-14 21:44:29 | ERROR | stderr |     body_row = self._generate_body_row(
+2024-12-14 21:44:29 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:44:29 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style_render.py", line 826, in _generate_body_row
+2024-12-14 21:44:29 | ERROR | stderr |     display_value=self._display_funcs[(r, c)](value),
+2024-12-14 21:44:29 | ERROR | stderr |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:44:29 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style_render.py", line 1829, in <lambda>
+2024-12-14 21:44:29 | ERROR | stderr |     func_0 = lambda x: formatter.format(x)
+2024-12-14 21:44:29 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:44:29 | ERROR | stderr | ValueError: Unknown format code 'f' for object of type 'str'
+2024-12-14 21:47:50 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 21:47:52 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:47:52 | INFO | stdout | initial loads
+2024-12-14 21:48:04 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:48:04 | INFO | stdout | initial loads
+2024-12-14 21:48:04 | ERROR | stderr | [31mERROR[0m:    [Errno 48] error while attempting to bind on address ('0.0.0.0', 7860): address already in use
+2024-12-14 21:48:09 | ERROR | stderr | Traceback (most recent call last):
+2024-12-14 21:48:09 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 139, in <module>
+2024-12-14 21:48:09 | ERROR | stderr |     demo.launch(share=args.share, server_name=args.host, server_port=args.port)
+2024-12-14 21:48:09 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 2371, in launch
+2024-12-14 21:48:09 | ERROR | stderr |     ) = http_server.start_server(
+2024-12-14 21:48:09 | ERROR | stderr |         ^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:48:09 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/http_server.py", line 154, in start_server
+2024-12-14 21:48:09 | ERROR | stderr |     raise OSError(
+2024-12-14 21:48:09 | ERROR | stderr | OSError: Cannot find empty port in range: 7860-7860. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+2024-12-14 21:48:18 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 21:48:20 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:48:20 | INFO | stdout | initial loads
+2024-12-14 21:48:31 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:48:31 | INFO | stdout | initial loads
+2024-12-14 21:48:31 | ERROR | stderr | [31mERROR[0m:    [Errno 48] error while attempting to bind on address ('0.0.0.0', 7860): address already in use
+2024-12-14 21:48:42 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 21:48:46 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 21:48:48 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:48:49 | INFO | stdout | initial loads
+2024-12-14 21:49:00 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:49:00 | INFO | stdout | initial loads
+2024-12-14 21:49:00 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 21:49:00 | INFO | stdout | 
+2024-12-14 21:49:00 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 21:49:23 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:49:23 | ERROR | stderr | Traceback (most recent call last):
+2024-12-14 21:49:23 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/queueing.py", line 536, in process_events
+2024-12-14 21:49:23 | ERROR | stderr |     response = await route_utils.call_process_api(
+2024-12-14 21:49:23 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:49:23 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/route_utils.py", line 322, in call_process_api
+2024-12-14 21:49:23 | ERROR | stderr |     output = await app.get_blocks().process_api(
+2024-12-14 21:49:23 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:49:23 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1945, in process_api
+2024-12-14 21:49:23 | ERROR | stderr |     data = await self.postprocess_data(block_fn, result["prediction"], state)
+2024-12-14 21:49:23 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:49:23 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1756, in postprocess_data
+2024-12-14 21:49:23 | ERROR | stderr |     prediction_value = postprocess_update_dict(
+2024-12-14 21:49:23 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:49:23 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 622, in postprocess_update_dict
+2024-12-14 21:49:23 | ERROR | stderr |     update_dict["value"] = block.postprocess(value)
+2024-12-14 21:49:23 | ERROR | stderr |                            ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:49:23 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/components/dataframe.py", line 294, in postprocess
+2024-12-14 21:49:23 | ERROR | stderr |     metadata=self.__extract_metadata(value),  # type: ignore
+2024-12-14 21:49:23 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:49:23 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/components/dataframe.py", line 336, in __extract_metadata
+2024-12-14 21:49:23 | ERROR | stderr |     style_data = df._compute()._translate(None, None)  # type: ignore
+2024-12-14 21:49:23 | ERROR | stderr |                  ^^^^^^^^^^^^^
+2024-12-14 21:49:23 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style_render.py", line 256, in _compute
+2024-12-14 21:49:23 | ERROR | stderr |     r = func(self)(*args, **kwargs)
+2024-12-14 21:49:23 | ERROR | stderr |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:49:23 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style.py", line 1726, in _apply
+2024-12-14 21:49:23 | ERROR | stderr |     result = data.apply(func, axis=0, **kwargs)
+2024-12-14 21:49:23 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:49:23 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-12-14 21:49:23 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-12-14 21:49:23 | ERROR | stderr |            ^^^^^^^^^^
+2024-12-14 21:49:23 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-12-14 21:49:23 | ERROR | stderr |     return self.apply_standard()
+2024-12-14 21:49:23 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:49:23 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-12-14 21:49:23 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-12-14 21:49:23 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:49:23 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-12-14 21:49:23 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-12-14 21:49:23 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:49:23 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 479, in try_format
+2024-12-14 21:49:23 | ERROR | stderr |     return [
+2024-12-14 21:49:23 | ERROR | stderr |            ^
+2024-12-14 21:49:23 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 480, in <listcomp>
+2024-12-14 21:49:23 | ERROR | stderr |     v.format("{:.2f}") for v in s
+2024-12-14 21:49:23 | ERROR | stderr |     ^^^^^^^^
+2024-12-14 21:49:23 | ERROR | stderr | AttributeError: 'int' object has no attribute 'format'
+2024-12-14 21:50:09 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 21:50:20 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 21:50:23 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:50:23 | INFO | stdout | initial loads
+2024-12-14 21:50:34 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:50:34 | INFO | stdout | initial loads
+2024-12-14 21:50:34 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 21:50:35 | INFO | stdout | 
+2024-12-14 21:50:35 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 21:50:46 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:50:46 | ERROR | stderr | Traceback (most recent call last):
+2024-12-14 21:50:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/queueing.py", line 536, in process_events
+2024-12-14 21:50:46 | ERROR | stderr |     response = await route_utils.call_process_api(
+2024-12-14 21:50:46 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:50:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/route_utils.py", line 322, in call_process_api
+2024-12-14 21:50:46 | ERROR | stderr |     output = await app.get_blocks().process_api(
+2024-12-14 21:50:46 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:50:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1945, in process_api
+2024-12-14 21:50:46 | ERROR | stderr |     data = await self.postprocess_data(block_fn, result["prediction"], state)
+2024-12-14 21:50:46 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:50:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1756, in postprocess_data
+2024-12-14 21:50:46 | ERROR | stderr |     prediction_value = postprocess_update_dict(
+2024-12-14 21:50:46 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:50:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 622, in postprocess_update_dict
+2024-12-14 21:50:46 | ERROR | stderr |     update_dict["value"] = block.postprocess(value)
+2024-12-14 21:50:46 | ERROR | stderr |                            ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:50:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/components/dataframe.py", line 294, in postprocess
+2024-12-14 21:50:46 | ERROR | stderr |     metadata=self.__extract_metadata(value),  # type: ignore
+2024-12-14 21:50:46 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:50:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/components/dataframe.py", line 336, in __extract_metadata
+2024-12-14 21:50:46 | ERROR | stderr |     style_data = df._compute()._translate(None, None)  # type: ignore
+2024-12-14 21:50:46 | ERROR | stderr |                  ^^^^^^^^^^^^^
+2024-12-14 21:50:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style_render.py", line 256, in _compute
+2024-12-14 21:50:46 | ERROR | stderr |     r = func(self)(*args, **kwargs)
+2024-12-14 21:50:46 | ERROR | stderr |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:50:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style.py", line 1726, in _apply
+2024-12-14 21:50:46 | ERROR | stderr |     result = data.apply(func, axis=0, **kwargs)
+2024-12-14 21:50:46 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:50:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-12-14 21:50:46 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-12-14 21:50:46 | ERROR | stderr |            ^^^^^^^^^^
+2024-12-14 21:50:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-12-14 21:50:46 | ERROR | stderr |     return self.apply_standard()
+2024-12-14 21:50:46 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:50:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-12-14 21:50:46 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-12-14 21:50:46 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:50:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-12-14 21:50:46 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-12-14 21:50:46 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:50:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 479, in try_format
+2024-12-14 21:50:46 | ERROR | stderr |     return [
+2024-12-14 21:50:46 | ERROR | stderr |            ^
+2024-12-14 21:50:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 480, in <listcomp>
+2024-12-14 21:50:46 | ERROR | stderr |     format(v, ".2f") for v in s
+2024-12-14 21:50:46 | ERROR | stderr |     ^^^^^^^^^^^^^^^^
+2024-12-14 21:50:46 | ERROR | stderr | ValueError: Unknown format code 'f' for object of type 'str'
+2024-12-14 21:51:39 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 21:51:44 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 21:51:46 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:51:47 | INFO | stdout | initial loads
+2024-12-14 21:51:58 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:51:58 | INFO | stdout | initial loads
+2024-12-14 21:51:58 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 21:51:58 | INFO | stdout | 
+2024-12-14 21:51:58 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 21:52:07 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:52:07 | ERROR | stderr | Traceback (most recent call last):
+2024-12-14 21:52:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/queueing.py", line 536, in process_events
+2024-12-14 21:52:07 | ERROR | stderr |     response = await route_utils.call_process_api(
+2024-12-14 21:52:07 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:52:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/route_utils.py", line 322, in call_process_api
+2024-12-14 21:52:07 | ERROR | stderr |     output = await app.get_blocks().process_api(
+2024-12-14 21:52:07 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:52:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1945, in process_api
+2024-12-14 21:52:07 | ERROR | stderr |     data = await self.postprocess_data(block_fn, result["prediction"], state)
+2024-12-14 21:52:07 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:52:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1756, in postprocess_data
+2024-12-14 21:52:07 | ERROR | stderr |     prediction_value = postprocess_update_dict(
+2024-12-14 21:52:07 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:52:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 622, in postprocess_update_dict
+2024-12-14 21:52:07 | ERROR | stderr |     update_dict["value"] = block.postprocess(value)
+2024-12-14 21:52:07 | ERROR | stderr |                            ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:52:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/components/dataframe.py", line 294, in postprocess
+2024-12-14 21:52:07 | ERROR | stderr |     metadata=self.__extract_metadata(value),  # type: ignore
+2024-12-14 21:52:07 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:52:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/components/dataframe.py", line 336, in __extract_metadata
+2024-12-14 21:52:07 | ERROR | stderr |     style_data = df._compute()._translate(None, None)  # type: ignore
+2024-12-14 21:52:07 | ERROR | stderr |                  ^^^^^^^^^^^^^
+2024-12-14 21:52:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style_render.py", line 256, in _compute
+2024-12-14 21:52:07 | ERROR | stderr |     r = func(self)(*args, **kwargs)
+2024-12-14 21:52:07 | ERROR | stderr |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:52:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style.py", line 1726, in _apply
+2024-12-14 21:52:07 | ERROR | stderr |     result = data.apply(func, axis=0, **kwargs)
+2024-12-14 21:52:07 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:52:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-12-14 21:52:07 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-12-14 21:52:07 | ERROR | stderr |            ^^^^^^^^^^
+2024-12-14 21:52:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-12-14 21:52:07 | ERROR | stderr |     return self.apply_standard()
+2024-12-14 21:52:07 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:52:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-12-14 21:52:07 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-12-14 21:52:07 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:52:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-12-14 21:52:07 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-12-14 21:52:07 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:52:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 479, in try_format
+2024-12-14 21:52:07 | ERROR | stderr |     return [
+2024-12-14 21:52:07 | ERROR | stderr |            ^
+2024-12-14 21:52:07 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 480, in <listcomp>
+2024-12-14 21:52:07 | ERROR | stderr |     f"{float(v):.2f}" for v in s
+2024-12-14 21:52:07 | ERROR | stderr |        ^^^^^^^^
+2024-12-14 21:52:07 | ERROR | stderr | ValueError: could not convert string to float: 'N/A'
+2024-12-14 21:54:41 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 21:54:45 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 21:54:47 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:54:47 | INFO | stdout | initial loads
+2024-12-14 21:54:59 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:54:59 | INFO | stdout | initial loads
+2024-12-14 21:54:59 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 21:54:59 | INFO | stdout | 
+2024-12-14 21:54:59 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 21:55:10 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:55:10 | ERROR | stderr | Traceback (most recent call last):
+2024-12-14 21:55:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style_render.py", line 1919, in maybe_convert_css_to_tuples
+2024-12-14 21:55:10 | ERROR | stderr |     return [
+2024-12-14 21:55:10 | ERROR | stderr |            ^
+2024-12-14 21:55:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style_render.py", line 1920, in <listcomp>
+2024-12-14 21:55:10 | ERROR | stderr |     (x.split(":")[0].strip(), x.split(":")[1].strip())
+2024-12-14 21:55:10 | ERROR | stderr |                               ~~~~~~~~~~~~^^^
+2024-12-14 21:55:10 | ERROR | stderr | IndexError: list index out of range
+2024-12-14 21:55:10 | ERROR | stderr | 
+2024-12-14 21:55:10 | ERROR | stderr | During handling of the above exception, another exception occurred:
+2024-12-14 21:55:10 | ERROR | stderr | 
+2024-12-14 21:55:10 | ERROR | stderr | Traceback (most recent call last):
+2024-12-14 21:55:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/queueing.py", line 536, in process_events
+2024-12-14 21:55:10 | ERROR | stderr |     response = await route_utils.call_process_api(
+2024-12-14 21:55:10 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:55:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/route_utils.py", line 322, in call_process_api
+2024-12-14 21:55:10 | ERROR | stderr |     output = await app.get_blocks().process_api(
+2024-12-14 21:55:10 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:55:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1945, in process_api
+2024-12-14 21:55:10 | ERROR | stderr |     data = await self.postprocess_data(block_fn, result["prediction"], state)
+2024-12-14 21:55:10 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:55:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1756, in postprocess_data
+2024-12-14 21:55:10 | ERROR | stderr |     prediction_value = postprocess_update_dict(
+2024-12-14 21:55:10 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:55:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 622, in postprocess_update_dict
+2024-12-14 21:55:10 | ERROR | stderr |     update_dict["value"] = block.postprocess(value)
+2024-12-14 21:55:10 | ERROR | stderr |                            ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:55:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/components/dataframe.py", line 294, in postprocess
+2024-12-14 21:55:10 | ERROR | stderr |     metadata=self.__extract_metadata(value),  # type: ignore
+2024-12-14 21:55:10 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:55:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/components/dataframe.py", line 336, in __extract_metadata
+2024-12-14 21:55:10 | ERROR | stderr |     style_data = df._compute()._translate(None, None)  # type: ignore
+2024-12-14 21:55:10 | ERROR | stderr |                  ^^^^^^^^^^^^^
+2024-12-14 21:55:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style_render.py", line 256, in _compute
+2024-12-14 21:55:10 | ERROR | stderr |     r = func(self)(*args, **kwargs)
+2024-12-14 21:55:10 | ERROR | stderr |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:55:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style.py", line 1752, in _apply
+2024-12-14 21:55:10 | ERROR | stderr |     self._update_ctx(result)
+2024-12-14 21:55:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style.py", line 1560, in _update_ctx
+2024-12-14 21:55:10 | ERROR | stderr |     css_list = maybe_convert_css_to_tuples(c)
+2024-12-14 21:55:10 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:55:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style_render.py", line 1925, in maybe_convert_css_to_tuples
+2024-12-14 21:55:10 | ERROR | stderr |     raise ValueError(
+2024-12-14 21:55:10 | ERROR | stderr | ValueError: Styles supplied as string must follow CSS rule formats, for example 'attr: val;'. 'N/A' was given.
+2024-12-14 21:57:27 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 21:57:32 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 21:57:34 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:57:35 | INFO | stdout | initial loads
+2024-12-14 21:57:46 | INFO | stdout | Update overall leaderboard df
+2024-12-14 21:57:46 | INFO | stdout | initial loads
+2024-12-14 21:57:46 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 21:57:46 | INFO | stdout | 
+2024-12-14 21:57:46 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 21:58:02 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 21:58:02 | ERROR | stderr | Traceback (most recent call last):
+2024-12-14 21:58:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style_render.py", line 1919, in maybe_convert_css_to_tuples
+2024-12-14 21:58:02 | ERROR | stderr |     return [
+2024-12-14 21:58:02 | ERROR | stderr |            ^
+2024-12-14 21:58:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style_render.py", line 1920, in <listcomp>
+2024-12-14 21:58:02 | ERROR | stderr |     (x.split(":")[0].strip(), x.split(":")[1].strip())
+2024-12-14 21:58:02 | ERROR | stderr |                               ~~~~~~~~~~~~^^^
+2024-12-14 21:58:02 | ERROR | stderr | IndexError: list index out of range
+2024-12-14 21:58:02 | ERROR | stderr | 
+2024-12-14 21:58:02 | ERROR | stderr | During handling of the above exception, another exception occurred:
+2024-12-14 21:58:02 | ERROR | stderr | 
+2024-12-14 21:58:02 | ERROR | stderr | Traceback (most recent call last):
+2024-12-14 21:58:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/queueing.py", line 536, in process_events
+2024-12-14 21:58:02 | ERROR | stderr |     response = await route_utils.call_process_api(
+2024-12-14 21:58:02 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:58:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/route_utils.py", line 322, in call_process_api
+2024-12-14 21:58:02 | ERROR | stderr |     output = await app.get_blocks().process_api(
+2024-12-14 21:58:02 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:58:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1945, in process_api
+2024-12-14 21:58:02 | ERROR | stderr |     data = await self.postprocess_data(block_fn, result["prediction"], state)
+2024-12-14 21:58:02 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:58:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1756, in postprocess_data
+2024-12-14 21:58:02 | ERROR | stderr |     prediction_value = postprocess_update_dict(
+2024-12-14 21:58:02 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:58:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 622, in postprocess_update_dict
+2024-12-14 21:58:02 | ERROR | stderr |     update_dict["value"] = block.postprocess(value)
+2024-12-14 21:58:02 | ERROR | stderr |                            ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:58:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/components/dataframe.py", line 294, in postprocess
+2024-12-14 21:58:02 | ERROR | stderr |     metadata=self.__extract_metadata(value),  # type: ignore
+2024-12-14 21:58:02 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:58:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/components/dataframe.py", line 336, in __extract_metadata
+2024-12-14 21:58:02 | ERROR | stderr |     style_data = df._compute()._translate(None, None)  # type: ignore
+2024-12-14 21:58:02 | ERROR | stderr |                  ^^^^^^^^^^^^^
+2024-12-14 21:58:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style_render.py", line 256, in _compute
+2024-12-14 21:58:02 | ERROR | stderr |     r = func(self)(*args, **kwargs)
+2024-12-14 21:58:02 | ERROR | stderr |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:58:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style.py", line 1752, in _apply
+2024-12-14 21:58:02 | ERROR | stderr |     self._update_ctx(result)
+2024-12-14 21:58:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style.py", line 1560, in _update_ctx
+2024-12-14 21:58:02 | ERROR | stderr |     css_list = maybe_convert_css_to_tuples(c)
+2024-12-14 21:58:02 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 21:58:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style_render.py", line 1925, in maybe_convert_css_to_tuples
+2024-12-14 21:58:02 | ERROR | stderr |     raise ValueError(
+2024-12-14 21:58:02 | ERROR | stderr | ValueError: Styles supplied as string must follow CSS rule formats, for example 'attr: val;'. '0.00' was given.
+2024-12-14 22:01:08 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 22:01:17 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 22:01:19 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:01:19 | INFO | stdout | initial loads
+2024-12-14 22:01:30 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:01:30 | INFO | stdout | initial loads
+2024-12-14 22:01:31 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 22:01:31 | INFO | stdout | 
+2024-12-14 22:01:31 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 22:01:42 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 22:01:42 | ERROR | stderr | Traceback (most recent call last):
+2024-12-14 22:01:42 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/queueing.py", line 536, in process_events
+2024-12-14 22:01:42 | ERROR | stderr |     response = await route_utils.call_process_api(
+2024-12-14 22:01:42 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:01:42 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/route_utils.py", line 322, in call_process_api
+2024-12-14 22:01:42 | ERROR | stderr |     output = await app.get_blocks().process_api(
+2024-12-14 22:01:42 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:01:42 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1935, in process_api
+2024-12-14 22:01:42 | ERROR | stderr |     result = await self.call_function(
+2024-12-14 22:01:42 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:01:42 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1520, in call_function
+2024-12-14 22:01:42 | ERROR | stderr |     prediction = await anyio.to_thread.run_sync(  # type: ignore
+2024-12-14 22:01:42 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:01:42 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 56, in run_sync
+2024-12-14 22:01:42 | ERROR | stderr |     return await get_async_backend().run_sync_in_worker_thread(
+2024-12-14 22:01:42 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:01:42 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2441, in run_sync_in_worker_thread
+2024-12-14 22:01:42 | ERROR | stderr |     return await future
+2024-12-14 22:01:42 | ERROR | stderr |            ^^^^^^^^^^^^
+2024-12-14 22:01:42 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 943, in run
+2024-12-14 22:01:42 | ERROR | stderr |     result = context.run(func, *args)
+2024-12-14 22:01:42 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:01:42 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/utils.py", line 826, in wrapper
+2024-12-14 22:01:42 | ERROR | stderr |     response = f(*args, **kwargs)
+2024-12-14 22:01:42 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^
+2024-12-14 22:01:42 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 677, in update_leaderboard_and_plots
+2024-12-14 22:01:42 | ERROR | stderr |     values = update_leaderboard_df(arena_values)
+2024-12-14 22:01:42 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:01:42 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 496, in update_leaderboard_df
+2024-12-14 22:01:42 | ERROR | stderr |     return elo_dataframe.style.apply(highlight_rank_max, subset=["Delta"]).apply(format_values, subset=["Delta"])
+2024-12-14 22:01:42 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:01:42 | ERROR | stderr | AttributeError: 'Styler' object has no attribute 'style'
+2024-12-14 22:02:27 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 22:02:31 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 22:02:34 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:02:34 | INFO | stdout | initial loads
+2024-12-14 22:02:45 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:02:45 | INFO | stdout | initial loads
+2024-12-14 22:02:45 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 22:02:45 | INFO | stdout | 
+2024-12-14 22:02:45 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 22:03:06 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 22:03:06 | ERROR | stderr | Traceback (most recent call last):
+2024-12-14 22:03:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/queueing.py", line 536, in process_events
+2024-12-14 22:03:06 | ERROR | stderr |     response = await route_utils.call_process_api(
+2024-12-14 22:03:06 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:03:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/route_utils.py", line 322, in call_process_api
+2024-12-14 22:03:06 | ERROR | stderr |     output = await app.get_blocks().process_api(
+2024-12-14 22:03:06 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:03:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1935, in process_api
+2024-12-14 22:03:06 | ERROR | stderr |     result = await self.call_function(
+2024-12-14 22:03:06 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:03:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1520, in call_function
+2024-12-14 22:03:06 | ERROR | stderr |     prediction = await anyio.to_thread.run_sync(  # type: ignore
+2024-12-14 22:03:06 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:03:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 56, in run_sync
+2024-12-14 22:03:06 | ERROR | stderr |     return await get_async_backend().run_sync_in_worker_thread(
+2024-12-14 22:03:06 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:03:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2441, in run_sync_in_worker_thread
+2024-12-14 22:03:06 | ERROR | stderr |     return await future
+2024-12-14 22:03:06 | ERROR | stderr |            ^^^^^^^^^^^^
+2024-12-14 22:03:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 943, in run
+2024-12-14 22:03:06 | ERROR | stderr |     result = context.run(func, *args)
+2024-12-14 22:03:06 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:03:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/utils.py", line 826, in wrapper
+2024-12-14 22:03:06 | ERROR | stderr |     response = f(*args, **kwargs)
+2024-12-14 22:03:06 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^
+2024-12-14 22:03:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 675, in update_leaderboard_and_plots
+2024-12-14 22:03:06 | ERROR | stderr |     values = update_leaderboard_df(arena_values)
+2024-12-14 22:03:06 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:03:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 494, in update_leaderboard_df
+2024-12-14 22:03:06 | ERROR | stderr |     return elo_dataframe.style.apply(highlight_rank_max, subset=["Delta"]).apply(format_values, subset=["Delta"])
+2024-12-14 22:03:06 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:03:06 | ERROR | stderr | AttributeError: 'Styler' object has no attribute 'style'
+2024-12-14 22:03:24 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 22:03:28 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 22:03:30 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:03:31 | INFO | stdout | initial loads
+2024-12-14 22:03:42 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:03:42 | INFO | stdout | initial loads
+2024-12-14 22:03:42 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 22:03:42 | INFO | stdout | 
+2024-12-14 22:03:42 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 22:04:02 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 22:04:02 | ERROR | stderr | Traceback (most recent call last):
+2024-12-14 22:04:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/queueing.py", line 536, in process_events
+2024-12-14 22:04:02 | ERROR | stderr |     response = await route_utils.call_process_api(
+2024-12-14 22:04:02 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:04:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/route_utils.py", line 322, in call_process_api
+2024-12-14 22:04:02 | ERROR | stderr |     output = await app.get_blocks().process_api(
+2024-12-14 22:04:02 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:04:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1945, in process_api
+2024-12-14 22:04:02 | ERROR | stderr |     data = await self.postprocess_data(block_fn, result["prediction"], state)
+2024-12-14 22:04:02 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:04:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1756, in postprocess_data
+2024-12-14 22:04:02 | ERROR | stderr |     prediction_value = postprocess_update_dict(
+2024-12-14 22:04:02 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:04:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 622, in postprocess_update_dict
+2024-12-14 22:04:02 | ERROR | stderr |     update_dict["value"] = block.postprocess(value)
+2024-12-14 22:04:02 | ERROR | stderr |                            ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:04:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/components/dataframe.py", line 294, in postprocess
+2024-12-14 22:04:02 | ERROR | stderr |     metadata=self.__extract_metadata(value),  # type: ignore
+2024-12-14 22:04:02 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:04:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/components/dataframe.py", line 336, in __extract_metadata
+2024-12-14 22:04:02 | ERROR | stderr |     style_data = df._compute()._translate(None, None)  # type: ignore
+2024-12-14 22:04:02 | ERROR | stderr |                  ^^^^^^^^^^^^^
+2024-12-14 22:04:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style_render.py", line 256, in _compute
+2024-12-14 22:04:02 | ERROR | stderr |     r = func(self)(*args, **kwargs)
+2024-12-14 22:04:02 | ERROR | stderr |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:04:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/io/formats/style.py", line 1726, in _apply
+2024-12-14 22:04:02 | ERROR | stderr |     result = data.apply(func, axis=0, **kwargs)
+2024-12-14 22:04:02 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:04:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 10374, in apply
+2024-12-14 22:04:02 | ERROR | stderr |     return op.apply().__finalize__(self, method="apply")
+2024-12-14 22:04:02 | ERROR | stderr |            ^^^^^^^^^^
+2024-12-14 22:04:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 916, in apply
+2024-12-14 22:04:02 | ERROR | stderr |     return self.apply_standard()
+2024-12-14 22:04:02 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:04:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+2024-12-14 22:04:02 | ERROR | stderr |     results, res_index = self.apply_series_generator()
+2024-12-14 22:04:02 | ERROR | stderr |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:04:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+2024-12-14 22:04:02 | ERROR | stderr |     results[i] = self.func(v, *self.args, **self.kwargs)
+2024-12-14 22:04:02 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-12-14 22:04:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 486, in format_values
+2024-12-14 22:04:02 | ERROR | stderr |     if is_numeric(value):
+2024-12-14 22:04:02 | ERROR | stderr |        ^^^^^^^^^^^^^^^^^
+2024-12-14 22:04:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 480, in is_numeric
+2024-12-14 22:04:02 | ERROR | stderr |     float(value)
+2024-12-14 22:04:02 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/series.py", line 248, in wrapper
+2024-12-14 22:04:02 | ERROR | stderr |     raise TypeError(f"cannot convert the series to {converter}")
+2024-12-14 22:04:02 | ERROR | stderr | TypeError: cannot convert the series to <class 'float'>
+2024-12-14 22:04:30 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 22:04:34 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 22:04:36 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:04:37 | INFO | stdout | initial loads
+2024-12-14 22:04:48 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:04:48 | INFO | stdout | initial loads
+2024-12-14 22:04:48 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 22:04:48 | INFO | stdout | 
+2024-12-14 22:04:48 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 22:04:53 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 22:05:24 | INFO | stdout | In overall category
+2024-12-14 22:05:24 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:05:26 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 22:05:29 | INFO | stdout | In overall category
+2024-12-14 22:05:29 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:05:43 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 22:05:57 | INFO | stdout | In overall category
+2024-12-14 22:05:57 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:06:20 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 22:11:38 | INFO | stdout | In overall category
+2024-12-14 22:11:38 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:13:15 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 22:13:20 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 22:13:23 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:13:23 | INFO | stdout | initial loads
+2024-12-14 22:13:34 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:13:34 | INFO | stdout | initial loads
+2024-12-14 22:13:34 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 22:13:34 | INFO | stdout | 
+2024-12-14 22:13:34 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 22:13:48 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 22:13:59 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 22:14:04 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 22:15:29 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-14 22:15:34 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-12-14 22:15:36 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:15:36 | INFO | stdout | initial loads
+2024-12-14 22:15:47 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:15:47 | INFO | stdout | initial loads
+2024-12-14 22:15:47 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-14 22:15:47 | INFO | stdout | 
+2024-12-14 22:15:47 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-12-14 22:16:07 | INFO | stdout | Non overall category... and price control value is: True
+2024-12-14 22:16:11 | INFO | stdout | In overall category
+2024-12-14 22:16:11 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:16:12 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 22:16:16 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 22:16:18 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 22:16:20 | INFO | stdout | In overall category
+2024-12-14 22:16:20 | INFO | stdout | Update overall leaderboard df
+2024-12-14 22:16:21 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-14 22:16:31 | INFO | stdout | Keyboard interruption in main thread... closing server.

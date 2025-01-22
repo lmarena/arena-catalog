@@ -1,0 +1,18 @@
+2024-12-09 16:47:46 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-12-09 16:47:51 | INFO | stdout | Update overall leaderboard df
+2024-12-09 16:47:51 | INFO | stdout | initial loads
+2024-12-09 16:48:03 | INFO | stdout | Update overall leaderboard df
+2024-12-09 16:48:03 | INFO | stdout | initial loads
+2024-12-09 16:48:03 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-12-09 16:48:04 | INFO | stdout | Running on public URL: https://217199dbbc61767b5d.gradio.live
+2024-12-09 16:48:04 | INFO | stdout | 
+2024-12-09 16:48:04 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-12-09 16:48:50 | INFO | stdout | Non overall category... and price control value is: False
+2024-12-09 16:48:58 | INFO | stdout | In overall category
+2024-12-09 16:48:58 | INFO | stdout | Update overall leaderboard df
+2024-12-09 16:49:01 | INFO | stdout | In overall category
+2024-12-09 16:49:01 | INFO | stdout | Update overall leaderboard df
+2024-12-09 16:50:47 | INFO | stdout | In overall category
+2024-12-09 16:50:47 | INFO | stdout | Update overall leaderboard df
+2024-12-09 17:32:57 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-12-09 17:32:58 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://217199dbbc61767b5d.gradio.live

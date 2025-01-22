@@ -1,0 +1,966 @@
+2024-11-26 17:50:04 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-11-26 17:50:06 | INFO | stdout | names:  chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-26 17:50:06 | INFO | stdout | o1-preview                                    o1-preview
+2024-11-26 17:50:06 | INFO | stdout | o1-mini                                          o1-mini
+2024-11-26 17:50:06 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-26 17:50:06 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-26 17:50:06 | INFO | stdout |                                          ...
+2024-11-26 17:50:06 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-26 17:50:06 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-26 17:50:06 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-26 17:50:06 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-26 17:50:06 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-26 17:50:06 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-26 17:50:06 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-26 17:50:06 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-26 17:50:06 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-26 17:50:06 | INFO | stdout | 3                     tulu-30b
+2024-11-26 17:50:06 | INFO | stdout | 4                  guanaco-65b
+2024-11-26 17:50:06 | INFO | stdout |                 ...
+2024-11-26 17:50:06 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-26 17:50:06 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-26 17:50:06 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-26 17:50:06 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-26 17:50:06 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-26 17:50:06 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-26 17:50:06 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-26 17:50:06 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-26 17:50:06 | ERROR | stderr | Traceback (most recent call last):
+2024-11-26 17:50:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 138, in <module>
+2024-11-26 17:50:06 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-11-26 17:50:06 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-26 17:50:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 103, in build_demo
+2024-11-26 17:50:06 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-11-26 17:50:06 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-11-26 17:50:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1041, in build_leaderboard_tab
+2024-11-26 17:50:06 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-11-26 17:50:06 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-11-26 17:50:06 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 732, in build_arena_tab
+2024-11-26 17:50:06 | ERROR | stderr |     value=values,
+2024-11-26 17:50:06 | ERROR | stderr |           ^^^^^^
+2024-11-26 17:50:06 | ERROR | stderr | NameError: name 'values' is not defined
+2024-11-26 17:51:35 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-11-26 17:51:37 | INFO | stdout | names:  chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-26 17:51:37 | INFO | stdout | o1-preview                                    o1-preview
+2024-11-26 17:51:37 | INFO | stdout | o1-mini                                          o1-mini
+2024-11-26 17:51:37 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-26 17:51:37 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-26 17:51:37 | INFO | stdout |                                          ...
+2024-11-26 17:51:37 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-26 17:51:37 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-26 17:51:37 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-26 17:51:37 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-26 17:51:37 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-26 17:51:37 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-26 17:51:37 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-26 17:51:37 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-26 17:51:37 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-26 17:51:37 | INFO | stdout | 3                     tulu-30b
+2024-11-26 17:51:37 | INFO | stdout | 4                  guanaco-65b
+2024-11-26 17:51:37 | INFO | stdout |                 ...
+2024-11-26 17:51:37 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-26 17:51:37 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-26 17:51:37 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-26 17:51:37 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-26 17:51:37 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-26 17:51:37 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-26 17:51:37 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-26 17:51:37 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-26 17:51:48 | INFO | stdout | names:  chatgpt-4o-latest-20240903          chatgpt-4o-latest-20240903
+2024-11-26 17:51:48 | INFO | stdout | gemini-1.5-pro-exp-0827                gemini-1.5-pro-exp-0827
+2024-11-26 17:51:48 | INFO | stdout | gemini-1.5-flash-exp-0827            gemini-1.5-flash-exp-0827
+2024-11-26 17:51:48 | INFO | stdout | gpt-4o-2024-05-13                            gpt-4o-2024-05-13
+2024-11-26 17:51:48 | INFO | stdout | claude-3-5-sonnet-20240620          claude-3-5-sonnet-20240620
+2024-11-26 17:51:48 | INFO | stdout | gemini-1.5-pro-api-0514                gemini-1.5-pro-api-0514
+2024-11-26 17:51:48 | INFO | stdout | gpt-4-turbo-2024-04-09                  gpt-4-turbo-2024-04-09
+2024-11-26 17:51:48 | INFO | stdout | gpt-4o-mini-2024-07-18                  gpt-4o-mini-2024-07-18
+2024-11-26 17:51:48 | INFO | stdout | gemini-1.5-flash-8b-exp-0827      gemini-1.5-flash-8b-exp-0827
+2024-11-26 17:51:48 | INFO | stdout | qwen2-vl-72b                                      qwen2-vl-72b
+2024-11-26 17:51:48 | INFO | stdout | pixtral-12b-2409                              pixtral-12b-2409
+2024-11-26 17:51:48 | INFO | stdout | claude-3-opus-20240229                  claude-3-opus-20240229
+2024-11-26 17:51:48 | INFO | stdout | gemini-1.5-flash-api-0514            gemini-1.5-flash-api-0514
+2024-11-26 17:51:48 | INFO | stdout | llama-3.2-vision-90b-instruct    llama-3.2-vision-90b-instruct
+2024-11-26 17:51:48 | INFO | stdout | internvl2-26b                                    internvl2-26b
+2024-11-26 17:51:48 | INFO | stdout | claude-3-sonnet-20240229              claude-3-sonnet-20240229
+2024-11-26 17:51:48 | INFO | stdout | yi-vision                                            yi-vision
+2024-11-26 17:51:48 | INFO | stdout | qwen2-vl-7b-instruct                      qwen2-vl-7b-instruct
+2024-11-26 17:51:48 | INFO | stdout | llama-3.2-vision-11b-instruct    llama-3.2-vision-11b-instruct
+2024-11-26 17:51:48 | INFO | stdout | reka-flash-preview-20240611        reka-flash-preview-20240611
+2024-11-26 17:51:48 | INFO | stdout | reka-core-20240501                          reka-core-20240501
+2024-11-26 17:51:48 | INFO | stdout | internvl2-4b                                      internvl2-4b
+2024-11-26 17:51:48 | INFO | stdout | claude-3-haiku-20240307                claude-3-haiku-20240307
+2024-11-26 17:51:48 | INFO | stdout | llava-v1.6-34b                                  llava-v1.6-34b
+2024-11-26 17:51:48 | INFO | stdout | llava-onevision-qwen2-72b-ov      llava-onevision-qwen2-72b-ov
+2024-11-26 17:51:48 | INFO | stdout | cogvlm2-llama3-chat-19b                cogvlm2-llama3-chat-19b
+2024-11-26 17:51:48 | INFO | stdout | minicpm-v-2_6                                    minicpm-v-2_6
+2024-11-26 17:51:48 | INFO | stdout | phi-3.5-vision-instruct                phi-3.5-vision-instruct
+2024-11-26 17:51:48 | INFO | stdout | phi-3-vision-128k-instruct          phi-3-vision-128k-instruct
+2024-11-26 17:51:48 | INFO | stdout | Name: Name, dtype: object
+2024-11-26 17:51:48 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-26 17:51:48 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-26 17:51:48 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-26 17:51:48 | INFO | stdout | 3                     tulu-30b
+2024-11-26 17:51:48 | INFO | stdout | 4                  guanaco-65b
+2024-11-26 17:51:48 | INFO | stdout |                 ...
+2024-11-26 17:51:48 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-26 17:51:48 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-26 17:51:48 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-26 17:51:48 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-26 17:51:48 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-26 17:51:48 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-26 17:51:48 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'Name']
+2024-11-26 17:51:48 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-26 17:51:48 | ERROR | stderr | [31mERROR[0m:    [Errno 48] error while attempting to bind on address ('0.0.0.0', 7860): address already in use
+2024-11-26 17:51:53 | ERROR | stderr | Traceback (most recent call last):
+2024-11-26 17:51:53 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 139, in <module>
+2024-11-26 17:51:53 | ERROR | stderr |     demo.launch(share=args.share, server_name=args.host, server_port=args.port)
+2024-11-26 17:51:53 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 2371, in launch
+2024-11-26 17:51:53 | ERROR | stderr |     ) = http_server.start_server(
+2024-11-26 17:51:53 | ERROR | stderr |         ^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-26 17:51:53 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/http_server.py", line 154, in start_server
+2024-11-26 17:51:53 | ERROR | stderr |     raise OSError(
+2024-11-26 17:51:53 | ERROR | stderr | OSError: Cannot find empty port in range: 7860-7860. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+2024-11-26 17:52:12 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-11-26 17:52:14 | INFO | stdout | names:  chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-26 17:52:14 | INFO | stdout | o1-preview                                    o1-preview
+2024-11-26 17:52:14 | INFO | stdout | o1-mini                                          o1-mini
+2024-11-26 17:52:14 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-26 17:52:14 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-26 17:52:14 | INFO | stdout |                                          ...
+2024-11-26 17:52:14 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-26 17:52:14 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-26 17:52:14 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-26 17:52:14 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-26 17:52:14 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-26 17:52:14 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-26 17:52:14 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-26 17:52:14 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-26 17:52:14 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-26 17:52:14 | INFO | stdout | 3                     tulu-30b
+2024-11-26 17:52:14 | INFO | stdout | 4                  guanaco-65b
+2024-11-26 17:52:14 | INFO | stdout |                 ...
+2024-11-26 17:52:14 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-26 17:52:14 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-26 17:52:14 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-26 17:52:14 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-26 17:52:14 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-26 17:52:14 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-26 17:52:14 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-26 17:52:14 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-26 17:52:26 | INFO | stdout | names:  chatgpt-4o-latest-20240903          chatgpt-4o-latest-20240903
+2024-11-26 17:52:26 | INFO | stdout | gemini-1.5-pro-exp-0827                gemini-1.5-pro-exp-0827
+2024-11-26 17:52:26 | INFO | stdout | gemini-1.5-flash-exp-0827            gemini-1.5-flash-exp-0827
+2024-11-26 17:52:26 | INFO | stdout | gpt-4o-2024-05-13                            gpt-4o-2024-05-13
+2024-11-26 17:52:26 | INFO | stdout | claude-3-5-sonnet-20240620          claude-3-5-sonnet-20240620
+2024-11-26 17:52:26 | INFO | stdout | gemini-1.5-pro-api-0514                gemini-1.5-pro-api-0514
+2024-11-26 17:52:26 | INFO | stdout | gpt-4-turbo-2024-04-09                  gpt-4-turbo-2024-04-09
+2024-11-26 17:52:26 | INFO | stdout | gpt-4o-mini-2024-07-18                  gpt-4o-mini-2024-07-18
+2024-11-26 17:52:26 | INFO | stdout | gemini-1.5-flash-8b-exp-0827      gemini-1.5-flash-8b-exp-0827
+2024-11-26 17:52:26 | INFO | stdout | qwen2-vl-72b                                      qwen2-vl-72b
+2024-11-26 17:52:26 | INFO | stdout | pixtral-12b-2409                              pixtral-12b-2409
+2024-11-26 17:52:26 | INFO | stdout | claude-3-opus-20240229                  claude-3-opus-20240229
+2024-11-26 17:52:26 | INFO | stdout | gemini-1.5-flash-api-0514            gemini-1.5-flash-api-0514
+2024-11-26 17:52:26 | INFO | stdout | llama-3.2-vision-90b-instruct    llama-3.2-vision-90b-instruct
+2024-11-26 17:52:26 | INFO | stdout | internvl2-26b                                    internvl2-26b
+2024-11-26 17:52:26 | INFO | stdout | claude-3-sonnet-20240229              claude-3-sonnet-20240229
+2024-11-26 17:52:26 | INFO | stdout | yi-vision                                            yi-vision
+2024-11-26 17:52:26 | INFO | stdout | qwen2-vl-7b-instruct                      qwen2-vl-7b-instruct
+2024-11-26 17:52:26 | INFO | stdout | llama-3.2-vision-11b-instruct    llama-3.2-vision-11b-instruct
+2024-11-26 17:52:26 | INFO | stdout | reka-flash-preview-20240611        reka-flash-preview-20240611
+2024-11-26 17:52:26 | INFO | stdout | reka-core-20240501                          reka-core-20240501
+2024-11-26 17:52:26 | INFO | stdout | internvl2-4b                                      internvl2-4b
+2024-11-26 17:52:26 | INFO | stdout | claude-3-haiku-20240307                claude-3-haiku-20240307
+2024-11-26 17:52:26 | INFO | stdout | llava-v1.6-34b                                  llava-v1.6-34b
+2024-11-26 17:52:26 | INFO | stdout | llava-onevision-qwen2-72b-ov      llava-onevision-qwen2-72b-ov
+2024-11-26 17:52:26 | INFO | stdout | cogvlm2-llama3-chat-19b                cogvlm2-llama3-chat-19b
+2024-11-26 17:52:26 | INFO | stdout | minicpm-v-2_6                                    minicpm-v-2_6
+2024-11-26 17:52:26 | INFO | stdout | phi-3.5-vision-instruct                phi-3.5-vision-instruct
+2024-11-26 17:52:26 | INFO | stdout | phi-3-vision-128k-instruct          phi-3-vision-128k-instruct
+2024-11-26 17:52:26 | INFO | stdout | Name: Name, dtype: object
+2024-11-26 17:52:26 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-26 17:52:26 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-26 17:52:26 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-26 17:52:26 | INFO | stdout | 3                     tulu-30b
+2024-11-26 17:52:26 | INFO | stdout | 4                  guanaco-65b
+2024-11-26 17:52:26 | INFO | stdout |                 ...
+2024-11-26 17:52:26 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-26 17:52:26 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-26 17:52:26 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-26 17:52:26 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-26 17:52:26 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-26 17:52:26 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-26 17:52:26 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'Name']
+2024-11-26 17:52:26 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-26 17:52:26 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-26 17:52:26 | INFO | stdout | 
+2024-11-26 17:52:26 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-11-27 17:15:33 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-27 17:59:00 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-11-27 17:59:03 | INFO | stdout | names:  chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-27 17:59:03 | INFO | stdout | o1-preview                                    o1-preview
+2024-11-27 17:59:03 | INFO | stdout | o1-mini                                          o1-mini
+2024-11-27 17:59:03 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-27 17:59:03 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-27 17:59:03 | INFO | stdout |                                          ...
+2024-11-27 17:59:03 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-27 17:59:03 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-27 17:59:03 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-27 17:59:03 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-27 17:59:03 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-27 17:59:03 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-27 17:59:03 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-27 17:59:03 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-27 17:59:03 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-27 17:59:03 | INFO | stdout | 3                     tulu-30b
+2024-11-27 17:59:03 | INFO | stdout | 4                  guanaco-65b
+2024-11-27 17:59:03 | INFO | stdout |                 ...
+2024-11-27 17:59:03 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-27 17:59:03 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-27 17:59:03 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-27 17:59:03 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-27 17:59:03 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-27 17:59:03 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-27 17:59:03 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-27 17:59:03 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-27 17:59:14 | INFO | stdout | names:  chatgpt-4o-latest-20240903          chatgpt-4o-latest-20240903
+2024-11-27 17:59:14 | INFO | stdout | gemini-1.5-pro-exp-0827                gemini-1.5-pro-exp-0827
+2024-11-27 17:59:14 | INFO | stdout | gemini-1.5-flash-exp-0827            gemini-1.5-flash-exp-0827
+2024-11-27 17:59:14 | INFO | stdout | gpt-4o-2024-05-13                            gpt-4o-2024-05-13
+2024-11-27 17:59:14 | INFO | stdout | claude-3-5-sonnet-20240620          claude-3-5-sonnet-20240620
+2024-11-27 17:59:14 | INFO | stdout | gemini-1.5-pro-api-0514                gemini-1.5-pro-api-0514
+2024-11-27 17:59:14 | INFO | stdout | gpt-4-turbo-2024-04-09                  gpt-4-turbo-2024-04-09
+2024-11-27 17:59:14 | INFO | stdout | gpt-4o-mini-2024-07-18                  gpt-4o-mini-2024-07-18
+2024-11-27 17:59:14 | INFO | stdout | gemini-1.5-flash-8b-exp-0827      gemini-1.5-flash-8b-exp-0827
+2024-11-27 17:59:14 | INFO | stdout | qwen2-vl-72b                                      qwen2-vl-72b
+2024-11-27 17:59:14 | INFO | stdout | pixtral-12b-2409                              pixtral-12b-2409
+2024-11-27 17:59:14 | INFO | stdout | claude-3-opus-20240229                  claude-3-opus-20240229
+2024-11-27 17:59:14 | INFO | stdout | gemini-1.5-flash-api-0514            gemini-1.5-flash-api-0514
+2024-11-27 17:59:14 | INFO | stdout | llama-3.2-vision-90b-instruct    llama-3.2-vision-90b-instruct
+2024-11-27 17:59:14 | INFO | stdout | internvl2-26b                                    internvl2-26b
+2024-11-27 17:59:14 | INFO | stdout | claude-3-sonnet-20240229              claude-3-sonnet-20240229
+2024-11-27 17:59:14 | INFO | stdout | yi-vision                                            yi-vision
+2024-11-27 17:59:14 | INFO | stdout | qwen2-vl-7b-instruct                      qwen2-vl-7b-instruct
+2024-11-27 17:59:14 | INFO | stdout | llama-3.2-vision-11b-instruct    llama-3.2-vision-11b-instruct
+2024-11-27 17:59:14 | INFO | stdout | reka-flash-preview-20240611        reka-flash-preview-20240611
+2024-11-27 17:59:14 | INFO | stdout | reka-core-20240501                          reka-core-20240501
+2024-11-27 17:59:14 | INFO | stdout | internvl2-4b                                      internvl2-4b
+2024-11-27 17:59:14 | INFO | stdout | claude-3-haiku-20240307                claude-3-haiku-20240307
+2024-11-27 17:59:14 | INFO | stdout | llava-v1.6-34b                                  llava-v1.6-34b
+2024-11-27 17:59:14 | INFO | stdout | llava-onevision-qwen2-72b-ov      llava-onevision-qwen2-72b-ov
+2024-11-27 17:59:14 | INFO | stdout | cogvlm2-llama3-chat-19b                cogvlm2-llama3-chat-19b
+2024-11-27 17:59:14 | INFO | stdout | minicpm-v-2_6                                    minicpm-v-2_6
+2024-11-27 17:59:14 | INFO | stdout | phi-3.5-vision-instruct                phi-3.5-vision-instruct
+2024-11-27 17:59:14 | INFO | stdout | phi-3-vision-128k-instruct          phi-3-vision-128k-instruct
+2024-11-27 17:59:14 | INFO | stdout | Name: Name, dtype: object
+2024-11-27 17:59:14 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-27 17:59:14 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-27 17:59:14 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-27 17:59:14 | INFO | stdout | 3                     tulu-30b
+2024-11-27 17:59:14 | INFO | stdout | 4                  guanaco-65b
+2024-11-27 17:59:14 | INFO | stdout |                 ...
+2024-11-27 17:59:14 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-27 17:59:14 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-27 17:59:14 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-27 17:59:14 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-27 17:59:14 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-27 17:59:14 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-27 17:59:14 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'Name']
+2024-11-27 17:59:14 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-27 17:59:14 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-27 17:59:14 | INFO | stdout | 
+2024-11-27 17:59:14 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-11-27 17:59:41 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-27 18:00:08 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-11-27 18:00:10 | INFO | stdout | names:  chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-27 18:00:10 | INFO | stdout | o1-preview                                    o1-preview
+2024-11-27 18:00:10 | INFO | stdout | o1-mini                                          o1-mini
+2024-11-27 18:00:10 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-27 18:00:10 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-27 18:00:10 | INFO | stdout |                                          ...
+2024-11-27 18:00:10 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-27 18:00:10 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-27 18:00:10 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-27 18:00:10 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-27 18:00:10 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-27 18:00:10 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-27 18:00:10 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-27 18:00:10 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-27 18:00:10 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-27 18:00:10 | INFO | stdout | 3                     tulu-30b
+2024-11-27 18:00:10 | INFO | stdout | 4                  guanaco-65b
+2024-11-27 18:00:10 | INFO | stdout |                 ...
+2024-11-27 18:00:10 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-27 18:00:10 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-27 18:00:10 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-27 18:00:10 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-27 18:00:10 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-27 18:00:10 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-27 18:00:10 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-27 18:00:10 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-27 18:00:22 | INFO | stdout | names:  chatgpt-4o-latest-20240903          chatgpt-4o-latest-20240903
+2024-11-27 18:00:22 | INFO | stdout | gemini-1.5-pro-exp-0827                gemini-1.5-pro-exp-0827
+2024-11-27 18:00:22 | INFO | stdout | gemini-1.5-flash-exp-0827            gemini-1.5-flash-exp-0827
+2024-11-27 18:00:22 | INFO | stdout | gpt-4o-2024-05-13                            gpt-4o-2024-05-13
+2024-11-27 18:00:22 | INFO | stdout | claude-3-5-sonnet-20240620          claude-3-5-sonnet-20240620
+2024-11-27 18:00:22 | INFO | stdout | gemini-1.5-pro-api-0514                gemini-1.5-pro-api-0514
+2024-11-27 18:00:22 | INFO | stdout | gpt-4-turbo-2024-04-09                  gpt-4-turbo-2024-04-09
+2024-11-27 18:00:22 | INFO | stdout | gpt-4o-mini-2024-07-18                  gpt-4o-mini-2024-07-18
+2024-11-27 18:00:22 | INFO | stdout | gemini-1.5-flash-8b-exp-0827      gemini-1.5-flash-8b-exp-0827
+2024-11-27 18:00:22 | INFO | stdout | qwen2-vl-72b                                      qwen2-vl-72b
+2024-11-27 18:00:22 | INFO | stdout | pixtral-12b-2409                              pixtral-12b-2409
+2024-11-27 18:00:22 | INFO | stdout | claude-3-opus-20240229                  claude-3-opus-20240229
+2024-11-27 18:00:22 | INFO | stdout | gemini-1.5-flash-api-0514            gemini-1.5-flash-api-0514
+2024-11-27 18:00:22 | INFO | stdout | llama-3.2-vision-90b-instruct    llama-3.2-vision-90b-instruct
+2024-11-27 18:00:22 | INFO | stdout | internvl2-26b                                    internvl2-26b
+2024-11-27 18:00:22 | INFO | stdout | claude-3-sonnet-20240229              claude-3-sonnet-20240229
+2024-11-27 18:00:22 | INFO | stdout | yi-vision                                            yi-vision
+2024-11-27 18:00:22 | INFO | stdout | qwen2-vl-7b-instruct                      qwen2-vl-7b-instruct
+2024-11-27 18:00:22 | INFO | stdout | llama-3.2-vision-11b-instruct    llama-3.2-vision-11b-instruct
+2024-11-27 18:00:22 | INFO | stdout | reka-flash-preview-20240611        reka-flash-preview-20240611
+2024-11-27 18:00:22 | INFO | stdout | reka-core-20240501                          reka-core-20240501
+2024-11-27 18:00:22 | INFO | stdout | internvl2-4b                                      internvl2-4b
+2024-11-27 18:00:22 | INFO | stdout | claude-3-haiku-20240307                claude-3-haiku-20240307
+2024-11-27 18:00:22 | INFO | stdout | llava-v1.6-34b                                  llava-v1.6-34b
+2024-11-27 18:00:22 | INFO | stdout | llava-onevision-qwen2-72b-ov      llava-onevision-qwen2-72b-ov
+2024-11-27 18:00:22 | INFO | stdout | cogvlm2-llama3-chat-19b                cogvlm2-llama3-chat-19b
+2024-11-27 18:00:22 | INFO | stdout | minicpm-v-2_6                                    minicpm-v-2_6
+2024-11-27 18:00:22 | INFO | stdout | phi-3.5-vision-instruct                phi-3.5-vision-instruct
+2024-11-27 18:00:22 | INFO | stdout | phi-3-vision-128k-instruct          phi-3-vision-128k-instruct
+2024-11-27 18:00:22 | INFO | stdout | Name: Name, dtype: object
+2024-11-27 18:00:22 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-27 18:00:22 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-27 18:00:22 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-27 18:00:22 | INFO | stdout | 3                     tulu-30b
+2024-11-27 18:00:22 | INFO | stdout | 4                  guanaco-65b
+2024-11-27 18:00:22 | INFO | stdout |                 ...
+2024-11-27 18:00:22 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-27 18:00:22 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-27 18:00:22 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-27 18:00:22 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-27 18:00:22 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-27 18:00:22 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-27 18:00:22 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'Name']
+2024-11-27 18:00:22 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-27 18:00:22 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-27 18:00:22 | INFO | stdout | 
+2024-11-27 18:00:22 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-11-27 18:01:43 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-27 18:01:48 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-11-27 18:01:50 | INFO | stdout | names:  chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-27 18:01:50 | INFO | stdout | o1-preview                                    o1-preview
+2024-11-27 18:01:50 | INFO | stdout | o1-mini                                          o1-mini
+2024-11-27 18:01:50 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-27 18:01:50 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-27 18:01:50 | INFO | stdout |                                          ...
+2024-11-27 18:01:50 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-27 18:01:50 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-27 18:01:50 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-27 18:01:50 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-27 18:01:50 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-27 18:01:50 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-27 18:01:50 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-27 18:01:50 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-27 18:01:50 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-27 18:01:50 | INFO | stdout | 3                     tulu-30b
+2024-11-27 18:01:50 | INFO | stdout | 4                  guanaco-65b
+2024-11-27 18:01:50 | INFO | stdout |                 ...
+2024-11-27 18:01:50 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-27 18:01:50 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-27 18:01:50 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-27 18:01:50 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-27 18:01:50 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-27 18:01:50 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-27 18:01:50 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-27 18:01:50 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-27 18:02:02 | INFO | stdout | names:  chatgpt-4o-latest-20240903          chatgpt-4o-latest-20240903
+2024-11-27 18:02:02 | INFO | stdout | gemini-1.5-pro-exp-0827                gemini-1.5-pro-exp-0827
+2024-11-27 18:02:02 | INFO | stdout | gemini-1.5-flash-exp-0827            gemini-1.5-flash-exp-0827
+2024-11-27 18:02:02 | INFO | stdout | gpt-4o-2024-05-13                            gpt-4o-2024-05-13
+2024-11-27 18:02:02 | INFO | stdout | claude-3-5-sonnet-20240620          claude-3-5-sonnet-20240620
+2024-11-27 18:02:02 | INFO | stdout | gemini-1.5-pro-api-0514                gemini-1.5-pro-api-0514
+2024-11-27 18:02:02 | INFO | stdout | gpt-4-turbo-2024-04-09                  gpt-4-turbo-2024-04-09
+2024-11-27 18:02:02 | INFO | stdout | gpt-4o-mini-2024-07-18                  gpt-4o-mini-2024-07-18
+2024-11-27 18:02:02 | INFO | stdout | gemini-1.5-flash-8b-exp-0827      gemini-1.5-flash-8b-exp-0827
+2024-11-27 18:02:02 | INFO | stdout | qwen2-vl-72b                                      qwen2-vl-72b
+2024-11-27 18:02:02 | INFO | stdout | pixtral-12b-2409                              pixtral-12b-2409
+2024-11-27 18:02:02 | INFO | stdout | claude-3-opus-20240229                  claude-3-opus-20240229
+2024-11-27 18:02:02 | INFO | stdout | gemini-1.5-flash-api-0514            gemini-1.5-flash-api-0514
+2024-11-27 18:02:02 | INFO | stdout | llama-3.2-vision-90b-instruct    llama-3.2-vision-90b-instruct
+2024-11-27 18:02:02 | INFO | stdout | internvl2-26b                                    internvl2-26b
+2024-11-27 18:02:02 | INFO | stdout | claude-3-sonnet-20240229              claude-3-sonnet-20240229
+2024-11-27 18:02:02 | INFO | stdout | yi-vision                                            yi-vision
+2024-11-27 18:02:02 | INFO | stdout | qwen2-vl-7b-instruct                      qwen2-vl-7b-instruct
+2024-11-27 18:02:02 | INFO | stdout | llama-3.2-vision-11b-instruct    llama-3.2-vision-11b-instruct
+2024-11-27 18:02:02 | INFO | stdout | reka-flash-preview-20240611        reka-flash-preview-20240611
+2024-11-27 18:02:02 | INFO | stdout | reka-core-20240501                          reka-core-20240501
+2024-11-27 18:02:02 | INFO | stdout | internvl2-4b                                      internvl2-4b
+2024-11-27 18:02:02 | INFO | stdout | claude-3-haiku-20240307                claude-3-haiku-20240307
+2024-11-27 18:02:02 | INFO | stdout | llava-v1.6-34b                                  llava-v1.6-34b
+2024-11-27 18:02:02 | INFO | stdout | llava-onevision-qwen2-72b-ov      llava-onevision-qwen2-72b-ov
+2024-11-27 18:02:02 | INFO | stdout | cogvlm2-llama3-chat-19b                cogvlm2-llama3-chat-19b
+2024-11-27 18:02:02 | INFO | stdout | minicpm-v-2_6                                    minicpm-v-2_6
+2024-11-27 18:02:02 | INFO | stdout | phi-3.5-vision-instruct                phi-3.5-vision-instruct
+2024-11-27 18:02:02 | INFO | stdout | phi-3-vision-128k-instruct          phi-3-vision-128k-instruct
+2024-11-27 18:02:02 | INFO | stdout | Name: Name, dtype: object
+2024-11-27 18:02:02 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-27 18:02:02 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-27 18:02:02 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-27 18:02:02 | INFO | stdout | 3                     tulu-30b
+2024-11-27 18:02:02 | INFO | stdout | 4                  guanaco-65b
+2024-11-27 18:02:02 | INFO | stdout |                 ...
+2024-11-27 18:02:02 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-27 18:02:02 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-27 18:02:02 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-27 18:02:02 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-27 18:02:02 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-27 18:02:02 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-27 18:02:02 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'Name']
+2024-11-27 18:02:02 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-27 18:02:02 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-27 18:02:02 | INFO | stdout | 
+2024-11-27 18:02:02 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-11-27 18:03:14 | INFO | stdout | names:  chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-27 18:03:14 | INFO | stdout | o1-preview                                    o1-preview
+2024-11-27 18:03:14 | INFO | stdout | o1-mini                                          o1-mini
+2024-11-27 18:03:14 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-27 18:03:14 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-27 18:03:14 | INFO | stdout |                                          ...
+2024-11-27 18:03:14 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-27 18:03:14 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-27 18:03:14 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-27 18:03:14 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-27 18:03:14 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-27 18:03:14 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-27 18:03:14 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-27 18:03:14 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-27 18:03:14 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-27 18:03:14 | INFO | stdout | 3                     tulu-30b
+2024-11-27 18:03:14 | INFO | stdout | 4                  guanaco-65b
+2024-11-27 18:03:14 | INFO | stdout |                 ...
+2024-11-27 18:03:14 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-27 18:03:14 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-27 18:03:14 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-27 18:03:14 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-27 18:03:14 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-27 18:03:14 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-27 18:03:14 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-27 18:03:14 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-27 18:03:49 | INFO | stdout | names:  chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-27 18:03:49 | INFO | stdout | o1-preview                                    o1-preview
+2024-11-27 18:03:49 | INFO | stdout | o1-mini                                          o1-mini
+2024-11-27 18:03:49 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-27 18:03:49 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-27 18:03:49 | INFO | stdout |                                          ...
+2024-11-27 18:03:49 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-27 18:03:49 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-27 18:03:49 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-27 18:03:49 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-27 18:03:49 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-27 18:03:49 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-27 18:03:49 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-27 18:03:49 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-27 18:03:49 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-27 18:03:49 | INFO | stdout | 3                     tulu-30b
+2024-11-27 18:03:49 | INFO | stdout | 4                  guanaco-65b
+2024-11-27 18:03:49 | INFO | stdout |                 ...
+2024-11-27 18:03:49 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-27 18:03:49 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-27 18:03:49 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-27 18:03:49 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-27 18:03:49 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-27 18:03:49 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-27 18:03:49 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-27 18:03:49 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-27 18:03:49 | INFO | stdout | price control value False
+2024-11-27 18:03:52 | INFO | stdout | names:  o1-preview                                    o1-preview
+2024-11-27 18:03:52 | INFO | stdout | chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-27 18:03:52 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-27 18:03:52 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-27 18:03:52 | INFO | stdout | gpt-4o-2024-05-13                      gpt-4o-2024-05-13
+2024-11-27 18:03:52 | INFO | stdout |                                          ...
+2024-11-27 18:03:52 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-27 18:03:52 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-27 18:03:52 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-27 18:03:52 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-27 18:03:52 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-27 18:03:52 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-27 18:03:52 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-27 18:03:52 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-27 18:03:52 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-27 18:03:52 | INFO | stdout | 3                     tulu-30b
+2024-11-27 18:03:52 | INFO | stdout | 4                  guanaco-65b
+2024-11-27 18:03:52 | INFO | stdout |                 ...
+2024-11-27 18:03:52 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-27 18:03:52 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-27 18:03:52 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-27 18:03:52 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-27 18:03:52 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-27 18:03:52 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-27 18:03:52 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-27 18:03:52 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-27 18:04:23 | INFO | stdout | names:  chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-27 18:04:23 | INFO | stdout | o1-preview                                    o1-preview
+2024-11-27 18:04:23 | INFO | stdout | o1-mini                                          o1-mini
+2024-11-27 18:04:23 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-27 18:04:23 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-27 18:04:23 | INFO | stdout |                                          ...
+2024-11-27 18:04:23 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-27 18:04:23 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-27 18:04:23 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-27 18:04:23 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-27 18:04:23 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-27 18:04:23 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-27 18:04:23 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-27 18:04:23 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-27 18:04:23 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-27 18:04:23 | INFO | stdout | 3                     tulu-30b
+2024-11-27 18:04:23 | INFO | stdout | 4                  guanaco-65b
+2024-11-27 18:04:23 | INFO | stdout |                 ...
+2024-11-27 18:04:23 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-27 18:04:23 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-27 18:04:23 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-27 18:04:23 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-27 18:04:23 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-27 18:04:23 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-27 18:04:23 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-27 18:04:23 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-27 18:04:23 | INFO | stdout | price control value False
+2024-11-27 18:04:47 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-27 18:04:52 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-11-27 18:04:54 | INFO | stdout | names:  chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-27 18:04:54 | INFO | stdout | o1-preview                                    o1-preview
+2024-11-27 18:04:54 | INFO | stdout | o1-mini                                          o1-mini
+2024-11-27 18:04:54 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-27 18:04:54 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-27 18:04:54 | INFO | stdout |                                          ...
+2024-11-27 18:04:54 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-27 18:04:54 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-27 18:04:54 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-27 18:04:54 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-27 18:04:54 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-27 18:04:54 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-27 18:04:54 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-27 18:04:54 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-27 18:04:54 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-27 18:04:54 | INFO | stdout | 3                     tulu-30b
+2024-11-27 18:04:54 | INFO | stdout | 4                  guanaco-65b
+2024-11-27 18:04:54 | INFO | stdout |                 ...
+2024-11-27 18:04:54 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-27 18:04:54 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-27 18:04:54 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-27 18:04:54 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-27 18:04:54 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-27 18:04:54 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-27 18:04:54 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-27 18:04:54 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-27 18:05:06 | INFO | stdout | names:  chatgpt-4o-latest-20240903          chatgpt-4o-latest-20240903
+2024-11-27 18:05:06 | INFO | stdout | gemini-1.5-pro-exp-0827                gemini-1.5-pro-exp-0827
+2024-11-27 18:05:06 | INFO | stdout | gemini-1.5-flash-exp-0827            gemini-1.5-flash-exp-0827
+2024-11-27 18:05:06 | INFO | stdout | gpt-4o-2024-05-13                            gpt-4o-2024-05-13
+2024-11-27 18:05:06 | INFO | stdout | claude-3-5-sonnet-20240620          claude-3-5-sonnet-20240620
+2024-11-27 18:05:06 | INFO | stdout | gemini-1.5-pro-api-0514                gemini-1.5-pro-api-0514
+2024-11-27 18:05:06 | INFO | stdout | gpt-4-turbo-2024-04-09                  gpt-4-turbo-2024-04-09
+2024-11-27 18:05:06 | INFO | stdout | gpt-4o-mini-2024-07-18                  gpt-4o-mini-2024-07-18
+2024-11-27 18:05:06 | INFO | stdout | gemini-1.5-flash-8b-exp-0827      gemini-1.5-flash-8b-exp-0827
+2024-11-27 18:05:06 | INFO | stdout | qwen2-vl-72b                                      qwen2-vl-72b
+2024-11-27 18:05:06 | INFO | stdout | pixtral-12b-2409                              pixtral-12b-2409
+2024-11-27 18:05:06 | INFO | stdout | claude-3-opus-20240229                  claude-3-opus-20240229
+2024-11-27 18:05:06 | INFO | stdout | gemini-1.5-flash-api-0514            gemini-1.5-flash-api-0514
+2024-11-27 18:05:06 | INFO | stdout | llama-3.2-vision-90b-instruct    llama-3.2-vision-90b-instruct
+2024-11-27 18:05:06 | INFO | stdout | internvl2-26b                                    internvl2-26b
+2024-11-27 18:05:06 | INFO | stdout | claude-3-sonnet-20240229              claude-3-sonnet-20240229
+2024-11-27 18:05:06 | INFO | stdout | yi-vision                                            yi-vision
+2024-11-27 18:05:06 | INFO | stdout | qwen2-vl-7b-instruct                      qwen2-vl-7b-instruct
+2024-11-27 18:05:06 | INFO | stdout | llama-3.2-vision-11b-instruct    llama-3.2-vision-11b-instruct
+2024-11-27 18:05:06 | INFO | stdout | reka-flash-preview-20240611        reka-flash-preview-20240611
+2024-11-27 18:05:06 | INFO | stdout | reka-core-20240501                          reka-core-20240501
+2024-11-27 18:05:06 | INFO | stdout | internvl2-4b                                      internvl2-4b
+2024-11-27 18:05:06 | INFO | stdout | claude-3-haiku-20240307                claude-3-haiku-20240307
+2024-11-27 18:05:06 | INFO | stdout | llava-v1.6-34b                                  llava-v1.6-34b
+2024-11-27 18:05:06 | INFO | stdout | llava-onevision-qwen2-72b-ov      llava-onevision-qwen2-72b-ov
+2024-11-27 18:05:06 | INFO | stdout | cogvlm2-llama3-chat-19b                cogvlm2-llama3-chat-19b
+2024-11-27 18:05:06 | INFO | stdout | minicpm-v-2_6                                    minicpm-v-2_6
+2024-11-27 18:05:06 | INFO | stdout | phi-3.5-vision-instruct                phi-3.5-vision-instruct
+2024-11-27 18:05:06 | INFO | stdout | phi-3-vision-128k-instruct          phi-3-vision-128k-instruct
+2024-11-27 18:05:06 | INFO | stdout | Name: Name, dtype: object
+2024-11-27 18:05:06 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-27 18:05:06 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-27 18:05:06 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-27 18:05:06 | INFO | stdout | 3                     tulu-30b
+2024-11-27 18:05:06 | INFO | stdout | 4                  guanaco-65b
+2024-11-27 18:05:06 | INFO | stdout |                 ...
+2024-11-27 18:05:06 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-27 18:05:06 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-27 18:05:06 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-27 18:05:06 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-27 18:05:06 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-27 18:05:06 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-27 18:05:06 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'Name']
+2024-11-27 18:05:06 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-27 18:05:06 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-27 18:05:06 | INFO | stdout | 
+2024-11-27 18:05:06 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-11-27 18:05:21 | INFO | stdout | names:  o1-preview                                    o1-preview
+2024-11-27 18:05:21 | INFO | stdout | chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-27 18:05:21 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-27 18:05:21 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-27 18:05:21 | INFO | stdout | gpt-4o-2024-05-13                      gpt-4o-2024-05-13
+2024-11-27 18:05:21 | INFO | stdout |                                          ...
+2024-11-27 18:05:21 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-27 18:05:21 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-27 18:05:21 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-27 18:05:21 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-27 18:05:21 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-27 18:05:21 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-27 18:05:21 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-27 18:05:21 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-27 18:05:21 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-27 18:05:21 | INFO | stdout | 3                     tulu-30b
+2024-11-27 18:05:21 | INFO | stdout | 4                  guanaco-65b
+2024-11-27 18:05:21 | INFO | stdout |                 ...
+2024-11-27 18:05:21 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-27 18:05:21 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-27 18:05:21 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-27 18:05:21 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-27 18:05:21 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-27 18:05:21 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-27 18:05:21 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-27 18:05:21 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-27 18:05:28 | INFO | stdout | names:  chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-27 18:05:28 | INFO | stdout | o1-preview                                    o1-preview
+2024-11-27 18:05:28 | INFO | stdout | o1-mini                                          o1-mini
+2024-11-27 18:05:28 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-27 18:05:28 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-27 18:05:28 | INFO | stdout |                                          ...
+2024-11-27 18:05:28 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-27 18:05:28 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-27 18:05:28 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-27 18:05:28 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-27 18:05:28 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-27 18:05:28 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-27 18:05:28 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-27 18:05:28 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-27 18:05:28 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-27 18:05:28 | INFO | stdout | 3                     tulu-30b
+2024-11-27 18:05:28 | INFO | stdout | 4                  guanaco-65b
+2024-11-27 18:05:28 | INFO | stdout |                 ...
+2024-11-27 18:05:28 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-27 18:05:28 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-27 18:05:28 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-27 18:05:28 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-27 18:05:28 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-27 18:05:28 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-27 18:05:28 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-27 18:05:28 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-27 18:05:28 | INFO | stdout | price control value False
+2024-11-27 18:05:31 | INFO | stdout | names:  chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-27 18:05:31 | INFO | stdout | o1-preview                                    o1-preview
+2024-11-27 18:05:31 | INFO | stdout | o1-mini                                          o1-mini
+2024-11-27 18:05:31 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-27 18:05:31 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-27 18:05:31 | INFO | stdout |                                          ...
+2024-11-27 18:05:31 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-27 18:05:31 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-27 18:05:31 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-27 18:05:31 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-27 18:05:31 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-27 18:05:31 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-27 18:05:31 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-27 18:05:31 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-27 18:05:31 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-27 18:05:31 | INFO | stdout | 3                     tulu-30b
+2024-11-27 18:05:31 | INFO | stdout | 4                  guanaco-65b
+2024-11-27 18:05:31 | INFO | stdout |                 ...
+2024-11-27 18:05:31 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-27 18:05:31 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-27 18:05:31 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-27 18:05:31 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-27 18:05:31 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-27 18:05:31 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-27 18:05:31 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-27 18:05:31 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-27 18:05:39 | INFO | stdout | names:  chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-27 18:05:39 | INFO | stdout | o1-preview                                    o1-preview
+2024-11-27 18:05:39 | INFO | stdout | o1-mini                                          o1-mini
+2024-11-27 18:05:39 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-27 18:05:39 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-27 18:05:39 | INFO | stdout |                                          ...
+2024-11-27 18:05:39 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-27 18:05:39 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-27 18:05:39 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-27 18:05:39 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-27 18:05:39 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-27 18:05:39 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-27 18:05:39 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-27 18:05:39 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-27 18:05:39 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-27 18:05:39 | INFO | stdout | 3                     tulu-30b
+2024-11-27 18:05:39 | INFO | stdout | 4                  guanaco-65b
+2024-11-27 18:05:39 | INFO | stdout |                 ...
+2024-11-27 18:05:39 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-27 18:05:39 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-27 18:05:39 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-27 18:05:39 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-27 18:05:39 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-27 18:05:39 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-27 18:05:39 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-27 18:05:39 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-27 18:05:39 | INFO | stdout | price control value False
+2024-11-27 18:05:40 | INFO | stdout | names:  o1-preview                                    o1-preview
+2024-11-27 18:05:40 | INFO | stdout | chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-27 18:05:40 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-27 18:05:40 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-27 18:05:40 | INFO | stdout | gpt-4o-2024-05-13                      gpt-4o-2024-05-13
+2024-11-27 18:05:40 | INFO | stdout |                                          ...
+2024-11-27 18:05:40 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-27 18:05:40 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-27 18:05:40 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-27 18:05:40 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-27 18:05:40 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-27 18:05:40 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-27 18:05:40 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-27 18:05:40 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-27 18:05:40 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-27 18:05:40 | INFO | stdout | 3                     tulu-30b
+2024-11-27 18:05:40 | INFO | stdout | 4                  guanaco-65b
+2024-11-27 18:05:40 | INFO | stdout |                 ...
+2024-11-27 18:05:40 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-27 18:05:40 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-27 18:05:40 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-27 18:05:40 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-27 18:05:40 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-27 18:05:40 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-27 18:05:40 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-27 18:05:40 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-27 18:05:44 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-28 15:44:29 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-11-28 15:44:31 | INFO | stdout | names:  chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-28 15:44:31 | INFO | stdout | o1-preview                                    o1-preview
+2024-11-28 15:44:31 | INFO | stdout | o1-mini                                          o1-mini
+2024-11-28 15:44:31 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-28 15:44:31 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-28 15:44:31 | INFO | stdout |                                          ...
+2024-11-28 15:44:31 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-28 15:44:31 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-28 15:44:31 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-28 15:44:31 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-28 15:44:31 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-28 15:44:31 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-28 15:44:31 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-28 15:44:31 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-28 15:44:31 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-28 15:44:31 | INFO | stdout | 3                     tulu-30b
+2024-11-28 15:44:31 | INFO | stdout | 4                  guanaco-65b
+2024-11-28 15:44:31 | INFO | stdout |                 ...
+2024-11-28 15:44:31 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-28 15:44:31 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-28 15:44:31 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-28 15:44:31 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-28 15:44:31 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-28 15:44:31 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-28 15:44:31 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-28 15:44:31 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-28 15:44:42 | INFO | stdout | names:  chatgpt-4o-latest-20240903          chatgpt-4o-latest-20240903
+2024-11-28 15:44:42 | INFO | stdout | gemini-1.5-pro-exp-0827                gemini-1.5-pro-exp-0827
+2024-11-28 15:44:42 | INFO | stdout | gemini-1.5-flash-exp-0827            gemini-1.5-flash-exp-0827
+2024-11-28 15:44:42 | INFO | stdout | gpt-4o-2024-05-13                            gpt-4o-2024-05-13
+2024-11-28 15:44:42 | INFO | stdout | claude-3-5-sonnet-20240620          claude-3-5-sonnet-20240620
+2024-11-28 15:44:42 | INFO | stdout | gemini-1.5-pro-api-0514                gemini-1.5-pro-api-0514
+2024-11-28 15:44:42 | INFO | stdout | gpt-4-turbo-2024-04-09                  gpt-4-turbo-2024-04-09
+2024-11-28 15:44:42 | INFO | stdout | gpt-4o-mini-2024-07-18                  gpt-4o-mini-2024-07-18
+2024-11-28 15:44:42 | INFO | stdout | gemini-1.5-flash-8b-exp-0827      gemini-1.5-flash-8b-exp-0827
+2024-11-28 15:44:42 | INFO | stdout | qwen2-vl-72b                                      qwen2-vl-72b
+2024-11-28 15:44:42 | INFO | stdout | pixtral-12b-2409                              pixtral-12b-2409
+2024-11-28 15:44:42 | INFO | stdout | claude-3-opus-20240229                  claude-3-opus-20240229
+2024-11-28 15:44:42 | INFO | stdout | gemini-1.5-flash-api-0514            gemini-1.5-flash-api-0514
+2024-11-28 15:44:42 | INFO | stdout | llama-3.2-vision-90b-instruct    llama-3.2-vision-90b-instruct
+2024-11-28 15:44:42 | INFO | stdout | internvl2-26b                                    internvl2-26b
+2024-11-28 15:44:42 | INFO | stdout | claude-3-sonnet-20240229              claude-3-sonnet-20240229
+2024-11-28 15:44:42 | INFO | stdout | yi-vision                                            yi-vision
+2024-11-28 15:44:42 | INFO | stdout | qwen2-vl-7b-instruct                      qwen2-vl-7b-instruct
+2024-11-28 15:44:42 | INFO | stdout | llama-3.2-vision-11b-instruct    llama-3.2-vision-11b-instruct
+2024-11-28 15:44:42 | INFO | stdout | reka-flash-preview-20240611        reka-flash-preview-20240611
+2024-11-28 15:44:42 | INFO | stdout | reka-core-20240501                          reka-core-20240501
+2024-11-28 15:44:42 | INFO | stdout | internvl2-4b                                      internvl2-4b
+2024-11-28 15:44:42 | INFO | stdout | claude-3-haiku-20240307                claude-3-haiku-20240307
+2024-11-28 15:44:42 | INFO | stdout | llava-v1.6-34b                                  llava-v1.6-34b
+2024-11-28 15:44:42 | INFO | stdout | llava-onevision-qwen2-72b-ov      llava-onevision-qwen2-72b-ov
+2024-11-28 15:44:42 | INFO | stdout | cogvlm2-llama3-chat-19b                cogvlm2-llama3-chat-19b
+2024-11-28 15:44:42 | INFO | stdout | minicpm-v-2_6                                    minicpm-v-2_6
+2024-11-28 15:44:42 | INFO | stdout | phi-3.5-vision-instruct                phi-3.5-vision-instruct
+2024-11-28 15:44:42 | INFO | stdout | phi-3-vision-128k-instruct          phi-3-vision-128k-instruct
+2024-11-28 15:44:42 | INFO | stdout | Name: Name, dtype: object
+2024-11-28 15:44:42 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-28 15:44:42 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-28 15:44:42 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-28 15:44:42 | INFO | stdout | 3                     tulu-30b
+2024-11-28 15:44:42 | INFO | stdout | 4                  guanaco-65b
+2024-11-28 15:44:42 | INFO | stdout |                 ...
+2024-11-28 15:44:42 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-28 15:44:42 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-28 15:44:42 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-28 15:44:42 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-28 15:44:42 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-28 15:44:42 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-28 15:44:42 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'Name']
+2024-11-28 15:44:42 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-28 15:44:43 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-28 15:44:43 | INFO | stdout | 
+2024-11-28 15:44:43 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-11-28 15:44:56 | INFO | stdout | names:  chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-28 15:44:56 | INFO | stdout | o1-preview                                    o1-preview
+2024-11-28 15:44:56 | INFO | stdout | o1-mini                                          o1-mini
+2024-11-28 15:44:56 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-28 15:44:56 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-28 15:44:56 | INFO | stdout |                                          ...
+2024-11-28 15:44:56 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-28 15:44:56 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-28 15:44:56 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-28 15:44:56 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-28 15:44:56 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-28 15:44:56 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-28 15:44:56 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-28 15:44:56 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-28 15:44:56 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-28 15:44:56 | INFO | stdout | 3                     tulu-30b
+2024-11-28 15:44:56 | INFO | stdout | 4                  guanaco-65b
+2024-11-28 15:44:56 | INFO | stdout |                 ...
+2024-11-28 15:44:56 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-28 15:44:56 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-28 15:44:56 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-28 15:44:56 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-28 15:44:56 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-28 15:44:56 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-28 15:44:56 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-28 15:44:56 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-28 15:45:00 | INFO | stdout | names:  chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-28 15:45:00 | INFO | stdout | o1-preview                                    o1-preview
+2024-11-28 15:45:00 | INFO | stdout | o1-mini                                          o1-mini
+2024-11-28 15:45:00 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-28 15:45:00 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-28 15:45:00 | INFO | stdout |                                          ...
+2024-11-28 15:45:00 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-28 15:45:00 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-28 15:45:00 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-28 15:45:00 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-28 15:45:00 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-28 15:45:00 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-28 15:45:00 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-28 15:45:00 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-28 15:45:00 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-28 15:45:00 | INFO | stdout | 3                     tulu-30b
+2024-11-28 15:45:00 | INFO | stdout | 4                  guanaco-65b
+2024-11-28 15:45:00 | INFO | stdout |                 ...
+2024-11-28 15:45:00 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-28 15:45:00 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-28 15:45:00 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-28 15:45:00 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-28 15:45:00 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-28 15:45:00 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-28 15:45:00 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-28 15:45:00 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-28 15:45:00 | INFO | stdout | price control value False
+2024-11-28 15:45:02 | INFO | stdout | names:  o1-preview                                    o1-preview
+2024-11-28 15:45:02 | INFO | stdout | chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-28 15:45:02 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-28 15:45:02 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-28 15:45:02 | INFO | stdout | gpt-4o-2024-05-13                      gpt-4o-2024-05-13
+2024-11-28 15:45:02 | INFO | stdout |                                          ...
+2024-11-28 15:45:02 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-28 15:45:02 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-28 15:45:02 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-28 15:45:02 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-28 15:45:02 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-28 15:45:02 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-28 15:45:02 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-28 15:45:02 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-28 15:45:02 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-28 15:45:02 | INFO | stdout | 3                     tulu-30b
+2024-11-28 15:45:02 | INFO | stdout | 4                  guanaco-65b
+2024-11-28 15:45:02 | INFO | stdout |                 ...
+2024-11-28 15:45:02 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-28 15:45:02 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-28 15:45:02 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-28 15:45:02 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-28 15:45:02 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-28 15:45:02 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-28 15:45:02 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-28 15:45:02 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-28 15:45:05 | INFO | stdout | names:  chatgpt-4o-latest-20240903    chatgpt-4o-latest-20240903
+2024-11-28 15:45:05 | INFO | stdout | o1-preview                                    o1-preview
+2024-11-28 15:45:05 | INFO | stdout | o1-mini                                          o1-mini
+2024-11-28 15:45:05 | INFO | stdout | gemini-1.5-pro-002                    gemini-1.5-pro-002
+2024-11-28 15:45:05 | INFO | stdout | gemini-1.5-pro-exp-0827          gemini-1.5-pro-exp-0827
+2024-11-28 15:45:05 | INFO | stdout |                                          ...
+2024-11-28 15:45:05 | INFO | stdout | chatglm-6b                                    chatglm-6b
+2024-11-28 15:45:05 | INFO | stdout | fastchat-t5-3b                            fastchat-t5-3b
+2024-11-28 15:45:05 | INFO | stdout | stablelm-tuned-alpha-7b          stablelm-tuned-alpha-7b
+2024-11-28 15:45:05 | INFO | stdout | dolly-v2-12b                                dolly-v2-12b
+2024-11-28 15:45:05 | INFO | stdout | llama-13b                                      llama-13b
+2024-11-28 15:45:05 | INFO | stdout | Name: Name, Length: 148, dtype: object
+2024-11-28 15:45:05 | INFO | stdout | key:  0                 wizardlm-30b
+2024-11-28 15:45:05 | INFO | stdout | 1               vicuna-13b-16k
+2024-11-28 15:45:05 | INFO | stdout | 2            wizardlm-13b-v1.1
+2024-11-28 15:45:05 | INFO | stdout | 3                     tulu-30b
+2024-11-28 15:45:05 | INFO | stdout | 4                  guanaco-65b
+2024-11-28 15:45:05 | INFO | stdout |                 ...
+2024-11-28 15:45:05 | INFO | stdout | 181           pixtral-12b-2409
+2024-11-28 15:45:05 | INFO | stdout | 182               qwen2-vl-72b
+2024-11-28 15:45:05 | INFO | stdout | 183         gemini-1.5-pro-002
+2024-11-28 15:45:05 | INFO | stdout | 184       gemini-1.5-flash-002
+2024-11-28 15:45:05 | INFO | stdout | 185    gemini-1.5-flash-8b-001
+2024-11-28 15:45:05 | INFO | stdout | Name: key, Length: 186, dtype: object
+2024-11-28 15:45:05 | INFO | stdout | Arena_df columns: ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name']
+2024-11-28 15:45:05 | INFO | stdout | Arena_model_df:  ['rating', 'variance', 'rating_q975', 'rating_q025', 'num_battles', 'final_ranking', 'final_ranking_global', 'ranking_difference', 'Name', 'key', 'Model', 'MT-bench (score)', 'MMLU', 'License', 'Organization', 'Link', 'average_price', 'Score', 'Rank_after']
+2024-11-28 15:45:05 | INFO | stdout | price control value False
+2024-11-28 15:49:44 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-28 15:49:49 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-11-28 15:50:03 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-28 15:50:03 | INFO | stdout | 
+2024-11-28 15:50:03 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-11-28 15:50:13 | INFO | stdout | price control value False
+2024-11-28 15:50:15 | ERROR | stderr | Traceback (most recent call last):
+2024-11-28 15:50:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/queueing.py", line 536, in process_events
+2024-11-28 15:50:15 | ERROR | stderr |     response = await route_utils.call_process_api(
+2024-11-28 15:50:15 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-28 15:50:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/route_utils.py", line 322, in call_process_api
+2024-11-28 15:50:15 | ERROR | stderr |     output = await app.get_blocks().process_api(
+2024-11-28 15:50:15 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-28 15:50:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1935, in process_api
+2024-11-28 15:50:15 | ERROR | stderr |     result = await self.call_function(
+2024-11-28 15:50:15 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-28 15:50:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/blocks.py", line 1520, in call_function
+2024-11-28 15:50:15 | ERROR | stderr |     prediction = await anyio.to_thread.run_sync(  # type: ignore
+2024-11-28 15:50:15 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-28 15:50:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 56, in run_sync
+2024-11-28 15:50:15 | ERROR | stderr |     return await get_async_backend().run_sync_in_worker_thread(
+2024-11-28 15:50:15 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-28 15:50:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2441, in run_sync_in_worker_thread
+2024-11-28 15:50:15 | ERROR | stderr |     return await future
+2024-11-28 15:50:15 | ERROR | stderr |            ^^^^^^^^^^^^
+2024-11-28 15:50:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 943, in run
+2024-11-28 15:50:15 | ERROR | stderr |     result = context.run(func, *args)
+2024-11-28 15:50:15 | ERROR | stderr |              ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-28 15:50:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/utils.py", line 826, in wrapper
+2024-11-28 15:50:15 | ERROR | stderr |     response = f(*args, **kwargs)
+2024-11-28 15:50:15 | ERROR | stderr |                ^^^^^^^^^^^^^^^^^^
+2024-11-28 15:50:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 597, in update_leaderboard_and_plots
+2024-11-28 15:50:15 | ERROR | stderr |     arena_values = get_arena_table(
+2024-11-28 15:50:15 | ERROR | stderr |                    ^^^^^^^^^^^^^^^^
+2024-11-28 15:50:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 408, in get_arena_table
+2024-11-28 15:50:15 | ERROR | stderr |     values = [
+2024-11-28 15:50:15 | ERROR | stderr |              ^
+2024-11-28 15:50:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 411, in <listcomp>
+2024-11-28 15:50:15 | ERROR | stderr |     if process_row(row) is not None
+2024-11-28 15:50:15 | ERROR | stderr |        ^^^^^^^^^^^^^^^^
+2024-11-28 15:50:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 369, in process_row
+2024-11-28 15:50:15 | ERROR | stderr |     ranking_price = row.get("final_price_ranking") or row.name + 1
+2024-11-28 15:50:15 | ERROR | stderr |                                                       ~~~~~~~~~^~~
+2024-11-28 15:50:15 | ERROR | stderr | TypeError: can only concatenate str (not "int") to str
+2024-11-28 15:50:30 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-28 15:50:35 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-11-28 15:50:48 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-28 15:50:49 | INFO | stdout | 
+2024-11-28 15:50:49 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-11-28 15:50:58 | INFO | stdout | price control value False
+2024-11-28 16:00:04 | INFO | stdout | Keyboard interruption in main thread... closing server.

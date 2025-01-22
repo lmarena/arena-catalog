@@ -1,0 +1,471 @@
+2024-10-29 23:14:45 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-29 23:14:45 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://4421d256287e731828.gradio.live
+2024-10-30 17:45:45 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 17:45:58 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 17:45:59 | INFO | stdout | Running on public URL: https://a02ca8b0e79cff5f97.gradio.live
+2024-10-30 17:45:59 | INFO | stdout | 
+2024-10-30 17:45:59 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 17:51:34 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 17:51:34 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://a02ca8b0e79cff5f97.gradio.live
+2024-10-30 17:52:48 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 17:53:02 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 17:53:03 | INFO | stdout | Running on public URL: https://03ab45f0d589c0a5b1.gradio.live
+2024-10-30 17:53:03 | INFO | stdout | 
+2024-10-30 17:53:03 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 18:06:38 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 18:06:38 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://03ab45f0d589c0a5b1.gradio.live
+2024-10-30 18:06:45 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 18:06:58 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 18:07:00 | INFO | stdout | Running on public URL: https://7446bf54235d673cd8.gradio.live
+2024-10-30 18:07:00 | INFO | stdout | 
+2024-10-30 18:07:00 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 18:17:37 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 18:17:37 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://7446bf54235d673cd8.gradio.live
+2024-10-30 18:17:44 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 18:17:58 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 18:17:59 | INFO | stdout | Running on public URL: https://f88edc3511b90c307a.gradio.live
+2024-10-30 18:17:59 | INFO | stdout | 
+2024-10-30 18:17:59 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 18:22:57 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 18:22:58 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://f88edc3511b90c307a.gradio.live
+2024-10-30 18:23:20 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 18:23:33 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 18:23:33 | INFO | stdout | 
+2024-10-30 18:23:33 | INFO | stdout | Thanks for being a Gradio user! If you have questions or feedback, please join our Discord server and chat with us: https://discord.gg/feTf9x3ZSB
+2024-10-30 18:23:35 | INFO | stdout | Running on public URL: https://7eeb9039895fe9d231.gradio.live
+2024-10-30 18:23:35 | INFO | stdout | 
+2024-10-30 18:23:35 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 18:25:42 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 18:25:43 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://7eeb9039895fe9d231.gradio.live
+2024-10-30 18:29:29 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 18:29:43 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 18:29:44 | INFO | stdout | Running on public URL: https://99c8355edf0714fc6b.gradio.live
+2024-10-30 18:29:44 | INFO | stdout | 
+2024-10-30 18:29:44 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 18:31:07 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 18:31:07 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://99c8355edf0714fc6b.gradio.live
+2024-10-30 18:31:13 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 18:31:27 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 18:31:28 | INFO | stdout | Running on public URL: https://8585cae8775cf415d5.gradio.live
+2024-10-30 18:31:28 | INFO | stdout | 
+2024-10-30 18:31:28 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 18:33:10 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 18:33:10 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://8585cae8775cf415d5.gradio.live
+2024-10-30 18:33:17 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 18:33:17 | ERROR | stderr | Traceback (most recent call last):
+2024-10-30 18:33:17 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 102, in <module>
+2024-10-30 18:33:17 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-10-30 18:33:17 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 18:33:17 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 68, in build_demo
+2024-10-30 18:33:17 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-30 18:33:17 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 18:33:17 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1126, in build_leaderboard_tab
+2024-10-30 18:33:17 | ERROR | stderr |     data = load_leaderboard_table_csv(leaderboard_table_file)
+2024-10-30 18:33:17 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 18:33:17 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 231, in load_leaderboard_table_csv
+2024-10-30 18:33:17 | ERROR | stderr |     v = round(ast.literal_eval(v), 2)
+2024-10-30 18:33:17 | ERROR | stderr |               ^^^^^^^^^^^^^^^^^^^
+2024-10-30 18:33:17 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 110, in literal_eval
+2024-10-30 18:33:17 | ERROR | stderr |     return _convert(node_or_string)
+2024-10-30 18:33:17 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 18:33:17 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 109, in _convert
+2024-10-30 18:33:17 | ERROR | stderr |     return _convert_signed_num(node)
+2024-10-30 18:33:17 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 18:33:17 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 83, in _convert_signed_num
+2024-10-30 18:33:17 | ERROR | stderr |     return _convert_num(node)
+2024-10-30 18:33:17 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^
+2024-10-30 18:33:17 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 74, in _convert_num
+2024-10-30 18:33:17 | ERROR | stderr |     _raise_malformed_node(node)
+2024-10-30 18:33:17 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 71, in _raise_malformed_node
+2024-10-30 18:33:17 | ERROR | stderr |     raise ValueError(msg + f': {node!r}')
+2024-10-30 18:33:17 | ERROR | stderr | ValueError: malformed node or string on line 1: <ast.Name object at 0x17f829a20>
+2024-10-30 18:33:45 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 18:33:46 | ERROR | stderr | Traceback (most recent call last):
+2024-10-30 18:33:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 102, in <module>
+2024-10-30 18:33:46 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-10-30 18:33:46 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 18:33:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 68, in build_demo
+2024-10-30 18:33:46 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-30 18:33:46 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 18:33:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1126, in build_leaderboard_tab
+2024-10-30 18:33:46 | ERROR | stderr |     data = load_leaderboard_table_csv(leaderboard_table_file)
+2024-10-30 18:33:46 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 18:33:46 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 231, in load_leaderboard_table_csv
+2024-10-30 18:33:46 | ERROR | stderr |     v = round(v, 2)
+2024-10-30 18:33:46 | ERROR | stderr |         ^^^^^^^^^^^
+2024-10-30 18:33:46 | ERROR | stderr | TypeError: type str doesn't define __round__ method
+2024-10-30 18:34:37 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 18:34:38 | ERROR | stderr | Traceback (most recent call last):
+2024-10-30 18:34:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 102, in <module>
+2024-10-30 18:34:38 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-10-30 18:34:38 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 18:34:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 68, in build_demo
+2024-10-30 18:34:38 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-30 18:34:38 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 18:34:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1126, in build_leaderboard_tab
+2024-10-30 18:34:38 | ERROR | stderr |     data = load_leaderboard_table_csv(leaderboard_table_file)
+2024-10-30 18:34:38 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 18:34:38 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 231, in load_leaderboard_table_csv
+2024-10-30 18:34:38 | ERROR | stderr |     v = round(ast.literal_eval(v), 2)
+2024-10-30 18:34:38 | ERROR | stderr |               ^^^^^^^^^^^^^^^^^^^
+2024-10-30 18:34:38 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 110, in literal_eval
+2024-10-30 18:34:38 | ERROR | stderr |     return _convert(node_or_string)
+2024-10-30 18:34:38 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 18:34:38 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 109, in _convert
+2024-10-30 18:34:38 | ERROR | stderr |     return _convert_signed_num(node)
+2024-10-30 18:34:38 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 18:34:38 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 83, in _convert_signed_num
+2024-10-30 18:34:38 | ERROR | stderr |     return _convert_num(node)
+2024-10-30 18:34:38 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^
+2024-10-30 18:34:38 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 74, in _convert_num
+2024-10-30 18:34:38 | ERROR | stderr |     _raise_malformed_node(node)
+2024-10-30 18:34:38 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 71, in _raise_malformed_node
+2024-10-30 18:34:38 | ERROR | stderr |     raise ValueError(msg + f': {node!r}')
+2024-10-30 18:34:38 | ERROR | stderr | ValueError: malformed node or string on line 1: <ast.Name object at 0x28f269660>
+2024-10-30 18:51:33 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 18:51:46 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 18:51:48 | INFO | stdout | Running on public URL: https://f0facab0875ccdfad9.gradio.live
+2024-10-30 18:51:48 | INFO | stdout | 
+2024-10-30 18:51:48 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 18:52:41 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 18:52:41 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://f0facab0875ccdfad9.gradio.live
+2024-10-30 19:00:05 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 19:00:18 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 19:00:19 | INFO | stdout | Running on public URL: https://4ba80c05bfa13dddd4.gradio.live
+2024-10-30 19:00:19 | INFO | stdout | 
+2024-10-30 19:00:19 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 19:01:08 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 19:01:08 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://4ba80c05bfa13dddd4.gradio.live
+2024-10-30 19:01:14 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 19:01:28 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 19:01:28 | INFO | stdout | Running on public URL: https://e406854a31be560090.gradio.live
+2024-10-30 19:01:28 | INFO | stdout | 
+2024-10-30 19:01:28 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 19:03:30 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 19:03:30 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://e406854a31be560090.gradio.live
+2024-10-30 19:06:42 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 19:06:56 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 19:06:56 | INFO | stdout | Running on public URL: https://b4671b5040ec9adf72.gradio.live
+2024-10-30 19:06:56 | INFO | stdout | 
+2024-10-30 19:06:56 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 19:09:31 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 19:09:31 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://b4671b5040ec9adf72.gradio.live
+2024-10-30 19:09:46 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 19:10:00 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 19:10:01 | INFO | stdout | Running on public URL: https://e8a4d10c76c09564c2.gradio.live
+2024-10-30 19:10:01 | INFO | stdout | 
+2024-10-30 19:10:01 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 19:12:25 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 19:12:25 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://e8a4d10c76c09564c2.gradio.live
+2024-10-30 19:12:31 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 19:12:44 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 19:12:45 | INFO | stdout | Running on public URL: https://aa6ec7204c878fa613.gradio.live
+2024-10-30 19:12:45 | INFO | stdout | 
+2024-10-30 19:12:45 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 19:14:06 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 19:14:06 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://aa6ec7204c878fa613.gradio.live
+2024-10-30 19:18:55 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 19:18:55 | ERROR | stderr | Traceback (most recent call last):
+2024-10-30 19:18:55 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 120, in <module>
+2024-10-30 19:18:55 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-10-30 19:18:55 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 19:18:55 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 78, in build_demo
+2024-10-30 19:18:55 | ERROR | stderr |     merged_leaderboard_file = join_leaderboard_and_pricing(leaderboard_table_file, pricing_table_file)
+2024-10-30 19:18:55 | ERROR | stderr |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 19:18:55 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 26, in join_leaderboard_and_pricing
+2024-10-30 19:18:55 | ERROR | stderr |     with open(pricing_file, 'r') as jsonfile:
+2024-10-30 19:18:55 | ERROR | stderr |          ^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 19:18:55 | ERROR | stderr | FileNotFoundError: [Errno 2] No such file or directory: 'pricing_table.json'
+2024-10-30 19:20:25 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 19:20:39 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 19:20:40 | INFO | stdout | Running on public URL: https://83010f442b636b9c7e.gradio.live
+2024-10-30 19:20:40 | INFO | stdout | 
+2024-10-30 19:20:40 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 19:21:09 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 19:21:10 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://83010f442b636b9c7e.gradio.live
+2024-10-30 20:11:30 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 20:11:44 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 20:11:45 | INFO | stdout | Running on public URL: https://30f99c7f82718304f6.gradio.live
+2024-10-30 20:11:45 | INFO | stdout | 
+2024-10-30 20:11:45 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 20:29:17 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 20:29:18 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://30f99c7f82718304f6.gradio.live
+2024-10-30 20:29:24 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 20:29:38 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 20:29:39 | INFO | stdout | Running on public URL: https://73e877e57a02ee139b.gradio.live
+2024-10-30 20:29:39 | INFO | stdout | 
+2024-10-30 20:29:39 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 20:36:01 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 20:36:01 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://73e877e57a02ee139b.gradio.live
+2024-10-30 20:36:14 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 20:36:28 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 20:36:29 | INFO | stdout | Running on public URL: https://4b095f31e603f46463.gradio.live
+2024-10-30 20:36:29 | INFO | stdout | 
+2024-10-30 20:36:29 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 20:41:54 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 20:41:54 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://4b095f31e603f46463.gradio.live
+2024-10-30 20:43:07 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 20:43:22 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 20:43:23 | INFO | stdout | Running on public URL: https://ffbcccf78d4aaa130b.gradio.live
+2024-10-30 20:43:23 | INFO | stdout | 
+2024-10-30 20:43:23 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 20:44:18 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 20:44:18 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://ffbcccf78d4aaa130b.gradio.live
+2024-10-30 20:51:36 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 20:51:50 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 20:51:50 | INFO | stdout | Running on public URL: https://b6ab5e971eeb32b2ff.gradio.live
+2024-10-30 20:51:50 | INFO | stdout | 
+2024-10-30 20:51:50 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 20:52:27 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 20:52:27 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://b6ab5e971eeb32b2ff.gradio.live
+2024-10-30 21:01:08 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 21:01:22 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 21:01:23 | INFO | stdout | Running on public URL: https://1331a062efc1845d6c.gradio.live
+2024-10-30 21:01:23 | INFO | stdout | 
+2024-10-30 21:01:23 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 21:02:38 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 21:02:39 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://1331a062efc1845d6c.gradio.live
+2024-10-30 21:09:33 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 21:09:47 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 21:09:48 | INFO | stdout | Running on public URL: https://4b5ba75a78376cb69e.gradio.live
+2024-10-30 21:09:48 | INFO | stdout | 
+2024-10-30 21:09:48 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 21:28:46 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 21:28:46 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://4b5ba75a78376cb69e.gradio.live
+2024-10-30 21:32:54 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 21:33:08 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 21:33:08 | INFO | stdout | Running on public URL: https://a3f5283e40a5f48dbd.gradio.live
+2024-10-30 21:33:08 | INFO | stdout | 
+2024-10-30 21:33:08 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 21:38:12 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 21:38:13 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://a3f5283e40a5f48dbd.gradio.live
+2024-10-30 21:38:18 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 21:38:32 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 21:38:32 | INFO | stdout | Running on public URL: https://59397fcfc96dbb631a.gradio.live
+2024-10-30 21:38:32 | INFO | stdout | 
+2024-10-30 21:38:32 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 21:40:39 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 21:40:39 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://59397fcfc96dbb631a.gradio.live
+2024-10-30 21:40:45 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 21:40:59 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 21:40:59 | INFO | stdout | Running on public URL: https://1debe0631acab3ed7a.gradio.live
+2024-10-30 21:40:59 | INFO | stdout | 
+2024-10-30 21:40:59 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 21:43:13 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 21:43:13 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://1debe0631acab3ed7a.gradio.live
+2024-10-30 21:43:20 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 21:43:21 | ERROR | stderr | Traceback (most recent call last):
+2024-10-30 21:43:21 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 126, in <module>
+2024-10-30 21:43:21 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-10-30 21:43:21 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 21:43:21 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 91, in build_demo
+2024-10-30 21:43:21 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-30 21:43:21 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 21:43:21 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 984, in build_leaderboard_tab
+2024-10-30 21:43:21 | ERROR | stderr |     data = load_leaderboard_table_csv(leaderboard_table_file)
+2024-10-30 21:43:21 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 21:43:21 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 201, in load_leaderboard_table_csv
+2024-10-30 21:43:21 | ERROR | stderr |     v = round(v, 2)
+2024-10-30 21:43:21 | ERROR | stderr |         ^^^^^^^^^^^
+2024-10-30 21:43:21 | ERROR | stderr | TypeError: type str doesn't define __round__ method
+2024-10-30 21:44:48 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 21:45:02 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 21:45:03 | INFO | stdout | Running on public URL: https://8d4079471b0f816a50.gradio.live
+2024-10-30 21:45:03 | INFO | stdout | 
+2024-10-30 21:45:03 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 21:49:04 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 21:49:04 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://8d4079471b0f816a50.gradio.live
+2024-10-30 21:49:10 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 21:49:23 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 21:49:24 | INFO | stdout | Running on public URL: https://d138b458bd00b55983.gradio.live
+2024-10-30 21:49:24 | INFO | stdout | 
+2024-10-30 21:49:24 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 21:54:19 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 21:54:19 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://d138b458bd00b55983.gradio.live
+2024-10-30 21:55:04 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 21:55:05 | ERROR | stderr | Traceback (most recent call last):
+2024-10-30 21:55:05 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 126, in <module>
+2024-10-30 21:55:05 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-10-30 21:55:05 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 21:55:05 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 91, in build_demo
+2024-10-30 21:55:05 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-30 21:55:05 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 21:55:05 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 986, in build_leaderboard_tab
+2024-10-30 21:55:05 | ERROR | stderr |     data = load_leaderboard_table_csv(leaderboard_table_file)
+2024-10-30 21:55:05 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 21:55:05 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 203, in load_leaderboard_table_csv
+2024-10-30 21:55:05 | ERROR | stderr |     v = round(v, 2)
+2024-10-30 21:55:05 | ERROR | stderr |         ^^^^^^^^^^^
+2024-10-30 21:55:05 | ERROR | stderr | TypeError: type str doesn't define __round__ method
+2024-10-30 21:56:28 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 21:56:42 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 21:56:43 | INFO | stdout | Running on public URL: https://8a28214a38784740d8.gradio.live
+2024-10-30 21:56:43 | INFO | stdout | 
+2024-10-30 21:56:43 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 21:57:42 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 21:57:42 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://8a28214a38784740d8.gradio.live
+2024-10-30 21:57:48 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 21:58:01 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 21:58:02 | INFO | stdout | Running on public URL: https://93b49d03956f2eb956.gradio.live
+2024-10-30 21:58:02 | INFO | stdout | 
+2024-10-30 21:58:02 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:01:25 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:01:25 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://93b49d03956f2eb956.gradio.live
+2024-10-30 22:01:32 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:01:46 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:01:46 | INFO | stdout | Running on public URL: https://6214ac0ac40c22145d.gradio.live
+2024-10-30 22:01:46 | INFO | stdout | 
+2024-10-30 22:01:46 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:02:22 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:02:22 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://6214ac0ac40c22145d.gradio.live
+2024-10-30 22:02:32 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:02:45 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:02:46 | INFO | stdout | 
+2024-10-30 22:02:46 | INFO | stdout | Thanks for being a Gradio user! If you have questions or feedback, please join our Discord server and chat with us: https://discord.gg/feTf9x3ZSB
+2024-10-30 22:02:46 | INFO | stdout | Running on public URL: https://9a0c8bf30f6f8e06cf.gradio.live
+2024-10-30 22:02:46 | INFO | stdout | 
+2024-10-30 22:02:46 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:08:52 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:08:52 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://9a0c8bf30f6f8e06cf.gradio.live
+2024-10-30 22:08:58 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:09:11 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:09:12 | INFO | stdout | Running on public URL: https://c2ce4881cf16ad0d8a.gradio.live
+2024-10-30 22:09:12 | INFO | stdout | 
+2024-10-30 22:09:12 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:13:01 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:13:01 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://c2ce4881cf16ad0d8a.gradio.live
+2024-10-30 22:13:16 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:13:30 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:13:30 | INFO | stdout | Running on public URL: https://41cba1b908b5b1e851.gradio.live
+2024-10-30 22:13:30 | INFO | stdout | 
+2024-10-30 22:13:30 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:15:12 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:15:12 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://41cba1b908b5b1e851.gradio.live
+2024-10-30 22:15:18 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:15:31 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:15:32 | INFO | stdout | Running on public URL: https://bb8f2867a94d6bcbb2.gradio.live
+2024-10-30 22:15:32 | INFO | stdout | 
+2024-10-30 22:15:32 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:16:07 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:16:07 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://bb8f2867a94d6bcbb2.gradio.live
+2024-10-30 22:16:12 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:16:26 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:16:26 | INFO | stdout | Running on public URL: https://1ea88b133951ab04cc.gradio.live
+2024-10-30 22:16:26 | INFO | stdout | 
+2024-10-30 22:16:26 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:17:22 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:17:23 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://1ea88b133951ab04cc.gradio.live
+2024-10-30 22:17:28 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:17:42 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:17:42 | INFO | stdout | Running on public URL: https://e22ae53635a087fefe.gradio.live
+2024-10-30 22:17:42 | INFO | stdout | 
+2024-10-30 22:17:42 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:19:32 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:19:32 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://e22ae53635a087fefe.gradio.live
+2024-10-30 22:19:38 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:19:52 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:19:52 | INFO | stdout | Running on public URL: https://a161aa2a568d32f981.gradio.live
+2024-10-30 22:19:52 | INFO | stdout | 
+2024-10-30 22:19:52 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:21:06 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:21:06 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://a161aa2a568d32f981.gradio.live
+2024-10-30 22:21:12 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:21:25 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:21:26 | INFO | stdout | Running on public URL: https://2e71d2c6e72ea430cb.gradio.live
+2024-10-30 22:21:26 | INFO | stdout | 
+2024-10-30 22:21:26 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:23:12 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:23:12 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://2e71d2c6e72ea430cb.gradio.live
+2024-10-30 22:23:19 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:23:33 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:23:33 | INFO | stdout | Running on public URL: https://b4d5495bda484dfb73.gradio.live
+2024-10-30 22:23:33 | INFO | stdout | 
+2024-10-30 22:23:33 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:25:27 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:25:28 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://b4d5495bda484dfb73.gradio.live
+2024-10-30 22:25:33 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:25:46 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:25:47 | INFO | stdout | Running on public URL: https://8794f8b42aca0c799f.gradio.live
+2024-10-30 22:25:47 | INFO | stdout | 
+2024-10-30 22:25:47 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:27:03 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:27:03 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://8794f8b42aca0c799f.gradio.live
+2024-10-30 22:27:09 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:27:23 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:27:23 | INFO | stdout | Running on public URL: https://33f80b05ebbfbf751c.gradio.live
+2024-10-30 22:27:23 | INFO | stdout | 
+2024-10-30 22:27:23 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:27:59 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:27:59 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://33f80b05ebbfbf751c.gradio.live
+2024-10-30 22:31:24 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:31:38 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:31:38 | INFO | stdout | Running on public URL: https://c133d3c86ccb86f76a.gradio.live
+2024-10-30 22:31:38 | INFO | stdout | 
+2024-10-30 22:31:38 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:34:59 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:34:59 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://c133d3c86ccb86f76a.gradio.live
+2024-10-30 22:35:30 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:35:30 | ERROR | stderr | Traceback (most recent call last):
+2024-10-30 22:35:30 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 126, in <module>
+2024-10-30 22:35:30 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-10-30 22:35:30 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 22:35:30 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 91, in build_demo
+2024-10-30 22:35:30 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-30 22:35:30 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 22:35:30 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 990, in build_leaderboard_tab
+2024-10-30 22:35:30 | ERROR | stderr |     data = load_leaderboard_table_csv(leaderboard_table_file)
+2024-10-30 22:35:30 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 22:35:30 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 203, in load_leaderboard_table_csv
+2024-10-30 22:35:30 | ERROR | stderr |     v = round(float(char(v)), 2)
+2024-10-30 22:35:30 | ERROR | stderr |                     ^^^^
+2024-10-30 22:35:30 | ERROR | stderr | NameError: name 'char' is not defined. Did you mean: 'chr'?
+2024-10-30 22:35:47 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:35:48 | ERROR | stderr | Traceback (most recent call last):
+2024-10-30 22:35:48 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 126, in <module>
+2024-10-30 22:35:48 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-10-30 22:35:48 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 22:35:48 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 91, in build_demo
+2024-10-30 22:35:48 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-30 22:35:48 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 22:35:48 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 990, in build_leaderboard_tab
+2024-10-30 22:35:48 | ERROR | stderr |     data = load_leaderboard_table_csv(leaderboard_table_file)
+2024-10-30 22:35:48 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-30 22:35:48 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 203, in load_leaderboard_table_csv
+2024-10-30 22:35:48 | ERROR | stderr |     v = round(float(chr(v)), 2)
+2024-10-30 22:35:48 | ERROR | stderr |                     ^^^^^^
+2024-10-30 22:35:48 | ERROR | stderr | TypeError: 'str' object cannot be interpreted as an integer
+2024-10-30 22:38:39 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:38:53 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:38:53 | INFO | stdout | Running on public URL: https://fbf9e26e26b46d42d0.gradio.live
+2024-10-30 22:38:53 | INFO | stdout | 
+2024-10-30 22:38:53 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:41:01 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:41:01 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://fbf9e26e26b46d42d0.gradio.live
+2024-10-30 22:41:08 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:41:21 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:41:22 | INFO | stdout | Running on public URL: https://ba90b8b6b354731f4b.gradio.live
+2024-10-30 22:41:22 | INFO | stdout | 
+2024-10-30 22:41:22 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:42:25 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:42:26 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://ba90b8b6b354731f4b.gradio.live
+2024-10-30 22:42:36 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:42:50 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:42:50 | INFO | stdout | Running on public URL: https://22eb51f617f2a8220a.gradio.live
+2024-10-30 22:42:50 | INFO | stdout | 
+2024-10-30 22:42:50 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:44:50 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:44:50 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://22eb51f617f2a8220a.gradio.live
+2024-10-30 22:44:55 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:45:09 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:45:10 | INFO | stdout | Running on public URL: https://483407fdb20f96b620.gradio.live
+2024-10-30 22:45:10 | INFO | stdout | 
+2024-10-30 22:45:10 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:47:14 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:47:14 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://483407fdb20f96b620.gradio.live
+2024-10-30 22:47:20 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-30 22:47:34 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-30 22:47:34 | INFO | stdout | Running on public URL: https://f9c6295298120f04fc.gradio.live
+2024-10-30 22:47:34 | INFO | stdout | 
+2024-10-30 22:47:34 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-30 22:54:14 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-30 22:54:15 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://f9c6295298120f04fc.gradio.live

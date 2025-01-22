@@ -19,9 +19,8 @@ def load_demo(url_params, request: gr.Request):
 def join_leaderboard_and_pricing(leaderboard_file, pricing_file):
     # Load CSV file and JSON file
     leaderboard_df = pd.read_csv(leaderboard_file)
-    # pricing_df = pd.read_csv(pricing_file)
     pricing_csv_file = 'data/pricing_table.csv'
-    price_control_merged_ranking_file = 'data/price_control_merged_ranking.csv'
+    price_rank_file = 'data/elo_rating_with_price_ctrl.csv'
 
     csvfile = open(pricing_csv_file, 'w')
     with open(pricing_file, 'r') as jsonfile:
@@ -53,12 +52,13 @@ def join_leaderboard_and_pricing(leaderboard_file, pricing_file):
     merged_df.to_csv('data/intermediate_merged_df.csv', index=False)
     
     # Merge with price_control_merged_ranking
-    price_control_df = pd.read_csv(price_control_merged_ranking_file)
-    final_merged_df = pd.merge(merged_df, price_control_df, on='key', how='left').fillna('-')
+    price_rank_df = pd.read_csv(price_rank_file)
+    price_rank_df.rename(columns={'Model': 'key'}, inplace=True)
+    final_merged_df = pd.merge(merged_df, price_rank_df, on='key', how='left').fillna('-')
     final_merged_df["Rank_after"] = pd.to_numeric(final_merged_df["Rank_after"], errors="coerce").fillna("-")
     final_merged_df['Rank_after'] = final_merged_df['Rank_after'].apply(lambda x: ('%.15g' % x) if isinstance(x, float) else x)
     
-    final_merged_df.drop(columns=['Price_cntrl_score', 'Rank_before', 'elo_rating'], inplace=True)
+    # final_merged_df.drop(columns=['Price_cntrl_score', 'Rank_before', 'elo_rating'], inplace=True)
 
     # Save the merged dataframe to a new CSV file (temporary)
     final_merged_file = 'data/merged_leaderboard_pricing.csv'

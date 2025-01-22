@@ -1,0 +1,312 @@
+2024-10-16 18:13:21 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-10-16 18:13:21 | ERROR | stderr | Traceback (most recent call last):
+2024-10-16 18:13:21 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 75, in <module>
+2024-10-16 18:13:21 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file)
+2024-10-16 18:13:21 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 18:13:21 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 45, in build_demo
+2024-10-16 18:13:21 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-16 18:13:21 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 18:13:21 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 931, in build_leaderboard_tab
+2024-10-16 18:13:21 | ERROR | stderr |     elo_results = pickle.load(fin)
+2024-10-16 18:13:21 | ERROR | stderr |                   ^^^^^^^^^^^^^^^^
+2024-10-16 18:13:21 | ERROR | stderr | _pickle.UnpicklingError: invalid load key, 'v'.
+2024-10-16 18:13:21 | ERROR | stderr | /Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/analytics.py:106: UserWarning: IMPORTANT: You are using gradio version 4.44.1, however version 5.0.1 is available, please upgrade.
+2024-10-16 18:13:21 | ERROR | stderr | --------
+2024-10-16 18:13:21 | ERROR | stderr |   warnings.warn(
+2024-10-16 18:17:53 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-10-16 18:17:53 | ERROR | stderr | Traceback (most recent call last):
+2024-10-16 18:17:53 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 75, in <module>
+2024-10-16 18:17:53 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file)
+2024-10-16 18:17:53 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 18:17:53 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 45, in build_demo
+2024-10-16 18:17:53 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-16 18:17:53 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 18:17:53 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 931, in build_leaderboard_tab
+2024-10-16 18:17:53 | ERROR | stderr |     elo_results = pickle.load(fin)
+2024-10-16 18:17:53 | ERROR | stderr |                   ^^^^^^^^^^^^^^^^
+2024-10-16 18:17:53 | ERROR | stderr | _pickle.UnpicklingError: invalid load key, 'v'.
+2024-10-16 18:17:53 | ERROR | stderr | /Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/analytics.py:106: UserWarning: IMPORTANT: You are using gradio version 4.44.1, however version 5.0.1 is available, please upgrade.
+2024-10-16 18:17:53 | ERROR | stderr | --------
+2024-10-16 18:17:53 | ERROR | stderr |   warnings.warn(
+2024-10-16 18:18:12 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-10-16 18:18:12 | ERROR | stderr | Traceback (most recent call last):
+2024-10-16 18:18:12 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 75, in <module>
+2024-10-16 18:18:12 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file)
+2024-10-16 18:18:12 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 18:18:12 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 45, in build_demo
+2024-10-16 18:18:12 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-16 18:18:12 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 18:18:12 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 931, in build_leaderboard_tab
+2024-10-16 18:18:12 | ERROR | stderr |     elo_results = pickle.load(fin)
+2024-10-16 18:18:12 | ERROR | stderr |                   ^^^^^^^^^^^^^^^^
+2024-10-16 18:18:12 | ERROR | stderr | _pickle.UnpicklingError: invalid load key, 'v'.
+2024-10-16 18:18:13 | ERROR | stderr | /Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/analytics.py:106: UserWarning: IMPORTANT: You are using gradio version 4.44.1, however version 5.0.1 is available, please upgrade.
+2024-10-16 18:18:13 | ERROR | stderr | --------
+2024-10-16 18:18:13 | ERROR | stderr |   warnings.warn(
+2024-10-16 18:20:34 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-10-16 18:20:34 | ERROR | stderr | Traceback (most recent call last):
+2024-10-16 18:20:34 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 75, in <module>
+2024-10-16 18:20:34 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file)
+2024-10-16 18:20:34 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 18:20:34 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 45, in build_demo
+2024-10-16 18:20:34 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-16 18:20:34 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 18:20:34 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 931, in build_leaderboard_tab
+2024-10-16 18:20:34 | ERROR | stderr |     elo_results = pickle.load(fin)
+2024-10-16 18:20:34 | ERROR | stderr |                   ^^^^^^^^^^^^^^^^
+2024-10-16 18:20:34 | ERROR | stderr | _pickle.UnpicklingError: invalid load key, 'v'.
+2024-10-16 18:20:34 | ERROR | stderr | /Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/analytics.py:106: UserWarning: IMPORTANT: You are using gradio version 4.44.1, however version 5.0.1 is available, please upgrade.
+2024-10-16 18:20:34 | ERROR | stderr | --------
+2024-10-16 18:20:34 | ERROR | stderr |   warnings.warn(
+2024-10-16 18:24:10 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-10-16 18:24:10 | ERROR | stderr | Traceback (most recent call last):
+2024-10-16 18:24:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 75, in <module>
+2024-10-16 18:24:10 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file)
+2024-10-16 18:24:10 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 18:24:10 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 23, in build_demo
+2024-10-16 18:24:10 | ERROR | stderr |     theme.set(
+2024-10-16 18:24:10 | ERROR | stderr | TypeError: Base.set() got an unexpected keyword argument 'button_shadow'
+2024-10-16 18:30:08 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-10-16 18:30:08 | ERROR | stderr | Traceback (most recent call last):
+2024-10-16 18:30:08 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 109, in <module>
+2024-10-16 18:30:08 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file)
+2024-10-16 18:30:08 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 18:30:08 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 57, in build_demo
+2024-10-16 18:30:08 | ERROR | stderr |     theme = theme.set(
+2024-10-16 18:30:08 | ERROR | stderr |             ^^^^^^^^^^
+2024-10-16 18:30:08 | ERROR | stderr | TypeError: Base.set() got an unexpected keyword argument 'text_size'
+2024-10-16 18:31:25 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-10-16 18:31:25 | ERROR | stderr | Traceback (most recent call last):
+2024-10-16 18:31:25 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 108, in <module>
+2024-10-16 18:31:25 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file)
+2024-10-16 18:31:25 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 18:31:25 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 58, in build_demo
+2024-10-16 18:31:25 | ERROR | stderr |     theme = theme.set(
+2024-10-16 18:31:25 | ERROR | stderr |             ^^^^^^^^^^
+2024-10-16 18:31:25 | ERROR | stderr | TypeError: Base.set() got an unexpected keyword argument 'button_shadow_active'
+2024-10-16 18:33:35 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-10-16 18:33:35 | ERROR | stderr | Traceback (most recent call last):
+2024-10-16 18:33:35 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 108, in <module>
+2024-10-16 18:33:35 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file)
+2024-10-16 18:33:35 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 18:33:35 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 78, in build_demo
+2024-10-16 18:33:35 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-16 18:33:35 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 18:33:35 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 931, in build_leaderboard_tab
+2024-10-16 18:33:35 | ERROR | stderr |     elo_results = pickle.load(fin)
+2024-10-16 18:33:35 | ERROR | stderr |                   ^^^^^^^^^^^^^^^^
+2024-10-16 18:33:35 | ERROR | stderr | _pickle.UnpicklingError: invalid load key, 'v'.
+2024-10-16 18:37:08 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-10-16 18:37:08 | ERROR | stderr | Traceback (most recent call last):
+2024-10-16 18:37:08 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 108, in <module>
+2024-10-16 18:37:08 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file)
+2024-10-16 18:37:08 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 18:37:08 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 23, in build_demo
+2024-10-16 18:37:08 | ERROR | stderr |     theme.set(
+2024-10-16 18:37:08 | ERROR | stderr | TypeError: Base.set() got an unexpected keyword argument 'button_shadow'
+2024-10-16 19:39:16 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-10-16 19:39:16 | ERROR | stderr | Traceback (most recent call last):
+2024-10-16 19:39:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 108, in <module>
+2024-10-16 19:39:16 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file)
+2024-10-16 19:39:16 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 19:39:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 23, in build_demo
+2024-10-16 19:39:16 | ERROR | stderr |     theme.set(
+2024-10-16 19:39:16 | ERROR | stderr | TypeError: Base.set() got an unexpected keyword argument 'button_shadow'
+2024-10-16 20:10:35 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-10-16 20:10:35 | ERROR | stderr | Traceback (most recent call last):
+2024-10-16 20:10:35 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 75, in <module>
+2024-10-16 20:10:35 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file)
+2024-10-16 20:10:35 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 20:10:35 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 23, in build_demo
+2024-10-16 20:10:35 | ERROR | stderr |     theme.set(
+2024-10-16 20:10:35 | ERROR | stderr | TypeError: Base.set() got an unexpected keyword argument 'button_shadow'
+2024-10-16 20:11:41 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-10-16 20:11:41 | ERROR | stderr | Traceback (most recent call last):
+2024-10-16 20:11:41 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 75, in <module>
+2024-10-16 20:11:41 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file)
+2024-10-16 20:11:41 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 20:11:41 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 45, in build_demo
+2024-10-16 20:11:41 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-16 20:11:41 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 20:11:41 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 931, in build_leaderboard_tab
+2024-10-16 20:11:41 | ERROR | stderr |     elo_results = pickle.load(fin)
+2024-10-16 20:11:41 | ERROR | stderr |                   ^^^^^^^^^^^^^^^^
+2024-10-16 20:11:41 | ERROR | stderr | _pickle.UnpicklingError: invalid load key, 'v'.
+2024-10-16 20:11:42 | ERROR | stderr | /Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/analytics.py:106: UserWarning: IMPORTANT: You are using gradio version 4.44.1, however version 5.0.1 is available, please upgrade.
+2024-10-16 20:11:42 | ERROR | stderr | --------
+2024-10-16 20:11:42 | ERROR | stderr |   warnings.warn(
+2024-10-16 20:11:52 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-16 20:11:52 | ERROR | stderr | Traceback (most recent call last):
+2024-10-16 20:11:52 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 75, in <module>
+2024-10-16 20:11:52 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file)
+2024-10-16 20:11:52 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 20:11:52 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 45, in build_demo
+2024-10-16 20:11:52 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-16 20:11:52 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 20:11:52 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 931, in build_leaderboard_tab
+2024-10-16 20:11:52 | ERROR | stderr |     elo_results = pickle.load(fin)
+2024-10-16 20:11:52 | ERROR | stderr |                   ^^^^^^^^^^^^^^^^
+2024-10-16 20:11:52 | ERROR | stderr | _pickle.UnpicklingError: invalid load key, 'v'.
+2024-10-16 20:11:52 | ERROR | stderr | /Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/analytics.py:106: UserWarning: IMPORTANT: You are using gradio version 4.44.1, however version 5.0.1 is available, please upgrade.
+2024-10-16 20:11:52 | ERROR | stderr | --------
+2024-10-16 20:11:52 | ERROR | stderr |   warnings.warn(
+2024-10-16 20:19:02 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-16 20:19:02 | ERROR | stderr | /Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/analytics.py:106: UserWarning: IMPORTANT: You are using gradio version 4.44.1, however version 5.0.1 is available, please upgrade.
+2024-10-16 20:19:02 | ERROR | stderr | --------
+2024-10-16 20:19:02 | ERROR | stderr |   warnings.warn(
+2024-10-16 20:19:21 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-16 20:19:22 | INFO | stdout | Running on public URL: https://58723db93967a0a6cc.gradio.live
+2024-10-16 20:19:22 | INFO | stdout | 
+2024-10-16 20:19:22 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-16 20:24:44 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-16 20:24:44 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://58723db93967a0a6cc.gradio.live
+2024-10-16 20:31:22 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-16 20:31:22 | ERROR | stderr | /Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/analytics.py:106: UserWarning: IMPORTANT: You are using gradio version 4.44.1, however version 5.0.1 is available, please upgrade.
+2024-10-16 20:31:22 | ERROR | stderr | --------
+2024-10-16 20:31:22 | ERROR | stderr |   warnings.warn(
+2024-10-16 20:31:36 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-16 20:31:37 | INFO | stdout | Running on public URL: https://50ad87c7c3c07485a1.gradio.live
+2024-10-16 20:31:37 | INFO | stdout | 
+2024-10-16 20:31:37 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-16 20:39:47 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-16 20:39:47 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://50ad87c7c3c07485a1.gradio.live
+2024-10-16 20:39:56 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-16 20:39:56 | ERROR | stderr | /Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/analytics.py:106: UserWarning: IMPORTANT: You are using gradio version 4.44.1, however version 5.0.1 is available, please upgrade.
+2024-10-16 20:39:56 | ERROR | stderr | --------
+2024-10-16 20:39:56 | ERROR | stderr |   warnings.warn(
+2024-10-16 20:40:10 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-16 20:40:11 | INFO | stdout | Running on public URL: https://f5366789b4d047418f.gradio.live
+2024-10-16 20:40:11 | INFO | stdout | 
+2024-10-16 20:40:11 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-16 20:45:49 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-16 20:45:49 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://f5366789b4d047418f.gradio.live
+2024-10-16 20:45:58 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-16 20:45:59 | ERROR | stderr | /Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/analytics.py:106: UserWarning: IMPORTANT: You are using gradio version 4.44.1, however version 5.0.1 is available, please upgrade.
+2024-10-16 20:45:59 | ERROR | stderr | --------
+2024-10-16 20:45:59 | ERROR | stderr |   warnings.warn(
+2024-10-16 20:46:12 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-16 20:46:13 | INFO | stdout | Running on public URL: https://4612691929fcaa56ed.gradio.live
+2024-10-16 20:46:13 | INFO | stdout | 
+2024-10-16 20:46:13 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-16 21:06:15 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-16 21:06:15 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://4612691929fcaa56ed.gradio.live
+2024-10-16 21:08:12 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-16 21:08:12 | ERROR | stderr | /Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/analytics.py:106: UserWarning: IMPORTANT: You are using gradio version 4.44.1, however version 5.0.1 is available, please upgrade.
+2024-10-16 21:08:12 | ERROR | stderr | --------
+2024-10-16 21:08:12 | ERROR | stderr |   warnings.warn(
+2024-10-16 21:08:15 | ERROR | stderr | Traceback (most recent call last):
+2024-10-16 21:08:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 939, in _finalize_columns_and_data
+2024-10-16 21:08:15 | ERROR | stderr |     columns = _validate_or_indexify_columns(contents, columns)
+2024-10-16 21:08:15 | ERROR | stderr |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 21:08:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 986, in _validate_or_indexify_columns
+2024-10-16 21:08:15 | ERROR | stderr |     raise AssertionError(
+2024-10-16 21:08:15 | ERROR | stderr | AssertionError: 9 columns passed, passed data had 11 columns
+2024-10-16 21:08:15 | ERROR | stderr | 
+2024-10-16 21:08:15 | ERROR | stderr | The above exception was the direct cause of the following exception:
+2024-10-16 21:08:15 | ERROR | stderr | 
+2024-10-16 21:08:15 | ERROR | stderr | Traceback (most recent call last):
+2024-10-16 21:08:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 174, in <module>
+2024-10-16 21:08:15 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-10-16 21:08:15 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 21:08:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 140, in build_demo
+2024-10-16 21:08:15 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-16 21:08:15 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 21:08:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 977, in build_leaderboard_tab
+2024-10-16 21:08:15 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-10-16 21:08:15 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-10-16 21:08:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 640, in build_arena_tab
+2024-10-16 21:08:15 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-10-16 21:08:15 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 21:08:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 421, in update_overall_leaderboard_df
+2024-10-16 21:08:15 | ERROR | stderr |     elo_dataframe = pd.DataFrame(arena_table_vals, columns=columns)
+2024-10-16 21:08:15 | ERROR | stderr |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 21:08:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 851, in __init__
+2024-10-16 21:08:15 | ERROR | stderr |     arrays, columns, index = nested_data_to_arrays(
+2024-10-16 21:08:15 | ERROR | stderr |                              ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 21:08:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 520, in nested_data_to_arrays
+2024-10-16 21:08:15 | ERROR | stderr |     arrays, columns = to_arrays(data, columns, dtype=dtype)
+2024-10-16 21:08:15 | ERROR | stderr |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 21:08:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 845, in to_arrays
+2024-10-16 21:08:15 | ERROR | stderr |     content, columns = _finalize_columns_and_data(arr, columns, dtype)
+2024-10-16 21:08:15 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 21:08:15 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 942, in _finalize_columns_and_data
+2024-10-16 21:08:15 | ERROR | stderr |     raise ValueError(err) from err
+2024-10-16 21:08:15 | ERROR | stderr | ValueError: 9 columns passed, passed data had 11 columns
+2024-10-16 21:10:58 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-16 21:10:58 | ERROR | stderr | /Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/analytics.py:106: UserWarning: IMPORTANT: You are using gradio version 4.44.1, however version 5.0.1 is available, please upgrade.
+2024-10-16 21:10:58 | ERROR | stderr | --------
+2024-10-16 21:10:58 | ERROR | stderr |   warnings.warn(
+2024-10-16 21:11:00 | ERROR | stderr | Traceback (most recent call last):
+2024-10-16 21:11:00 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 939, in _finalize_columns_and_data
+2024-10-16 21:11:00 | ERROR | stderr |     columns = _validate_or_indexify_columns(contents, columns)
+2024-10-16 21:11:00 | ERROR | stderr |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 21:11:00 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 986, in _validate_or_indexify_columns
+2024-10-16 21:11:00 | ERROR | stderr |     raise AssertionError(
+2024-10-16 21:11:00 | ERROR | stderr | AssertionError: 9 columns passed, passed data had 11 columns
+2024-10-16 21:11:00 | ERROR | stderr | 
+2024-10-16 21:11:00 | ERROR | stderr | The above exception was the direct cause of the following exception:
+2024-10-16 21:11:00 | ERROR | stderr | 
+2024-10-16 21:11:00 | ERROR | stderr | Traceback (most recent call last):
+2024-10-16 21:11:00 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 177, in <module>
+2024-10-16 21:11:00 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-10-16 21:11:00 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 21:11:00 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 143, in build_demo
+2024-10-16 21:11:00 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-16 21:11:00 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 21:11:00 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 977, in build_leaderboard_tab
+2024-10-16 21:11:00 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-10-16 21:11:00 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-10-16 21:11:00 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 640, in build_arena_tab
+2024-10-16 21:11:00 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-10-16 21:11:00 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 21:11:00 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 421, in update_overall_leaderboard_df
+2024-10-16 21:11:00 | ERROR | stderr |     elo_dataframe = pd.DataFrame(arena_table_vals, columns=columns)
+2024-10-16 21:11:00 | ERROR | stderr |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 21:11:00 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 851, in __init__
+2024-10-16 21:11:00 | ERROR | stderr |     arrays, columns, index = nested_data_to_arrays(
+2024-10-16 21:11:00 | ERROR | stderr |                              ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 21:11:00 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 520, in nested_data_to_arrays
+2024-10-16 21:11:00 | ERROR | stderr |     arrays, columns = to_arrays(data, columns, dtype=dtype)
+2024-10-16 21:11:00 | ERROR | stderr |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 21:11:00 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 845, in to_arrays
+2024-10-16 21:11:00 | ERROR | stderr |     content, columns = _finalize_columns_and_data(arr, columns, dtype)
+2024-10-16 21:11:00 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-16 21:11:00 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 942, in _finalize_columns_and_data
+2024-10-16 21:11:00 | ERROR | stderr |     raise ValueError(err) from err
+2024-10-16 21:11:00 | ERROR | stderr | ValueError: 9 columns passed, passed data had 11 columns
+2024-10-16 21:13:48 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-16 21:13:49 | ERROR | stderr | /Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/analytics.py:106: UserWarning: IMPORTANT: You are using gradio version 4.44.1, however version 5.0.1 is available, please upgrade.
+2024-10-16 21:13:49 | ERROR | stderr | --------
+2024-10-16 21:13:49 | ERROR | stderr |   warnings.warn(
+2024-10-16 21:14:02 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-16 21:14:03 | INFO | stdout | Running on public URL: https://3f23f24170e05ca138.gradio.live
+2024-10-16 21:14:03 | INFO | stdout | 
+2024-10-16 21:14:03 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-16 21:23:05 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-16 21:23:05 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://3f23f24170e05ca138.gradio.live
+2024-10-16 21:23:14 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-10-16 21:23:14 | ERROR | stderr | /Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/analytics.py:106: UserWarning: IMPORTANT: You are using gradio version 4.44.1, however version 5.0.1 is available, please upgrade.
+2024-10-16 21:23:14 | ERROR | stderr | --------
+2024-10-16 21:23:14 | ERROR | stderr |   warnings.warn(
+2024-10-16 21:23:28 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-16 21:23:29 | INFO | stdout | 
+2024-10-16 21:23:29 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-10-16 21:23:56 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-16 21:24:02 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-16 21:24:02 | ERROR | stderr | /Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/analytics.py:106: UserWarning: IMPORTANT: You are using gradio version 4.44.1, however version 5.0.1 is available, please upgrade.
+2024-10-16 21:24:02 | ERROR | stderr | --------
+2024-10-16 21:24:02 | ERROR | stderr |   warnings.warn(
+2024-10-16 21:24:17 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-16 21:24:17 | INFO | stdout | Running on public URL: https://53eac8902d81841565.gradio.live
+2024-10-16 21:24:17 | INFO | stdout | 
+2024-10-16 21:24:17 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-16 21:27:22 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-16 21:27:22 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://53eac8902d81841565.gradio.live
+2024-10-16 21:27:30 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-16 21:27:30 | ERROR | stderr | /Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/gradio/analytics.py:106: UserWarning: IMPORTANT: You are using gradio version 4.44.1, however version 5.0.1 is available, please upgrade.
+2024-10-16 21:27:30 | ERROR | stderr | --------
+2024-10-16 21:27:30 | ERROR | stderr |   warnings.warn(
+2024-10-16 21:27:44 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-16 21:27:44 | INFO | stdout | Running on public URL: https://ee5be762cb0e26f0a3.gradio.live
+2024-10-16 21:27:44 | INFO | stdout | 
+2024-10-16 21:27:44 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)

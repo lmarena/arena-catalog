@@ -1,0 +1,219 @@
+2024-10-21 12:21:30 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-21 12:21:30 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://ee5be762cb0e26f0a3.gradio.live
+2024-10-21 12:23:11 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-21 12:23:25 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-21 12:23:26 | INFO | stdout | Running on public URL: https://44c4856ce34e920253.gradio.live
+2024-10-21 12:23:26 | INFO | stdout | 
+2024-10-21 12:23:26 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-21 12:26:32 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-21 12:26:33 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://44c4856ce34e920253.gradio.live
+2024-10-21 16:15:44 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-21 16:15:58 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-21 16:16:00 | INFO | stdout | Running on public URL: https://074542a5e2f1fccde1.gradio.live
+2024-10-21 16:16:00 | INFO | stdout | 
+2024-10-21 16:16:00 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-21 16:32:23 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-21 16:32:23 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://074542a5e2f1fccde1.gradio.live
+2024-10-21 17:08:49 | INFO | monitor | args: Namespace(host='0.0.0.0', port=None, share=True, concurrency_count=10, update_interval=300, max_num_files=None, elo_results_file=None, leaderboard_table_file=None, ban_ip_file=None, exclude_model_names=None, password=None, arena_hard_leaderboard=None)
+2024-10-21 17:08:49 | ERROR | stderr | Exception in thread Thread-2 (update_worker):
+2024-10-21 17:08:49 | ERROR | stderr | Traceback (most recent call last):
+2024-10-21 17:08:49 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+2024-10-21 17:08:49 | ERROR | stderr |     self.run()
+2024-10-21 17:08:49 | ERROR | stderr |   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 982, in run
+2024-10-21 17:08:49 | ERROR | stderr |     self._target(*self._args, **self._kwargs)
+2024-10-21 17:08:49 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 148, in update_worker
+2024-10-21 17:08:49 | ERROR | stderr |     update_elo_components(
+2024-10-21 17:08:49 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 103, in update_elo_components
+2024-10-21 17:08:49 | ERROR | stderr |     log_files = get_log_files(max_num_files)
+2024-10-21 17:08:49 | ERROR | stderr |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:08:49 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/basic_stats.py", line 23, in get_log_files
+2024-10-21 17:08:49 | ERROR | stderr |     for filename in os.listdir(f"{log_root}/server{i}"):
+2024-10-21 17:08:49 | ERROR | stderr |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:08:49 | ERROR | stderr | FileNotFoundError: [Errno 2] No such file or directory: '/Users/jackielian/fastchat_logs/server0'
+2024-10-21 17:08:49 | ERROR | stderr | Traceback (most recent call last):
+2024-10-21 17:08:49 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 1176, in <module>
+2024-10-21 17:08:49 | ERROR | stderr |     demo = build_demo(
+2024-10-21 17:08:49 | ERROR | stderr |            ^^^^^^^^^^^
+2024-10-21 17:08:49 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 1122, in build_demo
+2024-10-21 17:08:49 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-21 17:08:49 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:08:49 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 1086, in build_leaderboard_tab
+2024-10-21 17:08:49 | ERROR | stderr |     return [md_1] + gr_plots
+2024-10-21 17:08:49 | ERROR | stderr |                     ^^^^^^^^
+2024-10-21 17:08:49 | ERROR | stderr | UnboundLocalError: cannot access local variable 'gr_plots' where it is not associated with a value
+2024-10-21 17:09:35 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-21 17:09:50 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-21 17:09:51 | INFO | stdout | Running on public URL: https://f3a6f5677b56a7d41e.gradio.live
+2024-10-21 17:09:51 | INFO | stdout | 
+2024-10-21 17:09:51 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-21 17:17:19 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-21 17:17:19 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://f3a6f5677b56a7d41e.gradio.live
+2024-10-21 17:18:13 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-21 17:18:16 | ERROR | stderr | Traceback (most recent call last):
+2024-10-21 17:18:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 939, in _finalize_columns_and_data
+2024-10-21 17:18:16 | ERROR | stderr |     columns = _validate_or_indexify_columns(contents, columns)
+2024-10-21 17:18:16 | ERROR | stderr |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:18:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 986, in _validate_or_indexify_columns
+2024-10-21 17:18:16 | ERROR | stderr |     raise AssertionError(
+2024-10-21 17:18:16 | ERROR | stderr | AssertionError: 9 columns passed, passed data had 7 columns
+2024-10-21 17:18:16 | ERROR | stderr | 
+2024-10-21 17:18:16 | ERROR | stderr | The above exception was the direct cause of the following exception:
+2024-10-21 17:18:16 | ERROR | stderr | 
+2024-10-21 17:18:16 | ERROR | stderr | Traceback (most recent call last):
+2024-10-21 17:18:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 177, in <module>
+2024-10-21 17:18:16 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-10-21 17:18:16 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:18:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 143, in build_demo
+2024-10-21 17:18:16 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-21 17:18:16 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:18:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 955, in build_leaderboard_tab
+2024-10-21 17:18:16 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-10-21 17:18:16 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-10-21 17:18:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 624, in build_arena_tab
+2024-10-21 17:18:16 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-10-21 17:18:16 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:18:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 413, in update_overall_leaderboard_df
+2024-10-21 17:18:16 | ERROR | stderr |     elo_dataframe = pd.DataFrame(arena_table_vals, columns=columns)
+2024-10-21 17:18:16 | ERROR | stderr |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:18:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 851, in __init__
+2024-10-21 17:18:16 | ERROR | stderr |     arrays, columns, index = nested_data_to_arrays(
+2024-10-21 17:18:16 | ERROR | stderr |                              ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:18:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 520, in nested_data_to_arrays
+2024-10-21 17:18:16 | ERROR | stderr |     arrays, columns = to_arrays(data, columns, dtype=dtype)
+2024-10-21 17:18:16 | ERROR | stderr |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:18:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 845, in to_arrays
+2024-10-21 17:18:16 | ERROR | stderr |     content, columns = _finalize_columns_and_data(arr, columns, dtype)
+2024-10-21 17:18:16 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:18:16 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 942, in _finalize_columns_and_data
+2024-10-21 17:18:16 | ERROR | stderr |     raise ValueError(err) from err
+2024-10-21 17:18:16 | ERROR | stderr | ValueError: 9 columns passed, passed data had 7 columns
+2024-10-21 17:19:25 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-21 17:19:27 | ERROR | stderr | Traceback (most recent call last):
+2024-10-21 17:19:27 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 939, in _finalize_columns_and_data
+2024-10-21 17:19:27 | ERROR | stderr |     columns = _validate_or_indexify_columns(contents, columns)
+2024-10-21 17:19:27 | ERROR | stderr |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:19:27 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 986, in _validate_or_indexify_columns
+2024-10-21 17:19:27 | ERROR | stderr |     raise AssertionError(
+2024-10-21 17:19:27 | ERROR | stderr | AssertionError: 9 columns passed, passed data had 7 columns
+2024-10-21 17:19:27 | ERROR | stderr | 
+2024-10-21 17:19:27 | ERROR | stderr | The above exception was the direct cause of the following exception:
+2024-10-21 17:19:27 | ERROR | stderr | 
+2024-10-21 17:19:27 | ERROR | stderr | Traceback (most recent call last):
+2024-10-21 17:19:27 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 177, in <module>
+2024-10-21 17:19:27 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-10-21 17:19:27 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:19:27 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 143, in build_demo
+2024-10-21 17:19:27 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-21 17:19:27 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:19:27 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 955, in build_leaderboard_tab
+2024-10-21 17:19:27 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-10-21 17:19:27 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-10-21 17:19:27 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 624, in build_arena_tab
+2024-10-21 17:19:27 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-10-21 17:19:27 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:19:27 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 413, in update_overall_leaderboard_df
+2024-10-21 17:19:27 | ERROR | stderr |     elo_dataframe = pd.DataFrame(arena_table_vals, columns=columns)
+2024-10-21 17:19:27 | ERROR | stderr |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:19:27 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 851, in __init__
+2024-10-21 17:19:27 | ERROR | stderr |     arrays, columns, index = nested_data_to_arrays(
+2024-10-21 17:19:27 | ERROR | stderr |                              ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:19:27 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 520, in nested_data_to_arrays
+2024-10-21 17:19:27 | ERROR | stderr |     arrays, columns = to_arrays(data, columns, dtype=dtype)
+2024-10-21 17:19:27 | ERROR | stderr |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:19:27 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 845, in to_arrays
+2024-10-21 17:19:27 | ERROR | stderr |     content, columns = _finalize_columns_and_data(arr, columns, dtype)
+2024-10-21 17:19:27 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:19:27 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 942, in _finalize_columns_and_data
+2024-10-21 17:19:27 | ERROR | stderr |     raise ValueError(err) from err
+2024-10-21 17:19:27 | ERROR | stderr | ValueError: 9 columns passed, passed data had 7 columns
+2024-10-21 17:25:20 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-21 17:25:34 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-21 17:25:35 | INFO | stdout | Running on public URL: https://8c996114499a760f84.gradio.live
+2024-10-21 17:25:35 | INFO | stdout | 
+2024-10-21 17:25:35 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-21 17:29:45 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-21 17:29:45 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://8c996114499a760f84.gradio.live
+2024-10-21 17:29:52 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-10-21 17:29:55 | ERROR | stderr | Traceback (most recent call last):
+2024-10-21 17:29:55 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 939, in _finalize_columns_and_data
+2024-10-21 17:29:55 | ERROR | stderr |     columns = _validate_or_indexify_columns(contents, columns)
+2024-10-21 17:29:55 | ERROR | stderr |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:29:55 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 986, in _validate_or_indexify_columns
+2024-10-21 17:29:55 | ERROR | stderr |     raise AssertionError(
+2024-10-21 17:29:55 | ERROR | stderr | AssertionError: 11 columns passed, passed data had 9 columns
+2024-10-21 17:29:55 | ERROR | stderr | 
+2024-10-21 17:29:55 | ERROR | stderr | The above exception was the direct cause of the following exception:
+2024-10-21 17:29:55 | ERROR | stderr | 
+2024-10-21 17:29:55 | ERROR | stderr | Traceback (most recent call last):
+2024-10-21 17:29:55 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 177, in <module>
+2024-10-21 17:29:55 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-10-21 17:29:55 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:29:55 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 143, in build_demo
+2024-10-21 17:29:55 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-21 17:29:55 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:29:55 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1110, in build_leaderboard_tab
+2024-10-21 17:29:55 | ERROR | stderr |     gr_plots = build_arena_tab(
+2024-10-21 17:29:55 | ERROR | stderr |                ^^^^^^^^^^^^^^^^
+2024-10-21 17:29:55 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 739, in build_arena_tab
+2024-10-21 17:29:55 | ERROR | stderr |     arena_vals = update_overall_leaderboard_df(arena_table_vals)
+2024-10-21 17:29:55 | ERROR | stderr |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:29:55 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 496, in update_overall_leaderboard_df
+2024-10-21 17:29:55 | ERROR | stderr |     elo_dataframe = pd.DataFrame(arena_table_vals, columns=columns)
+2024-10-21 17:29:55 | ERROR | stderr |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:29:55 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/frame.py", line 851, in __init__
+2024-10-21 17:29:55 | ERROR | stderr |     arrays, columns, index = nested_data_to_arrays(
+2024-10-21 17:29:55 | ERROR | stderr |                              ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:29:55 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 520, in nested_data_to_arrays
+2024-10-21 17:29:55 | ERROR | stderr |     arrays, columns = to_arrays(data, columns, dtype=dtype)
+2024-10-21 17:29:55 | ERROR | stderr |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:29:55 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 845, in to_arrays
+2024-10-21 17:29:55 | ERROR | stderr |     content, columns = _finalize_columns_and_data(arr, columns, dtype)
+2024-10-21 17:29:55 | ERROR | stderr |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:29:55 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/pandas/core/internals/construction.py", line 942, in _finalize_columns_and_data
+2024-10-21 17:29:55 | ERROR | stderr |     raise ValueError(err) from err
+2024-10-21 17:29:55 | ERROR | stderr | ValueError: 11 columns passed, passed data had 9 columns
+2024-10-21 17:30:49 | INFO | monitor | args: Namespace(share=False, host='0.0.0.0', port=7860)
+2024-10-21 17:31:03 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-21 17:31:03 | INFO | stdout | 
+2024-10-21 17:31:03 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2024-10-21 17:31:09 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-21 17:34:37 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-21 17:34:51 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-21 17:34:52 | INFO | stdout | Running on public URL: https://e8e687fa475afd9190.gradio.live
+2024-10-21 17:34:52 | INFO | stdout | 
+2024-10-21 17:34:52 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-21 17:43:15 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-21 17:43:15 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://e8e687fa475afd9190.gradio.live
+2024-10-21 17:46:21 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-21 17:46:35 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-21 17:46:36 | INFO | stdout | Running on public URL: https://f28d3a3436734a3bc0.gradio.live
+2024-10-21 17:46:36 | INFO | stdout | 
+2024-10-21 17:46:36 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-21 17:46:41 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-21 17:46:41 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://f28d3a3436734a3bc0.gradio.live
+2024-10-21 17:54:01 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-21 17:54:14 | ERROR | stderr | Traceback (most recent call last):
+2024-10-21 17:54:14 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 177, in <module>
+2024-10-21 17:54:14 | ERROR | stderr |     demo = build_demo(elo_result_file, leaderboard_table_file, pricing_table_file)
+2024-10-21 17:54:14 | ERROR | stderr |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:54:14 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/app.py", line 143, in build_demo
+2024-10-21 17:54:14 | ERROR | stderr |     leader_components = build_leaderboard_tab(
+2024-10-21 17:54:14 | ERROR | stderr |                         ^^^^^^^^^^^^^^^^^^^^^^
+2024-10-21 17:54:14 | ERROR | stderr |   File "/Users/jackielian/Senior/arena_v2/arena-leaderboard-v2/venv/lib/python3.11/site-packages/fastchat/serve/monitor/monitor.py", line 1394, in build_leaderboard_tab
+2024-10-21 17:54:14 | ERROR | stderr |     return [md_1] + gr_plots
+2024-10-21 17:54:14 | ERROR | stderr |            ~~~~~~~^~~~~~~~~~
+2024-10-21 17:54:14 | ERROR | stderr | TypeError: can only concatenate list (not "tuple") to list
+2024-10-21 17:56:44 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-21 17:56:57 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-21 17:56:57 | INFO | stdout | Running on public URL: https://9bba78d0c3f2db9181.gradio.live
+2024-10-21 17:56:57 | INFO | stdout | 
+2024-10-21 17:56:57 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-21 18:02:34 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-21 18:02:34 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://9bba78d0c3f2db9181.gradio.live
+2024-10-21 18:03:56 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-10-21 18:04:10 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-10-21 18:04:10 | INFO | stdout | Running on public URL: https://bdfa23a0bf556dc4fa.gradio.live
+2024-10-21 18:04:10 | INFO | stdout | 
+2024-10-21 18:04:10 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-10-21 18:07:42 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-10-21 18:07:42 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://bdfa23a0bf556dc4fa.gradio.live

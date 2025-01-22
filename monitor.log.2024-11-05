@@ -1,0 +1,7 @@
+2024-11-05 10:08:14 | INFO | monitor | args: Namespace(share=True, host='0.0.0.0', port=7860)
+2024-11-05 10:08:28 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2024-11-05 10:08:29 | INFO | stdout | Running on public URL: https://a6a8fca67aa6b6073d.gradio.live
+2024-11-05 10:08:29 | INFO | stdout | 
+2024-11-05 10:08:29 | INFO | stdout | This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
+2024-11-05 10:52:33 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2024-11-05 10:52:33 | INFO | stdout | Killing tunnel 0.0.0.0:7860 <> https://a6a8fca67aa6b6073d.gradio.live
