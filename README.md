@@ -1,26 +1,20 @@
----
-title: Chatbot Arena Leaderboard
-emoji: 🏆🤖
-colorFrom: indigo
-colorTo: green
-sdk: gradio
-pinned: false
-license: apache-2.0
-tags:
-- leaderboard
-sdk_version: 4.44.1
----
+# Chatbot Arena Leaderboard Visualizations
 
-# Chatbot Arena Leaderboard
+Arena score v. Cost ($/1M Output Tokens) scatterplot
 
-Install the required packages by running the below command:
+To update model prices or add a model to the scatterplot feel free to add to data/scatterplot-data.json
 
-```bash
-pip install -r requirements.txt
-```
+For example, if I wanted to add test-model to the scatterplot I would add the following object:
 
-Run the below command to start the leaderboard:
-
-```bash
-python app.py --share
-```
+`
+{
+    "name": "Test Model",
+    "model_key": "test-model",
+    "input_token_price": "1",
+    "output_token_price": "10",
+    "organization": "Test Organization",
+    "license": "Proprietary",
+    "price_source": "www.example.com",
+    "model_source": "www.example.com",
+}
+`

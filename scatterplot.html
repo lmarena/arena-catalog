@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Interactive Scatterplot</title>
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -25,7 +25,6 @@
       border: 1px solid black;
       padding: 5px;
       pointer-events: none;
-      font-size: 12px;
       border-radius: 4px;
       transition: opacity 0.3s;
     }
@@ -43,15 +42,14 @@
 
     .toggle-dark-mode {
       position: absolute;
-      top: 10px;
+      bottom: 10px;
       right: 10px;
       background-color: #007acc;
       color: rgb(255, 255, 255);
       border: none;
-      padding: 8px 12px;
+      padding: 8px 10px;
       border-radius: 5px;
       cursor: pointer;
-      font-size: 14px;
       font-family: 'Poppins', sans-serif;
       transition: background-color 0.3s, color 0.3s;
     }
@@ -59,13 +57,107 @@
     .dark-mode .toggle-dark-mode {
       background-color: #444;
     }
+
+    /* Default dropdown style */
+    select {
+      font-family: 'Poppins', sans-serif;
+      padding: 10px;
+      font-size: 14px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      cursor: pointer;
+    }
+
+    /* Mobile specific styles */
+    @media (max-width: 768px) {
+      select {
+        font-size: 16px;
+        padding: 12px;
+        width: 100%; /* Make dropdown take up full width */
+      }
+    }
+
+    #category-toggle {
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+      padding: 8px 30px 8px 12px; /* Extra right padding for arrow */
+      width: 140px;
+      border: 1px solid #ccc;
+      border-radius: 8px; /* Soft rounded corners */
+      background-color: white;
+      color: #333;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+      -webkit-appearance: none; /* Ensures styling works in all browsers */
+      -moz-appearance: none;
+      appearance: none;
+      position: relative;
+      margin-left: 5px;
+    }
+
+    /* Custom dropdown arrow (SVG) */
+    #category-toggle {
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black"><path d="M7 10l5 5 5-5z"/></svg>');
+      background-repeat: no-repeat;
+      background-position: right 8px center; /* Moves arrow closer */
+      background-size: 14px;
+    }
+
+    /* Remove blue outline */
+    #category-toggle:focus,
+    #category-toggle:active {
+      outline: none !important;
+      border-color: #aaa !important;
+      box-shadow: none !important;
+    }
   </style>
 </head>
 <body class="dark-mode">
+  <div style="position: absolute; top: 15px; right: 10px; z-index: 10;">
+    <label for="category-toggle" style="font-family: 'Poppins', sans-serif; font-size: 15px;">
+      Category:
+    </label>
+    <select id="category-toggle" style="font-family: 'Poppins', sans-serif; padding: 5px; font-size: 13px;">
+      <!-- Options will be populated dynamically -->
+    </select>
+  </div>
   <button class="toggle-dark-mode">Light Mode</button>
   <div id="scatterplot" class="scatterplot-container"></div>
+
   <script>
-    d3.json("data/price-data.json").then(function (data) {
+   Promise.all([
+        d3.json("data/scatterplot-data.json"),
+        d3.json("data/leaderboard-data.json")
+      ]).then(function  ([data, data2]) {
+
+      const dropdown = d3.select("#category-toggle");
+
+      // Get all keys from the JSON
+      let allKeys = Object.keys(data2);
+
+       // Ensure "full_scores" is at the front
+      allKeys = allKeys.filter(k => k !== "full"); // Remove it from the list
+      allKeys.unshift("full"); // Add it to the front
+
+      // Function to format key names
+      const formatKey = (key) => {
+        return key
+          .replace(/_/g, " ")  // Replace underscores with spaces
+          .replace(/\b\w/g, char => char.toUpperCase()); // Capitalize each word
+      };
+
+      // Append each key as an option
+      allKeys.forEach(key => {
+        dropdown
+          .append("option")
+          .attr("value", key)
+          .text(key === "full" ? "Overall" : formatKey(key));
+      });
+
       const container = d3.select("#scatterplot");
       const svg = container.append("svg");
       const defs = svg.append("defs");
@@ -82,32 +174,70 @@
         .attr("stdDeviation", 3)
         .attr("flood-color", "rgba(0, 0, 0, 0.5)");
   
-      const margin = { top: 50, right: 150, bottom: 100, left: 100 }; // Increased bottom margin
+      const margin = window.innerWidth < 768
+        ? { top: 20, right: 80, bottom: 60, left: 50 }
+        : { top: 50, right: 150, bottom: 100, left: 100 };
       const resize = () => {
         const width = container.node().clientWidth;
-        const height = container.node().clientHeight;
-        svg.attr("width", width).attr("height", height);
+        const height = Math.min(container.node().clientHeight, (width / 8) * 5);
         return { width, height };
       };
-  
+
       const { width, height } = resize();
       window.addEventListener("resize", () => {
         const dimensions = resize();
         renderScatterplot(dimensions.width, dimensions.height);
       });
-  
-      const xScale = d3.scaleLog().domain([0.05, 90]).range([margin.left, width - margin.right]);
-      const yScale = d3.scaleLinear().domain([1160, 1385]).range([height - margin.bottom, margin.top]);
+
       const colorScale = d3.scaleOrdinal(d3.schemeObservable10);
       const tooltip = d3.select("body").append("div").attr("class", "tooltip").style("opacity", 0);
   
       const selectedCategories = new Set();
+
+      function calculatePointRadius(containerWidth, containerHeight) {
+        return Math.max(3, Math.min(containerWidth / 210, 9, containerHeight/ 180));
+      }
   
       function renderScatterplot(w, h) {
         svg.selectAll("*").remove();
-  
+        
+        // Assign legend item
+        data.forEach(d => {
+          const legendItems = ["Google", "OpenAI", "Anthropic", "Meta", "DeepSeek", "Alibaba", "Cohere"];
+          if (legendItems.includes(d.organization)) {
+            d.legend_item = d.organization;
+          } else {
+            d.legend_item = "Other";
+          }
+        });
+
+        // Get arena data
+        data.forEach(d => {
+          Object.keys(data2).forEach(d2 => {
+            d[d2 + "_rating"] = data2[d2][d.model_api_name].rating;
+            d[d2 + "_rating_q975"] = data2[d2][d.model_api_name].rating_q975;
+            d[d2 + "_rating_q025"] = data2[d2][d.model_api_name].rating_q025;
+          })
+        });
+        
+        // Update the SVG size
+        svg.attr("width", w).attr("height", h);
+
+        const minPrice = Math.min(...data.map(d => d.output_token_price));
+        const maxPrice = Math.max(...data.map(d => d.output_token_price));
+
+        const minFullRating = Math.min(...data.map(d => d[document.getElementById("category-toggle").value + "_rating_q025"]));
+        const maxFullRating = Math.max(...data.map(d => d[document.getElementById("category-toggle").value + "_rating_q975"]));
+
+        const xScale = d3.scaleLog().domain([minPrice/2, maxPrice*1.5]).range([margin.left, width - margin.right]);
+        const yScale = d3.scaleLinear().domain([minFullRating - 20, maxFullRating + 20]).range([height - margin.bottom, margin.top]);
+    
+        // Update the scales to use the new dimensions
         xScale.range([margin.left, w - margin.right]);
         yScale.range([h - margin.bottom, margin.top]);
+
+        // Calculate dynamic font size (adjust as needed)
+        const fontSize = Math.min(w, h) * 0.018; // Font size proportional to graph size
   
         // Add grid lines for x-axis
         svg.append("g")
@@ -142,25 +272,27 @@
           .attr("transform", `translate(0,${h - margin.bottom})`)
           .call(d3.axisBottom(xScale).ticks(10, ","))
           .selectAll("text")
-          .style("font-family", "Poppins");
+          .style("font-family", "Poppins")
+          .style("font-size", `${fontSize}px`); // Set dynamic font size
   
         // Add y-axis
         svg.append("g")
           .attr("transform", `translate(${margin.left},0)`)
           .call(d3.axisLeft(yScale))
           .selectAll("text")
-          .style("font-family", "Poppins");
-        
-        // Add legedn title
+          .style("font-family", "Poppins")
+          .style("font-size", `${fontSize}px`); // Set dynamic font size
+          
+        // Add legend title
         svg.append("text")
           .attr("class", "legend-title")
-          .attr("x", w - margin.right + 77)
+          .attr("x", w - margin.right + margin.right/2)
           .attr("y", margin.top + 30)
           .style("text-anchor", "middle")
           .style("font-family", "Poppins")
           .style("font-weight", "bold")
           .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
-          .style("font-size", "15px")
+          .style("font-size", `${fontSize + 1}px`)
           .text("Organization");
 
         // Add x-axis title
@@ -171,6 +303,7 @@
           .attr("text-anchor", "middle")
           .style("font-family", "Poppins")
           .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
+          .style("font-size", `${fontSize * 1.2}px`)
           .text("Cost ($/1M Output Tokens)");
 
         // Add y-axis title
@@ -182,24 +315,24 @@
           .attr("text-anchor", "middle")
           .style("font-family", "Poppins")
           .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
+          .style("font-size", `${fontSize * 1.2}px`)
           .text("Arena Score");
-  
-        const labels = svg.selectAll(".point-label").data(data).join("text")
-          .attr("class", "point-label")
-          .attr("x", d => xScale(d.output_token_price))
-          .attr("y", d => yScale(d.arena_score) - 15)
-          .attr("text-anchor", "middle")
-          .attr("font-size", "14px")
-          .attr("font-family", "Poppins")
-          .attr("fill", document.body.classList.contains("dark-mode") ? "#f0f0f0" : "#000000")
-          .style("opacity", 1)
-          .each(function(d) {
-            if (d.show_text) {
-                d3.select(this).append("tspan").text(d.model_key).attr("font-weight", "bold");
+        
+        // Function to calculate min distance between points
+        function minDistance(point, allPoints) {
+          let minDist = 100;
+          allPoints.forEach(other => {
+            if (point !== other) {
+              const dx = xScale(point.output_token_price) - xScale(other.output_token_price);
+              const dy = yScale(point[document.getElementById("category-toggle").value + "_rating"]) - yScale(other[document.getElementById("category-toggle").value + "_rating"]);
+              const dist = Math.sqrt(dx * dx + dy * dy);
+              minDist = Math.min(minDist, dist);
             }
-        });
-  
-        const desiredOrder = ["Google", "OpenAI", "Anthropic", "Meta", "01 AI", "Nvidia", "Alibaba", "Mistral", "Cohere", "Other"];
+          });
+          return minDist;
+        }
+
+        const desiredOrder = ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "Cohere", "Other"];
   
         const categories = [...new Set(data.map(d => d.legend_item))];
         const sortedCategories = categories.sort((a, b) => {
@@ -214,7 +347,7 @@
           .attr("transform", (d, i) => `translate(0, ${i * 20})`)
           .style("cursor", "pointer")
           .on("mouseover", (_, category) => {
-            points
+            groups
                 .style("opacity", d => selectedCategories.has(d.legend_item) || d.legend_item === category ? 1 : 0.1)
                 .style("stroke-width", d => d.legend_item === category ? 2 : null);
   
@@ -227,7 +360,7 @@
                 .style("opacity", d => selectedCategories.has(d) || d === category ? 1 : 0.1);
           })
           .on("mouseout", () => {
-            points
+            groups
                 .style("opacity", d => selectedCategories.size === 0 || selectedCategories.has(d.legend_item) ? 1 : 0.1)
                 .style("stroke", null)
                 .style("stroke-width", null);
@@ -251,7 +384,7 @@
                 selectedCategories.clear();
             }
   
-            points
+            groups
                 .style("opacity", d => selectedCategories.size === 0 || selectedCategories.has(d.legend_item) ? 1 : 0.1);
   
             labels
@@ -262,21 +395,78 @@
             legend.selectAll("text")
                 .style("opacity", d => selectedCategories.size === 0 || selectedCategories.has(d) ? 1 : 0.1);
           });
-  
-        const points = svg.selectAll(".point").data(data).join("circle")
+
+        const pointRadius = calculatePointRadius(w, h);
+
+        const groups = svg.selectAll(".point-group")
+          .data(data)
+          .join("g")
+          .attr("class", "point-group");
+        
+        // Add vertical error bars
+        const errorBarTops = groups.append("line")
+          .attr("class", "error-bar-top")
+          .attr("x1", d => xScale(d.output_token_price)) // Centered on the x position of the point
+          .attr("x2", d => xScale(d.output_token_price))
+          .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q975"])) // Upper bound
+          .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]) - pointRadius) // Lower bound
+          .attr("stroke", d => colorScale(d.legend_item))
+          .attr("stroke-width", 1);
+
+        const errorBarBottoms = groups.append("line")
+          .attr("class", "error-bar-bottom")
+          .attr("x1", d => xScale(d.output_token_price)) // Centered on the x position of the point
+          .attr("x2", d => xScale(d.output_token_price))
+          .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]) + pointRadius) // Upper bound
+          .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q025"])) // Lower bound
+          .attr("stroke", d => colorScale(d.legend_item))
+          .attr("stroke-width", 1);
+
+        // Add horizontal caps for the top of the error bars
+        groups.append("line")
+          .attr("class", "error-bar-cap-top")
+          .attr("x1", d => xScale(d.output_token_price) - 5) // Slightly left of the point
+          .attr("x2", d => xScale(d.output_token_price) + 5) // Slightly right of the point
+          .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q975"])) // Same y as the top of the error bar
+          .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q975"]))
+          .attr("stroke", d => colorScale(d.legend_item))
+          .attr("stroke-width", 1);
+
+        // Add horizontal caps for the bottom of the error bars
+        groups.append("line")
+          .attr("class", "error-bar-cap-bottom")
+          .attr("x1", d => xScale(d.output_token_price) - 5) // Slightly left of the point
+          .attr("x2", d => xScale(d.output_token_price) + 5) // Slightly right of the point
+          .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q025"])) // Same y as the bottom of the error bar
+          .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q025"]))
+          .attr("stroke", d => colorScale(d.legend_item))
+          .attr("stroke-width", 1);
+        
+        const points = groups.append("circle")
           .attr("class", "point")
           .attr("cx", d => xScale(d.output_token_price))
-          .attr("cy", d => yScale(d.arena_score))
-          .attr("r", 9)
+          .attr("cy", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]))
+          .attr("r", pointRadius)
           .attr("fill", d => colorScale(d.legend_item))
           .style("filter", "url(#dotShadow)")
           .style("opacity", 1)
           .on("mouseover", (event, d) => {
             d3.select(event.currentTarget)
-              .attr("r", 11)
+              .attr("r", pointRadius + 2)
+            
+            // Adjust error bars
+            errorBarTops
+              .filter((e) => e === d) // Select only the error bars for the hovered point
+              .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]) - (pointRadius + 2));  // Update error bars for expanded radius
+            
+            errorBarBottoms
+              .filter((e) => e === d) // Select only the error bars for the hovered point
+              .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]) + (pointRadius + 2));  // Update error bars for expanded radius
+
+            d3.select(event.currentTarget)
               .style("opacity", 1);
   
-            points
+            groups
               .filter(other => other !== d)
               .style("opacity", 0.1);
   
@@ -284,35 +474,42 @@
               .filter(other => other !== d)
               .style("opacity", 0);
   
-            const tooltipWidth = 150;
-            const tooltipHeight = 70;
-            const svgWidth = svg.node().getBoundingClientRect().width - 300;
+            let tooltipX = event.pageX + 0.07*w;
+            let tooltipY = event.pageY - 0.1*w;
   
-            let tooltipX = event.pageX + 30;
-            let tooltipY = event.pageY - tooltipHeight - 40;
-  
-            if (tooltipX + tooltipWidth > svgWidth) {
-              tooltipX = event.pageX - tooltipWidth - 70;
+            if (event.pageX > w*0.5) {
+              tooltipX = event.pageX - 0.16*w;
             }
   
-            if (tooltipY - tooltipHeight < 300) {
-              tooltipY = event.pageY + 5;
+            if (event.pageY < h*0.5) {
+              tooltipY = event.pageY + 0.05*w;
             }
-  
+            
             tooltip.style("opacity", 1)
-              .html(`<b>${d.model_key}</b><br>
-                      Arena Score: ${parseFloat(d.arena_score).toFixed(2)}<br>
+              .html(`<b>${d.model_api_name}</b><br>
+                      Arena Score: ${parseFloat(d[document.getElementById("category-toggle").value + "_rating"]).toFixed(2)}<br>
                       Cost ($/1M Output Tokens): ${d.output_token_price}<br>
                       Organization: ${d.organization}<br>
                       License: ${d.license}`)
               .style("left", `${tooltipX}px`)
-              .style("top", `${tooltipY}px`);
+              .style("top", `${tooltipY}px`)
+              .style("font-size", `${fontSize * 0.8}px`);
   
             legend.filter(l => l !== d.legend_item && (selectedCategories.size === 0 || selectedCategories.has(l))).style("opacity", 0.1);
           })
           .on("mouseout", () => {
-            points
-              .attr("r", 9)
+            d3.select(event.currentTarget)
+              .attr("r", pointRadius)
+
+            // Reset error bars
+            errorBarTops
+              .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]) - pointRadius);  // Reset error bars
+            
+            // Reset error bars
+            errorBarBottoms
+              .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]) + pointRadius);  // Reset error bars
+
+            groups
               .style("opacity", d => selectedCategories.size === 0 || selectedCategories.has(d.legend_item) ? 1 : 0.1);
   
             labels
@@ -320,11 +517,40 @@
   
             tooltip.style("opacity", 0);
             legend.filter(l => selectedCategories.size === 0 || selectedCategories.has(l)).style("opacity", 1);
+          })
+          .on("click", (event, d) => {
+            // Navigate to the link associated with the data point
+            if (d.model_source) {
+              window.open(d.model_source, "_blank"); // Opens the link in a new tab
+            }
           });
+        
+        const companiesShowLabel = ['Google', 'OpenAI', 'DeepSeek', 'Anthropic', 'Meta'];
+        
+        const labels = svg.selectAll(".point-label").data(data).join("text")
+            .attr("class", "point-label")
+            .attr("x", d => {
+              if (d.model_api_name == "o1-mini" || d.output_token_price <= minPrice*2) {
+                return xScale(d.output_token_price) + 0.006*w;
+              } else {
+                return xScale(d.output_token_price) - 0.006*w;
+              }
+            })
+            .attr("y", d => (yScale(d[document.getElementById("category-toggle").value + "_rating"]) + 0.004*w))
+            .attr("text-anchor", d => (d.model_api_name == "o1-mini" || d.output_token_price <= minPrice*2 ? "start" : "end"))
+            .style("font-size", `${fontSize}px`)
+            .attr("font-family", "Poppins")
+            .attr("fill", document.body.classList.contains("dark-mode") ? "#f0f0f0" : "#000000")
+            .style("opacity", 1)
+            .each(function(d) {
+              if (companiesShowLabel.includes(d.organization) && (document.getElementById("category-toggle").value + "_rating" == "full_rating" || minDistance(d, data) > 90)) {
+                d3.select(this).append("tspan").text(d.name).attr("font-weight", "bold");
+              }
+            });
 
         legend.append("rect")
-          .attr("width", 15)
-          .attr("height", 15)
+          .attr("width", pointRadius*3.2)
+          .attr("height", pointRadius*3.2)
           .attr("fill", d => colorScale(d))
           .style("opacity", 1);
   
@@ -332,10 +558,23 @@
           .attr("x", 20)
           .attr("y", 12)
           .style("font-family", "Poppins")
+          .style("font-size", `${fontSize + 1}px`)
           .style("fill", document.body.classList.contains("dark-mode") ? "#f0f0f0" : "#000000")
           .text(d => d);
       }
-  
+
+      // Re-render scatterplot on category change
+      document.getElementById("category-toggle").addEventListener("change", () => {
+        const selectedCategory = document.getElementById("category-toggle").value;
+
+        // Update y-scale domain based on the selected category
+        const minFullRating = Math.min(...data.map(d => d[document.getElementById("category-toggle").value + "_rating_q025"]));
+        const maxFullRating = Math.max(...data.map(d => d[document.getElementById("category-toggle").value + "_rating_q975"]));
+        const yScale = d3.scaleLinear().domain([minFullRating - 20, maxFullRating + 20]).range([height - margin.bottom, margin.top]);
+
+        renderScatterplot(width, height);
+      });
+
       renderScatterplot(width, height);
   
       document.querySelector(".toggle-dark-mode").addEventListener("click", () => {
