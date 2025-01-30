@@ -130,8 +130,8 @@
 
   <script>
    Promise.all([
-        d3.json("data/scatterplot-data.json"),
-        d3.json("data/leaderboard-data.json")
+        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/scatterplot-data.json"),
+        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-data.json")
       ]).then(function  ([data, data2]) {
 
       const dropdown = d3.select("#category-toggle");
@@ -174,9 +174,8 @@
         .attr("stdDeviation", 3)
         .attr("flood-color", "rgba(0, 0, 0, 0.5)");
   
-      const margin = window.innerWidth < 768
-        ? { top: 20, right: 80, bottom: 60, left: 50 }
-        : { top: 50, right: 150, bottom: 100, left: 100 };
+      const margin = { top: 50, right: 150, bottom: 100, left: 100 };
+      
       const resize = () => {
         const width = container.node().clientWidth;
         const height = Math.min(container.node().clientHeight, (width / 8) * 5);
@@ -294,6 +293,16 @@
           .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
           .style("font-size", `${fontSize + 1}px`)
           .text("Organization");
+        
+        // Add confidence intervals text
+        svg.append("text")
+          .attr("class", "legend-title")
+          .attr("x", w - margin.right - 240)  // Center text in the box
+          .attr("y", 35)   // Adjust for better alignment
+          .attr("text-anchor", "middle") // Center alignment
+          .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
+          .attr("font-size", "15px")
+          .text("Confidence Intervals:");
 
         // Add x-axis title
         svg.append("text")
@@ -411,7 +420,8 @@
           .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q975"])) // Upper bound
           .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]) - pointRadius) // Lower bound
           .attr("stroke", d => colorScale(d.legend_item))
-          .attr("stroke-width", 1);
+          .attr("stroke-width", 1)
+          .style("display", "none"); // Hide by default
 
         const errorBarBottoms = groups.append("line")
           .attr("class", "error-bar-bottom")
@@ -420,39 +430,42 @@
           .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]) + pointRadius) // Upper bound
           .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q025"])) // Lower bound
           .attr("stroke", d => colorScale(d.legend_item))
-          .attr("stroke-width", 1);
+          .attr("stroke-width", 1)
+          .style("display", "none"); // Hide by default
 
         // Add horizontal caps for the top of the error bars
-        groups.append("line")
+        const horizontalTopCaps = groups.append("line")
           .attr("class", "error-bar-cap-top")
           .attr("x1", d => xScale(d.output_token_price) - 5) // Slightly left of the point
           .attr("x2", d => xScale(d.output_token_price) + 5) // Slightly right of the point
           .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q975"])) // Same y as the top of the error bar
           .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q975"]))
           .attr("stroke", d => colorScale(d.legend_item))
-          .attr("stroke-width", 1);
+          .attr("stroke-width", 1)
+          .style("display", "none"); // Hide by default
 
         // Add horizontal caps for the bottom of the error bars
-        groups.append("line")
+        const horizontalBottomCaps = groups.append("line")
           .attr("class", "error-bar-cap-bottom")
           .attr("x1", d => xScale(d.output_token_price) - 5) // Slightly left of the point
           .attr("x2", d => xScale(d.output_token_price) + 5) // Slightly right of the point
           .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q025"])) // Same y as the bottom of the error bar
           .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q025"]))
           .attr("stroke", d => colorScale(d.legend_item))
-          .attr("stroke-width", 1);
+          .attr("stroke-width", 1)
+          .style("display", "none"); // Hide by default
         
         const points = groups.append("circle")
           .attr("class", "point")
           .attr("cx", d => xScale(d.output_token_price))
           .attr("cy", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]))
-          .attr("r", pointRadius)
+          .attr("r", pointRadius + 2)
           .attr("fill", d => colorScale(d.legend_item))
           .style("filter", "url(#dotShadow)")
           .style("opacity", 1)
           .on("mouseover", (event, d) => {
             d3.select(event.currentTarget)
-              .attr("r", pointRadius + 2)
+              .attr("r", showConfidenceIntervals ? pointRadius + 2 : pointRadius + 4)
             
             // Adjust error bars
             errorBarTops
@@ -527,13 +540,55 @@
         
         const companiesShowLabel = ['Google', 'OpenAI', 'DeepSeek', 'Anthropic', 'Meta'];
         
+        // Initial state
+        let showConfidenceIntervals = false; 
+
+        // Create a toggle container (group)
+        const toggleGroup = svg.append("g")
+          .attr("class", "toggle-group")
+          .attr("transform", `translate(${w - margin.right - 150}, 20)`)
+          .style("cursor", "pointer");
+
+        // Toggle background (like a switch)
+        const toggleBackground = toggleGroup.append("rect")
+          .attr("width", 40)
+          .attr("height", 20)
+          .attr("rx", 10) // Rounded edges
+          .attr("fill", showConfidenceIntervals ? "#4caf50" : "#ccc") // Green if ON, gray if OFF
+
+        // Toggle circle (indicator)
+        const toggleCircle = toggleGroup.append("circle")
+          .attr("cx", showConfidenceIntervals ? 30 : 10) // Position depends on state
+          .attr("cy", 10)
+          .attr("r", 8)
+          .attr("fill", "#fff");
+
+        // Toggle click interaction
+        toggleGroup.on("click", function() {
+          showConfidenceIntervals = !showConfidenceIntervals; // Toggle state
+
+          // Update switch background color
+          toggleBackground.attr("fill", showConfidenceIntervals ? "#4caf50" : "#ccc");
+
+          // Move the circle
+          toggleCircle.transition().duration(200)
+            .attr("cx", showConfidenceIntervals ? 30 : 10);
+
+          // Update confidence interval visibility
+          d3.selectAll(".error-bar-top, .error-bar-bottom, .error-bar-cap-top, .error-bar-cap-bottom")
+            .style("display", showConfidenceIntervals ? "block" : "none");
+
+          // Update point radius
+          points.attr("r", showConfidenceIntervals ? pointRadius : pointRadius + 2);
+        });
+
         const labels = svg.selectAll(".point-label").data(data).join("text")
             .attr("class", "point-label")
             .attr("x", d => {
               if (d.model_api_name == "o1-mini" || d.output_token_price <= minPrice*2) {
-                return xScale(d.output_token_price) + 0.006*w;
+                return xScale(d.output_token_price) + 0.01*w;
               } else {
-                return xScale(d.output_token_price) - 0.006*w;
+                return xScale(d.output_token_price) - 0.01*w;
               }
             })
             .attr("y", d => (yScale(d[document.getElementById("category-toggle").value + "_rating"]) + 0.004*w))
@@ -565,13 +620,6 @@
 
       // Re-render scatterplot on category change
       document.getElementById("category-toggle").addEventListener("change", () => {
-        const selectedCategory = document.getElementById("category-toggle").value;
-
-        // Update y-scale domain based on the selected category
-        const minFullRating = Math.min(...data.map(d => d[document.getElementById("category-toggle").value + "_rating_q025"]));
-        const maxFullRating = Math.max(...data.map(d => d[document.getElementById("category-toggle").value + "_rating_q975"]));
-        const yScale = d3.scaleLinear().domain([minFullRating - 20, maxFullRating + 20]).range([height - margin.bottom, margin.top]);
-
         renderScatterplot(width, height);
       });
 
@@ -583,9 +631,14 @@
   
         const button = document.querySelector(".toggle-dark-mode");
         button.textContent = isDarkMode ? "Light Mode" : "Dark Mode";
+
+        console.log(isDarkMode);
   
         svg.selectAll(".point-label")
           .attr("fill", isDarkMode ? "#f0f0f0" : "#000000");
+        
+        svg.selectAll(".error-bar-box")
+          .attr("stroke", isDarkMode ? "#f0f0f0" : "#000000")
   
         svg.selectAll(".legend-item text")
           .style("fill", isDarkMode ? "#f0f0f0" : "#000000");
