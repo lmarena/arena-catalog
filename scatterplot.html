@@ -512,7 +512,7 @@
           })
           .on("mouseout", () => {
             d3.select(event.currentTarget)
-              .attr("r", pointRadius)
+              .attr("r", showConfidenceIntervals ? pointRadius : pointRadius + 2);
 
             // Reset error bars
             errorBarTops
@@ -620,7 +620,8 @@
 
       // Re-render scatterplot on category change
       document.getElementById("category-toggle").addEventListener("change", () => {
-        renderScatterplot(width, height);
+        const dimensions = resize();
+        renderScatterplot(dimensions.width, dimensions.height);
       });
 
       renderScatterplot(width, height);
