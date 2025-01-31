@@ -41,8 +41,8 @@
       </section>
     <script>
         Promise.all([
-            d3.json("./embedding_ablation/openai/data.json"),
-            d3.json("./embedding_ablation/openai/examples.json")
+          d3.json("./data-v2/data.json"),
+          d3.json("./data-v2/examples.json")
         ])
         .then(([data, examples]) => {
             drawChart(data, examples);

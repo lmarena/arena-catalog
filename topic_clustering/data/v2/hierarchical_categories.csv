@@ -1,0 +1,300 @@
+Parent_ID,Parent_Name,Topics,Child_Left_ID,Child_Left_Name,Child_Right_ID,Child_Right_Name,Distance
+598,the_and_to_of_in,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299]",593,self_return_import_const_int,597,the_and_of_to_is,2.2980570497756876
+597,the_and_of_to_is,"[1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 24, 26, 27, 29, 30, 31, 32, 33, 34, 36, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 50, 51, 52, 53, 54, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 84, 85, 86, 89, 90, 91, 92, 93, 94, 96, 97, 98, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 118, 119, 120, 122, 123, 124, 125, 126, 127, 128, 129, 130, 132, 133, 134, 135, 136, 137, 138, 139, 140, 142, 144, 145, 146, 147, 148, 149, 150, 151, 153, 155, 156, 157, 158, 159, 160, 161, 162, 163, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 237, 238, 239, 240, 241, 242, 243, 244, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299]",596,and_of_to_the_her,595,the_is_what_of_are,1.9932155620614709
+596,and_of_to_the_her,"[1, 2, 5, 8, 12, 13, 15, 21, 22, 30, 33, 34, 39, 40, 41, 42, 43, 44, 45, 46, 53, 56, 59, 60, 61, 62, 66, 71, 74, 75, 80, 90, 92, 94, 96, 102, 103, 107, 113, 114, 118, 119, 123, 127, 139, 140, 142, 144, 146, 149, 160, 162, 166, 175, 176, 178, 184, 185, 187, 191, 195, 198, 208, 211, 212, 213, 219, 223, 230, 233, 239, 241, 249, 250, 251, 256, 258, 266, 269, 274, 275, 286, 287, 290, 293, 297, 299]",591,and_of_to_the_in,581,her_she_you_he_it,1.6810748214533515
+595,the_is_what_of_are,"[3, 6, 7, 9, 10, 11, 14, 16, 17, 18, 19, 24, 26, 27, 29, 31, 32, 36, 47, 48, 50, 51, 52, 54, 57, 58, 63, 64, 65, 67, 70, 72, 73, 76, 77, 78, 79, 81, 82, 84, 85, 86, 89, 91, 93, 97, 98, 104, 105, 106, 108, 109, 110, 111, 112, 115, 120, 122, 124, 125, 126, 128, 129, 130, 132, 133, 134, 135, 136, 137, 138, 145, 147, 148, 150, 151, 153, 155, 156, 157, 158, 159, 161, 163, 165, 167, 168, 169, 170, 171, 172, 173, 174, 177, 179, 180, 181, 182, 183, 186, 190, 192, 193, 194, 196, 197, 199, 200, 201, 203, 204, 205, 206, 207, 209, 210, 214, 215, 216, 217, 218, 220, 221, 222, 224, 225, 226, 227, 228, 229, 231, 232, 234, 237, 238, 240, 242, 243, 244, 246, 247, 248, 252, 253, 254, 255, 257, 259, 260, 261, 262, 263, 265, 267, 268, 270, 271, 272, 273, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 288, 291, 292, 294, 295, 296, 298]",594,the_is_what_of_you,590,strawberry_river_boat_bigger_many,1.6261509877025588
+594,the_is_what_of_you,"[3, 7, 9, 10, 11, 16, 17, 18, 19, 24, 26, 27, 29, 31, 32, 36, 47, 48, 50, 51, 52, 54, 57, 58, 63, 64, 65, 67, 70, 72, 73, 76, 77, 79, 81, 82, 84, 85, 86, 89, 91, 93, 98, 104, 105, 106, 108, 109, 110, 112, 115, 120, 122, 124, 125, 126, 128, 129, 130, 132, 133, 134, 135, 136, 137, 138, 145, 147, 148, 150, 151, 153, 155, 156, 157, 158, 159, 161, 163, 165, 167, 168, 170, 171, 172, 173, 174, 177, 179, 180, 181, 182, 183, 186, 190, 192, 193, 194, 196, 197, 199, 200, 201, 203, 204, 205, 206, 207, 210, 214, 215, 216, 217, 218, 220, 221, 222, 224, 225, 226, 227, 228, 229, 231, 232, 234, 238, 240, 242, 243, 244, 246, 247, 248, 252, 253, 254, 255, 257, 259, 260, 261, 262, 263, 265, 267, 268, 270, 271, 272, 273, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 288, 291, 292, 294, 295, 296, 298]",578,word_english_sentence_sentences_meaning,592,is_the_what_of_you,1.5372802388372948
+593,self_return_import_const_int,"[0, 4, 20, 23, 25, 28, 35, 37, 38, 49, 55, 68, 69, 83, 87, 88, 95, 99, 100, 101, 116, 117, 121, 131, 141, 143, 152, 154, 164, 188, 189, 202, 235, 236, 245, 264, 289]",588,const_string_int_null_return,564,self_def_import_np_plt,1.514191601754464
+592,is_the_what_of_you,"[3, 7, 9, 10, 11, 16, 17, 18, 19, 26, 27, 31, 32, 36, 47, 50, 51, 52, 57, 58, 63, 65, 67, 72, 73, 76, 77, 79, 81, 82, 84, 85, 86, 89, 91, 93, 98, 104, 105, 106, 108, 109, 110, 112, 115, 120, 124, 125, 126, 128, 129, 132, 133, 134, 135, 138, 145, 147, 148, 150, 151, 153, 155, 156, 158, 159, 161, 163, 165, 167, 168, 170, 171, 172, 173, 174, 177, 179, 181, 182, 183, 186, 190, 192, 193, 194, 197, 199, 200, 201, 203, 205, 206, 207, 210, 214, 215, 216, 217, 218, 220, 222, 224, 225, 226, 227, 228, 229, 231, 232, 234, 238, 240, 243, 244, 246, 247, 248, 254, 255, 257, 259, 260, 261, 262, 263, 265, 268, 270, 271, 272, 273, 276, 277, 278, 280, 281, 282, 283, 284, 288, 291, 292, 294, 295, 296, 298]",589,the_is_what_you_of,585,00_19_34_14_49,1.5041390550069709
+591,and_of_to_the_in,"[8, 13, 15, 39, 41, 44, 45, 60, 61, 66, 74, 75, 90, 92, 94, 96, 118, 119, 123, 140, 142, 144, 146, 149, 166, 175, 176, 178, 184, 187, 191, 195, 212, 213, 219, 230, 233, 239, 241, 250, 256, 258, 266, 274, 275, 286, 287, 293, 297, 299]",586,and_research_of_to_for,582,000_price_president_trump_of,1.4965169847931619
+590,strawberry_river_boat_bigger_many,"[6, 14, 78, 97, 111, 169, 209, 237]",312,river_boat_farmer_goat_sheep,584,strawberry_bigger_many_11_word,1.430634768845901
+589,the_is_what_you_of,"[3, 7, 9, 10, 11, 16, 17, 18, 19, 26, 27, 31, 32, 36, 47, 50, 52, 58, 63, 65, 67, 72, 73, 76, 77, 81, 82, 84, 85, 86, 89, 91, 93, 104, 105, 106, 108, 109, 110, 112, 115, 120, 124, 125, 126, 128, 129, 132, 133, 134, 135, 138, 145, 147, 148, 150, 153, 155, 156, 158, 159, 161, 163, 165, 167, 168, 172, 173, 177, 179, 181, 182, 183, 186, 197, 199, 200, 201, 203, 205, 206, 207, 210, 214, 215, 216, 217, 218, 220, 222, 224, 225, 226, 227, 228, 229, 231, 232, 234, 238, 240, 243, 244, 246, 247, 248, 254, 255, 257, 259, 260, 261, 263, 265, 268, 270, 271, 273, 276, 277, 278, 281, 282, 283, 284, 288, 291, 292, 294, 295, 296, 298]",587,is_the_what_you_of,579,image_tag_cv2_staticscore_dynamicscore,1.3694049804631305
+588,const_string_int_null_return,"[0, 4, 20, 23, 25, 35, 37, 49, 68, 69, 83, 87, 88, 95, 100, 101, 117, 121, 131, 141, 143, 152, 154, 188, 202, 264]",575,aws_security_file_install_ubuntu,558,const_string_int_null_class,1.3587282601356838
+587,is_the_what_you_of,"[3, 7, 9, 10, 11, 16, 17, 19, 26, 27, 32, 36, 47, 50, 52, 67, 72, 76, 77, 82, 84, 85, 89, 91, 93, 104, 105, 106, 108, 112, 120, 124, 126, 128, 129, 132, 133, 134, 135, 138, 147, 148, 150, 156, 158, 161, 163, 165, 168, 177, 179, 186, 199, 200, 201, 205, 207, 210, 214, 216, 217, 220, 222, 224, 228, 229, 231, 234, 240, 246, 247, 255, 259, 260, 261, 265, 271, 276, 277, 282, 283, 284, 288, 292, 294, 295]",580,house_person_room_cup_sisters,583,game_you_the_is_what,1.3158160278934383
+586,and_research_of_to_for,"[8, 15, 44, 60, 61, 74, 90, 94, 118, 119, 142, 146, 149, 175, 178, 195, 230, 239, 256, 258, 274, 275, 287, 297, 299]",549,water_999_climate_groundwater_plant,574,and_research_ai_learning_to,1.276743043211609
+585,00_19_34_14_49,"[51, 57, 79, 98, 151, 170, 171, 174, 190, 192, 193, 194, 262, 272, 280]",442,00_34_49_43_37,560,numbers_sequence_number_integer_prime,1.2703200602028892
+584,strawberry_bigger_many_11_word,"[6, 14, 97, 169, 237]",300,bigger_11_larger_which_or,320,strawberry_many_word_rs_how,1.2583340360871418
+583,game_you_the_is_what,"[3, 9, 10, 11, 17, 19, 27, 36, 47, 50, 52, 77, 82, 84, 85, 91, 93, 104, 106, 112, 120, 124, 126, 129, 132, 133, 134, 135, 147, 148, 150, 158, 165, 168, 179, 186, 199, 201, 205, 207, 214, 216, 217, 220, 224, 229, 231, 234, 246, 255, 259, 260, 261, 265, 271, 277, 282, 284, 292, 294, 295]",577,game_matrix_energy_the_you,553,tell_joke_albedo_poem_write,1.2434689050436651
+582,000_price_president_trump_of,"[13, 39, 41, 45, 66, 75, 92, 96, 123, 140, 144, 166, 176, 184, 187, 191, 212, 213, 219, 233, 241, 250, 266, 286, 293]",503,000_price_usd_stock_tax,571,president_trump_country_challenger_atp,1.218821656253412
+581,her_she_you_he_it,"[1, 2, 5, 12, 21, 22, 30, 33, 34, 40, 42, 43, 46, 53, 56, 59, 62, 71, 80, 102, 103, 107, 113, 114, 127, 139, 160, 162, 185, 198, 208, 211, 223, 249, 251, 269, 290]",475,her_she_story_his_he,567,you_it_my_art_your,1.217967421158206
+580,house_person_room_cup_sisters,"[7, 16, 26, 32, 67, 72, 76, 89, 105, 108, 128, 138, 156, 161, 163, 177, 200, 210, 222, 228, 240, 247, 276, 283, 288]",538,house_person_blue_green_red,573,cup_room_sisters_door_apples,1.1934705284111118
+579,image_tag_cv2_staticscore_dynamicscore,"[18, 31, 58, 63, 65, 73, 81, 86, 109, 110, 115, 125, 145, 153, 155, 159, 167, 172, 173, 181, 182, 183, 197, 203, 206, 215, 218, 225, 226, 227, 232, 238, 243, 244, 248, 254, 257, 263, 268, 270, 273, 278, 281, 291, 296, 298]",568,tag_dynamicscore_staticscore_lyrics_currentbar,569,image_cv2_255_ascii_draw,1.193021697945281
+578,word_english_sentence_sentences_meaning,"[24, 29, 48, 54, 64, 70, 122, 130, 136, 137, 157, 180, 196, 204, 221, 242, 252, 253, 267, 279, 285]",496,names_cs_name_xmm0_xmm2,572,word_english_sentence_sentences_meaning,1.1782899641347693
+577,game_matrix_energy_the_you,"[3, 19, 36, 47, 77, 84, 91, 93, 104, 106, 112, 120, 126, 129, 132, 133, 148, 158, 165, 168, 179, 186, 201, 205, 214, 216, 224, 234, 246, 255, 260, 261, 265, 271, 282, 295]",562,matrix_answer_question_questions_answers,576,game_energy_python_the_is,1.170239884209049
+576,game_energy_python_the_is,"[3, 19, 36, 47, 77, 84, 91, 112, 120, 132, 133, 148, 168, 201, 205, 216, 224, 234, 255, 260, 261, 265, 271, 282]",556,energy_python_speed_car_the,559,game_player_players_games_probability,1.168383945315341
+575,aws_security_file_install_ubuntu,"[4, 25, 95, 100, 101, 117, 152, 154, 188]",459,file_install_ubuntu_command_docker,527,aws_security_generative_network_amazon,1.1571593926818076
+574,and_research_ai_learning_to,"[8, 15, 60, 61, 74, 118, 142, 146, 175, 178, 195, 230, 239, 258, 275, 287, 299]",534,research_and_ai_to_for,435,model_llm_algorithm_quad_llms,1.153888613145651
+573,cup_room_sisters_door_apples,"[7, 16, 26, 32, 67, 72, 89, 108, 128, 138, 163, 177, 200, 210, 222, 228, 240, 276, 283, 288]",535,cup_apples_glass_marble_ice,570,sisters_room_door_brothers_alice,1.149829387131758
+572,word_english_sentence_sentences_meaning,"[24, 29, 54, 64, 70, 122, 130, 137, 157, 180, 196, 204, 221, 242, 252, 253, 267, 279]",489,word_sentences_sentence_meaning_letter,565,english_______translate_translation_french,1.1495906757541177
+571,president_trump_country_challenger_atp,"[39, 41, 45, 66, 75, 123, 144, 176, 184, 187, 212, 213, 233, 250, 266, 286, 293]",401,president_trump_biden_donald_election,554,atp_challenger_war_country_countries,1.14471839750469
+570,sisters_room_door_brothers_alice,"[16, 72, 89, 108, 138, 163, 200, 222, 276]",539,room_door_doors_dry_switch,363,sisters_brothers_alice_brother_sister,1.1369444300530167
+569,image_cv2_255_ascii_draw,"[18, 58, 73, 86, 145, 172, 254, 281]",563,image_cv2_255_ascii_draw,314,youtube_channel_lofi_video_waifu,1.1332878473479195
+568,tag_dynamicscore_staticscore_lyrics_currentbar,"[31, 63, 65, 81, 109, 110, 115, 125, 153, 155, 159, 167, 173, 181, 182, 183, 197, 203, 206, 215, 218, 225, 226, 227, 232, 238, 243, 244, 248, 257, 263, 268, 270, 273, 278, 291, 296, 298]",379,lyrics_chorus_song_verse_musical,566,tag_dynamicscore_staticscore_currentbar_circle,1.1319471082630936
+567,you_it_my_art_your,"[1, 5, 21, 30, 33, 34, 40, 42, 43, 46, 53, 56, 62, 71, 80, 107, 113, 114, 127, 160, 162, 198, 208, 223, 269, 290]",550,you_my_it_art_they,481,prompt_response_user_prompts_your,1.1234126211883089
+566,tag_dynamicscore_staticscore_currentbar_circle,"[31, 63, 65, 81, 109, 110, 115, 125, 153, 155, 159, 167, 173, 181, 182, 183, 197, 203, 206, 215, 218, 225, 226, 227, 232, 238, 243, 244, 248, 257, 270, 273, 278, 291, 296, 298]",557,tag_staticscore_dynamicscore_currentbar_cards,551,circle_theta1_pi_p1_p2,1.123268347862528
+565,english_______translate_translation_french,"[54, 64, 70, 137, 157, 180, 204, 221, 242, 253, 279]",561,english_translate_speaker_polish_japanese,548,______và_các_french_cho,1.11509196213627
+564,self_def_import_np_plt,"[28, 38, 55, 99, 116, 164, 189, 235, 236, 245, 289]",486,self_def_import_torch_py,443,np_plt_df_pd_print,1.1024841126781402
+563,image_cv2_255_ascii_draw,"[18, 58, 73, 86, 172, 281]",397,ascii_draw_svg_unicorn_art,485,image_cv2_255_np_annotations,1.0929633980272069
+562,matrix_answer_question_questions_answers,"[93, 104, 106, 126, 129, 158, 165, 179, 186, 214, 246, 295]",555,questions_question_answer_answers_bookmark,350,matrix_confidant_policies_vector_anything,1.0880400130557903
+561,english_translate_speaker_polish_japanese,"[64, 180, 204, 242, 253, 279]",464,polish_consonant_mp3_english_ukrainian,382,english_translate_speaker_japanese_translation,1.0870771132384665
+560,numbers_sequence_number_integer_prime,"[51, 57, 79, 98, 170, 171, 190, 193, 194, 262, 272, 280]",544,numbers_sequence_number_integer_prime,430,parenthesis_equals_frac_solve_equation,1.0800166093416186
+559,game_player_players_games_probability,"[36, 47, 77, 132, 148, 168, 216, 260]",476,game_player_players_games_damage,364,fight_hammond_win_battle_vs,1.0732764734770568
+558,const_string_int_null_class,"[0, 20, 23, 35, 37, 49, 68, 69, 83, 87, 88, 121, 131, 141, 143, 202, 264]",532,const_div_class_string_id,533,int_std_null_return_select,1.0727008498093393
+557,tag_staticscore_dynamicscore_currentbar_cards,"[31, 63, 65, 81, 109, 110, 115, 125, 155, 167, 181, 182, 197, 203, 206, 215, 218, 226, 227, 232, 238, 244, 248, 257, 270, 291, 296, 298]",552,acc_audio_____textbf_piano,547,tag_staticscore_dynamicscore_currentbar_cards,1.0676727947071527
+556,energy_python_speed_car_the,"[3, 19, 84, 91, 112, 120, 133, 201, 205, 224, 234, 255, 261, 265, 271, 282]",545,energy_car_power_earth_pump,518,python_peg_code_square_block,1.0604808777195134
+555,questions_question_answer_answers_bookmark,"[106, 126, 129, 158, 165, 179, 186, 214, 246, 295]",378,bookmark_page_tickle_arabella_jon,526,questions_answer_question_answers_yes,1.058080428765173
+554,atp_challenger_war_country_countries,"[39, 41, 75, 123, 144, 176, 184, 187, 212, 233, 250, 266, 286, 293]",412,war_israel_china_russia_ukraine,542,atp_challenger_countries_men_country,1.0555808651468404
+553,tell_joke_albedo_poem_write,"[9, 10, 11, 17, 27, 50, 52, 82, 85, 124, 134, 135, 147, 150, 199, 207, 217, 220, 229, 231, 259, 277, 284, 292, 294]",530,series_movie_sonic_movies_harry,541,tell_joke_albedo_poem_klee,1.0513970784536584
+552,acc_audio_____textbf_piano,"[31, 65, 109, 155, 181, 182, 203, 226, 232, 238, 248, 257, 270, 291, 296, 298]",546,acc_audio_textbf_piano_speech,537,____pixel____wood_chuck,1.050715707331592
+551,circle_theta1_pi_p1_p2,"[153, 159, 173, 183, 225, 243, 273, 278]",407,serial_uint8_t_define_arduino_wifi,536,circle_theta1_p1_p2_theta2,1.0462795515448908
+550,you_my_it_art_they,"[1, 5, 30, 33, 34, 42, 43, 46, 53, 56, 62, 80, 107, 113, 127, 160, 162, 223, 269, 290]",414,day_sleep_trip_reps_year,522,you_it_art_my_they,1.0442729065424197
+549,water_999_climate_groundwater_plant,"[44, 90, 94, 119, 149, 256, 274, 297]",514,999_acid_flame_sodium_mg,393,water_groundwater_climate_plant_forest,1.0397191456111572
+548,______và_các_french_cho,"[54, 70, 137, 157, 221]",411,______french________echocardiography_many,386,và_các_là_một_cho,1.0393465435595846
+547,tag_staticscore_dynamicscore_currentbar_cards,"[63, 81, 110, 115, 125, 167, 197, 206, 215, 218, 227, 244]",427,experiment_output_eye_belarusian_hasil,540,tag_dynamicscore_staticscore_currentbar_cards,1.0376952514140738
+546,acc_audio_textbf_piano_speech,"[31, 109, 155, 203, 238, 248, 257, 291]",543,acc_audio_textbf_speech_tasks,505,piano_practice_labours_common_solo,1.035193136645684
+545,energy_car_power_earth_pump,"[3, 19, 84, 120, 224, 255, 261, 271, 282]",509,car_musk_engine_cars_wheel,493,energy_power_earth_pump_magnetic,1.0334452356595842
+544,numbers_sequence_number_integer_prime,"[57, 98, 170, 171, 190, 193, 194, 262, 280]",525,numbers_sequence_number_integer_prime,328,sample_distribution_correlation_variables_mean,1.0330354648710436
+543,acc_audio_textbf_speech_tasks,"[31, 109, 203, 238, 257]",441,restaurant_interior_ergonomic_optimizing_interiors,498,acc_audio_textbf_speech_classification,1.0267125617850061
+542,atp_challenger_countries_men_country,"[41, 75, 144, 176, 184, 187, 233, 250, 266, 286, 293]",515,atp_challenger_men_event_singles,519,countries_country_capital_population_roma,1.0263856182154227
+541,tell_joke_albedo_poem_klee,"[9, 10, 11, 17, 27, 50, 52, 85, 134, 150, 199, 207, 217, 229, 231, 259, 284, 294]",337,joke_tell_me_about_funny,531,albedo_poem_klee_write_thor,1.0245586095078276
+540,tag_dynamicscore_staticscore_currentbar_cards,"[63, 81, 110, 115, 125, 197, 206, 215, 218, 227]",523,currentbar_option_low_strategy_currentlow,478,tag_dynamicscore_staticscore_cards_deck,1.0244334426529513
+539,room_door_doors_dry_switch,"[72, 89, 108, 138, 163, 200, 222]",479,room_dry_killers_switch_shirts,319,door_doors_kitchen_room_leads,1.021928302080959
+538,house_person_blue_green_red,"[76, 105, 156, 161, 247]",499,blue_green_red_256gb_cubes,348,house_person_who_loves_smokes,1.0202501698881852
+537,____pixel____wood_chuck,"[65, 181, 182, 226, 232, 270, 296, 298]",529,_______wood_chuck_decode,512,pixel_mix_outfit_pixels_footwear,1.019932737142209
+536,circle_theta1_p1_p2_theta2,"[153, 173, 183, 225, 243, 273]",416,circle_theta1_p1_p2_theta2,524,dx_dy_vec2_temp_p_uv,1.0165833235743713
+535,cup_apples_glass_marble_ice,"[7, 26, 32, 67, 128, 177, 210, 228, 240, 283, 288]",517,cup_apples_glass_marble_ice,487,feathers_pound_coins_pounds_heavier,1.0152708608971113
+534,research_and_ai_to_for,"[8, 15, 60, 61, 74, 142, 195, 230, 239, 275, 287, 299]",528,ai_isd_information_wom_sources,456,research_and_to_learning_experience,1.0099317567239638
+533,int_std_null_return_select,"[20, 23, 35, 37, 68, 83, 87, 143]",471,std_int_node_return_string,477,null_select_table_end_local,1.0079962999241072
+532,const_div_class_string_id,"[0, 49, 69, 88, 121, 131, 141, 202, 264]",454,const_div_class_id_text,417,public_private_java_void_string,1.0051062194980465
+531,albedo_poem_klee_write_thor,"[10, 11, 17, 27, 50, 52, 134, 150, 199, 207, 217, 229, 231, 259, 284, 294]",521,albedo_klee_thor_loki_mm,462,poem_dog_cat_write_dogs,1.003959601454733
+530,series_movie_sonic_movies_harry,"[82, 124, 135, 147, 220, 277, 292]",508,series_sonic_movie_movies_harry,394,episode_belching_knight_belch_star,1.0032496043743235
+529,_______wood_chuck_decode,"[65, 226, 270, 296, 298]",506,_______decode_hex_dump_message,520,wood_chuck_shutterstock_duck_yorkshire,1.000303494548504
+528,ai_isd_information_wom_sources,"[60, 230, 239, 299]",465,isd_wom_information_smes_sources,310,ai_agi_acid_misinformation_users,1.000181688651468
+527,aws_security_generative_network_amazon,"[95, 101, 152, 154, 188]",369,aws_security_generative_amazon_services,354,ip_server_network_address_proxy,0.9985139290420917
+526,questions_answer_question_answers_yes,"[106, 126, 129, 158, 179, 186, 246, 295]",494,questions_answers_question_answer_clue,405,yes_mel_nuclear_sex_no,0.998456211036638
+525,numbers_sequence_number_integer_prime,"[57, 170, 190, 193, 194, 262, 280]",500,numbers_sequence_number_prime_proof,360,integer_farm_smallest_john_animals,0.9976004465605285
+524,dx_dy_vec2_temp_p_uv,"[153, 183, 243, 273]",502,dx_dy_vec2_temp_p_uv,492,oplput_c_mult_width_64_diagonal_s_axis_aclk,0.9949286505568096
+523,currentbar_option_low_strategy_currentlow,"[81, 110, 125, 197, 206, 218, 227]",453,currentbar_option_low_strategy_currenthigh,507,graph_emojis_coloring_vertices_latex,0.9946549020321764
+522,you_it_art_my_they,"[1, 5, 30, 33, 34, 42, 53, 56, 80, 107, 113, 127, 162, 223, 269, 290]",426,you_my_me_we_song,455,art_lorelai_ephraim_artwork_artist,0.9934279507246924
+521,albedo_klee_thor_loki_mm,"[11, 17, 50, 52, 134, 150, 199, 207, 217, 229, 259, 284, 294]",510,thor_loki_fanfic_avengers_tony,513,albedo_klee_mm_asuka_jean,0.9931111132400637
+520,wood_chuck_shutterstock_duck_yorkshire,"[226, 270, 296]",270,wood_chuck_woodchuck_much_could,516,shutterstock_duck_yorkshire_bradford_ducks,0.9926795453262642
+519,countries_country_capital_population_roma,"[176, 184, 187, 233, 286]",448,capital_labor_respond_marginal_france,467,countries_country_population_roma_iq,0.9917313680948217
+518,python_peg_code_square_block,"[91, 112, 133, 201, 205, 234, 265]",470,peg_square_block_relative_bike,460,python_code_function_km_train,0.9899015747726563
+517,cup_apples_glass_marble_ice,"[7, 26, 32, 128, 177, 228, 283, 288]",490,cup_glass_marble_minute_ball,511,apples_chicken_scp_ingredients_oz,0.9891842498017288
+516,shutterstock_duck_yorkshire_bradford_ducks,"[226, 296]",226,duck_ducks_quack_geese_respond,296,shutterstock_bradford_yorkshire_uk_adobe,0.9877428860491544
+515,atp_challenger_men_event_singles,"[41, 75, 144, 250, 266, 293]",473,event_interested_anime_attending_boys,409,atp_challenger_men_singles_doubles,0.9876595751290477
+514,999_acid_flame_sodium_mg,"[90, 94, 119, 149, 256]",256,999_sodium_mg_µg_acid,474,flame_rev_al_et_bracket,0.986145258725899
+513,albedo_klee_mm_asuka_jean,"[11, 17, 52, 134, 199, 284, 294]",501,albedo_klee_mm_asuka_jean,451,bomb_molotov_make_how_hypothetically,0.9861451974511019
+512,pixel_mix_outfit_pixels_footwear,"[181, 182, 232]",468,pixel_mix_outfit_pixels_variants,182,guardian_rpg_inquisitor_gladiator_wreath,0.9860859274953925
+511,apples_chicken_scp_ingredients_oz,"[7, 32, 228, 283]",395,chicken_scp_ingredients_oz_recipe,436,apples_apple_bag_fruits_ate,0.9834250045307448
+510,thor_loki_fanfic_avengers_tony,"[50, 150, 207, 217, 229, 259]",259,gay_hitler_washington_men_george,504,thor_loki_fanfic_avengers_tony,0.9767296561490166
+509,car_musk_engine_cars_wheel,"[84, 120, 282]",120,musk_tesla_elon_hype_fragrance,372,car_engine_cars_wheel_nagen,0.9762430499239098
+508,series_sonic_movie_movies_harry,"[82, 124, 147, 277, 292]",480,sonic_hedgehog_film_starter_camera,437,series_movies_harry_movie_potter,0.972835884948606
+507,graph_emojis_coloring_vertices_latex,"[110, 125, 206, 218, 227]",491,graph_coloring_vertices_latex_cutoff,488,emojis_arabic_emoji_darija_thinking,0.9722527101163844
+506,_______decode_hex_dump_message,"[65, 298]",65,_______decode_hex_dump_message,298,caa_uag_uaa_ccu_aaa,0.9659704110634282
+505,piano_practice_labours_common_solo,"[155, 248, 291]",291,piano_solo_performance_instruments_plays,449,labours_practice_common_chord_women,0.9655649908690926
+504,thor_loki_fanfic_avengers_tony,"[50, 150, 207, 217, 229]",497,hafez_assad_al_eli_justinian,495,thor_loki_fanfic_avengers_tony,0.962060410686853
+503,000_price_usd_stock_tax,"[13, 92, 96, 140, 166, 191, 219, 241]",438,000_price_usd_stock_bitcoin,385,choices_group_contract_court_legal,0.9603331696237913
+502,dx_dy_vec2_temp_p_uv,"[183, 273]",273,dx_dy_temp_p_temp_arr_pcodecctx,183,vec2_texture_vec3_fragment_shader,0.9593141921471935
+501,albedo_klee_mm_asuka_jean,"[11, 17, 52, 199, 294]",469,asuka_shinji_shinn_joker_hitori,484,albedo_klee_mm_jean_hello,0.9578812200710759
+500,numbers_sequence_number_prime_proof,"[57, 190, 193, 194, 280]",343,numbers_prime_digits_digit_number,413,sequence_proof_collatz_numbers_outlining,0.9569977978680786
+499,blue_green_red_256gb_cubes,"[76, 105, 161]",161,256gb_128gb_pro_poco_xiaomi,338,blue_cubes_red_green_cube,0.9561902077262412
+498,acc_audio_textbf_speech_classification,"[109, 238, 257]",238,track_trolley_lever_rail_pull,440,acc_audio_textbf_speech_classification,0.955782837407125
+497,hafez_assad_al_eli_justinian,"[217, 229]",217,hafez_assad_al_eli_justinian,229,hindi_summarize_shiva_varun_similarities,0.9535795984509365
+496,names_cs_name_xmm0_xmm2,"[48, 136, 285]",285,cs_xmm0_xmm2_names_xmm1,307,names_name_suggest_brand_food,0.9534119438440701
+495,thor_loki_fanfic_avengers_tony,"[50, 150, 207]",483,thor_loki_fanfic_avengers_tony,207,unopinionated_dialogues_sights_surroundings_tense,0.9518494780174688
+494,questions_answers_question_answer_clue,"[106, 126, 129, 158, 246, 295]",452,clue_puzzle_crossword_solve_riddle,425,questions_answers_question_answer_ielts,0.9500899669010395
+493,energy_power_earth_pump_magnetic,"[3, 19, 224, 255, 261, 271]",472,energy_power_earth_pump_magnetic,261,lte_advanced_radio_3gpp_4g,0.9496486339153114
+492,oplput_c_mult_width_64_diagonal_s_axis_aclk,"[153, 243]",153,oplput_correct_calculate_minipage_56,243,c_mult_width_diagonal_s_axis_aclk_downto_64,0.9487811909733928
+491,graph_coloring_vertices_latex_cutoff,"[125, 206, 227]",206,graph_coloring_vertices_frontier_vertex,482,latex_cutoff_hat_knowledge_date,0.948683800981398
+490,cup_glass_marble_minute_ball,"[26, 128, 177, 288]",288,beer_alcohol_beverage_drink_fiat,458,cup_marble_glass_minute_ball,0.9478327736248245
+489,word_sentences_sentence_meaning_letter,"[24, 29, 122, 130, 196, 252, 267]",351,sentences_apple_block_idx_block_class_page_idx,466,word_sentence_letter_meaning_words,0.9462214474822035
+488,emojis_arabic_emoji_darija_thinking,"[110, 218]",110,emojis_emoji_thinking_emoji1_cmu,218,arabic_darija_cola_say_hada,0.9452889788598385
+487,feathers_pound_coins_pounds_heavier,"[67, 210, 240]",421,coins_coin_ratio_dollars_owes,67,feathers_pound_pounds_heavier_weighs,0.9439587584862482
+486,self_def_import_torch_py,"[28, 99, 116, 164, 189, 245, 289]",400,self_torch_def_nn_loss,446,self_def_py_import_os,0.9429462552884327
+485,image_cv2_255_np_annotations,"[58, 86, 172, 281]",358,image_cv2_255_np_annotations,457,pdf_ffmpeg_mp4_video_safe,0.9392554845689176
+484,albedo_klee_mm_jean_hello,"[11, 17, 52]",52,mm_greentext_4chan_ss_hh,463,albedo_klee_jean_hello_later,0.9371206901476988
+483,thor_loki_fanfic_avengers_tony,"[50, 150]",50,cartier_who_famous_mielke_armor,150,thor_loki_fanfic_avengers_tony,0.9368898825731018
+482,latex_cutoff_hat_knowledge_date,"[125, 227]",125,cutoff_knowledge_date_cut_your,227,latex_hat_mu_qquad_biber,0.934501343655783
+481,prompt_response_user_prompts_your,"[21, 40, 71, 114, 198, 208]",365,prompt_response_prompts_your_user,323,roleplay_char_mao_user_character,0.9323333473913906
+480,sonic_hedgehog_film_starter_camera,"[147, 292]",292,starter_camera_film_pack_lenses,147,sonic_hedgehog_amy_rouge_mainstream,0.9322770458346077
+479,room_dry_killers_switch_shirts,"[72, 89, 138, 163, 222]",450,room_dry_killers_switch_shirts,396,air_apartment_clean_temperature_wipe,0.9308388565706615
+478,tag_dynamicscore_staticscore_cards_deck,"[63, 115, 215]",415,tag_encryptedmasterstring_regex_match_cards,115,dynamicscore_staticscore_deck_cards_90790,0.9299463347695055
+477,null_select_table_end_local,"[20, 68, 87, 143]",424,null_select_table_varchar_column,143,local_end_player_06_then,0.9286895869083626
+476,game_player_players_games_damage,"[36, 47, 77, 132, 168, 216]",387,chess_play_board_white_pawn,432,game_player_games_probability_damage,0.9280979424574619
+475,her_she_story_his_he,"[2, 12, 22, 59, 102, 103, 139, 185, 211, 249, 251]",447,story_her_his_he_she,461,her_she_patient_blood_margins,0.9279605774975832
+474,flame_rev_al_et_bracket,"[90, 94, 119, 149]",418,flame_bracket_reaction_cu_acid,353,rev_et_protein_al_ksr,0.9279594400929321
+473,event_interested_anime_attending_boys,"[144, 250, 266, 293]",444,event_interested_anime_attending_boys,376,century_history_germany_timeline_easter,0.9250810030696761
+472,energy_power_earth_pump_magnetic,"[3, 19, 224, 255, 271]",224,beam_beams_splitter_elastic_encounters,433,energy_power_earth_pump_magnetic,0.9238863293586629
+471,std_int_node_return_string,"[23, 35, 37, 83]",423,mut_let_fn_vec_rust,346,std_int_node_tuple_return,0.9227033587243698
+470,peg_square_block_relative_bike,"[91, 133, 201, 265]",201,bike_bikes_motorbikes_rental_bicycle,445,peg_square_block_relative_squares,0.9201912037898556
+469,asuka_shinji_shinn_joker_hitori,"[199, 294]",199,asuka_shinji_joker_canon_miyamura,294,shinn_hitori_kira_comical_persona,0.918018541358138
+468,pixel_mix_outfit_pixels_variants,"[181, 232]",181,pixel_pixels_variants_adjacent_empty,232,outfit_mix_outfits_colors_accesories,0.9177731642616364
+467,countries_country_population_roma_iq,"[176, 187, 233]",357,countries_country_population_iq_borders,233,roma_cities_muslim_romani_city,0.9170634726957116
+466,word_sentence_letter_meaning_words,"[24, 122, 130, 252, 267]",377,meaning_verb_languages_life_verbs,422,word_letter_sentence_words_letters,0.9160042465259934
+465,isd_wom_information_smes_sources,"[230, 299]",299,wom_smes_sources_gsps_participation,230,isd_systems_conference_papers_proceedings,0.9159425757667747
+464,polish_consonant_mp3_english_ukrainian,"[204, 253, 279]",391,polish_mp3_ukrainian_batch_sentence,279,consonant_vowel_common_ipa_polish,0.9157810475881271
+463,albedo_klee_jean_hello_later,"[11, 17]",17,albedo_klee_jean_later_came,11,hello_hey_hi_doing_how,0.9155427402144067
+462,poem_dog_cat_write_dogs,"[10, 27, 231]",398,poem_dog_cat_write_dogs,231,birds_bird_eagle_sighting_hawk,0.9150230239609985
+461,her_she_patient_blood_margins,"[2, 139, 185, 251]",340,father_son_mother_age_old,368,her_she_patient_blood_margins,0.914445199796424
+460,python_code_function_km_train,"[112, 205, 234]",361,python_code_function_km_train,205,bpy_blender_min_corner_python_max_corner,0.9141399864628468
+459,file_install_ubuntu_command_docker,"[4, 25, 100, 117]",100,github_git_commit_repo_commits,347,file_ubuntu_install_docker_python3,0.9105121987451955
+458,cup_marble_glass_minute_ball,"[26, 128, 177]",439,cup_marble_glass_ball_upside,177,minute_ice_cubes_fire_whole,0.9101193956251539
+457,pdf_ffmpeg_mp4_video_safe,"[172, 281]",172,ffmpeg_mp4_video_safe_track_id,281,pdf_xhtml_barcode_file_types_reports,0.909117995873407
+456,research_and_to_learning_experience,"[8, 15, 61, 74, 142, 195, 275, 287]",410,research_and_to_learning_business,275,staff_fair_exhibitor_simone_jensen,0.9080036181304435
+455,art_lorelai_ephraim_artwork_artist,"[30, 53, 80, 113, 127, 162]",362,book_books_quote_chapter_recommend,434,art_lorelai_ephraim_artwork_artist,0.9056131625646067
+454,const_div_class_id_text,"[0, 121, 131, 141, 202, 264]",429,const_div_class_id_text,381,var_string_wid_text_public,0.9018146749431551
+453,currentbar_option_low_strategy_currenthigh,"[81, 197]",81,currentbar_low_currenthigh_currentlow_strategy,197,option_candles_candle_blown_charting,0.9014358391084796
+452,clue_puzzle_crossword_solve_riddle,"[106, 126, 129]",126,clue_puzzle_crossword_solve_pattern,431,riddle_am_secret_incorrect_avalon,0.9001364003578978
+451,bomb_molotov_make_how_hypothetically,"[134, 284]",134,bomb_molotov_hypothetically_make_titanium,284,meth_nitrate_did_kill_removers,0.8974011339339555
+450,room_dry_killers_switch_shirts,"[138, 163, 222]",222,switch_light_switches_bulb_socks,404,room_dry_killers_towels_shirts,0.8950867323984729
+449,labours_practice_common_chord_women,"[155, 248]",155,chord_practice_progressions_mixture_common,248,labours_women_pregnant_practice_western,0.8939759658332062
+448,capital_labor_respond_marginal_france,"[184, 286]",184,capital_labor_respond_marginal_france,286,trc20_p_payment_5500_2500_7000,0.8922782983390956
+447,story_her_his_he_she,"[12, 22, 59, 102, 103, 211, 249]",428,hypnotist_oksana_chloe_ben_wife,384,story_his_her_mark_he,0.8917702927689237
+446,self_def_py_import_os,"[116, 189, 245, 289]",355,py_self_def_import_os,245,models_max_length_charfield_true_website,0.8890987271924741
+445,peg_square_block_relative_squares,"[91, 133, 265]",402,peg_square_relative_squares_north,91,repeat_block_indent_previous_markdown,0.8860108390268645
+444,event_interested_anime_attending_boys,"[250, 293]",250,anime_manga_club_main_character,293,event_interested_attending_boys_girls,0.8856464093937791
+443,np_plt_df_pd_print,"[38, 55, 235, 236]",373,plt_df_np_pd_import,235,np_ik_hr_r1_aikij,0.8854992225496131
+442,00_34_49_43_37,"[151, 174, 192]",174,foreground_98_210_07_categorical,306,00_34_49_43_37,0.8851907750361718
+441,restaurant_interior_ergonomic_optimizing_interiors,"[31, 203]",31,interior_ergonomic_optimizing_interiors_areas,203,restaurant_restaurants_chinese_agent_best,0.8839063405180844
+440,acc_audio_textbf_speech_classification,"[109, 257]",109,waves_reverb_audio_fabfilter_quran,257,acc_audio_textbf_speech_classification,0.8837065445491709
+439,cup_marble_glass_ball_upside,"[26, 128]",128,bucket_liters_water_liter_measure,26,cup_marble_glass_ball_upside,0.8835331897928853
+438,000_price_usd_stock_bitcoin,"[13, 92, 96, 140, 219, 241]",349,rates_rate_inflation_debt_yen,419,000_price_usd_stock_bitcoin,0.8821516960746248
+437,series_movies_harry_movie_potter,"[82, 124, 277]",403,series_movie_movies_fictional_10,124,harry_potter_crs_hermione_temps,0.8805651811351561
+436,apples_apple_bag_fruits_ate,"[32, 283]",283,fruit_favorite_fruits_plate_vegetables,32,apples_apple_bag_ate_yesterday,0.8766388131463996
+435,model_llm_algorithm_quad_llms,"[118, 146, 175, 178, 258]",383,model_llm_llms_dataset_models,118,quad_algorithm_needs_neural__i,0.8743954854973335
+434,art_lorelai_ephraim_artwork_artist,"[30, 53, 80, 162]",389,god_chakra_khan_queen_bible,80,art_lorelai_ephraim_artwork_artist,0.8718249442806052
+433,energy_power_earth_pump_magnetic,"[3, 19, 255, 271]",408,energy_earth_pump_water_magnetic,19,nvidia_cpu_amd_gpu_laptop,0.8714479257841697
+432,game_player_games_probability_damage,"[36, 47, 132, 168]",392,game_player_games_probability_damage,168,pokemon_pokeball_ash_they_delia,0.869969049203933
+431,riddle_am_secret_incorrect_avalon,"[106, 129]",129,riddle_am_secret_avalon_squirrel,106,censored_incorrect_whats_nope_answer,0.8694433070742937
+430,parenthesis_equals_frac_solve_equation,"[51, 79, 272]",375,parenthesis_equals_frac_solve_minus,272,xy_x²_yz_jnp_y²,0.8685813192495754
+429,const_div_class_id_text,"[0, 121, 131, 141]",141,android_dart_final_smoothingfactor_intent,374,const_div_class_id_html,0.8659975537440624
+428,hypnotist_oksana_chloe_ben_wife,"[211, 249]",211,oksana_chloe_ben_christian_oleg,249,hypnotist_villain_wife_necklace_husband,0.8610745754571691
+427,experiment_output_eye_belarusian_hasil,"[167, 244]",244,belarusian_output_determine_sentence_given,167,experiment_eye_hasil_output_input,0.8599124489510918
+426,you_my_me_we_song,"[1, 5, 33, 34, 42, 56, 107, 223, 269, 290]",290,birthday_happy_vailea_special_wishes,420,you_my_we_me_song,0.8597444573709527
+425,questions_answers_question_answer_ielts,"[158, 246, 295]",380,questions_question_answers_answer_ielts,295,variable_data_liners_submitted_answers,0.8595241750014806
+424,null_select_table_varchar_column,"[20, 68, 87]",87,params_plot_color_var_input_data,406,null_select_table_varchar_sql,0.8582126852297538
+423,mut_let_fn_vec_rust,"[35, 83]",35,mut_let_fn_vec_rust,83,err_nil_token_golang_func,0.8548365407409219
+422,word_letter_sentence_words_letters,"[24, 130, 267]",315,word_letter_sentence_letters_words,130,synonyms_antonym_words_opposite_starting,0.8487022184601415
+421,coins_coin_ratio_dollars_owes,"[210, 240]",240,ratio_owes_rs_chocolates_notes,210,coins_coin_bills_fake_dollar,0.8447748914713533
+420,you_my_we_me_song,"[1, 5, 33, 34, 42, 56, 107, 223, 269]",342,you_my_we_song_me,107,armstrong_homelander_senator_marcus_на,0.8437547728201036
+419,000_price_usd_stock_bitcoin,"[13, 92, 96, 140]",388,000_price_usd_stock_bitcoin,140,insurance_claims_caravans_claim_caravan,0.8415249192899357
+418,flame_bracket_reaction_cu_acid,"[94, 149]",94,bracket_square_acid_reaction_subscript,149,flame_cu_tpu_ep_retardant,0.8381585282515127
+417,public_private_java_void_string,"[49, 69, 88]",311,java_public_private_string_damageamount,88,float_0f_private_public_void,0.8380970612848905
+416,circle_theta1_p1_p2_theta2,"[173, 225]",225,pi_difference_between_lowe_raspberry,173,circle_theta1_p1_p2_theta2,0.8374436622568421
+415,tag_encryptedmasterstring_regex_match_cards,"[63, 215]",63,tag_encryptedmasterstring_regex_match_replace,215,cards_card_spades_poker_guessed,0.8369899156678182
+414,day_sleep_trip_reps_year,"[43, 46, 62, 160]",43,reps_sets_workout_weight_muscle,399,day_sleep_trip_year_today,0.8365020406834557
+413,sequence_proof_collatz_numbers_outlining,"[57, 190, 194]",57,proof_theorem_a_n_collatz_rightarrow,390,sequence_outlining_tutorial_encoded_formatted,0.8361250725703909
+412,war_israel_china_russia_ukraine,"[39, 123, 212]",212,taiwan_kong_hong_china_putin,366,war_israel_russia_ukraine_iran,0.8354595555687636
+411,______french________echocardiography_many,"[54, 137, 221]",221,french_learn_echocardiography_german_echocardiographic,345,_____________many_câu_reset,0.8325087363646514
+410,research_and_to_learning_business,"[8, 15, 61, 74, 142, 195, 287]",335,project_health_msf_handover_management,352,research_and_learning_to_business,0.831857982178136
+409,atp_challenger_men_singles_doubles,"[41, 75]",75,olympics_athletes_british_olympic_paris,41,challenger_atp_men_singles_doubles,0.8315774466763045
+408,energy_earth_pump_water_magnetic,"[3, 255, 271]",271,ultimate_synthetic_hybrid_beyond_intelligent,359,energy_earth_pump_water_magnetic,0.8309580027061702
+407,serial_uint8_t_define_arduino_wifi,"[159, 278]",278,define_arduino_avr_asm_blink_sketch_v01_serial_tim1,159,uint8_t_wifi_serial_02x_mac,0.8301315473899971
+406,null_select_table_varchar_sql,"[20, 68]",20,null_select_varchar_table_sql,68,cell_dim_row_cells_column,0.8299172932649503
+405,yes_mel_nuclear_sex_no,"[179, 186]",186,yes_nuclear_no_extinction_humanity,179,mel_sex_woman_penis_yes,0.8293888186394527
+404,room_dry_killers_towels_shirts,"[138, 163]",138,room_killers_enters_kills_leaves,163,dry_towels_shirts_dryer_take,0.8259328816851027
+403,series_movie_movies_fictional_10,"[82, 277]",277,series_fictional_force_mercure_thunder,82,movie_movies_10_tv_series,0.8189866516493534
+402,peg_square_relative_squares_north,"[133, 265]",265,walk_north_90_turn_degrees,133,peg_square_relative_squares_block,0.8185037830784049
+401,president_trump_biden_donald_election,"[45, 66, 213]",325,trump_biden_donald_election_president,213,president_united_states_prosecution_immune,0.8184330514743609
+400,self_torch_def_nn_loss,"[28, 99, 164]",99,pygame_snake_self_sprites_board_size,332,self_torch_nn_def_loss,0.8166361108259417
+399,day_sleep_trip_year_today,"[46, 62, 160]",370,day_trip_year_date_today,160,sleep_winter_night_day_bed,0.8153687904068503
+398,poem_dog_cat_write_dogs,"[10, 27]",10,poem_write_haiku_about_sonnet,27,cat_dog_cats_dogs_puppy,0.8145985266039062
+397,ascii_draw_svg_unicorn_art,"[18, 73]",73,svg_draw_flag_unicorn_tikz,18,ascii_draw_art_uc_unicorn,0.8133116245143653
+396,air_apartment_clean_temperature_wipe,"[72, 89]",89,air_apartment_clean_wipe_bedroom,72,weather_sun_temperature_celsius_rain,0.812216749708323
+395,chicken_scp_ingredients_oz_recipe,"[7, 228]",228,chicken_egg_utterance_came_incomplete,7,scp_ingredients_oz_recipe_pasta,0.8112486800385262
+394,episode_belching_knight_belch_star,"[135, 220]",135,knight_star_jedi_wars_episode,220,episode_belching_belch_jake_loud,0.8103145664426306
+393,water_groundwater_climate_plant_forest,"[44, 274, 297]",371,water_groundwater_climate_forest_species,44,plant_plants_soil_growing_nitrogen,0.8101316412518792
+392,game_player_games_probability_damage,"[36, 47, 132]",132,probability_dice_roll_outcome_die,331,game_games_player_damage_magic,0.8084022718042322
+391,polish_mp3_ukrainian_batch_sentence,"[204, 253]",253,batch_recipe_polish_recipes_exporting,204,polish_mp3_ukrainian_orb_assets,0.803914217995569
+390,sequence_outlining_tutorial_encoded_formatted,"[190, 194]",194,sequence_outlining_tutorial_encoded_formatted,190,roads_sequence_stack_crates_ecg,0.80087275508979
+389,god_chakra_khan_queen_bible,"[30, 53, 162]",30,god_bible_jesus_christ_church,367,chakra_khan_queen_hazrat_mind,0.7985789310279512
+388,000_price_usd_stock_bitcoin,"[13, 92, 96]",92,bitcoin_bii_bitbull_crypto_trade,339,000_price_usd_stock_tax,0.7969440298898611
+387,chess_play_board_white_pawn,"[77, 216]",77,chess_white_board_pawn_black,216,play_tac_tic_toe_game,0.7961399331781166
+386,và_các_là_một_cho,"[70, 157]",70,vietnamese_translation_tiếng_việt_dịch,157,các_và_là_một_của,0.7955358637250545
+385,choices_group_contract_court_legal,"[166, 191]",166,choices_group_contract_answer_corporation,191,court_custody_legal_cases_defendant,0.7902533002345945
+384,story_his_her_mark_he,"[12, 22, 59, 102, 103]",356,story_his_her_mark_he,103,hates_naked_victim_suspect_had,0.7900061972102852
+383,model_llm_llms_dataset_models,"[146, 175, 178, 258]",175,llm_llms_explain_seen_rag,341,model_dataset_learning_tokens_models,0.7886083867774843
+382,english_translate_speaker_japanese_translation,"[64, 180, 242]",329,english_speaker_japanese_translate_translation,242,translate_rāma_सत_rama_english,0.7841641670600015
+381,var_string_wid_text_public,"[202, 264]",264,string_public_classes_returns_type,202,var_wid_text_padding_foregroundcolor,0.7820134204950997
+380,questions_question_answers_answer_ielts,"[158, 246]",158,ielts_speaking_hometown_disagree_people,246,questions_question_answers_answer_extremely,0.7762759471240485
+379,lyrics_chorus_song_verse_musical,"[263, 268]",263,lyrics_genres_musical_chinese_verse,268,chorus_song_hook_bridge_pre,0.774469300973524
+378,bookmark_page_tickle_arabella_jon,"[165, 214]",214,page_bookmark_expect_marks_book,165,tickle_arabella_jon_teaser_bookmark,0.7743759362489461
+377,meaning_verb_languages_life_verbs,"[122, 252]",122,meaning_life_nearer_retaining_near,252,languages_verb_verbs_theme_english,0.7743473916487106
+376,century_history_germany_timeline_easter,"[144, 266]",266,history_timeline_century_greatest_museum,144,century_germany_easter_19th_was,0.7734868108605684
+375,parenthesis_equals_frac_solve_minus,"[51, 79]",51,parenthesis_equals_frac_minus_endfraction,79,solve_x2_equation_x1_x3,0.772517090377441
+374,const_div_class_id_html,"[0, 121, 131]",321,const_div_id_class_html,131,interface_controller_class_objects_article,0.7652828698165376
+373,plt_df_np_pd_import,"[38, 55, 236]",55,df_dataframe_pd_pandas_columns,324,plt_np_ax_import_df,0.7643655583223588
+372,car_engine_cars_wheel_nagen,"[84, 282]",84,car_cars_wheel_buy_driving,282,engine_nagen_renderer_car_yakuza,0.7611217326352469
+371,water_groundwater_climate_forest_species,"[274, 297]",274,climate_forest_species_forests_change,297,water_groundwater_heating_pollution_environmental,0.750011391535693
+370,day_trip_year_date_today,"[46, 62]",62,day_year_date_weekday_today,46,trip_itinerary_plan_travel_day,0.7495652958121596
+369,aws_security_generative_amazon_services,"[95, 152, 188]",326,aws_generative_amazon_services_edge,95,security_browser_cloud_threat_malware,0.7484555143646823
+368,her_she_patient_blood_margins,"[2, 139]",2,her_patient_blood_margins_leg,139,myopia_her_she_risk_hours,0.7434591112410677
+367,chakra_khan_queen_hazrat_mind,"[53, 162]",53,khan_hazrat_arabi_mind_patanjali,162,queen_chakra_suit_energy_spiritual,0.7422630494843625
+366,war_israel_russia_ukraine_iran,"[39, 123]",39,war_russia_ukraine_china_attachment,123,israel_iran_gaza_epstein_israeli,0.7418591323804422
+365,prompt_response_prompts_your_user,"[21, 40, 71, 114]",344,prompt_prompts_words_image_scene,40,zebra_response_instructions_godmode_responses,0.7416895402752892
+364,fight_hammond_win_battle_vs,"[148, 260]",148,hammond_fight_win_battle_fanny,260,fight_1v1_biggest_male_boxer,0.7390694543154581
+363,sisters_brothers_alice_brother_sister,"[16, 276]",16,sisters_brothers_alice_brother_sister,276,doing_playing_anna_reading_chess,0.7383995495226481
+362,book_books_quote_chapter_recommend,"[113, 127]",127,quote_vs_chapter_book_250,113,book_books_recommend_author_fiction,0.7377168834152914
+361,python_code_function_km_train,"[112, 234]",234,km_train_station_speed_average,112,python_code_function_functions_write,0.7376135562043309
+360,integer_farm_smallest_john_animals,"[170, 262]",262,integer_farm_john_animals_legs,170,smallest_integer_square_integers_whose,0.7362839945872608
+359,energy_earth_pump_water_magnetic,"[3, 255]",3,earth_magnetic_wave_theory_moon,255,energy_pump_comfort_grid_recirculation,0.7347995982444993
+358,image_cv2_255_np_annotations,"[58, 86]",58,image_generate_create_an_images,86,cv2_255_image_np_annotations,0.7336914372833631
+357,countries_country_population_iq_borders,"[176, 187]",187,country_borders_africa_countries_europe,176,population_countries_iq_genetic_country,0.7329397076635236
+356,story_his_her_mark_he,"[12, 22, 59, 102]",22,mark_story_narration_lying_abby,322,story_his_her_he_she,0.7310001320694288
+355,py_self_def_import_os,"[116, 189, 289]",189,que_file_kline_print_csv,327,self_py_def_os_import,0.7264416022817634
+354,ip_server_network_address_proxy,"[101, 154]",101,ip_network_address_devices_port,154,server_proxy_packets_tls_packet,0.7260767769959211
+353,rev_et_protein_al_ksr,"[90, 119]",90,et_clade_al_imprinting_patients,119,rev_ksr_erbα_prgf_gene,0.7245862641341292
+352,research_and_learning_to_business,"[8, 15, 61, 74, 195]",333,research_and_learning_business_experience,74,urban_india_gentrification_social_residents,0.7242960894077379
+351,sentences_apple_block_idx_block_class_page_idx,"[29, 196]",29,sentences_apple_page_idx_block_class_block_idx,196,sentences_b1_nouns_vocabulary_b2,0.7218043282220759
+350,matrix_confidant_policies_vector_anything,"[93, 104]",93,confidant_matrix_policies_anything_rules,104,matrix_vector_wais_matrices_space,0.7178214471522775
+349,rates_rate_inflation_debt_yen,"[219, 241]",241,rates_yen_japan_rate_participant,219,debt_inflation_gdp_cent_economy,0.7174242870585963
+348,house_person_who_loves_smokes,"[156, 247]",156,person_loves_who_house_eric,247,house_smokes_lives_drinks_tea,0.716944826157836
+347,file_ubuntu_install_docker_python3,"[4, 25, 117]",25,docker_cluster_airflow_eks_pod,330,ubuntu_file_command_install_linux,0.716698484872486
+346,std_int_node_tuple_return,"[23, 37]",37,int_node_nums_array_arr,23,std_tuple_typename_size_t_const,0.7118885065491478
+345,_____________many_câu_reset,"[54, 137]",54,______many_oui_word_letter,137,_____________câu_reset_tomato,0.7110599216807072
+344,prompt_prompts_words_image_scene,"[21, 71, 114]",114,words_response_prompt_many_your,313,prompt_prompts_image_scene_presentation,0.7109720457099332
+343,numbers_prime_digits_digit_number,"[193, 280]",280,prime_number_uint64_t_largest_primes,193,numbers_digits_digit_sum_prime,0.7077713503507814
+342,you_my_we_song_me,"[1, 5, 33, 34, 42, 56, 223, 269]",42,reading_read_esoteric_paragraph_adhd,336,you_my_we_song_me,0.7077047160382579
+341,model_dataset_learning_tokens_models,"[146, 178, 258]",316,dataset_model_learning_tokens_embeddings,258,model_quantization_models_finder_diagram,0.7009917792773968
+340,father_son_mother_age_old,"[185, 251]",251,son_boy_doctor_operate_man,185,father_mother_age_born_old,0.7005336709664994
+339,000_price_usd_stock_tax,"[13, 96]",13,000_price_usd_stock_cash,96,tax_money_stanford_income_taxes,0.6904084631138729
+338,blue_cubes_red_green_cube,"[76, 105]",105,cubes_cube_blue_green_red,76,color_colors_blue_theme_red,0.68675183103338
+337,joke_tell_me_about_funny,"[9, 85]",9,joke_tell_funny_me_jokes,85,tell_me_about_fact_interesting,0.6860089827079823
+336,you_my_we_song_me,"[1, 5, 33, 34, 56, 223, 269]",334,you_my_song_we_me,269,cool_thanks_tweet_ai_twitter,0.6815515485576655
+335,project_health_msf_handover_management,"[142, 287]",287,project_management_tasks_zone_scope,142,health_msf_handover_care_project,0.6809578995591512
+334,you_my_song_we_me,"[1, 5, 33, 34, 56, 223]",318,you_my_song_we_me,317,people_humans_gender_human_ai,0.6628813660499133
+333,research_and_learning_business_experience,"[8, 15, 61, 195]",195,research_review_reviews_literature_systematic,308,and_learning_business_research_product,0.6628357266687774
+332,self_torch_nn_def_loss,"[28, 164]",164,self_qt_tk_addwidget_def,28,self_torch_nn_loss_model,0.6577180230998565
+331,game_games_player_damage_magic,"[36, 47]",47,game_games_player_players_character,36,damage_attack_magic_spell_mana,0.6511152764361038
+330,ubuntu_file_command_install_linux,"[4, 117]",4,ubuntu_command_linux_echo_file,117,install_pip_packages_conda_python,0.6510773403847748
+329,english_speaker_japanese_translate_translation,"[64, 180]",64,english_speaker_japanese_translation_translate,180,english_spanish_translate_phrase_french,0.647037051641153
+328,sample_distribution_correlation_variables_mean,"[98, 171]",98,sample_correlation_distribution_decimal_mean,171,distribution_variables_mid_xt_random,0.6458348223048405
+327,self_py_def_os_import,"[116, 289]",116,os_path_str_import_file_path,289,py_self_await_lib_db,0.6446484515106408
+326,aws_generative_amazon_services_edge,"[152, 188]",188,aws_generative_ai_edge_services,152,amazon_aws_gateway_configure_vpc,0.6438064720260008
+325,trump_biden_donald_election_president,"[45, 66]",66,trump_donald_erin_she_president,45,biden_election_president_trump_presidential,0.6407206774414349
+324,plt_np_ax_import_df,"[38, 236]",38,plt_np_ax_df_fig,236,ˆâ_y_test_print_sklearn_x_train,0.6373881738609892
+323,roleplay_char_mao_user_character,"[198, 208]",208,mao_luca_char_roleplay_tiffany,198,roleplay_char_cute_yandere_character,0.6331259602083772
+322,story_his_her_he_she,"[12, 59, 102]",309,story_his_her_char_he,59,descriptive_she_girl_he_expressive,0.6318049467701524
+321,const_div_id_class_html,"[0, 121]",0,const_div_id_class_html,121,data_application_client_api_js,0.6299989181668478
+320,strawberry_many_word_rs_how,"[6, 169, 237]",305,strawberry_many_word_how_letter,169,rs_strawberry_many_word_tablename,0.6293433503281333
+319,door_doors_kitchen_room_leads,"[108, 200]",200,door_kitchen_room_aluminium_hall,108,door_doors_choice_behind_chests,0.6275912958028698
+318,you_my_song_we_me,"[1, 5, 33, 223]",223,jack_advice_spends_caste_things,304,song_you_my_we_me,0.6207739473210746
+317,people_humans_gender_human_ai,"[34, 56]",56,people_gender_ideology_they_women,34,humans_human_ai_riddle_consciousness,0.6115800838802822
+316,dataset_model_learning_tokens_embeddings,"[146, 178]",178,dataset_embeddings_embedding_transformer_bert,146,tokens_model_unlearning_learning_llm,0.5923381574783262
+315,word_letter_sentence_letters_words,"[24, 267]",267,sentence_word_base_grammatically_________,24,word_letter_letters_words_sentence,0.5903862039174419
+314,youtube_channel_lofi_video_waifu,"[145, 254]",145,channel_lofi_youtube_video_waifu,254,youtube_channels_channel_uttp_fandoms,0.5897490099528256
+313,prompt_prompts_image_scene_presentation,"[21, 71]",71,prompt_presentation_prompts_instruction_mllms,21,prompt_image_scene_style_lighting,0.576523558714923
+312,river_boat_farmer_goat_sheep,"[78, 111, 209]",111,cabbage_wolf_goat_river_eat,303,river_boat_farmer_sheep_side,0.5714906924599249
+311,java_public_private_string_damageamount,"[49, 69]",49,java_println_public_damageamount_string,69,private_public_org_java_string,0.5645997906072145
+310,ai_agi_acid_misinformation_users,"[60, 239]",60,ai_agi_acid_misinformation_users,239,ai_intelligence_sinaugoro_kwari_lrc,0.5564026134541527
+309,story_his_her_char_he,"[12, 102]",102,his_her_char_he_she,12,story_horror_write_short_characters,0.5532400346588187
+308,and_learning_business_research_product,"[8, 15, 61]",61,students_learning_teaching_teacher_teachers,301,and_business_product_experience_content,0.5329073459585447
+307,names_name_suggest_brand_food,"[48, 136]",136,names_name_greek_surname_vashti,48,names_name_suggest_brand_food,0.5174815319505561
+306,00_34_49_43_37,"[151, 192]",192,00_49_43_37_34,151,14_28_35_16_list,0.5013181162711573
+305,strawberry_many_word_how_letter,"[6, 237]",237,strawberry_side_11_bigger_dog,6,strawberry_many_word_how_letter,0.49667094082799745
+304,song_you_my_we_me,"[1, 5, 33]",302,email_we_you_my_she,1,song_chorus_verse_oh_lyrics,0.49003842807382036
+303,river_boat_farmer_sheep_side,"[78, 209]",209,river_boat_goat_side_man,78,river_sheep_farmer_boat_trips,0.399619489202064
+302,email_we_you_my_she,"[5, 33]",5,email_we_you_our_to,33,she_girl_her_my_feel,0.37648500305845356
+301,and_business_product_experience_content,"[8, 15]",15,skills_experience_and_team_research,8,product_content_business_your_marketing,0.3247702583112282
+300,bigger_11_larger_which_or,"[14, 97]",97,bigger_11_which_heroes_larger,14,11_bigger_larger_which_or,0.24838568366551095
