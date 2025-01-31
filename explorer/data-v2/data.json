@@ -3,7 +3,7 @@
     "children": [
         {
             "id": 0,
-            "name": "Puzzles",
+            "name": "Puzzles & Math",
             "children": [
                 {
                     "id": 2,
@@ -1785,7 +1785,7 @@
         },
         {
             "id": 10,
-            "name": "Technology Implementations",
+            "name": "Tech Implementations",
             "children": [
                 {
                     "id": 28,
