@@ -84,7 +84,7 @@
       font-family: 'Poppins', sans-serif;
       font-size: 14px;
       padding: 8px 30px 8px 12px; /* Extra right padding for arrow */
-      width: 140px;
+      width: 180px;
       border: 1px solid #ccc;
       border-radius: 8px; /* Soft rounded corners */
       background-color: white;
@@ -138,16 +138,39 @@
 
       // Get all keys from the JSON
       let allKeys = Object.keys(data2);
+      
+      const orderKeys = ['full', 'math', 'if', 'multiturn', 'creative_writing', 'coding', 'hard_6', 'hard_english_6', 'long_user', 'english', 'chinese', 'french', 'german', 'spanish', 'russian', 'japanese', 'korean', 'no_tie', 'no_short', 'no_refusal']
+      
+      allKeys = allKeys.sort((a, b) => {
+        // First, check the position in the custom order array
+        const aIndex = orderKeys.indexOf(a);
+        const bIndex = orderKeys.indexOf(b);
 
-       // Ensure "full_scores" is at the front
-      allKeys = allKeys.filter(k => k !== "full"); // Remove it from the list
-      allKeys.unshift("full"); // Add it to the front
+        // If both keys are found in the custom order, compare their indices
+        if (aIndex !== -1 && bIndex !== -1) {
+          return aIndex - bIndex;
+        }
+
+        // If one of the keys is not in the custom order, keep its relative position
+        if (aIndex === -1 && bIndex === -1) return 0;
+        return aIndex === -1 ? 1 : -1;
+      });
 
       // Function to format key names
       const formatKey = (key) => {
-        return key
+        const keyMapping = {
+          if: "Instruction Following",
+          multiturn: "Multi-Turn",
+          hard_6: "Hard Prompts",
+          hard_english_6: "Hard Prompts (English)",
+          long_user: "Longer Query",
+          no_tie: "Exclude Ties",
+          no_short: "Exclude Short Query",
+        };
+
+        return keyMapping[key] || key
           .replace(/_/g, " ")  // Replace underscores with spaces
-          .replace(/\b\w/g, char => char.toUpperCase()); // Capitalize each word
+          .replace(/\b\w/g, char => char.toUpperCase()); // Capitalize each word;
       };
 
       // Append each key as an option
@@ -297,7 +320,7 @@
         // Add confidence intervals text
         svg.append("text")
           .attr("class", "legend-title")
-          .attr("x", w - margin.right - 240)  // Center text in the box
+          .attr("x", w - margin.right - 270)  // Center text in the box
           .attr("y", 35)   // Adjust for better alignment
           .attr("text-anchor", "middle") // Center alignment
           .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
@@ -546,7 +569,7 @@
         // Create a toggle container (group)
         const toggleGroup = svg.append("g")
           .attr("class", "toggle-group")
-          .attr("transform", `translate(${w - margin.right - 150}, 20)`)
+          .attr("transform", `translate(${w - margin.right - 180}, 20)`)
           .style("cursor", "pointer");
 
         // Toggle background (like a switch)
@@ -632,8 +655,6 @@
   
         const button = document.querySelector(".toggle-dark-mode");
         button.textContent = isDarkMode ? "Light Mode" : "Dark Mode";
-
-        console.log(isDarkMode);
   
         svg.selectAll(".point-label")
           .attr("fill", isDarkMode ? "#f0f0f0" : "#000000");
