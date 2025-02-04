@@ -298,5 +298,15 @@
     "license": "MIT",
     "price_source": "https://api-docs.deepseek.com/quick_start/pricing",
     "model_source": "https://api-docs.deepseek.com/news/news250120"
+  },
+  {
+    "name": "o1",
+    "model_api_name": "o1-2024-12-17",
+    "input_token_price": "15",
+    "output_token_price": "60",
+    "organization": "OpenAI",
+    "license": "Proprietary",
+    "price_source": "https://openai.com/api/pricing/",
+    "model_source": "https://openai.com/index/o1-and-new-tools-for-developers/"
   }
 ]
