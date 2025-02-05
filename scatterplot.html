@@ -219,6 +219,27 @@
       function calculatePointRadius(containerWidth, containerHeight) {
         return Math.max(3, Math.min(containerWidth / 210, 9, containerHeight/ 180));
       }
+
+      function linearRegression(data) {
+        const N = data.length;
+        const sumX = d3.sum(data, d => d.output_token_price);
+        const sumY = d3.sum(data, d => d[document.getElementById("category-toggle").value + "_rating"]);
+        const sumXY = d3.sum(data, d => d.output_token_price * d[document.getElementById("category-toggle").value + "_rating"]);
+        const sumX2 = d3.sum(data, d => d.output_token_price * d.output_token_price);
+
+        // Calculate slope (m)
+        const m = (N * sumXY - sumX * sumY) / (N * sumX2 - sumX * sumX);
+        
+        // Calculate y-intercept (b)
+        const b = (sumY - m * sumX) / N;
+
+        return { m, b };
+      }
+
+      function isAboveLine(point, m, b) {
+        const yOnLine = m * point.output_token_price + b + 50;
+        return point[document.getElementById("category-toggle").value + "_rating"] > yOnLine;
+      }
   
       function renderScatterplot(w, h) {
         svg.selectAll("*").remove();
@@ -561,7 +582,7 @@
             }
           });
         
-        const companiesShowLabel = ['Google', 'OpenAI', 'DeepSeek', 'Anthropic', 'Meta'];
+        const companiesShowLabelForFullScores = ['Google', 'OpenAI', 'DeepSeek', 'Anthropic', 'Meta', '01 AI'];
         
         // Initial state
         let showConfidenceIntervals = false; 
@@ -621,7 +642,8 @@
             .attr("fill", document.body.classList.contains("dark-mode") ? "#f0f0f0" : "#000000")
             .style("opacity", 1)
             .each(function(d) {
-              if (companiesShowLabel.includes(d.organization) && (document.getElementById("category-toggle").value + "_rating" == "full_rating" || minDistance(d, data) > 90)) {
+              const { m, b } = linearRegression(data);
+              if (companiesShowLabelForFullScores.includes(d.organization) && (document.getElementById("category-toggle").value + "_rating" == "full_rating" || isAboveLine(d, m, b))) {
                 d3.select(this).append("tspan").text(d.name).attr("font-weight", "bold");
               }
             });

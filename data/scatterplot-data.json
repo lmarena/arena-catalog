@@ -308,5 +308,15 @@
     "license": "Proprietary",
     "price_source": "https://openai.com/api/pricing/",
     "model_source": "https://openai.com/index/o1-and-new-tools-for-developers/"
+  },
+  {
+    "name": "Gemini 2.0 Flash",
+    "model_api_name": "gemini-2.0-flash-001",
+    "input_token_price": "0.1",
+    "output_token_price": "0.4",
+    "organization": "Google",
+    "license": "Proprietary",
+    "price_source": "https://ai.google.dev/pricing#2_0flash",
+    "model_source": "https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys-1121&model=gemini-2.0-flash-001"
   }
 ]
