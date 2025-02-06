@@ -22,8 +22,8 @@
   {
     "name": "o1-mini",
     "model_api_name": "o1-mini",
-    "input_token_price": "3",
-    "output_token_price": "12",
+    "input_token_price": "1.1",
+    "output_token_price": "4.4",
     "organization": "OpenAI",
     "license": "Proprietary",
     "price_source": "https://openai.com/api/pricing/",
@@ -72,8 +72,8 @@
   {
     "name": "GLM-4-Plus",
     "model_api_name": "glm-4-plus-0111",
-    "input_token_price": "6.8",
-    "output_token_price": "6.8",
+    "input_token_price": "6.9",
+    "output_token_price": "6.9",
     "organization": "Zhipu AI",
     "license": "Proprietary",
     "price_source": "https://open.bigmodel.cn/pricing",
@@ -328,5 +328,15 @@
     "license": "Proprietary",
     "price_source": "https://ai.google.dev/pricing#2_0flash_lite",
     "model_source": "https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-lite-preview-02-05"
+  },
+  {
+    "name": "Gemma-2-9B-it",
+    "model_api_name": "gemma-2-9b-it",
+    "input_token_price": "0.3",
+    "output_token_price": "0.3",
+    "organization": "Google",
+    "license": "Gemma license",
+    "price_source": "https://www.together.ai/pricing",
+    "model_source": "https://aistudio.google.com/app/prompts/new_chat?model=gemma-2-9b-it"
   }
 ]

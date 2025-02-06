@@ -39,6 +39,7 @@
     "gemini-2.0-flash-001",
     "gemini-2.0-flash-lite-preview",
     "chatgpt-4o-latest-20241120",
+    "deepseek-v3",
     "llama-3.1-8b-instruct",
     "llama-3.1-405b-instruct-fp8",
     "llama-3.1-70b-instruct",
@@ -47,8 +48,6 @@
     "claude-3-5-sonnet-20241022",
     "gemini-1.5-pro-002",
     "gemini-1.5-flash-002",
-    "gemini-1.5-flash-8b-001",
-    "o1-mini",
     "o1-preview",
     "gpt-4o-mini-2024-07-18"
   ],
