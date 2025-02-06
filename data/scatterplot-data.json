@@ -71,7 +71,7 @@
   },
   {
     "name": "GLM-4-Plus",
-    "model_api_name": "glm-4-plus",
+    "model_api_name": "glm-4-plus-0111",
     "input_token_price": "6.8",
     "output_token_price": "6.8",
     "organization": "Zhipu AI",
@@ -120,14 +120,14 @@
     "model_source": "https://platform.openai.com/docs/models/gpt-4o"
   },
   {
-    "name": "Qwen-Max-0919",
-    "model_api_name": "qwen-max-0919",
-    "input_token_price": "10",
-    "output_token_price": "30",
+    "name": "Qwen2.5-Max",
+    "model_api_name": "qwen2.5-max",
+    "input_token_price": "1.6",
+    "output_token_price": "6.4",
     "organization": "Alibaba",
     "license": "Qwen",
     "price_source": "https://www.alibabacloud.com/help/en/model-studio/billing-for-model-studio?spm=a2c63.p38356.0.i1",
-    "model_source": "https://help.aliyun.com/zh/dashscope/developer-reference/model-introduction"
+    "model_source": "https://qwenlm.github.io/blog/qwen2.5-max/"
   },
   {
     "name": "Qwen2.5-72B-Instruct",
@@ -190,14 +190,14 @@
     "model_source": "https://docs.reka.ai/available-models"
   },
   {
-    "name": "Qwen-Plus-0828",
-    "model_api_name": "qwen-plus-0828",
-    "input_token_price": "3",
-    "output_token_price": "9",
+    "name": "Qwen2.5-plus-1127",
+    "model_api_name": "qwen2.5-plus-1127",
+    "input_token_price": "0.4",
+    "output_token_price": "1.2",
     "organization": "Alibaba",
     "license": "Proprietary",
     "price_source": "https://www.alibabacloud.com/help/en/model-studio/developer-reference/billing-for-tongyiqianwen",
-    "model_source": "https://help.aliyun.com/zh/model-studio/getting-started/models"
+    "model_source": "https://help.aliyun.com/zh/model-studio/getting-started/models?spm=a2c4g.11186623.0.i7"
   },
   {
     "name": "Command R+ (08-2024)",
@@ -222,8 +222,8 @@
   {
     "name": "Gemini 1.5 Flash-8B",
     "model_api_name": "gemini-1.5-flash-8b-001",
-    "input_token_price": "0.0375",
-    "output_token_price": "0.15",
+    "input_token_price": "0.075",
+    "output_token_price": "0.3",
     "organization": "Google",
     "license": "Proprietary",
     "price_source": "https://ai.google.dev/pricing#1_5flash-8B",
@@ -318,5 +318,15 @@
     "license": "Proprietary",
     "price_source": "https://ai.google.dev/pricing#2_0flash",
     "model_source": "https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys-1121&model=gemini-2.0-flash-001"
+  },
+  {
+    "name": "Gemini 2.0 Flash-Lite",
+    "model_api_name": "gemini-2.0-flash-lite-preview",
+    "input_token_price": "0.075",
+    "output_token_price": "0.3",
+    "organization": "Google",
+    "license": "Proprietary",
+    "price_source": "https://ai.google.dev/pricing#2_0flash_lite",
+    "model_source": "https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-lite-preview-02-05"
   }
 ]

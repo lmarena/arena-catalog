@@ -131,8 +131,9 @@
   <script>
    Promise.all([
         d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/scatterplot-data.json"),
-        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-data.json")
-      ]).then(function  ([data, data2]) {
+        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-data.json"),
+        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/visibility-data.json")
+      ]).then(function  ([data, data2, data3]) {
 
       const dropdown = d3.select("#category-toggle");
 
@@ -219,34 +220,13 @@
       function calculatePointRadius(containerWidth, containerHeight) {
         return Math.max(3, Math.min(containerWidth / 210, 9, containerHeight/ 180));
       }
-
-      function linearRegression(data) {
-        const N = data.length;
-        const sumX = d3.sum(data, d => d.output_token_price);
-        const sumY = d3.sum(data, d => d[document.getElementById("category-toggle").value + "_rating"]);
-        const sumXY = d3.sum(data, d => d.output_token_price * d[document.getElementById("category-toggle").value + "_rating"]);
-        const sumX2 = d3.sum(data, d => d.output_token_price * d.output_token_price);
-
-        // Calculate slope (m)
-        const m = (N * sumXY - sumX * sumY) / (N * sumX2 - sumX * sumX);
-        
-        // Calculate y-intercept (b)
-        const b = (sumY - m * sumX) / N;
-
-        return { m, b };
-      }
-
-      function isAboveLine(point, m, b) {
-        const yOnLine = m * point.output_token_price + b + 50;
-        return point[document.getElementById("category-toggle").value + "_rating"] > yOnLine;
-      }
   
       function renderScatterplot(w, h) {
         svg.selectAll("*").remove();
         
         // Assign legend item
         data.forEach(d => {
-          const legendItems = ["Google", "OpenAI", "Anthropic", "Meta", "DeepSeek", "Alibaba", "Cohere"];
+          const legendItems = ["Google", "OpenAI", "Anthropic", "Meta", "DeepSeek", "Alibaba", "Cohere", "Mistral"];
           if (legendItems.includes(d.organization)) {
             d.legend_item = d.organization;
           } else {
@@ -370,22 +350,8 @@
           .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
           .style("font-size", `${fontSize * 1.2}px`)
           .text("Arena Score");
-        
-        // Function to calculate min distance between points
-        function minDistance(point, allPoints) {
-          let minDist = 100;
-          allPoints.forEach(other => {
-            if (point !== other) {
-              const dx = xScale(point.output_token_price) - xScale(other.output_token_price);
-              const dy = yScale(point[document.getElementById("category-toggle").value + "_rating"]) - yScale(other[document.getElementById("category-toggle").value + "_rating"]);
-              const dist = Math.sqrt(dx * dx + dy * dy);
-              minDist = Math.min(minDist, dist);
-            }
-          });
-          return minDist;
-        }
 
-        const desiredOrder = ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "Cohere", "Other"];
+        const desiredOrder = ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "Cohere", "Mistral", "Other"];
   
         const categories = [...new Set(data.map(d => d.legend_item))];
         const sortedCategories = categories.sort((a, b) => {
@@ -629,21 +595,20 @@
         const labels = svg.selectAll(".point-label").data(data).join("text")
             .attr("class", "point-label")
             .attr("x", d => {
-              if (d.model_api_name == "o1-mini" || d.output_token_price <= minPrice*2) {
+              if (d.output_token_price <= minPrice*2) {
                 return xScale(d.output_token_price) + 0.01*w;
               } else {
                 return xScale(d.output_token_price) - 0.01*w;
               }
             })
             .attr("y", d => (yScale(d[document.getElementById("category-toggle").value + "_rating"]) + 0.004*w))
-            .attr("text-anchor", d => (d.model_api_name == "o1-mini" || d.output_token_price <= minPrice*2 ? "start" : "end"))
+            .attr("text-anchor", d => (d.output_token_price <= minPrice*2 ? "start" : "end"))
             .style("font-size", `${fontSize}px`)
             .attr("font-family", "Poppins")
             .attr("fill", document.body.classList.contains("dark-mode") ? "#f0f0f0" : "#000000")
             .style("opacity", 1)
             .each(function(d) {
-              const { m, b } = linearRegression(data);
-              if (companiesShowLabelForFullScores.includes(d.organization) && (document.getElementById("category-toggle").value + "_rating" == "full_rating" || isAboveLine(d, m, b))) {
+              if ((document.getElementById("category-toggle").value + "_rating" == "full_rating" && companiesShowLabelForFullScores.includes(d.organization)) || data3[document.getElementById("category-toggle").value].includes(d.model_api_name)) {
                 d3.select(this).append("tspan").text(d.name).attr("font-weight", "bold");
               }
             });

@@ -1,0 +1,142 @@
+{
+  "chinese": [
+    "yi-lightning",
+    "ministral-8b-2410",
+    "gemini-2.0-flash-001"
+  ],
+  "coding": [
+    "o1-mini",
+    "yi-lightning",
+    "ministral-8b-2410",
+    "deepseek-r1",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview"
+  ],
+  "creative_writing": [
+    "chatgpt-4o-latest-20241120",
+    "yi-lightning",
+    "ministral-8b-2410",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview"
+  ],
+  "english": [
+    "chatgpt-4o-latest-20241120",
+    "yi-lightning",
+    "ministral-8b-2410",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview"
+  ],
+  "french": [
+    "yi-lightning",
+    "ministral-8b-2410",
+    "gemini-2.0-flash-001"
+  ],
+  "full": [
+    "chatgpt-4o-latest-20241120",
+    "yi-lightning",
+    "ministral-8b-2410",
+    "deepseek-r1",
+    "o1-2024-12-17",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview"
+  ],
+  "german": [
+    "yi-lightning",
+    "ministral-8b-2410",
+    "deepseek-r1",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview"
+  ],
+  "hard_6": [
+    "yi-lightning",
+    "claude-3-5-sonnet-20241022",
+    "ministral-8b-2410",
+    "deepseek-r1",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview"
+  ],
+  "hard_english_6": [
+    "yi-lightning",
+    "ministral-8b-2410",
+    "deepseek-r1",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview"
+  ],
+  "if": [
+    "chatgpt-4o-latest-20241120",
+    "yi-lightning",
+    "ministral-8b-2410",
+    "deepseek-r1",
+    "o1-2024-12-17",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview"
+  ],
+  "japanese": [
+    "chatgpt-4o-latest-20241120",
+    "gemini-1.5-pro-002",
+    "yi-lightning",
+    "ministral-8b-2410",
+    "gemini-2.0-flash-lite-preview"
+  ],
+  "korean": [
+    "chatgpt-4o-latest-20241120",
+    "yi-lightning",
+    "ministral-8b-2410",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview"
+  ],
+  "long_user": [
+    "chatgpt-4o-latest-20241120",
+    "yi-lightning",
+    "ministral-8b-2410",
+    "o1-2024-12-17",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview"
+  ],
+  "math": [
+    "yi-lightning",
+    "ministral-8b-2410",
+    "deepseek-r1",
+    "o1-2024-12-17",
+    "gemini-2.0-flash-001"
+  ],
+  "multiturn": [
+    "chatgpt-4o-latest-20241120",
+    "yi-lightning",
+    "ministral-8b-2410",
+    "gemini-2.0-flash-001"
+  ],
+  "no_refusal": [
+    "chatgpt-4o-latest-20241120",
+    "yi-lightning",
+    "ministral-8b-2410",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview"
+  ],
+  "no_short": [
+    "chatgpt-4o-latest-20241120",
+    "yi-lightning",
+    "ministral-8b-2410",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview"
+  ],
+  "no_tie": [
+    "chatgpt-4o-latest-20241120",
+    "yi-lightning",
+    "ministral-8b-2410",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview"
+  ],
+  "russian": [
+    "chatgpt-4o-latest-20241120",
+    "yi-lightning",
+    "ministral-8b-2410",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview"
+  ],
+  "spanish": [
+    "yi-lightning",
+    "ministral-8b-2410",
+    "gemini-2.0-flash-001"
+  ]
+}
