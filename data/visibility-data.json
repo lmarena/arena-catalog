@@ -5,7 +5,6 @@
     "gemini-2.0-flash-001"
   ],
   "coding": [
-    "o1-mini",
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
@@ -23,6 +22,7 @@
     "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
+    "deepseek-r1",
     "gemini-2.0-flash-001",
     "gemini-2.0-flash-lite-preview"
   ],
@@ -32,13 +32,25 @@
     "gemini-2.0-flash-001"
   ],
   "full": [
-    "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
     "o1-2024-12-17",
     "gemini-2.0-flash-001",
-    "gemini-2.0-flash-lite-preview"
+    "gemini-2.0-flash-lite-preview",
+    "chatgpt-4o-latest-20241120",
+    "llama-3.1-8b-instruct",
+    "llama-3.1-405b-instruct-fp8",
+    "llama-3.1-70b-instruct",
+    "claude-3-opus-20240229",
+    "claude-3-5-haiku-2024102",
+    "claude-3-5-sonnet-20241022",
+    "gemini-1.5-pro-002",
+    "gemini-1.5-flash-002",
+    "gemini-1.5-flash-8b-001",
+    "o1-mini",
+    "o1-preview",
+    "gpt-4o-mini-2024-07-18"
   ],
   "german": [
     "yi-lightning",
@@ -49,7 +61,6 @@
   ],
   "hard_6": [
     "yi-lightning",
-    "claude-3-5-sonnet-20241022",
     "ministral-8b-2410",
     "deepseek-r1",
     "gemini-2.0-flash-001",
@@ -63,7 +74,6 @@
     "gemini-2.0-flash-lite-preview"
   ],
   "if": [
-    "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
@@ -73,15 +83,16 @@
   ],
   "japanese": [
     "chatgpt-4o-latest-20241120",
-    "gemini-1.5-pro-002",
     "yi-lightning",
     "ministral-8b-2410",
+    "deepseek-r1",
     "gemini-2.0-flash-lite-preview"
   ],
   "korean": [
     "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
+    "deepseek-r1",
     "gemini-2.0-flash-001",
     "gemini-2.0-flash-lite-preview"
   ],
@@ -89,6 +100,7 @@
     "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
+    "deepseek-r1",
     "o1-2024-12-17",
     "gemini-2.0-flash-001",
     "gemini-2.0-flash-lite-preview"
@@ -104,12 +116,14 @@
     "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
+    "deepseek-r1",
     "gemini-2.0-flash-001"
   ],
   "no_refusal": [
     "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
+    "deepseek-r1",
     "gemini-2.0-flash-001",
     "gemini-2.0-flash-lite-preview"
   ],
@@ -117,6 +131,7 @@
     "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
+    "deepseek-r1",
     "gemini-2.0-flash-001",
     "gemini-2.0-flash-lite-preview"
   ],
@@ -124,6 +139,7 @@
     "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
+    "deepseek-r1",
     "gemini-2.0-flash-001",
     "gemini-2.0-flash-lite-preview"
   ],
@@ -131,6 +147,7 @@
     "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
+    "deepseek-r1",
     "gemini-2.0-flash-001",
     "gemini-2.0-flash-lite-preview"
   ],

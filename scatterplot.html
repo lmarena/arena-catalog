@@ -415,6 +415,27 @@
                 .style("opacity", d => selectedCategories.size === 0 || selectedCategories.has(d) ? 1 : 0.1);
           });
 
+          const labels = svg.selectAll(".point-label").data(data).join("text")
+            .attr("class", "point-label")
+            .attr("x", d => {
+              if (d.output_token_price <= minPrice*2) {
+                return xScale(d.output_token_price) + 0.01*w;
+              } else {
+                return xScale(d.output_token_price) - 0.01*w;
+              }
+            })
+            .attr("y", d => (yScale(d[document.getElementById("category-toggle").value + "_rating"]) + 0.003*w))
+            .attr("text-anchor", d => (d.output_token_price <= minPrice*2 ? "start" : "end"))
+            .style("font-size", `${fontSize}px`)
+            .attr("font-family", "Poppins")
+            .attr("fill", document.body.classList.contains("dark-mode") ? "#f0f0f0" : "#000000")
+            .style("opacity", 1)
+            .each(function(d) {
+              if (data3[document.getElementById("category-toggle").value].includes(d.model_api_name)) {
+                d3.select(this).append("tspan").text(d.name).attr("font-weight", "bold");
+              }
+            });
+
         const pointRadius = calculatePointRadius(w, h);
 
         const groups = svg.selectAll(".point-group")
@@ -548,8 +569,6 @@
             }
           });
         
-        const companiesShowLabelForFullScores = ['Google', 'OpenAI', 'DeepSeek', 'Anthropic', 'Meta', '01 AI'];
-        
         // Initial state
         let showConfidenceIntervals = false; 
 
@@ -591,27 +610,6 @@
           // Update point radius
           points.attr("r", showConfidenceIntervals ? pointRadius : pointRadius + 2);
         });
-
-        const labels = svg.selectAll(".point-label").data(data).join("text")
-            .attr("class", "point-label")
-            .attr("x", d => {
-              if (d.output_token_price <= minPrice*2) {
-                return xScale(d.output_token_price) + 0.01*w;
-              } else {
-                return xScale(d.output_token_price) - 0.01*w;
-              }
-            })
-            .attr("y", d => (yScale(d[document.getElementById("category-toggle").value + "_rating"]) + 0.004*w))
-            .attr("text-anchor", d => (d.output_token_price <= minPrice*2 ? "start" : "end"))
-            .style("font-size", `${fontSize}px`)
-            .attr("font-family", "Poppins")
-            .attr("fill", document.body.classList.contains("dark-mode") ? "#f0f0f0" : "#000000")
-            .style("opacity", 1)
-            .each(function(d) {
-              if ((document.getElementById("category-toggle").value + "_rating" == "full_rating" && companiesShowLabelForFullScores.includes(d.organization)) || data3[document.getElementById("category-toggle").value].includes(d.model_api_name)) {
-                d3.select(this).append("tspan").text(d.name).attr("font-weight", "bold");
-              }
-            });
 
         legend.append("rect")
           .attr("width", pointRadius*3.2)
