@@ -100,7 +100,7 @@
     "model_source": "https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys&model=gemini-1.5-flash-002"
   },
   {
-    "name": "Llama-3.1-405B",
+    "name": "Llama 3.1 405B",
     "model_api_name": "llama-3.1-405b-instruct-fp8",
     "input_token_price": "3.5",
     "output_token_price": "3.5",
@@ -150,7 +150,7 @@
     "model_source": "https://ai.meta.com/blog/meta-llama-3-1/"
   },
   {
-    "name": "Llama-3.3-70B",
+    "name": "Llama 3.3 70B",
     "model_api_name": "llama-3.3-70b-instruct",
     "input_token_price": "0.88",
     "output_token_price": "0.88",
@@ -178,16 +178,6 @@
     "license": "Propretary",
     "price_source": "https://www.anthropic.com/pricing#anthropic-api",
     "model_source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
-  },
-  {
-    "name": "Reka-Core-20240904",
-    "model_api_name": "reka-core-20240904",
-    "input_token_price": "2",
-    "output_token_price": "2",
-    "organization": "Reka AI",
-    "license": "Proprietary",
-    "price_source": "https://www.reka.ai/reka-api",
-    "model_source": "https://docs.reka.ai/available-models"
   },
   {
     "name": "Qwen2.5-plus-1127",
@@ -240,16 +230,6 @@
     "model_source": "https://huggingface.co/CohereForAI/aya-expanse-32b"
   },
   {
-    "name": "Reka-Flash-20240904",
-    "model_api_name": "reka-flash-20240904",
-    "input_token_price": "0.2",
-    "output_token_price": "0.8",
-    "organization": "Reka AI",
-    "license": "Proprietary",
-    "price_source": "https://www.reka.ai/reka-api",
-    "model_source": "https://docs.reka.ai/available-models"
-  },
-  {
     "name": "Command R (08-2024)",
     "model_api_name": "command-r-08-2024",
     "input_token_price": "0.15",
@@ -260,7 +240,7 @@
     "model_source": "https://docs.cohere.com/docs/command-r-plus#model-details"
   },
   {
-    "name": "Ministral-8B-2410",
+    "name": "Ministral 8B",
     "model_api_name": "ministral-8b-2410",
     "input_token_price": "0.1",
     "output_token_price": "0.1",
@@ -270,7 +250,7 @@
     "model_source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
   },
   {
-    "name": "Llama-3.1-8B",
+    "name": "Llama 3.1 8B",
     "model_api_name": "llama-3.1-8b-instruct",
     "input_token_price": "0.18",
     "output_token_price": "0.18",
@@ -330,7 +310,7 @@
     "model_source": "https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-lite-preview-02-05"
   },
   {
-    "name": "Gemma-2-9B-it",
+    "name": "Gemma 2 9B",
     "model_api_name": "gemma-2-9b-it",
     "input_token_price": "0.3",
     "output_token_price": "0.3",
@@ -348,5 +328,35 @@
     "license": "Proprietary",
     "price_source": "https://openai.com/api/pricing/",
     "model_source": "https://openai.com/index/openai-o3-mini/"
+  },
+  {
+    "name": "Nova Pro",
+    "model_api_name": "amazon-nova-pro-v1.0",
+    "input_token_price": "0.8",
+    "output_token_price": "3.2",
+    "organization": "Amazon",
+    "license": "Proprietary",
+    "price_source": "https://aws.amazon.com/bedrock/pricing/",
+    "model_source": "https://aws.amazon.com/ai/generative-ai/nova/"
+  },
+  {
+    "name": "Nova Lite",
+    "model_api_name": "amazon-nova-lite-v1.0",
+    "input_token_price": "0.06",
+    "output_token_price": "0.24",
+    "organization": "Amazon",
+    "license": "Proprietary",
+    "price_source": "https://aws.amazon.com/bedrock/pricing/",
+    "model_source": "https://aws.amazon.com/ai/generative-ai/nova/"
+  },
+  {
+    "name": "Nova Micro",
+    "model_api_name": "amazon-nova-micro-v1.0",
+    "input_token_price": "0.04",
+    "output_token_price": "0.14",
+    "organization": "Amazon",
+    "license": "Proprietary",
+    "price_source": "https://aws.amazon.com/bedrock/pricing/",
+    "model_source": "https://aws.amazon.com/ai/generative-ai/nova/"
   }
 ]
