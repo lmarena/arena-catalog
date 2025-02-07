@@ -150,6 +150,16 @@
     "model_source": "https://ai.meta.com/blog/meta-llama-3-1/"
   },
   {
+    "name": "Llama-3.3-70B",
+    "model_api_name": "llama-3.3-70b-instruct",
+    "input_token_price": "0.88",
+    "output_token_price": "0.88",
+    "organization": "Meta",
+    "license": "Llama 3.3 Community",
+    "price_source": "https://www.together.ai/pricing",
+    "model_source": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
+  },
+  {
     "name": "Claude 3 Opus",
     "model_api_name": "claude-3-opus-20240229",
     "input_token_price": "15",
