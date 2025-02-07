@@ -226,7 +226,7 @@
         
         // Assign legend item
         data.forEach(d => {
-          const legendItems = ["Google", "OpenAI", "Anthropic", "Meta", "DeepSeek", "Alibaba", "Cohere", "Mistral"];
+          const legendItems = ["Google", "OpenAI", "Anthropic", "Meta", "DeepSeek", "Alibaba", "01 AI", "Mistral", "Amazon"];
           if (legendItems.includes(d.organization)) {
             d.legend_item = d.organization;
           } else {
@@ -351,7 +351,18 @@
           .style("font-size", `${fontSize * 1.2}px`)
           .text("Arena Score");
 
-        const desiredOrder = ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "Cohere", "Mistral", "Other"];
+        svg.append("text")
+          .attr("class", "watermark")
+          .attr("x", w - 180)            // 10px from the right edge
+          .attr("y", h - 140)            // 10px from the bottom edge
+          .attr("text-anchor", "end")   // Right-align the text
+          .style("font-family", "Poppins")
+          .style("font-size", `${fontSize * 2}px`)
+          .style("fill", document.body.classList.contains("dark-mode") ? "#aaa" : "#000")
+          .style("opacity", 0.5)
+          .text("lmarena.ai/price");
+
+        const desiredOrder = ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "Mistral", "Cohere", "Other"];
   
         const categories = [...new Set(data.map(d => d.legend_item))];
         const sortedCategories = categories.sort((a, b) => {
@@ -418,14 +429,14 @@
           const labels = svg.selectAll(".point-label").data(data).join("text")
             .attr("class", "point-label")
             .attr("x", d => {
-              if (d.output_token_price <= minPrice*1.2 || d.model_api_name == "gemini-1.5-flash-002" || d.model_api_name == "gemini-1.5-pro-002") {
+              if (d.output_token_price <= minPrice*1.8 || d.model_api_name == "gemini-1.5-flash-002" || d.model_api_name == "gemini-1.5-pro-002") {
                 return xScale(d.output_token_price) + 0.01*w;
               } else {
                 return xScale(d.output_token_price) - 0.01*w;
               }
             })
             .attr("y", d => (yScale(d[document.getElementById("category-toggle").value + "_rating"]) + 0.003*w))
-            .attr("text-anchor", d => (d.output_token_price <= minPrice*1.2 || d.model_api_name == "gemini-1.5-flash-002" || d.model_api_name == "gemini-1.5-pro-002" ? "start" : "end"))
+            .attr("text-anchor", d => (d.output_token_price <= minPrice*1.8 || d.model_api_name == "gemini-1.5-flash-002" || d.model_api_name == "gemini-1.5-pro-002" ? "start" : "end"))
             .style("font-size", `${fontSize}px`)
             .attr("font-family", "Poppins")
             .style("text-decoration", d => 
