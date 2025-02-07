@@ -74,7 +74,7 @@
     "model_api_name": "glm-4-plus-0111",
     "input_token_price": "6.9",
     "output_token_price": "6.9",
-    "organization": "Zhipu AI",
+    "organization": "Zhipu",
     "license": "Proprietary",
     "price_source": "https://open.bigmodel.cn/pricing",
     "model_source": "https://bigmodel.cn/dev/howuse/glm-4"
