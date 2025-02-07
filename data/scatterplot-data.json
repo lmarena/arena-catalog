@@ -180,16 +180,6 @@
     "model_source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
   },
   {
-    "name": "Reka-Core-20240904",
-    "model_api_name": "reka-core-20240904",
-    "input_token_price": "2",
-    "output_token_price": "2",
-    "organization": "Reka AI",
-    "license": "Proprietary",
-    "price_source": "https://www.reka.ai/reka-api",
-    "model_source": "https://docs.reka.ai/available-models"
-  },
-  {
     "name": "Qwen2.5-plus-1127",
     "model_api_name": "qwen2.5-plus-1127",
     "input_token_price": "0.4",
@@ -238,16 +228,6 @@
     "license": "CC-BY-NC-4.0",
     "price_source": "https://cohere.com/pricing",
     "model_source": "https://huggingface.co/CohereForAI/aya-expanse-32b"
-  },
-  {
-    "name": "Reka-Flash-20240904",
-    "model_api_name": "reka-flash-20240904",
-    "input_token_price": "0.2",
-    "output_token_price": "0.8",
-    "organization": "Reka AI",
-    "license": "Proprietary",
-    "price_source": "https://www.reka.ai/reka-api",
-    "model_source": "https://docs.reka.ai/available-models"
   },
   {
     "name": "Command R (08-2024)",
