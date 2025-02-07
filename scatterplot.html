@@ -418,17 +418,23 @@
           const labels = svg.selectAll(".point-label").data(data).join("text")
             .attr("class", "point-label")
             .attr("x", d => {
-              if (d.output_token_price <= minPrice*2) {
+              if (d.output_token_price <= minPrice*1.2 || d.model_api_name == "gemini-1.5-flash-002" || d.model_api_name == "gemini-1.5-pro-002") {
                 return xScale(d.output_token_price) + 0.01*w;
               } else {
                 return xScale(d.output_token_price) - 0.01*w;
               }
             })
             .attr("y", d => (yScale(d[document.getElementById("category-toggle").value + "_rating"]) + 0.003*w))
-            .attr("text-anchor", d => (d.output_token_price <= minPrice*2 ? "start" : "end"))
+            .attr("text-anchor", d => (d.output_token_price <= minPrice*1.2 || d.model_api_name == "gemini-1.5-flash-002" || d.model_api_name == "gemini-1.5-pro-002" ? "start" : "end"))
             .style("font-size", `${fontSize}px`)
             .attr("font-family", "Poppins")
-            .attr("fill", document.body.classList.contains("dark-mode") ? "#f0f0f0" : "#000000")
+            .style("text-decoration", d => 
+                document.getElementById("category-toggle").value === "full" && 
+                data3["full"].slice(0, 6).includes(d.model_api_name) 
+                  ? "underline" 
+                  : "none"
+            )
+            .attr("fill", document.body.classList.contains("dark-mode") ?  "#f0f0f0" : "#000000")
             .style("opacity", 1)
             .each(function(d) {
               if (data3[document.getElementById("category-toggle").value].includes(d.model_api_name)) {
