@@ -350,7 +350,7 @@
     "model_source": "https://openai.com/index/openai-o3-mini/"
   },
   {
-    "name": "Amazon Nova Pro",
+    "name": "Nova Pro",
     "model_api_name": "amazon-nova-pro-v1.0",
     "input_token_price": "0.8",
     "output_token_price": "3.2",
@@ -360,7 +360,7 @@
     "model_source": "https://aws.amazon.com/ai/generative-ai/nova/"
   },
   {
-    "name": "Amazon Nova Lite",
+    "name": "Nova Lite",
     "model_api_name": "amazon-nova-lite-v1.0",
     "input_token_price": "0.06",
     "output_token_price": "0.24",
@@ -370,7 +370,7 @@
     "model_source": "https://aws.amazon.com/ai/generative-ai/nova/"
   },
   {
-    "name": "Amazon Nova Micro",
+    "name": "Nova Micro",
     "model_api_name": "amazon-nova-micro-v1.0",
     "input_token_price": "0.04",
     "output_token_price": "0.14",
