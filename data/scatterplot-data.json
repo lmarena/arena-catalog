@@ -1,9 +1,9 @@
 [
   {
-    "name": "chatgpt-4o-latest",
+    "name": "GPT-4o",
     "model_api_name": "chatgpt-4o-latest-20241120",
-    "input_token_price": "5",
-    "output_token_price": "15",
+    "input_token_price": "2.5",
+    "output_token_price": "10",
     "organization": "OpenAI",
     "license": "Proprietary",
     "price_source": "https://openai.com/api/pricing/",
@@ -108,16 +108,6 @@
     "license": "Llama 3.1 Community",
     "price_source": "https://www.together.ai/pricing",
     "model_source": "https://ai.meta.com/blog/meta-llama-3-1/"
-  },
-  {
-    "name": "GPT-4o",
-    "model_api_name": "gpt-4o-2024-08-06",
-    "input_token_price": "2.5",
-    "output_token_price": "10",
-    "organization": "OpenAI",
-    "license": "Proprietary",
-    "price_source": "https://openai.com/api/pricing/",
-    "model_source": "https://platform.openai.com/docs/models/gpt-4o"
   },
   {
     "name": "Qwen2.5-Max",
@@ -311,7 +301,7 @@
   },
   {
     "name": "Gemini 2.0 Flash",
-    "model_api_name": "gemini-2.0-flash-001",
+    "model_api_name": "gemini-2.0-flash",
     "input_token_price": "0.1",
     "output_token_price": "0.4",
     "organization": "Google",
@@ -338,5 +328,15 @@
     "license": "Gemma license",
     "price_source": "https://www.together.ai/pricing",
     "model_source": "https://aistudio.google.com/app/prompts/new_chat?model=gemma-2-9b-it"
+  },
+  {
+    "name": "o3-mini",
+    "model_api_name": "o3-mini",
+    "input_token_price": "1.1",
+    "output_token_price": "4.4",
+    "organization": "OpenAI",
+    "license": "Proprietary",
+    "price_source": "https://openai.com/api/pricing/",
+    "model_source": "https://openai.com/index/openai-o3-mini/"
   }
 ]
