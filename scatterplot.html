@@ -309,7 +309,7 @@
         // Add legend title
         svg.append("text")
           .attr("class", "legend-title")
-          .attr("x", w - margin.right + margin.right/2)
+          .attr("x", w - margin.right/2 - 5)
           .attr("y", margin.top + 30)
           .style("text-anchor", "middle")
           .style("font-family", "Poppins")
@@ -369,7 +369,7 @@
             return desiredOrder.indexOf(a) - desiredOrder.indexOf(b);
         });
         const legend = svg.append("g")
-          .attr("transform", `translate(${w - margin.right + 30}, ${margin.top + 40})`)
+          .attr("transform", `translate(${w - margin.right}, ${margin.top + 40})`)
           .selectAll(".legend-item")
           .data(sortedCategories)
           .join("g")
