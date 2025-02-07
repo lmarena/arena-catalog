@@ -260,7 +260,7 @@
     "model_source": "https://docs.cohere.com/docs/command-r-plus#model-details"
   },
   {
-    "name": "Ministral-8B-2410",
+    "name": "Ministral-8B",
     "model_api_name": "ministral-8b-2410",
     "input_token_price": "0.1",
     "output_token_price": "0.1",
