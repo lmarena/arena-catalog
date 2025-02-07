@@ -361,7 +361,7 @@
   },
   {
     "name": "amazon-nova-lite-v1.0",
-    "model_api_name": "amazon-nova-pro-v1.0",
+    "model_api_name": "amazon-nova-lite-v1.0",
     "input_token_price": "0.06",
     "output_token_price": "0.24",
     "organization": "Amazon",
@@ -371,7 +371,7 @@
   },
   {
     "name": "amazon-nova-micro-v1.0",
-    "model_api_name": "amazon-nova-pro-v1.0",
+    "model_api_name": "amazon-nova-micro-v1.0",
     "input_token_price": "0.04",
     "output_token_price": "0.14",
     "organization": "Amazon",
