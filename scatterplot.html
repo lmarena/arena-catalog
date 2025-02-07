@@ -353,11 +353,11 @@
 
         svg.append("text")
           .attr("class", "watermark")
-          .attr("x", w - 180)            // 10px from the right edge
-          .attr("y", h - 140)            // 10px from the bottom edge
+          .attr("x", w - 150)            // 10px from the right edge
+          .attr("y", h - 130)            // 10px from the bottom edge
           .attr("text-anchor", "end")   // Right-align the text
           .style("font-family", "Poppins")
-          .style("font-size", `${fontSize * 2}px`)
+          .style("font-size", `${fontSize * 2.5}px`)
           .style("fill", document.body.classList.contains("dark-mode") ? "#aaa" : "#000")
           .style("opacity", 0.5)
           .text("lmarena.ai/price");
