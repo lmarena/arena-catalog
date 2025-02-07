@@ -115,7 +115,7 @@
     "input_token_price": "1.6",
     "output_token_price": "6.4",
     "organization": "Alibaba",
-    "license": "Qwen",
+    "license": "Proprietary",
     "price_source": "https://www.alibabacloud.com/help/en/model-studio/billing-for-model-studio?spm=a2c63.p38356.0.i1",
     "model_source": "https://qwenlm.github.io/blog/qwen2.5-max/"
   },
