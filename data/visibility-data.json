@@ -42,7 +42,7 @@
     "deepseek-v3",
     "llama-3.1-8b-instruct",
     "llama-3.1-405b-instruct-fp8",
-    "llama-3.1-70b-instruct",
+    "llama-3.3-70b-instruct",
     "claude-3-opus-20240229",
     "claude-3-5-haiku-2024102",
     "claude-3-5-sonnet-20241022",
