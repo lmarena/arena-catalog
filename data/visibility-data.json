@@ -55,7 +55,8 @@
     "gemini-1.5-flash-8b-001",
     "o1-mini",
     "gpt-4o-2024-08-06",
-    "gemma-2-9b-it"
+    "gemma-2-9b-it",
+    "qwen2.5-max"
   ],
   "german": [
     "yi-lightning",
