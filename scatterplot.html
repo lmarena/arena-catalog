@@ -260,7 +260,7 @@
         yScale.range([h - margin.bottom, margin.top]);
 
         // Calculate dynamic font size (adjust as needed)
-        const fontSize = Math.min(w, h) * 0.018; // Font size proportional to graph size
+        const fontSize = Math.min(w, h) * 0.02; // Font size proportional to graph size
   
         // Add grid lines for x-axis
         svg.append("g")
@@ -309,7 +309,7 @@
         // Add legend title
         svg.append("text")
           .attr("class", "legend-title")
-          .attr("x", w - margin.right/2 - 5)
+          .attr("x", w - 0.75*margin.right)
           .attr("y", margin.top + 30)
           .style("text-anchor", "middle")
           .style("font-family", "Poppins")
@@ -505,12 +505,13 @@
         
         const points = groups.append("circle")
           .attr("class", "point")
-          .attr("cx", d => xScale(d.output_token_price))
+          .attr("cx", function(d) { return xScale(d.output_token_price); })
           .attr("cy", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]))
           .attr("r", pointRadius + 2)
           .attr("fill", d => colorScale(d.legend_item))
-          .style("filter", "url(#dotShadow)")
           .style("opacity", 1)
+          .style("display", "none")
+          .style("display", "block")
           .on("mouseover", (event, d) => {
             d3.select(event.currentTarget)
               .attr("r", showConfidenceIntervals ? pointRadius + 2 : pointRadius + 4)
@@ -554,7 +555,7 @@
                       License: ${d.license}`)
               .style("left", `${tooltipX}px`)
               .style("top", `${tooltipY}px`)
-              .style("font-size", `${fontSize * 0.8}px`);
+              .style("font-size", `${fontSize * 0.85}px`);
   
             legend.filter(l => l !== d.legend_item && (selectedCategories.size === 0 || selectedCategories.has(l))).style("opacity", 0.1);
           })
