@@ -358,15 +358,5 @@
     "license": "Proprietary",
     "price_source": "https://aws.amazon.com/bedrock/pricing/",
     "model_source": "https://aws.amazon.com/ai/generative-ai/nova/"
-  },
-  {
-    "name": "Mistral-Small-24B-Instruct-2501",
-    "model_api_name": "mistral-small-24b-instruct-2501",
-    "input_token_price": "0.1",
-    "output_token_price": "0.3",
-    "organization": "Mistral",
-    "license": "Apache 2.0",
-    "price_source": "https://mistral.ai/en/products/la-plateforme#pricing",
-    "model_source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
   }
 ]
