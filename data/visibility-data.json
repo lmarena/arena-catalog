@@ -2,43 +2,45 @@
   "chinese": [
     "yi-lightning",
     "ministral-8b-2410",
-    "gemini-2.0-flash"
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview-02-05"
   ],
   "coding": [
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite-preview"
+    "o1-2024-12-17",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview-02-05"
   ],
   "creative_writing": [
     "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite-preview"
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview-02-05"
   ],
   "english": [
     "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite-preview"
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview-02-05"
   ],
   "french": [
     "yi-lightning",
     "ministral-8b-2410",
-    "gemini-2.0-flash"
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview-02-05"
   ],
   "full": [
     "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite-preview",
-    "chatgpt-4o-latest-20241120",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview-02-05",
     "deepseek-v3",
     "llama-3.1-8b-instruct",
     "llama-3.1-405b-instruct-fp8",
@@ -65,47 +67,46 @@
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite-preview"
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview-02-05"
   ],
   "hard_6": [
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
     "o1-2024-12-17",
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite-preview",
-    "o3-mini"
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview-02-05"
   ],
   "hard_english_6": [
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite-preview"
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview-02-05"
   ],
   "if": [
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
     "o1-2024-12-17",
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite-preview"
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview-02-05"
   ],
   "japanese": [
     "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
-    "gemini-2.0-flash-lite-preview"
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview-02-05"
   ],
   "korean": [
-    "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite-preview"
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview-02-05"
   ],
   "long_user": [
     "chatgpt-4o-latest-20241120",
@@ -113,15 +114,15 @@
     "ministral-8b-2410",
     "deepseek-r1",
     "o1-2024-12-17",
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite-preview"
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview-02-05"
   ],
   "math": [
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
     "o1-2024-12-17",
-    "gemini-2.0-flash",
+    "gemini-2.0-flash-001",
     "o3-mini"
   ],
   "multiturn": [
@@ -129,43 +130,43 @@
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
-    "gemini-2.0-flash"
+    "gemini-2.0-flash-001"
   ],
   "no_refusal": [
     "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite-preview"
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview-02-05"
   ],
   "no_short": [
     "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite-preview"
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview-02-05"
   ],
   "no_tie": [
     "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite-preview"
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview-02-05"
   ],
   "russian": [
     "chatgpt-4o-latest-20241120",
     "yi-lightning",
     "ministral-8b-2410",
     "deepseek-r1",
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite-preview"
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite-preview-02-05"
   ],
   "spanish": [
     "yi-lightning",
     "ministral-8b-2410",
-    "gemini-2.0-flash"
+    "gemini-2.0-flash-001"
   ]
 }

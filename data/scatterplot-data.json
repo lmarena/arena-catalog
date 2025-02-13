@@ -291,7 +291,7 @@
   },
   {
     "name": "Gemini 2.0 Flash",
-    "model_api_name": "gemini-2.0-flash",
+    "model_api_name": "gemini-2.0-flash-001",
     "input_token_price": "0.1",
     "output_token_price": "0.4",
     "organization": "Google",
@@ -301,7 +301,7 @@
   },
   {
     "name": "Gemini 2.0 Flash-Lite",
-    "model_api_name": "gemini-2.0-flash-lite-preview",
+    "model_api_name": "gemini-2.0-flash-lite-preview-02-05",
     "input_token_price": "0.075",
     "output_token_price": "0.3",
     "organization": "Google",
@@ -358,5 +358,15 @@
     "license": "Proprietary",
     "price_source": "https://aws.amazon.com/bedrock/pricing/",
     "model_source": "https://aws.amazon.com/ai/generative-ai/nova/"
+  },
+  {
+    "name": "Mistral-Small-24B-Instruct-2501",
+    "model_api_name": "mistral-small-24b-instruct-2501",
+    "input_token_price": "0.1",
+    "output_token_price": "0.3",
+    "organization": "Mistral",
+    "license": "Apache 2.0",
+    "price_source": "https://mistral.ai/en/products/la-plateforme#pricing",
+    "model_source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
   }
 ]

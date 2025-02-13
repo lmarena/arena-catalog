@@ -6,6 +6,7 @@
   <title>Interactive Scatterplot</title>
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <style>
     body {
       margin: 0;
@@ -114,6 +115,13 @@
       border-color: #aaa !important;
       box-shadow: none !important;
     }
+
+    .info-tooltip {
+      width: auto;  
+      min-width: 250px; 
+      max-width: 400px;  
+      white-space: normal; /* Allows text to wrap */
+    }
   </style>
 </head>
 <body class="dark-mode">
@@ -125,17 +133,42 @@
       <!-- Options will be populated dynamically -->
     </select>
   </div>
+  <div style="position: absolute; bottom: 25px; left: 30px; z-index: 10; display: flex; flex-wrap: wrap; align-items: center;">
+    <label for="scale-slider" style="margin-right: 10px; flex: 1; white-space: normal;">
+      Adjust X-Axis Cost:
+    </label>
+    <input id="scale-slider" type="range" min="0" max="100" value="100" class="slider" style="flex-shrink: 0; margin-right: 15px; accent-color: white;">
+    
+    <!-- Info icon -->
+    <div class="info-container">
+      <i class="fas fa-info-circle info-icon"></i>
+      <div class="info-tooltip" style="visibility: hidden; position: absolute; bottom: 50px; left: 300px;; background-color: #333; color: white; padding: 8px; border-radius: 5px; font-size: 12px; z-index: 100;">
+        Use this slider to adjust the x-axis. Sliding it to the left shows the cost in $/1M Input Tokens. Sliding it to the right shows the cost in $/1M Output Tokens. Placing it in the middle displays a blended cost based on both values.
+      </div>
+    </div>
+  </div>   
   <button class="toggle-dark-mode">Light Mode</button>
   <div id="scatterplot" class="scatterplot-container"></div>
 
   <script>
    Promise.all([
-        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/scatterplot-data.json"),
-        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-data.json"),
-        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/visibility-data.json")
+        d3.json("data/scatterplot-data.json"),
+        d3.json("data/leaderboard-data.json"),
+        d3.json("data/visibility-data.json")
       ]).then(function  ([data, data2, data3]) {
 
       const dropdown = d3.select("#category-toggle");
+      const slider = document.getElementById("scale-slider");
+      const infoIcon = document.querySelector('.info-icon');
+      const infoTooltip = document.querySelector('.info-tooltip');
+
+      infoIcon.addEventListener('mouseenter', () => {
+        infoTooltip.style.visibility = 'visible'; // Show the tooltip
+      });
+
+      infoIcon.addEventListener('mouseleave', () => {
+        infoTooltip.style.visibility = 'hidden'; // Hide the tooltip
+      });
 
       // Get all keys from the JSON
       let allKeys = Object.keys(data2);
@@ -184,25 +217,12 @@
 
       const container = d3.select("#scatterplot");
       const svg = container.append("svg");
-      const defs = svg.append("defs");
-      const shadowFilter = defs.append("filter")
-        .attr("id", "dotShadow")
-        .attr("x", "-50%")
-        .attr("y", "-50%")
-        .attr("width", "200%")
-        .attr("height", "200%");
-  
-      shadowFilter.append("feDropShadow")
-        .attr("dx", 0)
-        .attr("dy", 2)
-        .attr("stdDeviation", 3)
-        .attr("flood-color", "rgba(0, 0, 0, 0.5)");
   
       const margin = { top: 50, right: 150, bottom: 100, left: 100 };
       
       const resize = () => {
         const width = container.node().clientWidth;
-        const height = Math.min(container.node().clientHeight, (width / 8) * 5);
+        const height = Math.min(container.node().clientHeight, (width / 8) * 5);;
         return { width, height };
       };
 
@@ -246,8 +266,11 @@
         // Update the SVG size
         svg.attr("width", w).attr("height", h);
 
-        const minPrice = Math.min(...data.map(d => d.output_token_price));
-        const maxPrice = Math.max(...data.map(d => d.output_token_price));
+        // Get value from slider
+        const value = slider.value;
+
+        const minPrice = Math.min(...data.map(d => d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100));
+        const maxPrice = Math.max(...data.map(d => d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100));
 
         const minFullRating = Math.min(...data.map(d => d[document.getElementById("category-toggle").value + "_rating_q025"]));
         const maxFullRating = Math.max(...data.map(d => d[document.getElementById("category-toggle").value + "_rating_q975"]));
@@ -337,7 +360,7 @@
           .style("font-family", "Poppins")
           .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
           .style("font-size", `${fontSize * 1.2}px`)
-          .text("Cost ($/1M Output Tokens)");
+          .text("Cost ($/1M Tokens)");
 
         // Add y-axis title
         svg.append("text")
@@ -429,14 +452,14 @@
           const labels = svg.selectAll(".point-label").data(data).join("text")
             .attr("class", "point-label")
             .attr("x", d => {
-              if (d.output_token_price <= minPrice*1.8 || d.model_api_name == "gemini-1.5-flash-002" || d.model_api_name == "gemini-1.5-pro-002") {
-                return xScale(d.output_token_price) + 0.01*w;
+              if ((d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100) <= minPrice*1.8 || d.model_api_name == "gemini-1.5-flash-002" || d.model_api_name == "gemini-1.5-pro-002") {
+                return xScale(d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100) + 0.01*w;
               } else {
-                return xScale(d.output_token_price) - 0.01*w;
+                return xScale(d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100) - 0.01*w;
               }
             })
             .attr("y", d => (yScale(d[document.getElementById("category-toggle").value + "_rating"]) + 0.003*w))
-            .attr("text-anchor", d => (d.output_token_price <= minPrice*1.8 || d.model_api_name == "gemini-1.5-flash-002" || d.model_api_name == "gemini-1.5-pro-002" ? "start" : "end"))
+            .attr("text-anchor", d => ((d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100) <= minPrice*1.8 || d.model_api_name == "gemini-1.5-flash-002" || d.model_api_name == "gemini-1.5-pro-002" ? "start" : "end"))
             .style("font-size", `${fontSize}px`)
             .attr("font-family", "Poppins")
             .style("text-decoration", d => 
@@ -463,8 +486,8 @@
         // Add vertical error bars
         const errorBarTops = groups.append("line")
           .attr("class", "error-bar-top")
-          .attr("x1", d => xScale(d.output_token_price)) // Centered on the x position of the point
-          .attr("x2", d => xScale(d.output_token_price))
+          .attr("x1", d => xScale(d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100)) // Centered on the x position of the point
+          .attr("x2", d => xScale(d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100))
           .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q975"])) // Upper bound
           .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]) - pointRadius) // Lower bound
           .attr("stroke", d => colorScale(d.legend_item))
@@ -473,8 +496,8 @@
 
         const errorBarBottoms = groups.append("line")
           .attr("class", "error-bar-bottom")
-          .attr("x1", d => xScale(d.output_token_price)) // Centered on the x position of the point
-          .attr("x2", d => xScale(d.output_token_price))
+          .attr("x1", d => xScale(d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100)) // Centered on the x position of the point
+          .attr("x2", d => xScale(d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100))
           .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]) + pointRadius) // Upper bound
           .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q025"])) // Lower bound
           .attr("stroke", d => colorScale(d.legend_item))
@@ -484,8 +507,8 @@
         // Add horizontal caps for the top of the error bars
         const horizontalTopCaps = groups.append("line")
           .attr("class", "error-bar-cap-top")
-          .attr("x1", d => xScale(d.output_token_price) - 5) // Slightly left of the point
-          .attr("x2", d => xScale(d.output_token_price) + 5) // Slightly right of the point
+          .attr("x1", d => xScale(d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100) - 5) // Slightly left of the point
+          .attr("x2", d => xScale(d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100) + 5) // Slightly right of the point
           .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q975"])) // Same y as the top of the error bar
           .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q975"]))
           .attr("stroke", d => colorScale(d.legend_item))
@@ -495,8 +518,8 @@
         // Add horizontal caps for the bottom of the error bars
         const horizontalBottomCaps = groups.append("line")
           .attr("class", "error-bar-cap-bottom")
-          .attr("x1", d => xScale(d.output_token_price) - 5) // Slightly left of the point
-          .attr("x2", d => xScale(d.output_token_price) + 5) // Slightly right of the point
+          .attr("x1", d => xScale(d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100) - 5) // Slightly left of the point
+          .attr("x2", d => xScale(d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100) + 5) // Slightly right of the point
           .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q025"])) // Same y as the bottom of the error bar
           .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q025"]))
           .attr("stroke", d => colorScale(d.legend_item))
@@ -505,7 +528,7 @@
         
         const points = groups.append("circle")
           .attr("class", "point")
-          .attr("cx", function(d) { return xScale(d.output_token_price); })
+          .attr("cx", function(d) { return xScale(d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100); })
           .attr("cy", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]))
           .attr("r", pointRadius + 2)
           .attr("fill", d => colorScale(d.legend_item))
@@ -550,7 +573,7 @@
             tooltip.style("opacity", 1)
               .html(`<b>${d.model_api_name}</b><br>
                       Arena Score: ${parseFloat(d[document.getElementById("category-toggle").value + "_rating"]).toFixed(2)}<br>
-                      Cost ($/1M Output Tokens): ${d.output_token_price}<br>
+                      Cost ($/1M Tokens): ${d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100}<br>
                       Organization: ${d.organization}<br>
                       License: ${d.license}`)
               .style("left", `${tooltipX}px`)
@@ -585,7 +608,7 @@
             if (d.model_source) {
               window.open(d.model_source, "_blank"); // Opens the link in a new tab
             }
-          });
+        });
         
         // Initial state
         let showConfidenceIntervals = false; 
@@ -650,11 +673,25 @@
         renderScatterplot(dimensions.width, dimensions.height);
       });
 
+      slider.addEventListener("input", function() {
+        console.log("Slider Value:", slider.value);
+        const dimensions = resize();
+        renderScatterplot(dimensions.width, dimensions.height);
+      });
+
       renderScatterplot(width, height);
+
+      function updateSliderColor() {
+        const slider = document.getElementById("scale-slider");
+        const isDarkMode = document.body.classList.contains("dark-mode");
+
+        slider.style.accentColor = isDarkMode ? "white" : "black";
+      }
   
       document.querySelector(".toggle-dark-mode").addEventListener("click", () => {
         const body = document.body;
         const isDarkMode = body.classList.toggle("dark-mode");
+        updateSliderColor();
   
         const button = document.querySelector(".toggle-dark-mode");
         button.textContent = isDarkMode ? "Light Mode" : "Dark Mode";
