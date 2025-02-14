@@ -92,8 +92,8 @@
   {
     "name": "Gemini 1.5 Flash",
     "model_api_name": "gemini-1.5-flash-002",
-    "input_token_price": "0.15",
-    "output_token_price": "0.6",
+    "input_token_price": "0.075",
+    "output_token_price": "0.30",
     "organization": "Google",
     "license": "Proprietary",
     "price_source": "https://ai.google.dev/pricing#1_5flash",
