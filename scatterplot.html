@@ -142,8 +142,9 @@
     <!-- Info icon -->
     <div class="info-container">
       <i class="fas fa-info-circle info-icon"></i>
-      <div class="info-tooltip" style="visibility: hidden; position: absolute; bottom: 50px; left: 300px;; background-color: #333; color: white; padding: 8px; border-radius: 5px; font-size: 12px; z-index: 100;">
-        Use this slider to adjust the x-axis. Sliding it to the left shows the cost in $/1M Input Tokens. Sliding it to the right shows the cost in $/1M Output Tokens. Placing it in the middle displays a blended cost based on both values.
+      <div class="info-tooltip" style="visibility: hidden; position: absolute; bottom: 50px; left: 300px;; background-color: #333; color: white; padding: 8px; border-radius: 5px; font-size: 14px; z-index: 100;">
+          Use this slider to adjust the x-axis. Sliding it to the left shows the cost in <b>$/1M Input Tokens</b>. Sliding it to the right shows the cost in <b>$/1M Output Tokens</b>. Placing it in the middle displays a blended cost based on both values.
+        </ul>
       </div>
     </div>
   </div>   
@@ -239,6 +240,24 @@
 
       function calculatePointRadius(containerWidth, containerHeight) {
         return Math.max(3, Math.min(containerWidth / 210, 9, containerHeight/ 180));
+      }
+
+      function isParetoOptimal(point) {
+        const price = point.input_token_price * (100 - slider.value) / 100 + point.output_token_price * slider.value / 100;
+        const score = point[document.getElementById("category-toggle").value + "_rating"]
+        for (const other of data) {
+          const otherPrice = other.input_token_price * (100 - slider.value) / 100 + other.output_token_price * slider.value / 100;
+          const otherScore = other[document.getElementById("category-toggle").value + "_rating"]
+          // Check if 'other' dominates 'point':
+          // otherScore should be at least as good (>=) and otherPrice should be at most as good (<=)
+          // with at least one strictly better condition.
+          if (parseFloat(otherScore) >= parseFloat(score) &&
+              parseFloat(otherPrice) <= parseFloat(price) &&
+              (parseFloat(otherScore) > parseFloat(score) || parseFloat(otherPrice) < parseFloat(price))) {
+              return false;
+          }
+        }
+        return true;
       }
   
       function renderScatterplot(w, h) {
@@ -452,26 +471,21 @@
           const labels = svg.selectAll(".point-label").data(data).join("text")
             .attr("class", "point-label")
             .attr("x", d => {
-              if ((d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100) <= minPrice*1.8 || d.model_api_name == "gemini-1.5-flash-002" || d.model_api_name == "gemini-1.5-pro-002") {
+              if ((d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100) <= minPrice*1.5 || data3[document.getElementById("category-toggle").value].left.includes(d.model_api_name)) {
                 return xScale(d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100) + 0.01*w;
               } else {
                 return xScale(d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100) - 0.01*w;
               }
             })
             .attr("y", d => (yScale(d[document.getElementById("category-toggle").value + "_rating"]) + 0.003*w))
-            .attr("text-anchor", d => ((d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100) <= minPrice*1.8 || d.model_api_name == "gemini-1.5-flash-002" || d.model_api_name == "gemini-1.5-pro-002" ? "start" : "end"))
+            .attr("text-anchor", d => ((d.input_token_price * (100 - value) / 100 + d.output_token_price * value / 100) <= minPrice*1.5 || data3[document.getElementById("category-toggle").value].left.includes(d.model_api_name) ? "start" : "end"))
             .style("font-size", `${fontSize}px`)
             .attr("font-family", "Poppins")
-            .style("text-decoration", d => 
-                document.getElementById("category-toggle").value === "full" && 
-                data3["full"].slice(0, 6).includes(d.model_api_name) 
-                  ? "underline" 
-                  : "none"
-            )
+            .style("text-decoration", d => isParetoOptimal(d) ? "underline" : "none")
             .attr("fill", document.body.classList.contains("dark-mode") ?  "#f0f0f0" : "#000000")
             .style("opacity", 1)
             .each(function(d) {
-              if (data3[document.getElementById("category-toggle").value].includes(d.model_api_name)) {
+              if (data3[document.getElementById("category-toggle").value]["right"].includes(d.model_api_name) || data3[document.getElementById("category-toggle").value]["left"].includes(d.model_api_name)) {
                 d3.select(this).append("tspan").text(d.name).attr("font-weight", "bold");
               }
             });
@@ -674,7 +688,6 @@
       });
 
       slider.addEventListener("input", function() {
-        console.log("Slider Value:", slider.value);
         const dimensions = resize();
         renderScatterplot(dimensions.width, dimensions.height);
       });
