@@ -133,7 +133,7 @@
       <!-- Options will be populated dynamically -->
     </select>
   </div>
-  <div style="position: absolute; top: 15px; right: 530px; z-index: 10; display: flex; flex-wrap: wrap; align-items: center;">
+  <div style="position: absolute; top: 18px; right: 530px; z-index: 10; display: flex; flex-wrap: wrap; align-items: center;">
     <label for="scale-slider" style="margin-right: 10px; flex: 1; white-space: normal;">
       Input/Output Cost Ratio:
     </label>
@@ -154,8 +154,8 @@
   <script>
    Promise.all([
         d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/scatterplot-data.json"),
-        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-data.json"),
-        d3.json("data/visibility-data.json")
+        d3.json("data/leaderboard-data.json"),
+        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/visibility-data.json")
       ]).then(function  ([data, data2, data3]) {
 
       const dropdown = d3.select("#category-toggle");
