@@ -154,7 +154,7 @@
   <script>
    Promise.all([
         d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/scatterplot-data.json"),
-        d3.json("data/leaderboard-data.json"),
+        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-data.json"),
         d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/visibility-data.json")
       ]).then(function  ([data, data2, data3]) {
 
