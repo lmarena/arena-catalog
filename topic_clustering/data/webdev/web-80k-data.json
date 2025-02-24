@@ -1,0 +1,1859 @@
+{
+    "name": "categories",
+    "children": [
+        {
+            "id": 0,
+            "name": "Clone Development",
+            "children": [
+                {
+                    "id": 5,
+                    "name": "YouTube Clone Development",
+                    "count": 407,
+                    "percent": 0.0080525493144451
+                },
+                {
+                    "id": 8,
+                    "name": "Chatbot Development and Functionality",
+                    "count": 477,
+                    "percent": 0.0094375086559958
+                },
+                {
+                    "id": 40,
+                    "name": "Twitter Clone Development",
+                    "count": 265,
+                    "percent": 0.0052430603644421
+                },
+                {
+                    "id": 47,
+                    "name": "VS Code Clone Development",
+                    "count": 222,
+                    "percent": 0.0043922996260609
+                },
+                {
+                    "id": 49,
+                    "name": "Discord Clone Development",
+                    "count": 222,
+                    "percent": 0.0043922996260609
+                },
+                {
+                    "id": 50,
+                    "name": "ChatGPT Interface Cloning",
+                    "count": 253,
+                    "percent": 0.0050056387630334
+                },
+                {
+                    "id": 55,
+                    "name": "Hacker News Clone Design",
+                    "count": 174,
+                    "percent": 0.0034426132204261
+                },
+                {
+                    "id": 64,
+                    "name": "Custom Dating App Development",
+                    "count": 178,
+                    "percent": 0.003521753754229
+                },
+                {
+                    "id": 65,
+                    "name": "WhatsApp Clone App Design Requests",
+                    "count": 181,
+                    "percent": 0.0035811091545812
+                },
+                {
+                    "id": 66,
+                    "name": "Google Search Clones",
+                    "count": 318,
+                    "percent": 0.0062916724373305
+                },
+                {
+                    "id": 73,
+                    "name": "Music App Cloning",
+                    "count": 160,
+                    "percent": 0.003165621352116
+                },
+                {
+                    "id": 79,
+                    "name": "Reddit Clone Development",
+                    "count": 131,
+                    "percent": 0.0025918524820449
+                },
+                {
+                    "id": 82,
+                    "name": "VS Code Clone Creation",
+                    "count": 139,
+                    "percent": 0.0027501335496507
+                },
+                {
+                    "id": 85,
+                    "name": "Instagram Clone Development",
+                    "count": 148,
+                    "percent": 0.0029281997507073
+                },
+                {
+                    "id": 94,
+                    "name": "Facebook Clone Development",
+                    "count": 159,
+                    "percent": 0.0031458362186652
+                },
+                {
+                    "id": 96,
+                    "name": "E-commerce Platform Cloning",
+                    "count": 138,
+                    "percent": 0.0027303484162
+                },
+                {
+                    "id": 107,
+                    "name": "WhatsApp Clone Development",
+                    "count": 163,
+                    "percent": 0.0032249767524681
+                },
+                {
+                    "id": 111,
+                    "name": "Website Cloning Requests",
+                    "count": 299,
+                    "percent": 0.0059157549017668
+                },
+                {
+                    "id": 117,
+                    "name": "Netflix Clone Development",
+                    "count": 95,
+                    "percent": 0.0018795876778188
+                },
+                {
+                    "id": 120,
+                    "name": "Elon Musk Twitter Profile Simulation",
+                    "count": 92,
+                    "percent": 0.0018202322774667
+                },
+                {
+                    "id": 127,
+                    "name": "Twitch Clone Development",
+                    "count": 88,
+                    "percent": 0.0017410917436638
+                },
+                {
+                    "id": 131,
+                    "name": "TikTok Clone Development",
+                    "count": 90,
+                    "percent": 0.0017806620105652
+                },
+                {
+                    "id": 134,
+                    "name": "Airbnb Clone Development",
+                    "count": 80,
+                    "percent": 0.001582810676058
+                },
+                {
+                    "id": 137,
+                    "name": "Adult Website Cloning Requests",
+                    "count": 78,
+                    "percent": 0.0015432404091565
+                },
+                {
+                    "id": 151,
+                    "name": "Roblox Clone Development",
+                    "count": 76,
+                    "percent": 0.0015036701422551
+                },
+                {
+                    "id": 156,
+                    "name": "Cloning and Replication Requests",
+                    "count": 508,
+                    "percent": 0.0100508477929683
+                },
+                {
+                    "id": 157,
+                    "name": "4chan Website Cloning",
+                    "count": 78,
+                    "percent": 0.0015432404091565
+                },
+                {
+                    "id": 179,
+                    "name": "GitHub Interface and Functionality",
+                    "count": 117,
+                    "percent": 0.0023148606137348
+                },
+                {
+                    "id": 190,
+                    "name": "LinkedIn Profile Cloning and Customization",
+                    "count": 63,
+                    "percent": 0.0012464634073956
+                },
+                {
+                    "id": 192,
+                    "name": "Wikipedia Clone Creation",
+                    "count": 89,
+                    "percent": 0.0017608768771145
+                },
+                {
+                    "id": 217,
+                    "name": "Cloning Web Applications",
+                    "count": 56,
+                    "percent": 0.0011079674732406
+                },
+                {
+                    "id": 219,
+                    "name": "Design Software Clones",
+                    "count": 65,
+                    "percent": 0.0012860336742971
+                },
+                {
+                    "id": 225,
+                    "name": "Gmail Clone Development",
+                    "count": 46,
+                    "percent": 0.0009101161387333
+                },
+                {
+                    "id": 228,
+                    "name": "Steam Store Clone Development",
+                    "count": 78,
+                    "percent": 0.0015432404091565
+                },
+                {
+                    "id": 231,
+                    "name": "Chatbot Arena Cloning",
+                    "count": 60,
+                    "percent": 0.0011871080070435
+                },
+                {
+                    "id": 261,
+                    "name": "Notion Clone Development",
+                    "count": 42,
+                    "percent": 0.0008309756049304
+                },
+                {
+                    "id": 296,
+                    "name": "Claude AI Clone Development",
+                    "count": 42,
+                    "percent": 0.0008309756049304
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Website Design",
+            "children": [
+                {
+                    "id": 15,
+                    "name": "Movie Database Interface Design",
+                    "count": 322,
+                    "percent": 0.0063708129711334
+                },
+                {
+                    "id": 23,
+                    "name": "Personal Portfolio Website Design",
+                    "count": 286,
+                    "percent": 0.0056585481669073
+                },
+                {
+                    "id": 26,
+                    "name": "E-commerce Website Design",
+                    "count": 341,
+                    "percent": 0.0067467305066972
+                },
+                {
+                    "id": 27,
+                    "name": "Personal Blog Design",
+                    "count": 269,
+                    "percent": 0.005322200898245
+                },
+                {
+                    "id": 28,
+                    "name": "Landing Page Design",
+                    "count": 644,
+                    "percent": 0.0127416259422669
+                },
+                {
+                    "id": 31,
+                    "name": "Restaurant Website Design",
+                    "count": 289,
+                    "percent": 0.0057179035672595
+                },
+                {
+                    "id": 32,
+                    "name": "News Website Design",
+                    "count": 290,
+                    "percent": 0.0057376887007102
+                },
+                {
+                    "id": 34,
+                    "name": "Job Board Design",
+                    "count": 309,
+                    "percent": 0.006113606236274
+                },
+                {
+                    "id": 37,
+                    "name": "Travel Booking Website Design",
+                    "count": 293,
+                    "percent": 0.0057970441010624
+                },
+                {
+                    "id": 39,
+                    "name": "Social Media Feed and Profile Design",
+                    "count": 314,
+                    "percent": 0.0062125319035276
+                },
+                {
+                    "id": 44,
+                    "name": "Portfolio Website Design",
+                    "count": 350,
+                    "percent": 0.0069247967077537
+                },
+                {
+                    "id": 54,
+                    "name": "Weather App Interface Design",
+                    "count": 213,
+                    "percent": 0.0042142334250044
+                },
+                {
+                    "id": 56,
+                    "name": "Interactive Quiz Application Design",
+                    "count": 280,
+                    "percent": 0.005539837366203
+                },
+                {
+                    "id": 59,
+                    "name": "Book Review Page Design",
+                    "count": 252,
+                    "percent": 0.0049858536295827
+                },
+                {
+                    "id": 60,
+                    "name": "Recipe Card Design and Interface",
+                    "count": 168,
+                    "percent": 0.0033239024197218
+                },
+                {
+                    "id": 61,
+                    "name": "Recipe Website Design",
+                    "count": 179,
+                    "percent": 0.0035415388876797
+                },
+                {
+                    "id": 77,
+                    "name": "Blog Creation and Design",
+                    "count": 224,
+                    "percent": 0.0044318698929624
+                },
+                {
+                    "id": 78,
+                    "name": "Retro Website Design",
+                    "count": 232,
+                    "percent": 0.0045901509605682
+                },
+                {
+                    "id": 86,
+                    "name": "E-commerce Website Development",
+                    "count": 269,
+                    "percent": 0.005322200898245
+                },
+                {
+                    "id": 98,
+                    "name": "Real Estate Listing Page Design",
+                    "count": 146,
+                    "percent": 0.0028886294838058
+                },
+                {
+                    "id": 99,
+                    "name": "Personal Academic Websites",
+                    "count": 264,
+                    "percent": 0.0052232752309914
+                },
+                {
+                    "id": 109,
+                    "name": "Modern Cryptocurrency Web Design",
+                    "count": 172,
+                    "percent": 0.0034030429535247
+                },
+                {
+                    "id": 115,
+                    "name": "Event Planning Website Design",
+                    "count": 109,
+                    "percent": 0.002156579546129
+                },
+                {
+                    "id": 141,
+                    "name": "Responsive Navigation Bar Design",
+                    "count": 171,
+                    "percent": 0.0033832578200739
+                },
+                {
+                    "id": 167,
+                    "name": "Coffee and Bakery Website Design",
+                    "count": 134,
+                    "percent": 0.0026512078823971
+                },
+                {
+                    "id": 171,
+                    "name": "File Explorer Design and Functionality",
+                    "count": 66,
+                    "percent": 0.0013058188077478
+                },
+                {
+                    "id": 172,
+                    "name": "News Website and App Design",
+                    "count": 143,
+                    "percent": 0.0028292740834536
+                },
+                {
+                    "id": 184,
+                    "name": "Educational Website Development",
+                    "count": 234,
+                    "percent": 0.0046297212274696
+                },
+                {
+                    "id": 195,
+                    "name": "Minecraft Website Development",
+                    "count": 72,
+                    "percent": 0.0014245296084522
+                },
+                {
+                    "id": 198,
+                    "name": "Portfolio Website Design",
+                    "count": 128,
+                    "percent": 0.0025324970816928
+                },
+                {
+                    "id": 205,
+                    "name": "Podcast Player Interface Design",
+                    "count": 49,
+                    "percent": 0.0009694715390855
+                },
+                {
+                    "id": 220,
+                    "name": "Intentionally Bad Website Design",
+                    "count": 148,
+                    "percent": 0.0029281997507073
+                },
+                {
+                    "id": 230,
+                    "name": "Python Code Execution Platforms",
+                    "count": 127,
+                    "percent": 0.002512711948242
+                },
+                {
+                    "id": 235,
+                    "name": "Creative Progress Bar Designs",
+                    "count": 74,
+                    "percent": 0.0014640998753536
+                },
+                {
+                    "id": 257,
+                    "name": "Retro Internet Forums",
+                    "count": 62,
+                    "percent": 0.0012266782739449
+                },
+                {
+                    "id": 274,
+                    "name": "SaaS Landing Page Design",
+                    "count": 56,
+                    "percent": 0.0011079674732406
+                },
+                {
+                    "id": 289,
+                    "name": "Book Review and Recommendation Websites",
+                    "count": 68,
+                    "percent": 0.0013453890746493
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Web Development",
+            "children": [
+                {
+                    "id": 18,
+                    "name": "Chat App Development and Design",
+                    "count": 472,
+                    "percent": 0.0093385829887422
+                },
+                {
+                    "id": 42,
+                    "name": "Pet-Themed Websites and Content",
+                    "count": 292,
+                    "percent": 0.0057772589676117
+                },
+                {
+                    "id": 45,
+                    "name": "JavaScript Build Errors",
+                    "count": 250,
+                    "percent": 0.0049462833626812
+                },
+                {
+                    "id": 68,
+                    "name": "Website Design and Development",
+                    "count": 753,
+                    "percent": 0.014898205488396
+                },
+                {
+                    "id": 69,
+                    "name": "Dashboard and Web Application Design",
+                    "count": 696,
+                    "percent": 0.0137704528817046
+                },
+                {
+                    "id": 76,
+                    "name": "Adult Content Website Creation",
+                    "count": 219,
+                    "percent": 0.0043329442257088
+                },
+                {
+                    "id": 89,
+                    "name": "University Office Building Design",
+                    "count": 168,
+                    "percent": 0.0033239024197218
+                },
+                {
+                    "id": 95,
+                    "name": "Pokemon Fan Websites and Pages",
+                    "count": 135,
+                    "percent": 0.0026709930158478
+                },
+                {
+                    "id": 101,
+                    "name": "Creative Web Design Concepts",
+                    "count": 241,
+                    "percent": 0.0047682171616247
+                },
+                {
+                    "id": 119,
+                    "name": "Next.js Web Development Projects",
+                    "count": 208,
+                    "percent": 0.0041153077577508
+                },
+                {
+                    "id": 138,
+                    "name": "Web Design for Band Website",
+                    "count": 86,
+                    "percent": 0.0017015214767623
+                },
+                {
+                    "id": 161,
+                    "name": "Browser Design and Customization",
+                    "count": 109,
+                    "percent": 0.002156579546129
+                },
+                {
+                    "id": 166,
+                    "name": "Web and UI Design Analysis",
+                    "count": 204,
+                    "percent": 0.0040361672239479
+                },
+                {
+                    "id": 169,
+                    "name": "Automotive Website Design",
+                    "count": 125,
+                    "percent": 0.0024731416813406
+                },
+                {
+                    "id": 173,
+                    "name": "Webcam Viewer Website Design",
+                    "count": 100,
+                    "percent": 0.0019785133450725
+                },
+                {
+                    "id": 211,
+                    "name": "Web UI for Music Playback",
+                    "count": 84,
+                    "percent": 0.0016619512098609
+                },
+                {
+                    "id": 236,
+                    "name": "Markdown and Text Editors",
+                    "count": 86,
+                    "percent": 0.0017015214767623
+                },
+                {
+                    "id": 243,
+                    "name": "League of Legends Websites",
+                    "count": 63,
+                    "percent": 0.0012464634073956
+                },
+                {
+                    "id": 262,
+                    "name": "Web Development and Design",
+                    "count": 49,
+                    "percent": 0.0009694715390855
+                },
+                {
+                    "id": 273,
+                    "name": "Web Application Development for Business Management",
+                    "count": 113,
+                    "percent": 0.0022357200799319
+                },
+                {
+                    "id": 294,
+                    "name": "Robot Simulation and Design",
+                    "count": 96,
+                    "percent": 0.0018993728112696
+                },
+                {
+                    "id": 295,
+                    "name": "Anonymous Web Browsing Tools",
+                    "count": 71,
+                    "percent": 0.0014047444750014
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "App Development",
+            "children": [
+                {
+                    "id": 6,
+                    "name": "Calculator App Development",
+                    "count": 385,
+                    "percent": 0.0076172763785291
+                },
+                {
+                    "id": 7,
+                    "name": "To-Do List App Development",
+                    "count": 442,
+                    "percent": 0.0087450289852205
+                },
+                {
+                    "id": 11,
+                    "name": "Cryptocurrency Tracker Design",
+                    "count": 354,
+                    "percent": 0.0070039372415566
+                },
+                {
+                    "id": 16,
+                    "name": "Stock Trading and Analysis Apps",
+                    "count": 367,
+                    "percent": 0.0072611439764161
+                },
+                {
+                    "id": 17,
+                    "name": "Sports App and Website Development",
+                    "count": 318,
+                    "percent": 0.0062916724373305
+                },
+                {
+                    "id": 25,
+                    "name": "Meditation App UI Design",
+                    "count": 265,
+                    "percent": 0.0052430603644421
+                },
+                {
+                    "id": 35,
+                    "name": "Note-Taking App Design",
+                    "count": 282,
+                    "percent": 0.0055794076331044
+                },
+                {
+                    "id": 36,
+                    "name": "Fitness Tracker UI Design",
+                    "count": 266,
+                    "percent": 0.0052628454978928
+                },
+                {
+                    "id": 58,
+                    "name": "Analytics Dashboard Design",
+                    "count": 363,
+                    "percent": 0.0071820034426132
+                },
+                {
+                    "id": 74,
+                    "name": "Healthcare Web App Development",
+                    "count": 186,
+                    "percent": 0.0036800348218348
+                },
+                {
+                    "id": 83,
+                    "name": "CRM and ERP Web Applications",
+                    "count": 131,
+                    "percent": 0.0025918524820449
+                },
+                {
+                    "id": 87,
+                    "name": "Personal Finance Management Tools",
+                    "count": 190,
+                    "percent": 0.0037591753556377
+                },
+                {
+                    "id": 114,
+                    "name": "Fitness App UI Design",
+                    "count": 134,
+                    "percent": 0.0026512078823971
+                },
+                {
+                    "id": 118,
+                    "name": "Energy Monitoring App Design",
+                    "count": 140,
+                    "percent": 0.0027699186831015
+                },
+                {
+                    "id": 122,
+                    "name": "Real-Time Package Tracking Interfaces",
+                    "count": 103,
+                    "percent": 0.0020378687454246
+                },
+                {
+                    "id": 124,
+                    "name": "Analog Clock Design and Development",
+                    "count": 110,
+                    "percent": 0.0021763646795797
+                },
+                {
+                    "id": 126,
+                    "name": "Note-Taking App Design Concepts",
+                    "count": 123,
+                    "percent": 0.0024335714144391
+                },
+                {
+                    "id": 139,
+                    "name": "Food and Exercise Tracking Apps",
+                    "count": 129,
+                    "percent": 0.0025522822151435
+                },
+                {
+                    "id": 180,
+                    "name": "Prompt Design and Management Systems",
+                    "count": 195,
+                    "percent": 0.0038581010228913
+                },
+                {
+                    "id": 189,
+                    "name": "Food Delivery App Interface Design",
+                    "count": 73,
+                    "percent": 0.0014443147419029
+                },
+                {
+                    "id": 200,
+                    "name": "Habit Tracker App Development",
+                    "count": 56,
+                    "percent": 0.0011079674732406
+                },
+                {
+                    "id": 202,
+                    "name": "Calendar App Development",
+                    "count": 94,
+                    "percent": 0.0018598025443681
+                },
+                {
+                    "id": 203,
+                    "name": "Plant Identification and Care Apps",
+                    "count": 67,
+                    "percent": 0.0013256039411985
+                },
+                {
+                    "id": 204,
+                    "name": "Water Tracker App Development",
+                    "count": 107,
+                    "percent": 0.0021170092792275
+                },
+                {
+                    "id": 207,
+                    "name": "Pizza Website and App Design",
+                    "count": 50,
+                    "percent": 0.0009892566725362
+                },
+                {
+                    "id": 215,
+                    "name": "Pomodoro Timer App Development",
+                    "count": 68,
+                    "percent": 0.0013453890746493
+                },
+                {
+                    "id": 218,
+                    "name": "Price Comparison Applications",
+                    "count": 83,
+                    "percent": 0.0016421660764101
+                },
+                {
+                    "id": 223,
+                    "name": "Health and Baby Tracking Apps",
+                    "count": 92,
+                    "percent": 0.0018202322774667
+                },
+                {
+                    "id": 226,
+                    "name": "Chat Apps for Seniors",
+                    "count": 43,
+                    "percent": 0.0008507607383811
+                },
+                {
+                    "id": 227,
+                    "name": "Hello World Programming",
+                    "count": 104,
+                    "percent": 0.0020576538788754
+                },
+                {
+                    "id": 239,
+                    "name": "Inventory Management Systems",
+                    "count": 72,
+                    "percent": 0.0014245296084522
+                },
+                {
+                    "id": 241,
+                    "name": "Time Tracking Applications",
+                    "count": 94,
+                    "percent": 0.0018598025443681
+                },
+                {
+                    "id": 242,
+                    "name": "BMI and Calorie Calculator Websites",
+                    "count": 66,
+                    "percent": 0.0013058188077478
+                },
+                {
+                    "id": 264,
+                    "name": "Timer and Stopwatch Web Apps",
+                    "count": 45,
+                    "percent": 0.0008903310052826
+                },
+                {
+                    "id": 271,
+                    "name": "Glucose Logging UX Design",
+                    "count": 52,
+                    "percent": 0.0010288269394377
+                },
+                {
+                    "id": 282,
+                    "name": "Voting Systems and Applications",
+                    "count": 55,
+                    "percent": 0.0010881823397898
+                },
+                {
+                    "id": 290,
+                    "name": "Food Delivery App Design",
+                    "count": 58,
+                    "percent": 0.001147537740142
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Game Development",
+            "children": [
+                {
+                    "id": 3,
+                    "name": "3D Graphics and Shaders",
+                    "count": 625,
+                    "percent": 0.0123657084067032
+                },
+                {
+                    "id": 14,
+                    "name": "Web-Based Game Development",
+                    "count": 586,
+                    "percent": 0.0115940882021249
+                },
+                {
+                    "id": 22,
+                    "name": "Chess Game Development",
+                    "count": 400,
+                    "percent": 0.00791405338029
+                },
+                {
+                    "id": 24,
+                    "name": "Snake Game Development",
+                    "count": 309,
+                    "percent": 0.006113606236274
+                },
+                {
+                    "id": 38,
+                    "name": "Tetris Game Variations",
+                    "count": 252,
+                    "percent": 0.0049858536295827
+                },
+                {
+                    "id": 46,
+                    "name": "Flappy Bird Game Development",
+                    "count": 224,
+                    "percent": 0.0044318698929624
+                },
+                {
+                    "id": 52,
+                    "name": "Tic Tac Toe Game Development",
+                    "count": 205,
+                    "percent": 0.0040559523573986
+                },
+                {
+                    "id": 62,
+                    "name": "Chess Game Development",
+                    "count": 239,
+                    "percent": 0.0047286468947233
+                },
+                {
+                    "id": 88,
+                    "name": "Super Mario Game Development",
+                    "count": 147,
+                    "percent": 0.0029084146172565
+                },
+                {
+                    "id": 91,
+                    "name": "Racing Game Development",
+                    "count": 145,
+                    "percent": 0.0028688443503551
+                },
+                {
+                    "id": 92,
+                    "name": "Clicker Game Development",
+                    "count": 178,
+                    "percent": 0.003521753754229
+                },
+                {
+                    "id": 113,
+                    "name": "Pong Game Development",
+                    "count": 96,
+                    "percent": 0.0018993728112696
+                },
+                {
+                    "id": 121,
+                    "name": "Conway",
+                    "count": 121,
+                    "percent": 0.0023940011475377
+                },
+                {
+                    "id": 123,
+                    "name": "Minecraft Game Development",
+                    "count": 120,
+                    "percent": 0.002374216014087
+                },
+                {
+                    "id": 125,
+                    "name": "Web-Based Email Service Development",
+                    "count": 89,
+                    "percent": 0.0017608768771145
+                },
+                {
+                    "id": 129,
+                    "name": "Pacman Game Development",
+                    "count": 89,
+                    "percent": 0.0017608768771145
+                },
+                {
+                    "id": 133,
+                    "name": "Wordle Game Development",
+                    "count": 113,
+                    "percent": 0.0022357200799319
+                },
+                {
+                    "id": 136,
+                    "name": "Poker Game Development",
+                    "count": 101,
+                    "percent": 0.0019982984785232
+                },
+                {
+                    "id": 142,
+                    "name": "Typing Speed Test Games",
+                    "count": 109,
+                    "percent": 0.002156579546129
+                },
+                {
+                    "id": 144,
+                    "name": "Terminal Emulator Development",
+                    "count": 130,
+                    "percent": 0.0025720673485942
+                },
+                {
+                    "id": 145,
+                    "name": "Minesweeper Game Development",
+                    "count": 64,
+                    "percent": 0.0012662485408464
+                },
+                {
+                    "id": 148,
+                    "name": "Space Invaders Game Development",
+                    "count": 86,
+                    "percent": 0.0017015214767623
+                },
+                {
+                    "id": 158,
+                    "name": "Platformer Game Development",
+                    "count": 93,
+                    "percent": 0.0018400174109174
+                },
+                {
+                    "id": 163,
+                    "name": "2048 Game Development",
+                    "count": 58,
+                    "percent": 0.001147537740142
+                },
+                {
+                    "id": 165,
+                    "name": "Sudoku Game Design and Development",
+                    "count": 89,
+                    "percent": 0.0017608768771145
+                },
+                {
+                    "id": 170,
+                    "name": "JavaScript Game Development",
+                    "count": 72,
+                    "percent": 0.0014245296084522
+                },
+                {
+                    "id": 175,
+                    "name": "App and Game Development Requests",
+                    "count": 71,
+                    "percent": 0.0014047444750014
+                },
+                {
+                    "id": 177,
+                    "name": "3D First-Person Shooter Games",
+                    "count": 104,
+                    "percent": 0.0020576538788754
+                },
+                {
+                    "id": 194,
+                    "name": "Mathematical Problem Solving",
+                    "count": 76,
+                    "percent": 0.0015036701422551
+                },
+                {
+                    "id": 201,
+                    "name": "Gaming Websites and Content",
+                    "count": 95,
+                    "percent": 0.0018795876778188
+                },
+                {
+                    "id": 212,
+                    "name": "Doom Game Clones",
+                    "count": 57,
+                    "percent": 0.0011277526066913
+                },
+                {
+                    "id": 213,
+                    "name": "Math-Based Educational Games",
+                    "count": 77,
+                    "percent": 0.0015234552757058
+                },
+                {
+                    "id": 214,
+                    "name": "Gomoku Game Development",
+                    "count": 57,
+                    "percent": 0.0011277526066913
+                },
+                {
+                    "id": 216,
+                    "name": "Chess Game Development Errors",
+                    "count": 80,
+                    "percent": 0.001582810676058
+                },
+                {
+                    "id": 222,
+                    "name": "Autonomous AI Snake Game Development",
+                    "count": 46,
+                    "percent": 0.0009101161387333
+                },
+                {
+                    "id": 234,
+                    "name": "Game Design and Development",
+                    "count": 54,
+                    "percent": 0.0010683972063391
+                },
+                {
+                    "id": 240,
+                    "name": "Card Game Development",
+                    "count": 111,
+                    "percent": 0.0021961498130304
+                },
+                {
+                    "id": 249,
+                    "name": "HTML Captcha Development",
+                    "count": 66,
+                    "percent": 0.0013058188077478
+                },
+                {
+                    "id": 254,
+                    "name": "Gorilla vs God RPG Game",
+                    "count": 46,
+                    "percent": 0.0009101161387333
+                },
+                {
+                    "id": 256,
+                    "name": "React Chess Game Development",
+                    "count": 45,
+                    "percent": 0.0008903310052826
+                },
+                {
+                    "id": 270,
+                    "name": "3D Graphics with Three.js and React",
+                    "count": 55,
+                    "percent": 0.0010881823397898
+                },
+                {
+                    "id": 275,
+                    "name": "Game Development Requests",
+                    "count": 32,
+                    "percent": 0.0006331242704232
+                },
+                {
+                    "id": 279,
+                    "name": "Tower Defense Game Development",
+                    "count": 46,
+                    "percent": 0.0009101161387333
+                },
+                {
+                    "id": 280,
+                    "name": "Battleship Game Development",
+                    "count": 60,
+                    "percent": 0.0011871080070435
+                },
+                {
+                    "id": 283,
+                    "name": "Puzzle Game Development",
+                    "count": 55,
+                    "percent": 0.0010881823397898
+                },
+                {
+                    "id": 293,
+                    "name": "Game Development and Design",
+                    "count": 158,
+                    "percent": 0.0031260510852145
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Digital Tools",
+            "children": [
+                {
+                    "id": 29,
+                    "name": "Musical Instrument Apps and Tools",
+                    "count": 305,
+                    "percent": 0.0060344657024711
+                },
+                {
+                    "id": 63,
+                    "name": "Interactive Math Visualization Tools",
+                    "count": 209,
+                    "percent": 0.0041350928912015
+                },
+                {
+                    "id": 67,
+                    "name": "Weather App Development",
+                    "count": 178,
+                    "percent": 0.003521753754229
+                },
+                {
+                    "id": 70,
+                    "name": "Canvas Drawing Application Design",
+                    "count": 207,
+                    "percent": 0.0040955226243001
+                },
+                {
+                    "id": 84,
+                    "name": "Graph Visualization and Interaction",
+                    "count": 168,
+                    "percent": 0.0033239024197218
+                },
+                {
+                    "id": 90,
+                    "name": "React Financial Dashboard Components",
+                    "count": 341,
+                    "percent": 0.0067467305066972
+                },
+                {
+                    "id": 108,
+                    "name": "SVG Code Generation",
+                    "count": 161,
+                    "percent": 0.0031854064855667
+                },
+                {
+                    "id": 116,
+                    "name": "Interactive Chart Creation Tools",
+                    "count": 140,
+                    "percent": 0.0027699186831015
+                },
+                {
+                    "id": 132,
+                    "name": "PDF Tools and Processing",
+                    "count": 167,
+                    "percent": 0.003304117286271
+                },
+                {
+                    "id": 147,
+                    "name": "Neural Network Visualization and Education",
+                    "count": 130,
+                    "percent": 0.0025720673485942
+                },
+                {
+                    "id": 149,
+                    "name": "Spreadsheet Software Development",
+                    "count": 113,
+                    "percent": 0.0022357200799319
+                },
+                {
+                    "id": 153,
+                    "name": "Interactive Map Development",
+                    "count": 95,
+                    "percent": 0.0018795876778188
+                },
+                {
+                    "id": 154,
+                    "name": "Mandelbrot Set Visualization Tools",
+                    "count": 85,
+                    "percent": 0.0016817363433116
+                },
+                {
+                    "id": 160,
+                    "name": "Christmas Themed Digital Creations",
+                    "count": 104,
+                    "percent": 0.0020576538788754
+                },
+                {
+                    "id": 182,
+                    "name": "Maze Generation and Solving Algorithms",
+                    "count": 80,
+                    "percent": 0.001582810676058
+                },
+                {
+                    "id": 197,
+                    "name": "Color Picker and Palette Tools",
+                    "count": 125,
+                    "percent": 0.0024731416813406
+                },
+                {
+                    "id": 199,
+                    "name": "ASCII Art Creation",
+                    "count": 81,
+                    "percent": 0.0016025958095087
+                },
+                {
+                    "id": 206,
+                    "name": "Data Extraction and Transformation Tools",
+                    "count": 91,
+                    "percent": 0.0018004471440159
+                },
+                {
+                    "id": 233,
+                    "name": "Real-Time Data Visualization and Anomaly Detection",
+                    "count": 79,
+                    "percent": 0.0015630255426072
+                },
+                {
+                    "id": 237,
+                    "name": "Digital Drawing Applications",
+                    "count": 69,
+                    "percent": 0.0013651742081
+                },
+                {
+                    "id": 238,
+                    "name": "Bus Network Diagram Creation",
+                    "count": 100,
+                    "percent": 0.0019785133450725
+                },
+                {
+                    "id": 247,
+                    "name": "MacBook Air Comparison with Vector Art",
+                    "count": 62,
+                    "percent": 0.0012266782739449
+                },
+                {
+                    "id": 250,
+                    "name": "Interactive Map Applications",
+                    "count": 103,
+                    "percent": 0.0020378687454246
+                },
+                {
+                    "id": 281,
+                    "name": "Password Generation and Security Tools",
+                    "count": 47,
+                    "percent": 0.000929901272184
+                },
+                {
+                    "id": 285,
+                    "name": "Horror and Jumpscare Creations",
+                    "count": 49,
+                    "percent": 0.0009694715390855
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "UI Design",
+            "children": [
+                {
+                    "id": 21,
+                    "name": "Task Management Board Design",
+                    "count": 333,
+                    "percent": 0.0065884494390914
+                },
+                {
+                    "id": 30,
+                    "name": "Code Editor Interface Design",
+                    "count": 350,
+                    "percent": 0.0069247967077537
+                },
+                {
+                    "id": 43,
+                    "name": "Calendar Interface Design",
+                    "count": 276,
+                    "percent": 0.0054606968324001
+                },
+                {
+                    "id": 48,
+                    "name": "Music Player Interface Design",
+                    "count": 249,
+                    "percent": 0.0049264982292305
+                },
+                {
+                    "id": 100,
+                    "name": "UI Design Generation",
+                    "count": 776,
+                    "percent": 0.0153532635577626
+                },
+                {
+                    "id": 103,
+                    "name": "Graphic Design Tool Interface Design",
+                    "count": 148,
+                    "percent": 0.0029281997507073
+                },
+                {
+                    "id": 105,
+                    "name": "Event Scheduling UI Design",
+                    "count": 146,
+                    "percent": 0.0028886294838058
+                },
+                {
+                    "id": 106,
+                    "name": "Personalized Music Streaming UI Design",
+                    "count": 133,
+                    "percent": 0.0026314227489464
+                },
+                {
+                    "id": 128,
+                    "name": "Metrics Dashboard Layout Design",
+                    "count": 87,
+                    "percent": 0.001721306610213
+                },
+                {
+                    "id": 150,
+                    "name": "Game UI Design",
+                    "count": 116,
+                    "percent": 0.0022950754802841
+                },
+                {
+                    "id": 152,
+                    "name": "Banking Interface Design",
+                    "count": 87,
+                    "percent": 0.001721306610213
+                },
+                {
+                    "id": 162,
+                    "name": "Button Design and UI",
+                    "count": 124,
+                    "percent": 0.0024533565478899
+                },
+                {
+                    "id": 176,
+                    "name": "Interactive DataTable Component Design",
+                    "count": 143,
+                    "percent": 0.0028292740834536
+                },
+                {
+                    "id": 178,
+                    "name": "Photo Gallery UI Design",
+                    "count": 162,
+                    "percent": 0.0032051916190174
+                },
+                {
+                    "id": 186,
+                    "name": "Carousel Design and Implementation",
+                    "count": 103,
+                    "percent": 0.0020378687454246
+                },
+                {
+                    "id": 187,
+                    "name": "Timeline UI Design",
+                    "count": 80,
+                    "percent": 0.001582810676058
+                },
+                {
+                    "id": 208,
+                    "name": "Database Management UI Design",
+                    "count": 69,
+                    "percent": 0.0013651742081
+                },
+                {
+                    "id": 224,
+                    "name": "Video Editing Interface Design",
+                    "count": 113,
+                    "percent": 0.0022357200799319
+                },
+                {
+                    "id": 258,
+                    "name": "Emoji-Based UI Design",
+                    "count": 61,
+                    "percent": 0.0012068931404942
+                },
+                {
+                    "id": 266,
+                    "name": "Sci-Fi User Interface Design",
+                    "count": 65,
+                    "percent": 0.0012860336742971
+                },
+                {
+                    "id": 288,
+                    "name": "Car Dashboard and Infotainment UI Design",
+                    "count": 38,
+                    "percent": 0.0007518350711275
+                },
+                {
+                    "id": 291,
+                    "name": "Image Comparison and Ranking UI",
+                    "count": 50,
+                    "percent": 0.0009892566725362
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "AI Applications",
+            "children": [
+                {
+                    "id": 9,
+                    "name": "Text Communication Challenges",
+                    "count": 346,
+                    "percent": 0.0068456561739508
+                },
+                {
+                    "id": 20,
+                    "name": "Interactive Solar System Models",
+                    "count": 319,
+                    "percent": 0.0063114575707813
+                },
+                {
+                    "id": 72,
+                    "name": "Large Language Models (LLMs)",
+                    "count": 222,
+                    "percent": 0.0043922996260609
+                },
+                {
+                    "id": 75,
+                    "name": "Artificial Intelligence Applications",
+                    "count": 338,
+                    "percent": 0.006687375106345
+                },
+                {
+                    "id": 102,
+                    "name": "Programming and Software Development",
+                    "count": 111,
+                    "percent": 0.0021961498130304
+                },
+                {
+                    "id": 110,
+                    "name": "LLM Chat Application Development",
+                    "count": 194,
+                    "percent": 0.0038383158894406
+                },
+                {
+                    "id": 143,
+                    "name": "AI, Marketing, and Communication",
+                    "count": 83,
+                    "percent": 0.0016421660764101
+                },
+                {
+                    "id": 159,
+                    "name": "Criticism of Chinese Government",
+                    "count": 110,
+                    "percent": 0.0021763646795797
+                },
+                {
+                    "id": 168,
+                    "name": "AI Competition Challenges",
+                    "count": 121,
+                    "percent": 0.0023940011475377
+                },
+                {
+                    "id": 174,
+                    "name": "Sorting Algorithms Implementation",
+                    "count": 97,
+                    "percent": 0.0019191579447203
+                },
+                {
+                    "id": 181,
+                    "name": "C++ Problem Solving and Algorithm Design",
+                    "count": 115,
+                    "percent": 0.0022752903468333
+                },
+                {
+                    "id": 188,
+                    "name": "AI Model Identification",
+                    "count": 159,
+                    "percent": 0.0031458362186652
+                },
+                {
+                    "id": 191,
+                    "name": "Speech and Text Conversion Technologies",
+                    "count": 109,
+                    "percent": 0.002156579546129
+                },
+                {
+                    "id": 221,
+                    "name": "DeepSeek Technical Insights",
+                    "count": 68,
+                    "percent": 0.0013453890746493
+                },
+                {
+                    "id": 248,
+                    "name": "Unfiltered AI Responses",
+                    "count": 70,
+                    "percent": 0.0013849593415507
+                },
+                {
+                    "id": 260,
+                    "name": "System Prompt Manipulation",
+                    "count": 34,
+                    "percent": 0.0006726945373246
+                },
+                {
+                    "id": 276,
+                    "name": "Number Comparison Queries",
+                    "count": 40,
+                    "percent": 0.000791405338029
+                },
+                {
+                    "id": 278,
+                    "name": "Artificial Life Simulation",
+                    "count": 42,
+                    "percent": 0.0008309756049304
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "App Design",
+            "children": [
+                {
+                    "id": 1,
+                    "name": "Language Learning App Design",
+                    "count": 609,
+                    "percent": 0.0120491462714916
+                },
+                {
+                    "id": 2,
+                    "name": "Interactive Application Design",
+                    "count": 554,
+                    "percent": 0.0109609639317017
+                },
+                {
+                    "id": 12,
+                    "name": "Modern Login Page Design",
+                    "count": 415,
+                    "percent": 0.0082108303820509
+                },
+                {
+                    "id": 33,
+                    "name": "Forum Design Features",
+                    "count": 263,
+                    "percent": 0.0052034900975407
+                },
+                {
+                    "id": 41,
+                    "name": "Online Course Platform Design",
+                    "count": 273,
+                    "percent": 0.0054013414320479
+                },
+                {
+                    "id": 53,
+                    "name": "Podcast Platform Design",
+                    "count": 207,
+                    "percent": 0.0040955226243001
+                },
+                {
+                    "id": 80,
+                    "name": "Email App Design and Features",
+                    "count": 196,
+                    "percent": 0.0038778861563421
+                },
+                {
+                    "id": 97,
+                    "name": "Twitter Profile UI Design",
+                    "count": 129,
+                    "percent": 0.0025522822151435
+                },
+                {
+                    "id": 146,
+                    "name": "Anime Streaming Website Design",
+                    "count": 89,
+                    "percent": 0.0017608768771145
+                },
+                {
+                    "id": 164,
+                    "name": "File Upload UI Design",
+                    "count": 86,
+                    "percent": 0.0017015214767623
+                },
+                {
+                    "id": 210,
+                    "name": "Bioinformatics and UI Development",
+                    "count": 69,
+                    "percent": 0.0013651742081
+                },
+                {
+                    "id": 244,
+                    "name": "NFL Scorebug Design",
+                    "count": 58,
+                    "percent": 0.001147537740142
+                },
+                {
+                    "id": 263,
+                    "name": "UI/UX Design and Animation Enhancements",
+                    "count": 48,
+                    "percent": 0.0009496864056348
+                },
+                {
+                    "id": 269,
+                    "name": "Lunar New Year Design and Promotion",
+                    "count": 69,
+                    "percent": 0.0013651742081
+                },
+                {
+                    "id": 284,
+                    "name": "Dictionary and Abbreviation UI Design",
+                    "count": 52,
+                    "percent": 0.0010288269394377
+                },
+                {
+                    "id": 287,
+                    "name": "German-Turkish Dictionary Development",
+                    "count": 30,
+                    "percent": 0.0005935540035217
+                },
+                {
+                    "id": 292,
+                    "name": "React Authentication UI Enhancements",
+                    "count": 46,
+                    "percent": 0.0009101161387333
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Simulations",
+            "children": [
+                {
+                    "id": 10,
+                    "name": "2D Bouncing Ball Simulations",
+                    "count": 391,
+                    "percent": 0.0077359871792335
+                },
+                {
+                    "id": 51,
+                    "name": "Windows OS Interface Simulations",
+                    "count": 275,
+                    "percent": 0.0054409116989494
+                },
+                {
+                    "id": 57,
+                    "name": "Interactive Physics Simulations",
+                    "count": 278,
+                    "percent": 0.0055002670993015
+                },
+                {
+                    "id": 135,
+                    "name": "Hacking Simulation Games",
+                    "count": 108,
+                    "percent": 0.0021367944126783
+                },
+                {
+                    "id": 185,
+                    "name": "RPG Character Management Tools",
+                    "count": 114,
+                    "percent": 0.0022555052133826
+                },
+                {
+                    "id": 193,
+                    "name": "3D Animated Dice Roller Apps",
+                    "count": 63,
+                    "percent": 0.0012464634073956
+                },
+                {
+                    "id": 209,
+                    "name": "Interactive Spinning Wheel Applications",
+                    "count": 63,
+                    "percent": 0.0012464634073956
+                },
+                {
+                    "id": 229,
+                    "name": "Web Animation Libraries and Techniques",
+                    "count": 84,
+                    "percent": 0.0016619512098609
+                },
+                {
+                    "id": 232,
+                    "name": "Random Number Generator Websites",
+                    "count": 81,
+                    "percent": 0.0016025958095087
+                },
+                {
+                    "id": 246,
+                    "name": "Adult Simulation Games",
+                    "count": 63,
+                    "percent": 0.0012464634073956
+                },
+                {
+                    "id": 253,
+                    "name": "Confetti Button Creation",
+                    "count": 63,
+                    "percent": 0.0012464634073956
+                },
+                {
+                    "id": 255,
+                    "name": "Flight Simulation Game Design",
+                    "count": 59,
+                    "percent": 0.0011673228735927
+                },
+                {
+                    "id": 265,
+                    "name": "Random Content Generation Websites",
+                    "count": 95,
+                    "percent": 0.0018795876778188
+                },
+                {
+                    "id": 267,
+                    "name": "JavaScript Falling Letters Animation",
+                    "count": 72,
+                    "percent": 0.0014245296084522
+                },
+                {
+                    "id": 268,
+                    "name": "React 3D and Animation Components",
+                    "count": 56,
+                    "percent": 0.0011079674732406
+                },
+                {
+                    "id": 272,
+                    "name": "Animated Dot and Circle Movements",
+                    "count": 87,
+                    "percent": 0.001721306610213
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Creative Humor",
+            "children": [
+                {
+                    "id": 81,
+                    "name": "Apple Website Parodies",
+                    "count": 228,
+                    "percent": 0.0045110104267653
+                },
+                {
+                    "id": 104,
+                    "name": "Creative Challenges and Surprises",
+                    "count": 191,
+                    "percent": 0.0037789604890884
+                },
+                {
+                    "id": 140,
+                    "name": "Hyperrealistic Prompt Generation",
+                    "count": 184,
+                    "percent": 0.0036404645549334
+                },
+                {
+                    "id": 155,
+                    "name": "Coding and Food Humor",
+                    "count": 70,
+                    "percent": 0.0013849593415507
+                },
+                {
+                    "id": 183,
+                    "name": "Donald Trump Digital Content",
+                    "count": 64,
+                    "percent": 0.0012662485408464
+                },
+                {
+                    "id": 196,
+                    "name": "Creative Writing Prompts",
+                    "count": 68,
+                    "percent": 0.0013453890746493
+                },
+                {
+                    "id": 245,
+                    "name": "Humor and Jokes",
+                    "count": 110,
+                    "percent": 0.0021763646795797
+                },
+                {
+                    "id": 251,
+                    "name": "Fictional Town Tourism Websites",
+                    "count": 73,
+                    "percent": 0.0014443147419029
+                },
+                {
+                    "id": 252,
+                    "name": "Apocalyptic Reddit Front Pages",
+                    "count": 68,
+                    "percent": 0.0013453890746493
+                },
+                {
+                    "id": 259,
+                    "name": "Creative Drawing Requests",
+                    "count": 148,
+                    "percent": 0.0029281997507073
+                },
+                {
+                    "id": 277,
+                    "name": "Letter Counting in Words",
+                    "count": 35,
+                    "percent": 0.0006924796707753
+                },
+                {
+                    "id": 286,
+                    "name": "Absurdist Humor and Fantasy",
+                    "count": 43,
+                    "percent": 0.0008507607383811
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Multilingual Queries",
+            "children": [
+                {
+                    "id": 0,
+                    "name": "Russian Queries",
+                    "count": 1806,
+                    "percent": 0.0357319510120095
+                },
+                {
+                    "id": 4,
+                    "name": "German Queries",
+                    "count": 444,
+                    "percent": 0.0087845992521219
+                },
+                {
+                    "id": 13,
+                    "name": "Portuguese Queries",
+                    "count": 328,
+                    "percent": 0.0064895237718378
+                },
+                {
+                    "id": 19,
+                    "name": "French Queries",
+                    "count": 365,
+                    "percent": 0.0072215737095146
+                },
+                {
+                    "id": 71,
+                    "name": "Italian Queries",
+                    "count": 180,
+                    "percent": 0.0035613240211305
+                },
+                {
+                    "id": 93,
+                    "name": "Turkish Queries",
+                    "count": 151,
+                    "percent": 0.0029875551510594
+                },
+                {
+                    "id": 112,
+                    "name": "Persian Queries",
+                    "count": 98,
+                    "percent": 0.001938943078171
+                },
+                {
+                    "id": 130,
+                    "name": "Vietnamese Queries",
+                    "count": 80,
+                    "percent": 0.001582810676058
+                }
+            ]
+        }
+    ]
+}
