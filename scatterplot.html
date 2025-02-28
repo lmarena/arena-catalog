@@ -133,11 +133,17 @@
       <!-- Options will be populated dynamically -->
     </select>
   </div>
-  <div style="position: absolute; top: 18px; right: 530px; z-index: 10; display: flex; flex-wrap: wrap; align-items: center;">
+  <div style="position: absolute; top: 18px; right: 530px; z-index: 10;">
+    <label>
+      Style Control <input type="checkbox" id="scatter-checkbox">
+    </label>
+  </div>
+  <div style="position: absolute; top: 18px; right: 700px; z-index: 10; display: flex; flex-wrap: wrap; align-items: center;">
     <label for="scale-slider" style="margin-right: 10px; flex: 1; white-space: normal;">
       Input/Output Cost Ratio:
     </label>
     <input id="scale-slider" type="range" min="0" max="1" value="1" step="0.01" class="slider" style="flex-shrink: 0; margin-right: 15px; accent-color: white;">
+  
     
     <!-- Info icon -->
     <div class="info-container">
@@ -155,8 +161,9 @@
    Promise.all([
         d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/scatterplot-data.json"),
         d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-data.json"),
-        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/visibility-data.json")
-      ]).then(function  ([data, data2, data3]) {
+        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/visibility-data.json"),
+        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-data-style-control.json")
+      ]).then(function  ([data, data2, data3, data4]) {
 
       const dropdown = d3.select("#category-toggle");
       const slider = document.getElementById("scale-slider");
@@ -226,11 +233,11 @@
         const height = Math.min(container.node().clientHeight, (width / 8) * 5);;
         return { width, height };
       };
-
+      let styleControlOn = false;
       const { width, height } = resize();
       window.addEventListener("resize", () => {
         const dimensions = resize();
-        renderScatterplot(dimensions.width, dimensions.height);
+        renderScatterplot(dimensions.width, dimensions.height, styleControlOn);
       });
 
       const colorScale = d3.scaleOrdinal(d3.schemeObservable10);
@@ -260,7 +267,7 @@
         return true;
       }
   
-      function renderScatterplot(w, h) {
+      function renderScatterplot(w, h, styleControlOn) {
         svg.selectAll("*").remove();
         
         // Assign legend item
@@ -274,11 +281,12 @@
         });
 
         // Get arena data
+        let leaderboardData = styleControlOn ? data4 : data2;
         data.forEach(d => {
-          Object.keys(data2).forEach(d2 => {
-            d[d2 + "_rating"] = data2[d2][d.model_api_name].rating;
-            d[d2 + "_rating_q975"] = data2[d2][d.model_api_name].rating_q975;
-            d[d2 + "_rating_q025"] = data2[d2][d.model_api_name].rating_q025;
+          Object.keys(leaderboardData).forEach(d2 => {
+            d[d2 + "_rating"] = leaderboardData[d2][d.model_api_name].rating;
+            d[d2 + "_rating_q975"] = leaderboardData[d2][d.model_api_name].rating_q975;
+            d[d2 + "_rating_q025"] = leaderboardData[d2][d.model_api_name].rating_q025;
           })
         });
         
@@ -369,7 +377,7 @@
           .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
           .attr("font-size", "15px")
           .text("Confidence Intervals:");
-
+      
         // Add x-axis title
         svg.append("text")
           .attr("class", "x-axis-title")
@@ -632,15 +640,11 @@
           .attr("class", "toggle-group")
           .attr("transform", `translate(${w - margin.right - 180}, 20)`)
           .style("cursor", "pointer");
-
-        // Toggle background (like a switch)
         const toggleBackground = toggleGroup.append("rect")
           .attr("width", 40)
           .attr("height", 20)
           .attr("rx", 10) // Rounded edges
           .attr("fill", showConfidenceIntervals ? "#4caf50" : "#ccc") // Green if ON, gray if OFF
-
-        // Toggle circle (indicator)
         const toggleCircle = toggleGroup.append("circle")
           .attr("cx", showConfidenceIntervals ? 30 : 10) // Position depends on state
           .attr("cy", 10)
@@ -684,16 +688,26 @@
       // Re-render scatterplot on category change
       document.getElementById("category-toggle").addEventListener("change", () => {
         const dimensions = resize();
-        renderScatterplot(dimensions.width, dimensions.height);
+        renderScatterplot(dimensions.width, dimensions.height, styleControlOn);
       });
 
       slider.addEventListener("input", function() {
-        console.log(slider.value);
         const dimensions = resize();
-        renderScatterplot(dimensions.width, dimensions.height);
+        renderScatterplot(dimensions.width, dimensions.height, styleControlOn);
       });
 
-      renderScatterplot(width, height);
+      // Function to handle checkbox change
+      d3.select("#scatter-checkbox").on("change", function() {
+          styleControlOn = this.checked; // Update state
+
+          console.log("Checkbox clicked! New state:", styleControlOn);
+
+          // Re-render scatterplot with updated colors
+          const dimensions = resize();
+          renderScatterplot(dimensions.width, dimensions.height, styleControlOn);
+      });
+
+      renderScatterplot(width, height, styleControlOn);
 
       function updateSliderColor() {
         const slider = document.getElementById("scale-slider");
@@ -701,7 +715,7 @@
 
         slider.style.accentColor = isDarkMode ? "white" : "black";
       }
-  
+
       document.querySelector(".toggle-dark-mode").addEventListener("click", () => {
         const body = document.body;
         const isDarkMode = body.classList.toggle("dark-mode");
