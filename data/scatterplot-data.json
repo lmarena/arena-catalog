@@ -368,5 +368,25 @@
     "license": "Apache 2.0",
     "price_source": "https://mistral.ai/en/products/la-plateforme#pricing",
     "model_source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+  },
+  {
+    "name": "Claude 3.7 Sonnet",
+    "model_api_name": "claude-3-7-sonnet-20250219",
+    "input_token_price": "3",
+    "output_token_price": "15",
+    "organization": "Anthropic",
+    "license": "Proprietary",
+    "price_source": "https://www.anthropic.com/news/claude-3-7-sonnet",
+    "model_source": "https://www.anthropic.com/news/claude-3-7-sonnet"
+  },
+  {
+    "name": "GPT-4.5-Preview",
+    "model_api_name": "gpt-4.5-preview-2025-02-27",
+    "input_token_price": "75",
+    "output_token_price": "150",
+    "organization": "OpenAI",
+    "license": "Proprietary",
+    "price_source": "https://openai.com/api/pricing/",
+    "model_source": "https://openai.com/index/introducing-gpt-4-5/"
   }
 ]
