@@ -397,14 +397,12 @@
     ]
   },
   "math": {
-    "left": ["qwen2.5-max", "claude-3-5-sonnet-20241022", "llama-3.3-70b-instruct", "gemma-2-9b-it"],
+    "left": ["qwen2.5-max", "claude-3-5-sonnet-20241022", "llama-3.3-70b-instruct", "gemma-2-9b-it", "yi-lightning", "gemini-2.0-flash-lite-preview-02-05"],
     "right": [
       "chatgpt-4o-latest-20241120",
-      "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
       "gemini-2.0-flash-001",
-      "gemini-2.0-flash-lite-preview-02-05",
       "deepseek-v3",
       "llama-3.1-8b-instruct",
       "llama-3.1-405b-instruct-fp8",
