@@ -116,6 +116,41 @@
       box-shadow: none !important;
     }
 
+    #arena-toggle {
+      font-family: 'Poppins', sans-serif;
+      font-size: 10px;
+      padding: 8px 30px 8px 12px; /* Extra right padding for arrow */
+      width: 100px;
+      border: 1px solid #ccc;
+      border-radius: 8px; /* Soft rounded corners */
+      background-color: white;
+      color: #333;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+      -webkit-appearance: none; /* Ensures styling works in all browsers */
+      -moz-appearance: none;
+      appearance: none;
+      position: relative;
+      margin-left: 5px;
+    }
+
+    /* Custom dropdown arrow (SVG) */
+    #arena-toggle {
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black"><path d="M7 10l5 5 5-5z"/></svg>');
+      background-repeat: no-repeat;
+      background-position: right 8px center; /* Moves arrow closer */
+      background-size: 14px;
+    }
+
+    /* Remove blue outline */
+    #arena-toggle:focus,
+    #arena-toggle:active {
+      outline: none !important;
+      border-color: #aaa !important;
+      box-shadow: none !important;
+    }
+
     .info-tooltip {
       width: auto;  
       min-width: 250px; 
@@ -125,7 +160,7 @@
   </style>
 </head>
 <body class="dark-mode">
-  <div style="position: absolute; top: 15px; right: 10px; z-index: 10;">
+  <div style="position: absolute; top: 10px; right: 10px; z-index: 10;">
     <label for="category-toggle" style="font-family: 'Poppins', sans-serif; font-size: 15px;">
       Category:
     </label>
@@ -133,12 +168,12 @@
       <!-- Options will be populated dynamically -->
     </select>
   </div>
-  <div style="position: absolute; top: 18px; right: 530px; z-index: 10;">
+  <div style="position: absolute; top: 13px; right: 515px; z-index: 10;">
     <label>
       Style Control <input type="checkbox" id="scatter-checkbox">
     </label>
   </div>
-  <div style="position: absolute; top: 18px; right: 700px; z-index: 10; display: flex; flex-wrap: wrap; align-items: center;">
+  <div style="position: absolute; top: 13px; right: 660px; z-index: 10; display: flex; flex-wrap: wrap; align-items: center;">
     <label for="scale-slider" style="margin-right: 10px; flex: 1; white-space: normal;">
       Input/Output Cost Ratio:
     </label>
@@ -154,18 +189,27 @@
       </div>
     </div>
   </div>   
+  <div style="position: absolute; top: 10px; left: 10px; z-index: 10;">
+    <label for="arena-toggle" style="font-family: 'Poppins', sans-serif; font-size: 15px;">
+      Arena:
+    </label>
+    <select id="arena-toggle" style="font-family: 'Poppins', sans-serif; padding: 5px; font-size: 13px;">
+      <option value="text">Language</option>
+      <option value="vision">Vision</option>
+    </select>
+  </div>
   <button class="toggle-dark-mode">Light Mode</button>
   <div id="scatterplot" class="scatterplot-container"></div>
 
   <script>
    Promise.all([
         d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/scatterplot-data.json"),
-        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-data.json"),
+        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-text.json"),
         d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/visibility-data.json"),
-        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-data-style-control.json")
-      ]).then(function  ([data, data2, data3, data4]) {
-
-      const dropdown = d3.select("#category-toggle");
+        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-text-style-control.json"),
+        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-vision.json"),
+        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-vision-style-control.json")
+      ]).then(function  ([data, data2, data3, data4, data5, data6]) {
       const slider = document.getElementById("scale-slider");
       const infoIcon = document.querySelector('.info-icon');
       const infoTooltip = document.querySelector('.info-tooltip');
@@ -178,51 +222,11 @@
         infoTooltip.style.visibility = 'hidden'; // Hide the tooltip
       });
 
-      // Get all keys from the JSON
-      let allKeys = Object.keys(data2);
-      
-      const orderKeys = ['full', 'math', 'if', 'multiturn', 'creative_writing', 'coding', 'hard_6', 'hard_english_6', 'long_user', 'english', 'chinese', 'french', 'german', 'spanish', 'russian', 'japanese', 'korean', 'no_tie', 'no_short', 'no_refusal']
-      
-      allKeys = allKeys.sort((a, b) => {
-        // First, check the position in the custom order array
-        const aIndex = orderKeys.indexOf(a);
-        const bIndex = orderKeys.indexOf(b);
+      // Define data booleans for renderScatterplot
+      let styleControlOn = false;
+      let arenaType = 'text';
 
-        // If both keys are found in the custom order, compare their indices
-        if (aIndex !== -1 && bIndex !== -1) {
-          return aIndex - bIndex;
-        }
-
-        // If one of the keys is not in the custom order, keep its relative position
-        if (aIndex === -1 && bIndex === -1) return 0;
-        return aIndex === -1 ? 1 : -1;
-      });
-
-      // Function to format key names
-      const formatKey = (key) => {
-        const keyMapping = {
-          if: "Instruction Following",
-          multiturn: "Multi-Turn",
-          hard_6: "Hard Prompts",
-          hard_english_6: "Hard Prompts (English)",
-          long_user: "Longer Query",
-          no_tie: "Exclude Ties",
-          no_short: "Exclude Short Query",
-        };
-
-        return keyMapping[key] || key
-          .replace(/_/g, " ")  // Replace underscores with spaces
-          .replace(/\b\w/g, char => char.toUpperCase()); // Capitalize each word;
-      };
-
-      // Append each key as an option
-      allKeys.forEach(key => {
-        dropdown
-          .append("option")
-          .attr("value", key)
-          .text(key === "full" ? "Overall" : formatKey(key));
-      });
-
+      updateCategoryDropdown(arenaType, styleControlOn);
       const container = d3.select("#scatterplot");
       const svg = container.append("svg");
   
@@ -233,11 +237,11 @@
         const height = Math.min(container.node().clientHeight, (width / 8) * 5);;
         return { width, height };
       };
-      let styleControlOn = false;
+
       const { width, height } = resize();
       window.addEventListener("resize", () => {
         const dimensions = resize();
-        renderScatterplot(dimensions.width, dimensions.height, styleControlOn);
+        renderScatterplot(dimensions.width, dimensions.height, styleControlOn, arenaType);
       });
 
       const colorScale = d3.scaleOrdinal(d3.schemeObservable10);
@@ -267,7 +271,7 @@
         return true;
       }
   
-      function renderScatterplot(w, h, styleControlOn) {
+      function renderScatterplot(w, h, styleControlOn, arenaType) {
         svg.selectAll("*").remove();
         
         // Assign legend item
@@ -281,12 +285,18 @@
         });
 
         // Get arena data
-        let leaderboardData = styleControlOn ? data4 : data2;
+        let styleControlData = arenaType == 'vision' ? data6 : data4;
+        let noControlData = arenaType == 'vision' ? data5 : data2;
+        let leaderboardData = styleControlOn ? styleControlData : noControlData;
+        console.log("PIG", styleControlOn, arenaType);
+        console.log(leaderboardData);
         data.forEach(d => {
           Object.keys(leaderboardData).forEach(d2 => {
-            d[d2 + "_rating"] = leaderboardData[d2][d.model_api_name].rating;
-            d[d2 + "_rating_q975"] = leaderboardData[d2][d.model_api_name].rating_q975;
-            d[d2 + "_rating_q025"] = leaderboardData[d2][d.model_api_name].rating_q025;
+            if (d.model_api_name  in leaderboardData[d2]) {
+              d[d2 + "_rating"] = leaderboardData[d2][d.model_api_name].rating;
+              d[d2 + "_rating_q975"] = leaderboardData[d2][d.model_api_name].rating_q975;
+              d[d2 + "_rating_q025"] = leaderboardData[d2][d.model_api_name].rating_q025;
+            }
           })
         });
         
@@ -372,7 +382,7 @@
         svg.append("text")
           .attr("class", "legend-title")
           .attr("x", w - margin.right - 270)  // Center text in the box
-          .attr("y", 35)   // Adjust for better alignment
+          .attr("y", 30)   // Adjust for better alignment
           .attr("text-anchor", "middle") // Center alignment
           .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
           .attr("font-size", "15px")
@@ -643,11 +653,12 @@
         const toggleBackground = toggleGroup.append("rect")
           .attr("width", 40)
           .attr("height", 20)
+          .attr("y", -5)
           .attr("rx", 10) // Rounded edges
           .attr("fill", showConfidenceIntervals ? "#4caf50" : "#ccc") // Green if ON, gray if OFF
         const toggleCircle = toggleGroup.append("circle")
           .attr("cx", showConfidenceIntervals ? 30 : 10) // Position depends on state
-          .attr("cy", 10)
+          .attr("cy", 5)
           .attr("r", 8)
           .attr("fill", "#fff");
 
@@ -688,26 +699,16 @@
       // Re-render scatterplot on category change
       document.getElementById("category-toggle").addEventListener("change", () => {
         const dimensions = resize();
-        renderScatterplot(dimensions.width, dimensions.height, styleControlOn);
+        renderScatterplot(dimensions.width, dimensions.height, styleControlOn, arenaType);
       });
 
+      // Re-render scatterplot on scale change
       slider.addEventListener("input", function() {
         const dimensions = resize();
-        renderScatterplot(dimensions.width, dimensions.height, styleControlOn);
+        renderScatterplot(dimensions.width, dimensions.height, styleControlOn, arenaType);
       });
 
-      // Function to handle checkbox change
-      d3.select("#scatter-checkbox").on("change", function() {
-          styleControlOn = this.checked; // Update state
-
-          console.log("Checkbox clicked! New state:", styleControlOn);
-
-          // Re-render scatterplot with updated colors
-          const dimensions = resize();
-          renderScatterplot(dimensions.width, dimensions.height, styleControlOn);
-      });
-
-      renderScatterplot(width, height, styleControlOn);
+      renderScatterplot(width, height, styleControlOn, arenaType);
 
       function updateSliderColor() {
         const slider = document.getElementById("scale-slider");
@@ -715,6 +716,83 @@
 
         slider.style.accentColor = isDarkMode ? "white" : "black";
       }
+
+      function updateCategoryDropdown(arenaType, styleControlOn) {
+        const dropdown = d3.select("#category-toggle");
+
+        // Remove existing options
+        dropdown.selectAll("option").remove();
+        
+        // Get all keys from the JSON
+        let arenaTypeData = arenaType == 'text' ? data2 : data5;
+        if (styleControlOn && arenaType == 'vision') {
+          arenaTypeData = data6;
+        }
+        let allKeys = Object.keys(arenaTypeData);
+        
+        const orderKeys = ['full', 'math', 'if', 'multiturn', 'creative_writing', 'coding', 'hard_6', 'hard_english_6', 'long_user', 'english', 'chinese', 'french', 'german', 'spanish', 'russian', 'japanese', 'korean', 'no_tie', 'no_short', 'no_refusal']
+        
+        if (arenaType == 'text') {
+            allKeys = allKeys.sort((a, b) => {
+            // First, check the position in the custom order array
+            const aIndex = orderKeys.indexOf(a);
+            const bIndex = orderKeys.indexOf(b);
+
+            // If both keys are found in the custom order, compare their indices
+            if (aIndex !== -1 && bIndex !== -1) {
+              return aIndex - bIndex;
+            }
+
+            // If one of the keys is not in the custom order, keep its relative position
+            if (aIndex === -1 && bIndex === -1) return 0;
+            return aIndex === -1 ? 1 : -1;
+          });
+        }
+
+        // Function to format key names
+        const formatKey = (key) => {
+          const keyMapping = {
+            if: "Instruction Following",
+            multiturn: "Multi-Turn",
+            hard_6: "Hard Prompts",
+            hard_english_6: "Hard Prompts (English)",
+            long_user: "Longer Query",
+            no_tie: "Exclude Ties",
+            no_short: "Exclude Short Query",
+          };
+
+          return keyMapping[key] || key
+            .replace(/_/g, " ")  // Replace underscores with spaces
+            .replace(/\b\w/g, char => char.toUpperCase()); // Capitalize each word;
+        };
+
+        // Append each key as an option
+        allKeys.forEach(key => {
+          dropdown
+            .append("option")
+            .attr("value", key)
+            .text(key === "full" ? "Overall" : formatKey(key));
+        });
+      }
+
+       // Re-render scatterplot on arena change
+       d3.select("#arena-toggle").on("change", function() {
+        arenaType = this.value;
+        updateCategoryDropdown(arenaType, styleControlOn);
+        const dimensions = resize();
+        renderScatterplot(dimensions.width, dimensions.height, styleControlOn, arenaType);
+      });
+
+      // Function to handle checkbox change
+      d3.select("#scatter-checkbox").on("change", function() {
+          styleControlOn = this.checked; // Update state
+          if (arenaType == 'vision') {
+            updateCategoryDropdown(arenaType, styleControlOn);
+          }
+          // Re-render scatterplot with updated colors
+          const dimensions = resize();
+          renderScatterplot(dimensions.width, dimensions.height, styleControlOn, arenaType);
+      });
 
       document.querySelector(".toggle-dark-mode").addEventListener("click", () => {
         const body = document.body;
