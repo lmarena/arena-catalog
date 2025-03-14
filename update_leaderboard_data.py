@@ -89,21 +89,15 @@ def get_df(battle_info, key):
 
 df_text = get_df(battle_info, "text")
 df_vision = get_df(battle_info, "vision")
+df_image = get_df(battle_info, "image")
 
-file_name = "leaderboard" + file_names[-1][:-4][file_names[-1].rfind("_"):] + ".json"
-
-filtered_df = df_text[(df_text['category'] == 'full') &
-                      (df_text['style_control'] == False) &
-                      (df_text['deprecated'] == False)]
-filtered_df.set_index('model_name').to_json(file_name, orient='index')
-
-filtered_df2 = df_text[
+# Update language data
+text_filtered_df = df_text[
     (df_text['style_control'] == False) &
     (df_text['deprecated'] == False)
 ]
-
 result = (
-    filtered_df2.groupby('category')
+    text_filtered_df.groupby('category')
     .apply(
         lambda group: {
             category: group[group['model_name'] == category][['rating','rating_q975', 'rating_q025']].iloc[0].to_dict()
@@ -112,18 +106,15 @@ result = (
     )
     .to_dict()
 )
-
-# Convert the result to JSON
-with open('data/leaderboard-data.json', 'w') as file:
+with open('data/leaderboard-text.json', 'w') as file:
     json.dump(result, file, indent=4)
 
-filtered_df3 = df_text[
+text_filtered_df_style_control = df_text[
     (df_text['style_control'] == True) &
     (df_text['deprecated'] == False)
 ]
-
 result = (
-    filtered_df3.groupby('category')
+    text_filtered_df_style_control.groupby('category')
     .apply(
         lambda group: {
             category: group[group['model_name'] == category][['rating','rating_q975', 'rating_q025']].iloc[0].to_dict()
@@ -132,7 +123,58 @@ result = (
     )
     .to_dict()
 )
+with open('data/leaderboard-text-style-control.json', 'w') as file:
+    json.dump(result, file, indent=4)
 
-# Convert the result to JSON
-with open('data/leaderboard-data-style-control.json', 'w') as file:
+# Update vision data
+vision_filtered_df = df_vision[
+    (df_vision['style_control'] == False) &
+    (df_vision['deprecated'] == False)
+]
+result = (
+    vision_filtered_df.groupby('category')
+    .apply(
+        lambda group: {
+            category: group[group['model_name'] == category][['rating','rating_q975', 'rating_q025']].iloc[0].to_dict()
+            for category in group['model_name']
+        }
+    )
+    .to_dict()
+)
+with open('data/leaderboard-vision.json', 'w') as file:
+    json.dump(result, file, indent=4)
+
+vision_filtered_df_style_control = df_vision[
+    (df_vision['style_control'] == True) &
+    (df_vision['deprecated'] == False)
+]
+result = (
+    vision_filtered_df_style_control.groupby('category')
+    .apply(
+        lambda group: {
+            category: group[group['model_name'] == category][['rating','rating_q975', 'rating_q025']].iloc[0].to_dict()
+            for category in group['model_name']
+        }
+    )
+    .to_dict()
+)
+with open('data/leaderboard-vision-style-control.json', 'w') as file:
+    json.dump(result, file, indent=4)
+
+# Update text2img data
+image_filtered_df = df_image[
+    (df_image['style_control'] == False) &
+    (df_image['deprecated'] == False)
+]
+result = (
+    image_filtered_df.groupby('category')
+    .apply(
+        lambda group: {
+            category: group[group['model_name'] == category][['rating','rating_q975', 'rating_q025']].iloc[0].to_dict()
+            for category in group['model_name']
+        }
+    )
+    .to_dict()
+)
+with open('data/leaderboard-image.json', 'w') as file:
     json.dump(result, file, indent=4)

@@ -388,5 +388,85 @@
     "license": "Proprietary",
     "price_source": "https://openai.com/api/pricing/",
     "model_source": "https://openai.com/index/introducing-gpt-4-5/"
+  },
+  {
+    "name": "Imagen-3.0-generate-002",
+    "model_api_name": "imagen-3.0-generate-002",
+    "input_token_price": "0.04",
+    "output_token_price": "0.04",
+    "organization": "Google",
+    "license": "Proprietary",
+    "price_source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+    "model_source": "https://deepmind.google/technologies/imagen-3/"
+  },
+  {
+    "name": "Recraft V3",
+    "model_api_name": "recraft-v3",
+    "input_token_price": "0.04",
+    "output_token_price": "0.04",
+    "organization": "Google",
+    "license": "Proprietary",
+    "price_source": "https://fal.ai/models/fal-ai/recraft-v3",
+    "model_source": "https://www.recraft.ai/blog/recraft-introduces-a-revolutionary-ai-model-that-thinks-in-design-language"
+  },
+  {
+    "name": "Luma Photon",
+    "model_api_name": "photon",
+    "input_token_price": "0.03",
+    "output_token_price": "0.03",
+    "organization": "Luma AI",
+    "license": "Proprietary",
+    "price_source": "https://replicate.com/pricing",
+    "model_source": "https://replicate.com/luma/photon"
+  },
+  {
+    "name": "Ideogram 2.0",
+    "model_api_name": "ideogram-v2",
+    "input_token_price": "0.08",
+    "output_token_price": "0.08",
+    "organization": "Ideogram",
+    "license": "Proprietary",
+    "price_source": "https://replicate.com/pricing",
+    "model_source": "https://replicate.com/ideogram-ai/ideogram-v2"
+  },
+  {
+    "name": "FLUX1.1 [pro]",
+    "model_api_name": "flux-1.1-pro",
+    "input_token_price": "0.04",
+    "output_token_price": "0.04",
+    "organization": "Black Forest Labs",
+    "license": "Proprietary",
+    "price_source": "https://replicate.com/pricing",
+    "model_source": "https://replicate.com/black-forest-labs/flux-1.1-pro"
+  },
+  {
+    "name": "DALL·E 3",
+    "model_api_name": "dall-e-3",
+    "input_token_price": "0.04",
+    "output_token_price": "0.04",
+    "organization": "OpenAI",
+    "license": "Proprietary",
+    "price_source": "https://platform.openai.com/docs/pricing",
+    "model_source": "https://platform.openai.com/docs/models#dall-e"
+  },
+  {
+    "name": "FLUX.1 [dev] (fp8)",
+    "model_api_name": "flux-1-dev-fp8",
+    "input_token_price": "0.014",
+    "output_token_price": "0.014",
+    "organization": "Black Forest Labs",
+    "license": "Open",
+    "price_source": "https://fireworks.ai/blog/flux-launch",
+    "model_source": "https://fireworks.ai/models/fireworks/flux-1-dev-fp8"
+  },
+  {
+    "name": "Stable Diffusion 3.5 Large",
+    "model_api_name": "stable-diffusion-v35-large",
+    "input_token_price": "0.065",
+    "output_token_price": "0.065",
+    "organization": "Stability AI",
+    "license": "Open",
+    "price_source": "https://fal.ai/models/fal-ai/stable-diffusion-v35-large",
+    "model_source": "https://fal.ai/models/fal-ai/stable-diffusion-v35-large"
   }
 ]

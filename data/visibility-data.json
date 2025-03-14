@@ -181,7 +181,15 @@
       "qwen2.5-max",
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
-      "amazon-nova-micro-v1.0"
+      "amazon-nova-micro-v1.0",
+      "stable-diffusion-v35-large",
+      "flux-1-dev-fp8",
+      "dall-e-3",
+      "flux-1.1-pro",
+      "ideogram-v2",
+      "photon",
+      "recraft-v3",
+      "imagen-3.0-generate-002"
     ]
   },
   "german": {
@@ -603,5 +611,46 @@
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219"
     ]
+  },
+  "not_preset_generation": {
+    "left": [ 
+      "stable-diffusion-v35-large",
+      "flux-1-dev-fp8",
+      "dall-e-3",
+      "flux-1.1-pro",
+      "ideogram-v2",
+      "photon",
+      "recraft-v3",
+      "imagen-3.0-generate-002"],
+    "right": [ 
+      "stable-diffusion-v35-large",
+      "flux-1-dev-fp8",
+      "dall-e-3",
+      "flux-1.1-pro",
+      "ideogram-v2",
+      "photon",
+      "recraft-v3",
+      "imagen-3.0-generate-002"]
+  },
+  "is_preset_generation" : {
+    "left": [ 
+      "stable-diffusion-v35-large",
+      "flux-1-dev-fp8",
+      "dall-e-3",
+      "flux-1.1-pro",
+      "ideogram-v2",
+      "photon",
+      "recraft-v3",
+      "imagen-3.0-generate-002"],
+    "right": [ 
+      "stable-diffusion-v35-large",
+      "flux-1-dev-fp8",
+      "dall-e-3",
+      "flux-1.1-pro",
+      "ideogram-v2",
+      "photon",
+      "recraft-v3",
+      "imagen-3.0-generate-002"]
   }
+
 }

@@ -168,12 +168,12 @@
       <!-- Options will be populated dynamically -->
     </select>
   </div>
-  <div style="position: absolute; top: 13px; right: 515px; z-index: 10;">
+  <div style="position: absolute; top: 13px; right: 670px; z-index: 10;">
     <label>
       Style Control <input type="checkbox" id="scatter-checkbox">
     </label>
   </div>
-  <div style="position: absolute; top: 13px; right: 660px; z-index: 10; display: flex; flex-wrap: wrap; align-items: center;">
+  <div style="position: absolute; top: 13px; right: 810px; z-index: 10; display: flex; flex-wrap: wrap; align-items: center;">
     <label for="scale-slider" style="margin-right: 10px; flex: 1; white-space: normal;">
       Input/Output Cost Ratio:
     </label>
@@ -189,13 +189,14 @@
       </div>
     </div>
   </div>   
-  <div style="position: absolute; top: 10px; left: 10px; z-index: 10;">
+  <div style="position: absolute; top: 10px; right: 285px; z-index: 10;">
     <label for="arena-toggle" style="font-family: 'Poppins', sans-serif; font-size: 15px;">
       Arena:
     </label>
     <select id="arena-toggle" style="font-family: 'Poppins', sans-serif; padding: 5px; font-size: 13px;">
       <option value="text">Language</option>
       <option value="vision">Vision</option>
+      <option value="image">Text2Img</option>
     </select>
   </div>
   <button class="toggle-dark-mode">Light Mode</button>
@@ -208,8 +209,9 @@
         d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/visibility-data.json"),
         d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-text-style-control.json"),
         d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-vision.json"),
-        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-vision-style-control.json")
-      ]).then(function  ([data, data2, data3, data4, data5, data6]) {
+        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-vision-style-control.json"),
+        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-image.json")
+      ]).then(function  ([data1, data2, data3, data4, data5, data6, data7]) {
       const slider = document.getElementById("scale-slider");
       const infoIcon = document.querySelector('.info-icon');
       const infoTooltip = document.querySelector('.info-tooltip');
@@ -253,7 +255,7 @@
         return Math.max(3, Math.min(containerWidth / 210, 9, containerHeight/ 180));
       }
 
-      function isParetoOptimal(point) {
+      function isParetoOptimal(point, data) {
         const price = parseFloat(point.input_token_price)  + slider.value * (point.output_token_price - point.input_token_price);
         const score = point[document.getElementById("category-toggle").value + "_rating"]
         for (const other of data) {
@@ -270,10 +272,14 @@
         }
         return true;
       }
+
+      // function determine if show label or not
   
       function renderScatterplot(w, h, styleControlOn, arenaType) {
         svg.selectAll("*").remove();
         
+        let data = data1;
+        console.log(data7);
         // Assign legend item
         data.forEach(d => {
           const legendItems = ["Google", "OpenAI", "Anthropic", "Meta", "DeepSeek", "Alibaba", "01 AI", "Mistral", "Amazon"];
@@ -285,20 +291,34 @@
         });
 
         // Get arena data
-        let styleControlData = arenaType == 'vision' ? data6 : data4;
-        let noControlData = arenaType == 'vision' ? data5 : data2;
+        const styleDataMapping = {
+            text: data4,
+            vision: data6
+        };
+
+        const noControlDataMapping = {
+            text: data2,
+            vision: data5,
+            image: data7
+        };
+
+        let styleControlData = styleDataMapping[arenaType];
+        let noControlData = noControlDataMapping[arenaType];
         let leaderboardData = styleControlOn ? styleControlData : noControlData;
-        console.log("PIG", styleControlOn, arenaType);
-        console.log(leaderboardData);
         data.forEach(d => {
           Object.keys(leaderboardData).forEach(d2 => {
             if (d.model_api_name  in leaderboardData[d2]) {
               d[d2 + "_rating"] = leaderboardData[d2][d.model_api_name].rating;
               d[d2 + "_rating_q975"] = leaderboardData[d2][d.model_api_name].rating_q975;
               d[d2 + "_rating_q025"] = leaderboardData[d2][d.model_api_name].rating_q025;
+              d["not_part_of_arena"] = false;
+            } else {
+              d["not_part_of_arena"] = true;
             }
           })
         });
+
+        data = data.filter(d => d.not_part_of_arena === false);
         
         // Update the SVG size
         svg.attr("width", w).attr("height", h);
@@ -381,7 +401,7 @@
         // Add confidence intervals text
         svg.append("text")
           .attr("class", "legend-title")
-          .attr("x", w - margin.right - 270)  // Center text in the box
+          .attr("x", w - margin.right - 430)  // Center text in the box
           .attr("y", 30)   // Adjust for better alignment
           .attr("text-anchor", "middle") // Center alignment
           .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
@@ -397,7 +417,7 @@
           .style("font-family", "Poppins")
           .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
           .style("font-size", `${fontSize * 1.2}px`)
-          .text("Cost ($/1M Tokens)");
+          .text(arenaType === "image" ? "Cost ($/Image)" : "Cost ($/1M Tokens)");
 
         // Add y-axis title
         svg.append("text")
@@ -499,7 +519,7 @@
             .attr("text-anchor", d => ((d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price)) <= minPrice*1.5 || data3[document.getElementById("category-toggle").value].left.includes(d.model_api_name) ? "start" : "end"))
             .style("font-size", `${fontSize}px`)
             .attr("font-family", "Poppins")
-            .style("text-decoration", d => isParetoOptimal(d) ? "underline" : "none")
+            .style("text-decoration", d => isParetoOptimal(d, data) ? "underline" : "none")
             .attr("fill", document.body.classList.contains("dark-mode") ?  "#f0f0f0" : "#000000")
             .style("opacity", 1)
             .each(function(d) {
@@ -605,7 +625,7 @@
             tooltip.style("opacity", 1)
               .html(`<b>${d.model_api_name}</b><br>
                       Arena Score: ${parseFloat(d[document.getElementById("category-toggle").value + "_rating"]).toFixed(2)}<br>
-                      Cost ($/1M Tokens): ${d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price)}<br>
+                      ${arenaType == 'image' ? 'Cost ($/Image)' : 'Cost ($/1M Tokens)'}: ${d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price)}<br>
                       Organization: ${d.organization}<br>
                       License: ${d.license}`)
               .style("left", `${tooltipX}px`)
@@ -648,7 +668,7 @@
         // Create a toggle container (group)
         const toggleGroup = svg.append("g")
           .attr("class", "toggle-group")
-          .attr("transform", `translate(${w - margin.right - 180}, 20)`)
+          .attr("transform", `translate(${w - margin.right - 340}, 20)`)
           .style("cursor", "pointer");
         const toggleBackground = toggleGroup.append("rect")
           .attr("width", 40)
@@ -717,23 +737,8 @@
         slider.style.accentColor = isDarkMode ? "white" : "black";
       }
 
-      function updateCategoryDropdown(arenaType, styleControlOn) {
-        const dropdown = d3.select("#category-toggle");
-
-        // Remove existing options
-        dropdown.selectAll("option").remove();
-        
-        // Get all keys from the JSON
-        let arenaTypeData = arenaType == 'text' ? data2 : data5;
-        if (styleControlOn && arenaType == 'vision') {
-          arenaTypeData = data6;
-        }
-        let allKeys = Object.keys(arenaTypeData);
-        
-        const orderKeys = ['full', 'math', 'if', 'multiturn', 'creative_writing', 'coding', 'hard_6', 'hard_english_6', 'long_user', 'english', 'chinese', 'french', 'german', 'spanish', 'russian', 'japanese', 'korean', 'no_tie', 'no_short', 'no_refusal']
-        
-        if (arenaType == 'text') {
-            allKeys = allKeys.sort((a, b) => {
+      function sortKeys(keys, orderKeys) {
+        sortedKeys = keys.sort((a, b) => {
             // First, check the position in the custom order array
             const aIndex = orderKeys.indexOf(a);
             const bIndex = orderKeys.indexOf(b);
@@ -746,8 +751,44 @@
             // If one of the keys is not in the custom order, keep its relative position
             if (aIndex === -1 && bIndex === -1) return 0;
             return aIndex === -1 ? 1 : -1;
-          });
-        }
+        });
+        return sortedKeys;
+      }
+
+      function updateCategoryDropdown(arenaType, styleControlOn) {
+        const dropdown = d3.select("#category-toggle");
+
+        // Remove existing options
+        dropdown.selectAll("option").remove();
+        
+        // Get all keys from the JSON
+        const styleDataMapping = {
+            text: data4,
+            vision: data6
+        };
+
+        const noControlDataMapping = {
+            text: data2,
+            vision: data5,
+            image: data7
+        };
+        let styleControlData = styleDataMapping[arenaType];
+        let noControlData = noControlDataMapping[arenaType];
+        let leaderboardData = styleControlOn ? styleControlData : noControlData;
+        let allKeys = Object.keys(leaderboardData);
+        
+        const orderTextKeys = ['full', 'math', 'if', 'multiturn', 'creative_writing', 'coding', 'hard_6', 'hard_english_6', 'long_user', 'english', 'chinese', 'french', 'german', 'spanish', 'russian', 'japanese', 'korean', 'no_tie', 'no_short', 'no_refusal']
+        const orderVisionKeys = ['full', 'english', 'chinese']
+        const orderTxt2ImageKeys = ['full', 'not_preset_generation', 'is_preset_generation']
+        
+        
+        const keyMapping = {
+            text: orderTextKeys,
+            vision: orderVisionKeys,
+            image: orderTxt2ImageKeys
+        };
+        const orderKeys = keyMapping[arenaType];
+        sortKeys(allKeys, orderKeys);
 
         // Function to format key names
         const formatKey = (key) => {
@@ -759,6 +800,8 @@
             long_user: "Longer Query",
             no_tie: "Exclude Ties",
             no_short: "Exclude Short Query",
+            not_preset_generation: "User Prompts Only",
+            is_preset_generation: "Pre-generated Prompts"
           };
 
           return keyMapping[key] || key
@@ -779,6 +822,26 @@
        d3.select("#arena-toggle").on("change", function() {
         arenaType = this.value;
         updateCategoryDropdown(arenaType, styleControlOn);
+
+        // Update style control checkbox 
+        var checkbox = document.getElementById("scatter-checkbox");
+        if (this.value === "image") {
+            checkbox.disabled = true;
+        } else {
+            checkbox.disabled = false;
+        }
+        var slider = document.getElementById("scale-slider");
+        var tooltip = document.querySelector('.info-tooltip');
+
+        // Update price slider
+        console.log(tooltip);
+        if (this.value === "image") {
+            slider.disabled = true;
+            tooltip.innerHTML = "The cost ratio slider is disabled for text2img.";
+        } else {
+            slider.disabled = false;
+            tooltip.innerHTML = "Use this slider to adjust the input/output cost ratio of the x-axis. Sliding it to the left shows the cost in <b>$/1M Input Tokens</b>. Sliding it to the right shows the cost in <b>$/1M Output Tokens</b>. Placing it in the middle displays a blended cost based on both values.";
+        }
         const dimensions = resize();
         renderScatterplot(dimensions.width, dimensions.height, styleControlOn, arenaType);
       });
