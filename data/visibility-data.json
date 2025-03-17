@@ -29,7 +29,8 @@
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "claude-3-7-sonnet-20250219"
+      "claude-3-7-sonnet-20250219",
+      "gemma-3-27b-it"
     ]
   },
   "coding": {
@@ -59,7 +60,8 @@
       "qwen2.5-max",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "claude-3-7-sonnet-20250219"
+      "claude-3-7-sonnet-20250219",
+      "gemma-3-27b-it"
     ]
   },
   "creative_writing": {
@@ -91,7 +93,8 @@
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "claude-3-7-sonnet-20250219"
+      "claude-3-7-sonnet-20250219",
+      "gemma-3-27b-it"
     ]
   },
   "english": {
@@ -121,7 +124,8 @@
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "claude-3-7-sonnet-20250219"
+      "claude-3-7-sonnet-20250219",
+      "gemma-3-27b-it"
     ]
   },
   "french": {
@@ -150,7 +154,8 @@
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "claude-3-7-sonnet-20250219"
+      "claude-3-7-sonnet-20250219",
+      "gemma-3-27b-it"
     ]
   },
   "full": {
@@ -221,7 +226,8 @@
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "claude-3-7-sonnet-20250219"
+      "claude-3-7-sonnet-20250219",
+      "gemma-3-27b-it"
     ]
   },
   "hard_6": {
@@ -251,7 +257,8 @@
       "gemma-2-9b-it",
       "qwen2.5-max",
       "amazon-nova-pro-v1.0",
-      "amazon-nova-lite-v1.0"
+      "amazon-nova-lite-v1.0",
+      "gemma-3-27b-it"
     ]
   },
   "hard_english_6": {
@@ -282,7 +289,8 @@
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "claude-3-7-sonnet-20250219"
+      "claude-3-7-sonnet-20250219",
+      "gemma-3-27b-it"
     ]
   },
   "if": {
@@ -311,7 +319,8 @@
       "gemma-2-9b-it",
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
-      "amazon-nova-micro-v1.0"
+      "amazon-nova-micro-v1.0",
+      "gemma-3-27b-it"
     ]
   },
   "japanese": {
@@ -339,7 +348,8 @@
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "claude-3-7-sonnet-20250219"
+      "claude-3-7-sonnet-20250219",
+      "gemma-3-27b-it"
     ]
   },
   "korean": {
@@ -371,7 +381,8 @@
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "claude-3-7-sonnet-20250219"
+      "claude-3-7-sonnet-20250219",
+      "gemma-3-27b-it"
     ]
   },
   "long_user": {
@@ -402,7 +413,8 @@
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "claude-3-7-sonnet-20250219"
+      "claude-3-7-sonnet-20250219",
+      "gemma-3-27b-it"
     ]
   },
   "math": {
@@ -429,7 +441,8 @@
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "claude-3-7-sonnet-20250219"
+      "claude-3-7-sonnet-20250219",
+      "gemma-3-27b-it"
     ]
   },
   "multiturn": {
@@ -458,7 +471,8 @@
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "claude-3-7-sonnet-20250219"
+      "claude-3-7-sonnet-20250219",
+      "gemma-3-27b-it"
     ]
   },
   "no_refusal": {
@@ -489,7 +503,8 @@
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "claude-3-7-sonnet-20250219"
+      "claude-3-7-sonnet-20250219",
+      "gemma-3-27b-it"
     ]
   },
   "no_short": {
@@ -520,7 +535,8 @@
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "claude-3-7-sonnet-20250219"
+      "claude-3-7-sonnet-20250219",
+      "gemma-3-27b-it"
     ]
   },
   "no_tie": {
@@ -548,7 +564,8 @@
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "claude-3-7-sonnet-20250219"
+      "claude-3-7-sonnet-20250219",
+      "gemma-3-27b-it"
     ]
   },
   "russian": {
@@ -579,7 +596,8 @@
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "claude-3-7-sonnet-20250219"
+      "claude-3-7-sonnet-20250219",
+      "gemma-3-27b-it"
     ]
   },
   "spanish": {
@@ -610,7 +628,8 @@
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "claude-3-7-sonnet-20250219"
+      "claude-3-7-sonnet-20250219",
+      "gemma-3-27b-it"
     ]
   },
   "not_preset_generation": {
