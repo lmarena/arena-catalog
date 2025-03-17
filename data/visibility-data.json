@@ -159,7 +159,7 @@
     ]
   },
   "full": {
-    "left": ["gemini-1.5-pro-002", "claude-3-7-sonnet-20250219"],
+    "left": ["claude-3-7-sonnet-20250219"],
     "right": [
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
@@ -195,7 +195,8 @@
       "photon",
       "recraft-v3",
       "imagen-3.0-generate-002",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gemini-1.5-pro-002"
     ]
   },
   "german": {

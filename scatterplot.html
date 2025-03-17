@@ -282,7 +282,7 @@
         console.log(data7);
         // Assign legend item
         data.forEach(d => {
-          const legendItems = ["Google", "OpenAI", "Anthropic", "Meta", "DeepSeek", "Alibaba", "01 AI", "Mistral", "Amazon"];
+          const legendItems = ["Google", "OpenAI", "Anthropic", "Meta", "DeepSeek", "Alibaba", "01 AI", "Mistral", "Amazon", "Black Forest Labs", "Luma AI", "Ideogram", "Stability AI"];
           if (legendItems.includes(d.organization)) {
             d.legend_item = d.organization;
           } else {
@@ -442,7 +442,7 @@
           .style("opacity", 0.5)
           .text("lmarena.ai/price");
 
-        const desiredOrder = ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "Mistral", "Cohere", "Other"];
+        const desiredOrder = ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "Black Forest Labs", "Luma AI", "Ideogram", "Stability AI", "Other"];
   
         const categories = [...new Set(data.map(d => d.legend_item))];
         const sortedCategories = categories.sort((a, b) => {
