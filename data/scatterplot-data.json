@@ -390,6 +390,16 @@
     "model_source": "https://openai.com/index/introducing-gpt-4-5/"
   },
   {
+    "name": "Gemma-3 27B",
+    "model_api_name": "gemma-3-27b-it",
+    "input_token_price": "0.07",
+    "output_token_price": "0.07",
+    "organization": "Google",
+    "license": "Gemma",
+    "price_source": "https://artificialanalysis.ai/models/gemma-3-27b/providers#pricing",
+    "model_source": "http://aistudio.google.com/app/prompts/new_chat?model=gemma-3-27b-it"
+  },
+  {
     "name": "Imagen-3.0-generate-002",
     "model_api_name": "imagen-3.0-generate-002",
     "input_token_price": "0.04",
