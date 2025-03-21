@@ -196,7 +196,22 @@
       "recraft-v3",
       "imagen-3.0-generate-002",
       "gemma-3-27b-it",
-      "gemini-1.5-pro-002"
+      "gemini-1.5-pro-002",
+      "step-1o-vision-32k-highres",
+      "pixtral-large-2411",
+      "qwen-vl-max-1119",
+      "step-1v-32k",
+      "qwen2.5-vl-72b-instruct",
+      "qwen2-vl-72b",
+      "molmo-72b-0924",
+      "pixtral-12b-2409",
+      "llama-3.2-vision-90b-instruct",
+      "hunyuan-standard-vision-2024-12-31",
+      "qwen2-vl-7b-instruct",
+      "yi-vision",
+      "llama-3.2-vision-11b-instruct",
+      "molmo-7b-d-0924",
+      "phi-3.5-vision-instruct"
     ]
   },
   "german": {

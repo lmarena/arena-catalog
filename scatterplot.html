@@ -246,7 +246,7 @@
         renderScatterplot(dimensions.width, dimensions.height, styleControlOn, arenaType);
       });
 
-      const colorScale = d3.scaleOrdinal(d3.schemeObservable10);
+      let colorScale = d3.scaleOrdinal(d3.schemeObservable10);
       const tooltip = d3.select("body").append("div").attr("class", "tooltip").style("opacity", 0);
   
       const selectedCategories = new Set();
@@ -282,9 +282,11 @@
         console.log(data7);
         // Assign legend item
         data.forEach(d => {
-          const legendItems = ["Google", "OpenAI", "Anthropic", "Meta", "DeepSeek", "Alibaba", "01 AI", "Mistral", "Amazon", "Black Forest Labs", "Luma AI", "Ideogram", "Stability AI"];
+          const legendItems = arenaType == 'image' ? ["Google", "OpenAI", "Luma AI", "Ideogram", "Stability AI"] : ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "Other"];
           if (legendItems.includes(d.organization)) {
             d.legend_item = d.organization;
+          } else if (d.organization == "Black Forest Labs") {
+            d.legend_item = "BF Labs";
           } else {
             d.legend_item = "Other";
           }
@@ -442,7 +444,7 @@
           .style("opacity", 0.5)
           .text("lmarena.ai/price");
 
-        const desiredOrder = ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "Black Forest Labs", "Luma AI", "Ideogram", "Stability AI", "Other"];
+        const desiredOrder = arenaType == "image" ? ["Google", "OpenAI", "BF Labs", "Luma AI", "Ideogram", "Stability AI"] : ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "Other"];
   
         const categories = [...new Set(data.map(d => d.legend_item))];
         const sortedCategories = categories.sort((a, b) => {
@@ -625,7 +627,7 @@
             tooltip.style("opacity", 1)
               .html(`<b>${d.model_api_name}</b><br>
                       Arena Score: ${parseFloat(d[document.getElementById("category-toggle").value + "_rating"]).toFixed(2)}<br>
-                      ${arenaType == 'image' ? 'Cost ($/Image)' : 'Cost ($/1M Tokens)'}: ${d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price)}<br>
+                      ${arenaType == "image" ? 'Cost ($/Image)' : 'Cost ($/1M Tokens)'}: ${d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price)}<br>
                       Organization: ${d.organization}<br>
                       License: ${d.license}`)
               .style("left", `${tooltipX}px`)
@@ -842,6 +844,10 @@
             slider.disabled = false;
             tooltip.innerHTML = "Use this slider to adjust the input/output cost ratio of the x-axis. Sliding it to the left shows the cost in <b>$/1M Input Tokens</b>. Sliding it to the right shows the cost in <b>$/1M Output Tokens</b>. Placing it in the middle displays a blended cost based on both values.";
         }
+
+        // Resent legend color order
+        colorScale = d3.scaleOrdinal(d3.schemeObservable10);
+        
         const dimensions = resize();
         renderScatterplot(dimensions.width, dimensions.height, styleControlOn, arenaType);
       });
