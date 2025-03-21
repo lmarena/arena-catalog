@@ -279,7 +279,6 @@
         svg.selectAll("*").remove();
         
         let data = data1;
-        console.log(data7);
         // Assign legend item
         data.forEach(d => {
           const legendItems = arenaType == 'image' ? ["Google", "OpenAI", "Luma AI", "Ideogram", "Stability AI"] : ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "Other"];
@@ -836,7 +835,6 @@
         var tooltip = document.querySelector('.info-tooltip');
 
         // Update price slider
-        console.log(tooltip);
         if (this.value === "image") {
             slider.disabled = true;
             tooltip.innerHTML = "The cost ratio slider is disabled for text2img.";
