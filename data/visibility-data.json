@@ -164,7 +164,7 @@
     ]
   },
   "full": {
-    "left": ["claude-3-7-sonnet-20250219"],
+    "left": ["claude-3-7-sonnet-20250219", "gemini-1.5-pro-002"],
     "right": [
       "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
@@ -181,10 +181,8 @@
       "claude-3-5-haiku-2024102",
       "claude-3-5-sonnet-20241022",
       "o1-preview",
-      "gpt-4o-mini-2024-07-18",
       "o3-mini",
       "o1-2024-12-17",
-      "gemini-1.5-flash-8b-001",
       "gemini-1.5-flash-002",
       "gpt-4.5-preview-2025-02-27",
       "gpt-4o-2024-08-06",
@@ -202,7 +200,6 @@
       "recraft-v3",
       "imagen-3.0-generate-002",
       "gemma-3-27b-it",
-      "gemini-1.5-pro-002",
       "step-1o-vision-32k-highres",
       "pixtral-large-2411",
       "qwen-vl-max-1119",
@@ -322,6 +319,7 @@
   "if": {
     "left": ["gpt-4o-mini-2024-07-18", "qwen2.5-max", "claude-3-5-sonnet-20241022", "claude-3-7-sonnet-20250219"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
