@@ -2,6 +2,7 @@
   "chinese": {
     "left": [],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
@@ -36,6 +37,7 @@
   "coding": {
     "left": ["llama-3.3-70b-instruct", "gemini-1.5-flash-8b-001", "gemini-1.5-pro-002", "amazon-nova-pro-v1.0"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
@@ -67,6 +69,7 @@
   "creative_writing": {
     "left": ["o3-mini"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
@@ -100,6 +103,7 @@
   "english": {
     "left": ["gemma-2-9b-it", "llama-3.3-70b-instruct", "o1-2024-12-17"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
@@ -131,6 +135,7 @@
   "french": {
     "left": ["gemma-2-9b-it", "gemini-1.5-flash-002", "gpt-4o-mini-2024-07-18", "o1-2024-12-17"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
@@ -161,6 +166,7 @@
   "full": {
     "left": ["claude-3-7-sonnet-20250219"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
@@ -217,6 +223,7 @@
   "german": {
     "left": ["gemma-2-9b-it", "gemini-1.5-flash-002"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
@@ -249,6 +256,7 @@
   "hard_6": {
     "left": ["llama-3.3-70b-instruct"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
@@ -280,6 +288,8 @@
   "hard_english_6": {
     "left": ["chatgpt-4o-latest-20241120", "llama-3.3-70b-instruct"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
+      "gemini-2.5-pro-exp-03-25",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -342,6 +352,7 @@
   "japanese": {
     "left": ["gemini-2.0-flash-001", "gemini-1.5-flash-8b-001", "llama-3.3-70b-instruct", "deepseek-v3", "gemma-2-9b-it"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
@@ -371,6 +382,7 @@
   "korean": {
     "left": ["gpt-4o-mini-2024-07-18", "qwen2.5-max"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
@@ -404,6 +416,7 @@
   "long_user": {
     "left": ["claude-3-5-sonnet-20241022", "qwen2.5-max"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
@@ -436,6 +449,7 @@
   "math": {
     "left": ["qwen2.5-max", "claude-3-5-sonnet-20241022", "llama-3.3-70b-instruct", "gemma-2-9b-it", "yi-lightning", "gemini-2.0-flash-lite-preview-02-05"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -464,6 +478,7 @@
   "multiturn": {
     "left": ["llama-3.1-8b-instruct", "gemma-2-9b-it", "claude-3-5-sonnet-20241022", "o1-2024-12-17"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
@@ -494,6 +509,7 @@
   "no_refusal": {
     "left": ["gemini-1.5-pro-002", "gemini-1.5-flash-002"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
@@ -526,6 +542,7 @@
   "no_short": {
     "left": ["gemini-1.5-pro-002", "gemini-1.5-flash-002"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
@@ -558,6 +575,7 @@
   "no_tie": {
     "left": ["gemma-2-9b-it", "gemini-1.5-flash-8b-001", "gemini-1.5-flash-002", "gemini-1.5-pro-002", "llama-3.1-8b-instruct"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
@@ -587,6 +605,7 @@
   "russian": {
     "left": ["claude-3-5-sonnet-20241022", "gemma-2-9b-it"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
@@ -619,6 +638,7 @@
   "spanish": {
     "left": ["gemini-1.5-pro-002", "llama-3.3-70b-instruct"],
     "right": [
+      "gemini-2.5-pro-exp-03-25",
       "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",

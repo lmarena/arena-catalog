@@ -628,5 +628,15 @@
     "license": "MIT",
     "price_source": "https://azure.microsoft.com/en-us/pricing/details/phi-3/",
     "model_source": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct"
+  },
+  {
+    "name": "Gemini-2.5-Pro-Preview",
+    "model_api_name": "gemini-2.5-pro-exp-03-25",
+    "input_token_price": "1.25",
+    "output_token_price": "10",
+    "organization": "Google",
+    "license": "Proprietary",
+    "price_source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-pro-preview",
+    "model_source": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct"
   }
 ]
