@@ -110,6 +110,16 @@
     "model_source": "https://ai.meta.com/blog/meta-llama-3-1/"
   },
   {
+    "name": "Llama 4 Maverick",
+    "model_api_name": "llama-4-maverick-03-26-experimental",
+    "input_token_price": "0.2",
+    "output_token_price": "0.6",
+    "organization": "Meta",
+    "license": "Llama 4 Community",
+    "price_source": "https://deepinfra.com/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+    "model_source": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+  },
+  {
     "name": "Qwen2.5-Max",
     "model_api_name": "qwen2.5-max",
     "input_token_price": "1.6",
