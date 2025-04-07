@@ -638,5 +638,15 @@
     "license": "Proprietary",
     "price_source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-pro-preview",
     "model_source": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct"
+  },
+  {
+    "name": "Llama-4-Maverick",
+    "model_api_name": "llama-4-maverick-03-26-experimental",
+    "input_token_price": "0.27",
+    "output_token_price": "0.85",
+    "organization": "Meta",
+    "license": "Llama",
+    "price_source": "https://www.together.ai/pricing",
+    "model_source": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
   }
 ]
