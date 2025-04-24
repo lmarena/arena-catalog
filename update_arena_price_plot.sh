@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Run the Python script
-python update_leaderboard_data.py
+cd /home/sophie200/arena-catalog
 
-git add data/leaderboard-data.json
+/home/sophie200/miniconda3/bin/python update_leaderboard_data.py
 
-git add data/leaderboard-data-style-control.json
+git add data
 
 # Get the current date for the commit message
 data_data=$(date +"%Y-%m-%d %H:%M:%S")
