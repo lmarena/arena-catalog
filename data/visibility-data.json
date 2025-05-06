@@ -104,7 +104,7 @@
     ]
   },
   "english": {
-    "left": ["gemma-2-9b-it", "llama-3.3-70b-instruct", "o1-2024-12-17"],
+    "left": ["gemma-2-9b-it", "llama-3.3-70b-instruct", "o1-2024-12-17","chatgpt-4o-latest-20241120"],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -123,17 +123,20 @@
       "gemini-1.5-pro-002",
       "gemini-1.5-flash-002",
       "o1-preview",
-      "gpt-4o-mini-2024-07-18",
       "o3-mini",
       "gemini-1.5-flash-8b-001",
       "gpt-4.5-preview-2025-02-27",
-      "gpt-4o-2024-08-06",
       "qwen2.5-max",
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gpt-4.1-2025-04-14",
+      "gpt-4.1-mini-2025-04-14",
+      "gpt-4.1-nano-2025-04-14",
+      "o3-2025-04-16",
+      "o4-mini-2025-04-16"
     ]
   },
   "french": {
@@ -169,11 +172,11 @@
     ]
   },
   "full": {
-    "left": ["claude-3-7-sonnet-20250219", "gemini-1.5-pro-002"],
+    "left": ["claude-3-7-sonnet-20250219", "gemini-1.5-pro-002", "chatgpt-4o-latest-20241120", "gpt-4.1-mini-2025-04-14", 
+    "gpt-4.1-nano-2025-04-14"],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -185,13 +188,11 @@
       "llama-3.3-70b-instruct",
       "claude-3-opus-20240229",
       "claude-3-5-haiku-2024102",
-      "claude-3-5-sonnet-20241022",
       "o1-preview",
       "o3-mini",
       "o1-2024-12-17",
       "gemini-1.5-flash-002",
       "gpt-4.5-preview-2025-02-27",
-      "gpt-4o-2024-08-06",
       "gemma-2-9b-it",
       "qwen2.5-max",
       "amazon-nova-pro-v1.0",
@@ -220,7 +221,10 @@
       "yi-vision",
       "llama-3.2-vision-11b-instruct",
       "molmo-7b-d-0924",
-      "phi-3.5-vision-instruct"
+      "phi-3.5-vision-instruct",
+      "gpt-4.1-2025-04-14",
+      "o3-2025-04-16",
+      "o4-mini-2025-04-16"
     ]
   },
   "german": {
@@ -258,7 +262,7 @@
     ]
   },
   "hard_6": {
-    "left": ["llama-3.3-70b-instruct"],
+    "left": ["llama-3.3-70b-instruct", "qwen2.5-max"],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -284,10 +288,14 @@
       "gpt-4.5-preview-2025-02-27",
       "gpt-4o-2024-08-06",
       "gemma-2-9b-it",
-      "qwen2.5-max",
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gpt-4.1-2025-04-14",
+      "gpt-4.1-mini-2025-04-14",
+      "gpt-4.1-nano-2025-04-14",
+      "o3-2025-04-16",
+      "o4-mini-2025-04-16"
     ]
   },
   "hard_english_6": {
@@ -321,7 +329,12 @@
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gpt-4.1-2025-04-14",
+      "gpt-4.1-mini-2025-04-14",
+      "gpt-4.1-nano-2025-04-14",
+      "o3-2025-04-16",
+      "o4-mini-2025-04-16"
     ]
   },
   "if": {

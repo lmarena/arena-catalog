@@ -680,7 +680,7 @@
     "model_source": "https://openai.com/index/gpt-4-1/"
   },
   {
-    "name": "OpenAI o3",
+    "name": "o3",
     "model_api_name": "o3-2025-04-16",
     "input_token_price": "10.00",
     "output_token_price": "40.00",
@@ -690,7 +690,7 @@
     "model_source": "https://platform.openai.com/docs/models/o3"
   },
   {
-    "name": "OpenAI o4-mini",
+    "name": "o4-mini",
     "model_api_name": "o4-mini-2025-04-16",
     "input_token_price": "1.10",
     "output_token_price": "4.40",
