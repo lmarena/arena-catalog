@@ -312,14 +312,14 @@
               d[d2 + "_rating"] = leaderboardData[d2][d.model_api_name].rating;
               d[d2 + "_rating_q975"] = leaderboardData[d2][d.model_api_name].rating_q975;
               d[d2 + "_rating_q025"] = leaderboardData[d2][d.model_api_name].rating_q025;
-              d["not_part_of_arena"] = false;
+              d[d2 + "_not_part_of_arena"] = false;
             } else {
-              d["not_part_of_arena"] = true;
+              d[d2 + "_not_part_of_arena"] = true;
             }
           })
         });
 
-        data = data.filter(d => d.not_part_of_arena === false);
+        data = data.filter(d => d[document.getElementById("category-toggle").value + "_not_part_of_arena"] === false);
         
         // Update the SVG size
         svg.attr("width", w).attr("height", h);
@@ -506,7 +506,6 @@
             legend.selectAll("text")
                 .style("opacity", d => selectedCategories.size === 0 || selectedCategories.has(d) ? 1 : 0.1);
           });
-
           const labels = svg.selectAll(".point-label").data(data).join("text")
             .attr("class", "point-label")
             .attr("x", d => {

@@ -32,11 +32,16 @@
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "coding": {
-    "left": ["llama-3.3-70b-instruct", "gemini-1.5-flash-8b-001", "gemini-1.5-pro-002", "amazon-nova-pro-v1.0"],
+    "left": [
+      "llama-3.3-70b-instruct",
+      "gemini-1.5-flash-8b-001",
+      "gemini-1.5-pro-002",
+      "amazon-nova-pro-v1.0"],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -65,11 +70,14 @@
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "creative_writing": {
-    "left": ["o3-mini"],
+    "left": [
+      "o3-mini"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -100,11 +108,17 @@
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "english": {
-    "left": ["gemma-2-9b-it", "llama-3.3-70b-instruct", "o1-2024-12-17","chatgpt-4o-latest-20241120"],
+    "left": [
+      "gemma-2-9b-it",
+      "llama-3.3-70b-instruct",
+      "o1-2024-12-17",
+      "chatgpt-4o-latest-20241120"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -136,11 +150,17 @@
       "gpt-4.1-mini-2025-04-14",
       "gpt-4.1-nano-2025-04-14",
       "o3-2025-04-16",
-      "o4-mini-2025-04-16"
+      "o4-mini-2025-04-16",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "french": {
-    "left": ["gemma-2-9b-it", "gemini-1.5-flash-002", "gpt-4o-mini-2024-07-18", "o1-2024-12-17"],
+    "left": [
+      "gemma-2-9b-it",
+      "gemini-1.5-flash-002",
+      "gpt-4o-mini-2024-07-18",
+      "o1-2024-12-17"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -168,12 +188,18 @@
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "full": {
-    "left": ["claude-3-7-sonnet-20250219", "gemini-1.5-pro-002", "chatgpt-4o-latest-20241120", "gpt-4.1-mini-2025-04-14", 
-    "gpt-4.1-nano-2025-04-14"],
+    "left": [
+      "claude-3-7-sonnet-20250219",
+      "gemini-1.5-pro-002",
+      "chatgpt-4o-latest-20241120",
+      "gpt-4.1-mini-2025-04-14", 
+      "gpt-4.1-nano-2025-04-14"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -224,11 +250,15 @@
       "phi-3.5-vision-instruct",
       "gpt-4.1-2025-04-14",
       "o3-2025-04-16",
-      "o4-mini-2025-04-16"
+      "o4-mini-2025-04-16",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "german": {
-    "left": ["gemma-2-9b-it", "gemini-1.5-flash-002"],
+    "left": [
+      "gemma-2-9b-it",
+      "gemini-1.5-flash-002"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -258,11 +288,15 @@
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "hard_6": {
-    "left": ["llama-3.3-70b-instruct", "qwen2.5-max"],
+    "left": [
+      "llama-3.3-70b-instruct",
+      "qwen2.5-max"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -295,11 +329,15 @@
       "gpt-4.1-mini-2025-04-14",
       "gpt-4.1-nano-2025-04-14",
       "o3-2025-04-16",
-      "o4-mini-2025-04-16"
+      "o4-mini-2025-04-16",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "hard_english_6": {
-    "left": ["chatgpt-4o-latest-20241120", "llama-3.3-70b-instruct"],
+    "left": [
+      "chatgpt-4o-latest-20241120",
+      "llama-3.3-70b-instruct"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -334,11 +372,17 @@
       "gpt-4.1-mini-2025-04-14",
       "gpt-4.1-nano-2025-04-14",
       "o3-2025-04-16",
-      "o4-mini-2025-04-16"
+      "o4-mini-2025-04-16",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "if": {
-    "left": ["gpt-4o-mini-2024-07-18", "qwen2.5-max", "claude-3-5-sonnet-20241022", "claude-3-7-sonnet-20250219"],
+    "left": [
+      "gpt-4o-mini-2024-07-18",
+      "qwen2.5-max",
+      "claude-3-5-sonnet-20241022",
+      "claude-3-7-sonnet-20250219"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -366,11 +410,18 @@
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "japanese": {
-    "left": ["gemini-2.0-flash-001", "gemini-1.5-flash-8b-001", "llama-3.3-70b-instruct", "deepseek-v3", "gemma-2-9b-it"],
+    "left": [
+      "gemini-2.0-flash-001",
+      "gemini-1.5-flash-8b-001",
+      "llama-3.3-70b-instruct",
+      "deepseek-v3",
+      "gemma-2-9b-it"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -397,11 +448,15 @@
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "korean": {
-    "left": ["gpt-4o-mini-2024-07-18", "qwen2.5-max"],
+    "left": [
+      "gpt-4o-mini-2024-07-18",
+      "qwen2.5-max"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -432,11 +487,15 @@
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "long_user": {
-    "left": ["claude-3-5-sonnet-20241022", "qwen2.5-max"],
+    "left": [
+      "claude-3-5-sonnet-20241022", 
+      "qwen2.5-max"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -466,11 +525,19 @@
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "math": {
-    "left": ["qwen2.5-max", "claude-3-5-sonnet-20241022", "llama-3.3-70b-instruct", "gemma-2-9b-it", "yi-lightning", "gemini-2.0-flash-lite-preview-02-05"],
+    "left": [
+      "qwen2.5-max",
+      "claude-3-5-sonnet-20241022",
+      "llama-3.3-70b-instruct",
+      "gemma-2-9b-it",
+      "yi-lightning", 
+      "gemini-2.0-flash-lite-preview-02-05"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -496,11 +563,17 @@
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "multiturn": {
-    "left": ["llama-3.1-8b-instruct", "gemma-2-9b-it", "claude-3-5-sonnet-20241022", "o1-2024-12-17"],
+    "left": [
+      "llama-3.1-8b-instruct",
+      "gemma-2-9b-it",
+      "claude-3-5-sonnet-20241022",
+      "o1-2024-12-17"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -528,11 +601,15 @@
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "no_refusal": {
-    "left": ["gemini-1.5-pro-002", "gemini-1.5-flash-002"],
+    "left": [
+      "gemini-1.5-pro-002",
+      "gemini-1.5-flash-002"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -562,11 +639,15 @@
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "no_short": {
-    "left": ["gemini-1.5-pro-002", "gemini-1.5-flash-002"],
+    "left": [
+      "gemini-1.5-pro-002",
+      "gemini-1.5-flash-002"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -596,11 +677,18 @@
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "no_tie": {
-    "left": ["gemma-2-9b-it", "gemini-1.5-flash-8b-001", "gemini-1.5-flash-002", "gemini-1.5-pro-002", "llama-3.1-8b-instruct"],
+    "left": [
+      "gemma-2-9b-it",
+      "gemini-1.5-flash-8b-001",
+      "gemini-1.5-flash-002",
+      "gemini-1.5-pro-002",
+      "llama-3.1-8b-instruct"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -627,11 +715,15 @@
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "russian": {
-    "left": ["claude-3-5-sonnet-20241022", "gemma-2-9b-it"],
+    "left": [
+      "claude-3-5-sonnet-20241022",
+      "gemma-2-9b-it"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -661,11 +753,15 @@
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "spanish": {
-    "left": ["gemini-1.5-pro-002", "llama-3.3-70b-instruct"],
+    "left": [
+      "gemini-1.5-pro-002",
+      "llama-3.3-70b-instruct"
+    ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
@@ -695,7 +791,8 @@
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
       "claude-3-7-sonnet-20250219",
-      "gemma-3-27b-it"
+      "gemma-3-27b-it",
+      "gemini-2.5-flash-preview-05-20"
     ]
   },
   "not_preset_generation": {
@@ -707,7 +804,8 @@
       "ideogram-v2",
       "photon",
       "recraft-v3",
-      "imagen-3.0-generate-002"],
+      "imagen-3.0-generate-002"
+    ],
     "right": [ 
       "stable-diffusion-v35-large",
       "flux-1-dev-fp8",
@@ -727,7 +825,8 @@
       "ideogram-v2",
       "photon",
       "recraft-v3",
-      "imagen-3.0-generate-002"],
+      "imagen-3.0-generate-002"
+    ],
     "right": [ 
       "stable-diffusion-v35-large",
       "flux-1-dev-fp8",
@@ -738,5 +837,4 @@
       "recraft-v3",
       "imagen-3.0-generate-002"]
   }
-
 }
