@@ -637,7 +637,17 @@
     "organization": "Google",
     "license": "Proprietary",
     "price_source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-pro-preview",
-    "model_source": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct"
+    "model_source": "https://aistudio.google.com/?model=gemini-2.5-pro-preview-05-06"
+  },
+  {
+    "name": "Gemini-2.5-Flash-Preview",
+    "model_api_name": "gemini-2.5-flash-preview-05-20",
+    "input_token_price": "0.15",
+    "output_token_price": "0.60",
+    "organization": "Google",
+    "license": "Proprietary",
+    "price_source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash",
+    "model_source": "https://aistudio.google.com/?model=gemini-2.5-flash-preview-05-20"
   },
   {
     "name": "Llama-4-Maverick",
