@@ -3,7 +3,7 @@
     "name": "GPT-4o",
     "model_api_name": "chatgpt-4o-latest-20250326",
     "input_token_price": "5",
-    "output_token_price": "20",
+    "output_token_price": "15",
     "organization": "OpenAI",
     "license": "Proprietary",
     "price_source": "https://openai.com/api/pricing/",
