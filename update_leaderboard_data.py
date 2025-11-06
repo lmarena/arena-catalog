@@ -35,13 +35,34 @@ deprecated_models = [
     "chatgpt-4o-latest-20240903",
 ]
 
+def normalize_column_names(df):
+    """Normalize column names for backwards compatibility.
+
+    Converts new column names (rating_lower, rating_upper) to old names
+    (rating_q025, rating_q975) if they exist.
+    """
+    if "rating_q025" not in df.columns and "rating_lower" in df.columns:
+        df = df.rename(columns={
+            'rating_lower': 'rating_q025',
+            'rating_upper': 'rating_q975'
+        })
+    return df
+
+
 def recompute_final_ranking(arena_df, use_deprecated=False):
     arena_df = arena_df.copy()
     if not use_deprecated:
         arena_df = arena_df[~arena_df["deprecated"]]
-    # Extract the 'rating_q025' and 'rating_q975' columns as NumPy arrays
-    q025 = arena_df["rating_q025"].values
-    q975 = arena_df["rating_q975"].values
+
+    # Handle both old and new column names for backwards compatibility
+    # Old: rating_q025, rating_q975
+    # New: rating_lower, rating_upper
+    if "rating_q025" in arena_df.columns:
+        q025 = arena_df["rating_q025"].values
+        q975 = arena_df["rating_q975"].values
+    else:
+        q025 = arena_df["rating_lower"].values
+        q975 = arena_df["rating_upper"].values
 
     # Sort the 'rating_q025' array once
     sorted_q025 = np.sort(q025)
@@ -96,6 +117,8 @@ text_filtered_df = df_text[
     (df_text['style_control'] == False) &
     (df_text['deprecated'] == False)
 ]
+text_filtered_df = normalize_column_names(text_filtered_df)
+
 result = (
     text_filtered_df.groupby('category')
     .apply(
@@ -113,6 +136,8 @@ text_filtered_df_style_control = df_text[
     (df_text['style_control'] == True) &
     (df_text['deprecated'] == False)
 ]
+text_filtered_df_style_control = normalize_column_names(text_filtered_df_style_control)
+
 result = (
     text_filtered_df_style_control.groupby('category')
     .apply(
@@ -131,6 +156,8 @@ vision_filtered_df = df_vision[
     (df_vision['style_control'] == False) &
     (df_vision['deprecated'] == False)
 ]
+vision_filtered_df = normalize_column_names(vision_filtered_df)
+
 result = (
     vision_filtered_df.groupby('category')
     .apply(
@@ -148,6 +175,8 @@ vision_filtered_df_style_control = df_vision[
     (df_vision['style_control'] == True) &
     (df_vision['deprecated'] == False)
 ]
+vision_filtered_df_style_control = normalize_column_names(vision_filtered_df_style_control)
+
 result = (
     vision_filtered_df_style_control.groupby('category')
     .apply(
@@ -166,6 +195,8 @@ image_filtered_df = df_image[
     (df_image['style_control'] == False) &
     (df_image['deprecated'] == False)
 ]
+image_filtered_df = normalize_column_names(image_filtered_df)
+
 result = (
     image_filtered_df.groupby('category')
     .apply(
