@@ -7,6 +7,11 @@ from tqdm import tqdm
 import requests
 pd.options.display.float_format = '{:.2f}'.format
 
+# Historical data cuts off on HuggingFace in August. 
+# Otherwise, setting this to True loads in the most recent leaderboard data from results.pkl.
+GENERATE_HISTORICAL_CHART = False
+DATA_FILENAME = "data.pkl" if GENERATE_HISTORICAL_CHART else "results.pkl"
+
 url = "https://huggingface.co/api/spaces/lmarena-ai/chatbot-arena-leaderboard/tree/main"
 response = requests.get(url)
 
@@ -24,7 +29,7 @@ print(file_names[-1])
 with open("data.pkl", "wb") as file:
     file.write(response.content)
 
-battle_info = pd.read_pickle("data.pkl")
+battle_info = pd.read_pickle(DATA_FILENAME)
 deprecated_models = [
     "gemini-1.5-pro-exp-0801",
     "gemini-1.5-pro-api-0409-preview",
@@ -110,7 +115,7 @@ def get_df(battle_info, key):
 
 df_text = get_df(battle_info, "text")
 df_vision = get_df(battle_info, "vision")
-df_image = get_df(battle_info, "image")
+df_image = get_df(battle_info, "image" if GENERATE_HISTORICAL_CHART else "text_to_image")
 
 # Update language data
 text_filtered_df = df_text[
