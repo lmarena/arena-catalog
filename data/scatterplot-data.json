@@ -1030,16 +1030,6 @@
     "model_source": "https://cloud.tencent.com/document/product/1729/104753"
   },
   {
-    "name": "mai-1-preview",
-    "model_api_name": "mai-1-preview",
-    "input_token_price": "",
-    "output_token_price": "",
-    "organization": "Microsoft AI",
-    "license": "Proprietary",
-    "price_source": "",
-    "model_source": "https://microsoft.ai/news/two-new-in-house-models/"
-  },
-  {
     "name": "qwen3-235b-a22b-no-thinking",
     "model_api_name": "qwen3-235b-a22b-no-thinking",
     "input_token_price": "0.7",
