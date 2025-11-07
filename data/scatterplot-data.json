@@ -450,7 +450,7 @@
     "model_source": "https://replicate.com/black-forest-labs/flux-1.1-pro"
   },
   {
-    "name": "DALL·E 3",
+    "name": "DALL\u00b7E 3",
     "model_api_name": "dall-e-3",
     "input_token_price": "0.04",
     "output_token_price": "0.04",
@@ -708,5 +708,495 @@
     "license": "Proprietary",
     "price_source": "https://openai.com/api/pricing/",
     "model_source": "https://openai.com/index/openai-o4-mini/"
+  },
+  {
+    "name": "Gemini-2.5-Pro",
+    "model_api_name": "gemini-2.5-pro",
+    "input_token_price": "1.25",
+    "output_token_price": "10",
+    "organization": "Google",
+    "license": "Proprietary",
+    "price_source": "https://ai.google.dev/gemini-api/docs/pricing",
+    "model_source": "https://aistudio.google.com/app/prompts/new_chat?model=gemini-2.5-pro"
+  },
+  {
+    "name": "GLM-4.6",
+    "model_api_name": "glm-4.6",
+    "input_token_price": "0.6",
+    "output_token_price": "2.2",
+    "organization": "Z.ai",
+    "license": "MIT",
+    "price_source": "https://docs.z.ai/guides/overview/pricing",
+    "model_source": "https://docs.z.ai/guides/llm/glm-4.6"
+  },
+  {
+    "name": "qwen3-max-preview",
+    "model_api_name": "qwen3-max-preview",
+    "input_token_price": "1.2",
+    "output_token_price": "6",
+    "organization": "Alibaba",
+    "license": "Apache 2.0",
+    "price_source": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "model_source": "https://chat.qwen.ai/"
+  },
+  {
+    "name": "DeepSeek V3.2 Exp",
+    "model_api_name": "deepseek-v3.2-exp",
+    "input_token_price": "0.28",
+    "output_token_price": "0.42",
+    "organization": "DeepSeek AI",
+    "license": "MIT",
+    "price_source": "https://api-docs.deepseek.com/quick_start/pricing",
+    "model_source": "https://api-docs.deepseek.com/news/news250929"
+  },
+  {
+    "name": "mistral-medium-2508",
+    "model_api_name": "mistral-medium-2508",
+    "input_token_price": "0.4",
+    "output_token_price": "2",
+    "organization": "Mistral",
+    "license": "Proprietary",
+    "price_source": "https://mistral.ai/pricing#api-pricing",
+    "model_source": "https://mistral.ai/news/mistral-medium-3"
+  },
+  {
+    "name": "GLM-4.5",
+    "model_api_name": "glm-4.5",
+    "input_token_price": "0.6",
+    "output_token_price": "2.2",
+    "organization": "Z.ai",
+    "license": "MIT",
+    "price_source": "https://docs.z.ai/guides/overview/pricing",
+    "model_source": "https://z.ai/blog/glm-4.5"
+  },
+  {
+    "name": "claude-sonnet-4-5-20250929-thinking-32k",
+    "model_api_name": "claude-sonnet-4-5-20250929-thinking-32k",
+    "input_token_price": "3",
+    "output_token_price": "15",
+    "organization": "Anthropic",
+    "license": "Proprietary",
+    "price_source": "https://www.anthropic.com/news/claude-sonnet-4-5",
+    "model_source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+  },
+  {
+    "name": "chatgpt-4o-latest-20250326",
+    "model_api_name": "chatgpt-4o-latest-20250326",
+    "input_token_price": "5",
+    "output_token_price": "15",
+    "organization": "OpenAI",
+    "license": "Proprietary",
+    "price_source": "https://platform.openai.com/docs/pricing",
+    "model_source": "https://x.com/OpenAI/status/1905331956856050135"
+  },
+  {
+    "name": "DeepSeek-R1-0528",
+    "model_api_name": "deepseek-r1-0528",
+    "input_token_price": "0.5",
+    "output_token_price": "2.15",
+    "organization": "DeepSeek",
+    "license": "MIT",
+    "price_source": "https://deepinfra.com/pricing",
+    "model_source": "https://api-docs.deepseek.com/news/news250528"
+  },
+  {
+    "name": "grok-3-preview-02-24",
+    "model_api_name": "grok-3-preview-02-24",
+    "input_token_price": "3",
+    "output_token_price": "15",
+    "organization": "xAI",
+    "license": "Proprietary",
+    "price_source": "https://x.ai/api",
+    "model_source": "https://x.ai/blog/grok-3"
+  },
+  {
+    "name": "qwen3-vl-235b-a22b-instruct",
+    "model_api_name": "qwen3-vl-235b-a22b-instruct",
+    "input_token_price": "0.22",
+    "output_token_price": "0.88",
+    "organization": "Alibaba",
+    "license": "Apache 2.0",
+    "price_source": "https://openrouter.ai/qwen/qwen3-vl-235b-a22b-instruct",
+    "model_source": "https://qwen.ai/blog?id=99f0335c4ad9ff6153e517418d48535ab6d8afef&from=research.latest-advancements-list"
+  },
+  {
+    "name": "longcat-flash-chat",
+    "model_api_name": "longcat-flash-chat",
+    "input_token_price": "0.15",
+    "output_token_price": "0.75",
+    "organization": "Meituan",
+    "license": "MIT",
+    "price_source": "https://openrouter.ai/meituan/longcat-flash-chat",
+    "model_source": "https://huggingface.co/meituan-longcat/LongCat-Flash-Chat"
+  },
+  {
+    "name": "deepseek-v3.2-exp-thinking",
+    "model_api_name": "deepseek-v3.2-exp-thinking",
+    "input_token_price": "0.28",
+    "output_token_price": "0.42",
+    "organization": "DeepSeek AI",
+    "license": "MIT",
+    "price_source": "https://api-docs.deepseek.com/quick_start/pricing",
+    "model_source": "https://api-docs.deepseek.com/news/news250929"
+  },
+  {
+    "name": "Claude Sonnet 4.5",
+    "model_api_name": "claude-sonnet-4-5-20250929",
+    "input_token_price": "3.0",
+    "output_token_price": "15.0",
+    "organization": "Anthropic",
+    "license": "Proprietary",
+    "price_source": "https://www.anthropic.com/news/claude-sonnet-4-5",
+    "model_source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+  },
+  {
+    "name": "claude-opus-4-1-20250805-thinking-16k",
+    "model_api_name": "claude-opus-4-1-20250805-thinking-16k",
+    "input_token_price": "15",
+    "output_token_price": "75",
+    "organization": "Anthropic",
+    "license": "Proprietary",
+    "price_source": "https://claude.com/pricing#api",
+    "model_source": "https://www.anthropic.com/news/claude-opus-4-1"
+  },
+  {
+    "name": "Qwen3 Next 80B A3B Instruct",
+    "model_api_name": "qwen3-next-80b-a3b-instruct",
+    "input_token_price": "0.5",
+    "output_token_price": "2",
+    "organization": "Alibaba",
+    "license": "Apache 2.0",
+    "price_source": "https://github.com/JonathanChavezTamales/llm-leaderboard",
+    "model_source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct"
+  },
+  {
+    "name": "DeepSeek V3.1",
+    "model_api_name": "deepseek-v3.1",
+    "input_token_price": "0.2",
+    "output_token_price": "0.8",
+    "organization": "DeepSeek AI",
+    "license": "MIT",
+    "price_source": "https://openrouter.ai/deepseek/deepseek-chat-v3.1",
+    "model_source": "https://api-docs.deepseek.com/news/news250821"
+  },
+  {
+    "name": "deepseek-v3.1-terminus",
+    "model_api_name": "deepseek-v3.1-terminus",
+    "input_token_price": "0.27",
+    "output_token_price": "1",
+    "organization": "DeepSeek AI",
+    "license": "MIT",
+    "price_source": "https://deepinfra.com/pricing",
+    "model_source": "https://api-docs.deepseek.com/news/news250922"
+  },
+  {
+    "name": "deepseek-v3.1-terminus-thinking",
+    "model_api_name": "deepseek-v3.1-terminus-thinking",
+    "input_token_price": "0.27",
+    "output_token_price": "1",
+    "organization": "DeepSeek AI",
+    "license": "MIT",
+    "price_source": "https://deepinfra.com/pricing",
+    "model_source": "https://api-docs.deepseek.com/news/news250922"
+  },
+  {
+    "name": "Qwen3-235B-A22B-Instruct-2507",
+    "model_api_name": "qwen3-235b-a22b-instruct-2507",
+    "input_token_price": "0.7",
+    "output_token_price": "2.8",
+    "organization": "Alibaba",
+    "license": "Apache 2.0",
+    "price_source": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "model_source": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507"
+  },
+  {
+    "name": "deepseek-v3.1-thinking",
+    "model_api_name": "deepseek-v3.1-thinking",
+    "input_token_price": "0.27",
+    "output_token_price": "1",
+    "organization": "DeepSeek AI",
+    "license": "MIT",
+    "price_source": "https://openrouter.ai/deepseek/deepseek-chat-v3.1",
+    "model_source": "https://api-docs.deepseek.com/news/news250821"
+  },
+  {
+    "name": "Gemini 2.5 Flash",
+    "model_api_name": "gemini-2.5-flash",
+    "input_token_price": "0.3",
+    "output_token_price": "2.5",
+    "organization": "Google",
+    "license": "Proprietary",
+    "price_source": "https://ai.google.dev/gemini-api/docs/pricing",
+    "model_source": "http://aistudio.google.com/app/prompts/new_chat?model=gemini-2.5-flash"
+  },
+  {
+    "name": "qwen3-max-2025-09-23",
+    "model_api_name": "qwen3-max-2025-09-23",
+    "input_token_price": "1.2",
+    "output_token_price": "6",
+    "organization": "Alibaba",
+    "license": "Proprietary",
+    "price_source": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "model_source": "https://qwen.ai/blog?id=241398b9cd6353de490b0f82806c7848c5d2777d&from=research.latest-advancements-list"
+  },
+  {
+    "name": "Qwen3-235B-A22B-Thinking-2507",
+    "model_api_name": "qwen3-235b-a22b-thinking-2507",
+    "input_token_price": "0.7",
+    "output_token_price": "8.4",
+    "organization": "Alibaba",
+    "license": "Apache 2.0",
+    "price_source": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "model_source": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507"
+  },
+  {
+    "name": "Claude Opus 4.1",
+    "model_api_name": "claude-opus-4-1-20250805",
+    "input_token_price": "15.0",
+    "output_token_price": "75.0",
+    "organization": "Anthropic",
+    "license": "Proprietary",
+    "price_source": "https://www.anthropic.com/claude/opus",
+    "model_source": "https://www.anthropic.com/news/claude-opus-4-1"
+  },
+  {
+    "name": "grok-4-0709",
+    "model_api_name": "grok-4-0709",
+    "input_token_price": "3",
+    "output_token_price": "15",
+    "organization": "xAI",
+    "license": "Proprietary",
+    "price_source": "https://docs.x.ai/docs/models",
+    "model_source": "https://docs.x.ai/docs/models/grok-4-0709"
+  },
+  {
+    "name": "gemini-2.5-flash-preview-09-2025",
+    "model_api_name": "gemini-2.5-flash-preview-09-2025",
+    "input_token_price": "0.3",
+    "output_token_price": "2.5",
+    "organization": "Google",
+    "license": "Proprietary",
+    "price_source": "https://ai.google.dev/gemini-api/docs/pricing",
+    "model_source": "https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/"
+  },
+  {
+    "name": "Grok 4 Fast",
+    "model_api_name": "grok-4-fast",
+    "input_token_price": "0.2",
+    "output_token_price": "0.5",
+    "organization": "xAI",
+    "license": "Proprietary",
+    "price_source": "https://docs.x.ai/docs/models/grok-4-fast-reasoning",
+    "model_source": "https://x.ai/news/grok-4-fast"
+  },
+  {
+    "name": "gpt-5-high",
+    "model_api_name": "gpt-5-high",
+    "input_token_price": "1.25",
+    "output_token_price": "10",
+    "organization": "OpenAI",
+    "license": "Proprietary",
+    "price_source": "https://openai.com/api/pricing/",
+    "model_source": "https://platform.openai.com/docs/models/gpt-5"
+  },
+  {
+    "name": "gpt-5-chat",
+    "model_api_name": "gpt-5-chat",
+    "input_token_price": "1.25",
+    "output_token_price": "10",
+    "organization": "OpenAI",
+    "license": "Proprietary",
+    "price_source": "https://openrouter.ai/openai/gpt-5-chat",
+    "model_source": "https://platform.openai.com/docs/models/gpt-5-chat-latest"
+  },
+  {
+    "name": "qwen3-vl-235b-a22b-thinking",
+    "model_api_name": "qwen3-vl-235b-a22b-thinking",
+    "input_token_price": "0.7",
+    "output_token_price": "8.4",
+    "organization": "Alibaba",
+    "license": "Apache 2.0",
+    "price_source": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "model_source": "https://qwen.ai/blog?id=99f0335c4ad9ff6153e517418d48535ab6d8afef&from=research.latest-advancements-list"
+  },
+  {
+    "name": "hunyuan-t1-20250711",
+    "model_api_name": "hunyuan-t1-20250711",
+    "input_token_price": "0.14",
+    "output_token_price": "0.56",
+    "organization": "Tencent",
+    "license": "Proprietary",
+    "price_source": "https://lobechat.com/discover/provider/hunyuan",
+    "model_source": "https://cloud.tencent.com/document/product/1729/104753"
+  },
+  {
+    "name": "mai-1-preview",
+    "model_api_name": "mai-1-preview",
+    "input_token_price": "",
+    "output_token_price": "",
+    "organization": "Microsoft AI",
+    "license": "Proprietary",
+    "price_source": "",
+    "model_source": "https://microsoft.ai/news/two-new-in-house-models/"
+  },
+  {
+    "name": "qwen3-235b-a22b-no-thinking",
+    "model_api_name": "qwen3-235b-a22b-no-thinking",
+    "input_token_price": "0.7",
+    "output_token_price": "2.8",
+    "organization": "Alibaba",
+    "license": "Apache 2.0",
+    "price_source": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "model_source": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  {
+    "name": "claude-haiku-4-5-20251001",
+    "model_api_name": "claude-haiku-4-5-20251001",
+    "input_token_price": "1",
+    "output_token_price": "5",
+    "organization": "Anthropic",
+    "license": "Proprietary",
+    "price_source": "https://www.anthropic.com/news/claude-haiku-4-5",
+    "model_source": "https://www.anthropic.com/news/claude-haiku-4-5"
+  },
+  {
+    "name": "qwen3-30b-a3b-instruct-2507",
+    "model_api_name": "qwen3-30b-a3b-instruct-2507",
+    "input_token_price": "0.2",
+    "output_token_price": "0.8",
+    "organization": "Alibaba",
+    "license": "Apache 2.0",
+    "price_source": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "model_source": "https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507"
+  },
+  {
+    "name": "glm-4.5-air",
+    "model_api_name": "glm-4.5-air",
+    "input_token_price": "0.2",
+    "output_token_price": "1.1",
+    "organization": "Z.ai",
+    "license": "MIT",
+    "price_source": "https://docs.z.ai/guides/overview/pricing",
+    "model_source": "https://z.ai/blog/glm-4.5"
+  },
+  {
+    "name": "gemini-2.5-flash-lite-preview-09-2025-no-thinking",
+    "model_api_name": "gemini-2.5-flash-lite-preview-09-2025-no-thinking",
+    "input_token_price": "0.1",
+    "output_token_price": "0.4",
+    "organization": "Google",
+    "license": "Proprietary",
+    "price_source": "https://ai.google.dev/gemini-api/docs/pricing",
+    "model_source": "https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/"
+  },
+  {
+    "name": "kimi-k2-0905-preview",
+    "model_api_name": "kimi-k2-0905-preview",
+    "input_token_price": "0.6",
+    "output_token_price": "2.5",
+    "organization": "Moonshot",
+    "license": "Modified MIT",
+    "price_source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing",
+    "model_source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+  },
+  {
+    "name": "hunyuan-turbos-20250416",
+    "model_api_name": "hunyuan-turbos-20250416",
+    "input_token_price": "0.11",
+    "output_token_price": "0.28",
+    "organization": "Tencent",
+    "license": "Proprietary",
+    "price_source": "https://lobechat.com/discover/provider/hunyuan",
+    "model_source": "https://cloud.tencent.com/document/product/1729/104753"
+  },
+  {
+    "name": "claude-opus-4-20250514-thinking-16k",
+    "model_api_name": "claude-opus-4-20250514-thinking-16k",
+    "input_token_price": "15",
+    "output_token_price": "75",
+    "organization": "Anthropic",
+    "license": "Proprietary",
+    "price_source": "https://docs.claude.com/en/docs/about-claude/pricing",
+    "model_source": "https://www.anthropic.com/news/claude-4"
+  },
+  {
+    "name": "gpt-5-mini-high",
+    "model_api_name": "gpt-5-mini-high",
+    "input_token_price": "0.25",
+    "output_token_price": "2",
+    "organization": "OpenAI",
+    "license": "Proprietary",
+    "price_source": "https://openai.com/api/pricing/",
+    "model_source": "https://platform.openai.com/docs/models/gpt-5-mini"
+  },
+  {
+    "name": "DeepSeek-V3-0324",
+    "model_api_name": "deepseek-v3-0324",
+    "input_token_price": "0.25",
+    "output_token_price": "0.88",
+    "organization": "DeepSeek",
+    "license": "MIT",
+    "price_source": "https://openrouter.ai/deepseek/deepseek-chat-v3-0324",
+    "model_source": "https://api-docs.deepseek.com/news/news250325"
+  },
+  {
+    "name": "kimi-k2-0711-preview",
+    "model_api_name": "kimi-k2-0711-preview",
+    "input_token_price": "0.6",
+    "output_token_price": "2.5",
+    "organization": "Moonshot",
+    "license": "Modified MIT",
+    "price_source": "https://platform.moonshot.ai/docs/pricing/chat",
+    "model_source": "https://moonshotai.github.io/Kimi-K2/"
+  },
+  {
+    "name": "gemini-2.5-flash-lite-preview-06-17-thinking",
+    "model_api_name": "gemini-2.5-flash-lite-preview-06-17-thinking",
+    "input_token_price": "0.1",
+    "output_token_price": "0.4",
+    "organization": "Google",
+    "license": "Proprietary",
+    "price_source": "https://openrouter.ai/google/gemini-2.5-flash-lite-preview-06-17",
+    "model_source": "http://aistudio.google.com/app/prompts/new_chat?model=gemini-2.5-flash-lite-preview-06-17"
+  },
+  {
+    "name": "mistral-medium-2505",
+    "model_api_name": "mistral-medium-2505",
+    "input_token_price": "0.4",
+    "output_token_price": "2",
+    "organization": "Mistral",
+    "license": "Proprietary",
+    "price_source": "https://www.vals.ai/models/mistralai_mistral-medium-2505",
+    "model_source": "https://mistral.ai/news/mistral-medium-3"
+  },
+  {
+    "name": "grok-3-mini-high",
+    "model_api_name": "grok-3-mini-high",
+    "input_token_price": "0.3",
+    "output_token_price": "0.5",
+    "organization": "xAI",
+    "license": "Proprietary",
+    "price_source": "https://docs.x.ai/docs/models/grok-3-mini",
+    "model_source": "https://docs.x.ai/docs/models"
+  },
+  {
+    "name": "Qwen3 Next 80B A3B Thinking",
+    "model_api_name": "qwen3-next-80b-a3b-thinking",
+    "input_token_price": "0.5",
+    "output_token_price": "6",
+    "organization": "Alibaba",
+    "license": "Apache 2.0",
+    "price_source": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "model_source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+  },
+  {
+    "name": "Qwen3 235B A22B",
+    "model_api_name": "qwen3-235b-a22b",
+    "input_token_price": "0.7",
+    "output_token_price": "2.8",
+    "organization": "Alibaba",
+    "license": "Apache 2.0",
+    "price_source": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "model_source": "https://qwenlm.github.io/blog/qwen3/"
   }
 ]
