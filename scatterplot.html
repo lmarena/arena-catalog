@@ -211,13 +211,13 @@
    // Configuration constants
    const SCORE_CUTOFF = 1305;  
    Promise.all([
-        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/scatterplot-data.json"),
-        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-text.json"),
-        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/visibility-data.json"),
-        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-text-style-control.json"),
-        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-vision.json"),
-        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-vision-style-control.json"),
-        d3.json("https://raw.githubusercontent.com/lmarena/arena-catalog/main/data/leaderboard-image.json")
+        d3.json(`${URL_PREFIX}/scatterplot-data.json`),
+        d3.json(`${URL_PREFIX}/leaderboard-text.json`),
+        d3.json(`${URL_PREFIX}/visibility-data.json`),
+        d3.json(`${URL_PREFIX}/leaderboard-text-style-control.json`),
+        d3.json(`${URL_PREFIX}/leaderboard-vision.json`),
+        d3.json(`${URL_PREFIX}/leaderboard-vision-style-control.json`),
+        d3.json(`${URL_PREFIX}/leaderboard-image.json`)
       ]).then(function  ([data1, data2, data3, data4, data5, data6, data7]) {
       const slider = document.getElementById("scale-slider");
       const infoIcon = document.querySelector('.info-icon');
