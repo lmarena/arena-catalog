@@ -198,7 +198,9 @@
       "gemini-1.5-pro-002",
       "chatgpt-4o-latest-20241120",
       "gpt-4.1-mini-2025-04-14", 
-      "gpt-4.1-nano-2025-04-14"
+      "gpt-4.1-nano-2025-04-14",
+      "gemini-2.5-pro",
+      "qwen3-max-preview"
     ],
     "right": [
       "llama-4-maverick-03-26-experimental",
@@ -251,7 +253,9 @@
       "gpt-4.1-2025-04-14",
       "o3-2025-04-16",
       "o4-mini-2025-04-16",
-      "gemini-2.5-flash-preview-05-20"
+      "gemini-2.5-flash-preview-05-20",
+      "glm-4.6",
+      "deepseek-v3.2-exp"
     ]
   },
   "german": {
