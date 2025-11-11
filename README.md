@@ -11,8 +11,8 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
-#### Update scatterplot data
-You will need a data dump named `results.pkl` that you add to your local repository before running the `update_leaderboard_data.py` script. Please contact the LMArena team for the latest `results.pkl` file, or you can use historical data that was published to Huggingface and set `GENERATE_HISTORICAL_CHART = True` in `update_leaderboard_data.py`.  
+#### Update leaderboard data
+You will need a data dump named `results.pkl` that you add to your local repository before running the `update_leaderboard_data.py` script. This update is handled by the LMArena team currently and you can check the `data` folder to see the last time the leaderboard data was updated.
 
 ```
 python update_leaderboard_data.py
