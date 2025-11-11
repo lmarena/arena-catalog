@@ -288,7 +288,7 @@
         let data = data1;
         // Assign legend item
         data.forEach(d => {
-          const legendItems = arenaType == 'image' ? ["Google", "OpenAI", "Luma AI", "Ideogram", "Stability AI"] : ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "Other"];
+          const legendItems = arenaType == 'image' ? ["Google", "OpenAI", "Luma AI", "Ideogram", "Stability AI"] : ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "xAI", "Z.ai", "Tencent", "DeepSeek AI", "Mistral", "Moonshot", "Meituan", "Other"];
           if (legendItems.includes(d.organization)) {
             d.legend_item = d.organization;
           } else if (d.organization == "Black Forest Labs") {
@@ -454,7 +454,7 @@
           .style("opacity", 0.5)
           .text("lmarena.ai/price");
 
-        const desiredOrder = arenaType == "image" ? ["Google", "OpenAI", "BF Labs", "Luma AI", "Ideogram", "Stability AI"] : ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "Other"];
+        const desiredOrder = arenaType == "image" ? ["Google", "OpenAI", "BF Labs", "Luma AI", "Ideogram", "Stability AI"] : ["Google", "OpenAI", "DeepSeek AI", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "xAI", "Z.ai", "Tencent", "Mistral", "Moonshot", "Meituan", "Other"];
   
         const categories = [...new Set(data.map(d => d.legend_item))];
         const sortedCategories = categories.sort((a, b) => {

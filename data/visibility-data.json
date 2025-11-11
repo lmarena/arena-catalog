@@ -200,7 +200,13 @@
       "gpt-4.1-mini-2025-04-14", 
       "gpt-4.1-nano-2025-04-14",
       "gemini-2.5-pro",
-      "qwen3-max-preview"
+      "qwen3-max-preview",
+      "glm-4.5",
+      "claude-sonnet-4-5-20250929-thinking-32k",
+      "qwen2.5-max",
+      "gpt-4.1-2025-04-14",
+      "grok-4-0709",
+      "kimi-k2-0905-preview"
     ],
     "right": [
       "llama-4-maverick-03-26-experimental",
@@ -220,9 +226,7 @@
       "o3-mini",
       "o1-2024-12-17",
       "gemini-1.5-flash-002",
-      "gpt-4.5-preview-2025-02-27",
       "gemma-2-9b-it",
-      "qwen2.5-max",
       "amazon-nova-pro-v1.0",
       "amazon-nova-lite-v1.0",
       "amazon-nova-micro-v1.0",
@@ -250,12 +254,18 @@
       "llama-3.2-vision-11b-instruct",
       "molmo-7b-d-0924",
       "phi-3.5-vision-instruct",
-      "gpt-4.1-2025-04-14",
       "o3-2025-04-16",
       "o4-mini-2025-04-16",
       "gemini-2.5-flash-preview-05-20",
       "glm-4.6",
-      "deepseek-v3.2-exp"
+      "deepseek-v3.2-exp",
+      "mistral-medium-2508",
+      "chatgpt-4o-latest-20250326",
+      "grok-4-fast",
+      "gemini-2.5-flash",
+      "gemini-2.5-flash-lite-preview-09-2025-no-thinking",
+      "hunyuan-t1-20250711",
+      "claude-opus-4-1-20250805-thinking-16k"
     ]
   },
   "german": {
