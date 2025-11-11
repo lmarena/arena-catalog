@@ -12,7 +12,9 @@ pip3 install -r requirements.txt
 ```
 
 #### Update leaderboard data
-You will need a data dump named `results.pkl` that you add to your local repository before running the `update_leaderboard_data.py` script. This update is handled by the LMArena team currently and you can check the `data` folder to see the last time the leaderboard data was updated.
+You can skip this step - you will need a data dump named `results.pkl` that you add to your local repository before running the `update_leaderboard_data.py` script. This update is handled by the LMArena team currently and you can check the `data` folder to see the last time the leaderboard data was updated.
+
+If you want to see historical data when it was being uploaded to HuggingFace, you can set `GENERATE_HISTORICAL_CHART = True` in this file and run the script.
 
 ```
 python update_leaderboard_data.py
