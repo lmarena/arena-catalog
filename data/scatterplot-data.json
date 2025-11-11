@@ -74,7 +74,7 @@
     "model_api_name": "glm-4-plus-0111",
     "input_token_price": "6.9",
     "output_token_price": "6.9",
-    "organization": "Zhipu",
+    "organization": "Z.ai",
     "license": "Proprietary",
     "price_source": "https://open.bigmodel.cn/pricing",
     "model_source": "https://bigmodel.cn/dev/howuse/glm-4"
@@ -264,7 +264,7 @@
     "model_api_name": "deepseek-v3",
     "input_token_price": "0.27",
     "output_token_price": "1.10",
-    "organization": "DeepSeek",
+    "organization": "DeepSeek AI",
     "license": "DeepSeek",
     "price_source": "https://api-docs.deepseek.com/quick_start/pricing",
     "model_source": "https://huggingface.co/deepseek-ai/DeepSeek-V3"
@@ -274,7 +274,7 @@
     "model_api_name": "deepseek-r1",
     "input_token_price": "0.55",
     "output_token_price": "2.19",
-    "organization": "DeepSeek",
+    "organization": "DeepSeek AI",
     "license": "MIT",
     "price_source": "https://api-docs.deepseek.com/quick_start/pricing",
     "model_source": "https://api-docs.deepseek.com/news/news250120"
@@ -730,7 +730,7 @@
     "model_source": "https://docs.z.ai/guides/llm/glm-4.6"
   },
   {
-    "name": "qwen3-max-preview",
+    "name": "Qwen3-Max",
     "model_api_name": "qwen3-max-preview",
     "input_token_price": "1.2",
     "output_token_price": "6",
@@ -750,7 +750,7 @@
     "model_source": "https://api-docs.deepseek.com/news/news250929"
   },
   {
-    "name": "mistral-medium-2508",
+    "name": "Mistral Medium 3.1",
     "model_api_name": "mistral-medium-2508",
     "input_token_price": "0.4",
     "output_token_price": "2",
@@ -770,7 +770,7 @@
     "model_source": "https://z.ai/blog/glm-4.5"
   },
   {
-    "name": "claude-sonnet-4-5-20250929-thinking-32k",
+    "name": "Claude Sonnet 4.5 Thinking",
     "model_api_name": "claude-sonnet-4-5-20250929-thinking-32k",
     "input_token_price": "3",
     "output_token_price": "15",
@@ -780,7 +780,7 @@
     "model_source": "https://www.anthropic.com/news/claude-sonnet-4-5"
   },
   {
-    "name": "chatgpt-4o-latest-20250326",
+    "name": "ChatGPT-4o-Latest",
     "model_api_name": "chatgpt-4o-latest-20250326",
     "input_token_price": "5",
     "output_token_price": "15",
@@ -794,7 +794,7 @@
     "model_api_name": "deepseek-r1-0528",
     "input_token_price": "0.5",
     "output_token_price": "2.15",
-    "organization": "DeepSeek",
+    "organization": "DeepSeek AI",
     "license": "MIT",
     "price_source": "https://deepinfra.com/pricing",
     "model_source": "https://api-docs.deepseek.com/news/news250528"
@@ -850,7 +850,7 @@
     "model_source": "https://www.anthropic.com/news/claude-sonnet-4-5"
   },
   {
-    "name": "claude-opus-4-1-20250805-thinking-16k",
+    "name": "Claude Opus 4.1 Thinking",
     "model_api_name": "claude-opus-4-1-20250805-thinking-16k",
     "input_token_price": "15",
     "output_token_price": "75",
@@ -960,7 +960,7 @@
     "model_source": "https://www.anthropic.com/news/claude-opus-4-1"
   },
   {
-    "name": "grok-4-0709",
+    "name": "Grok 4",
     "model_api_name": "grok-4-0709",
     "input_token_price": "3",
     "output_token_price": "15",
@@ -1020,7 +1020,7 @@
     "model_source": "https://qwen.ai/blog?id=99f0335c4ad9ff6153e517418d48535ab6d8afef&from=research.latest-advancements-list"
   },
   {
-    "name": "hunyuan-t1-20250711",
+    "name": "Hunyuan-T1",
     "model_api_name": "hunyuan-t1-20250711",
     "input_token_price": "0.14",
     "output_token_price": "0.56",
@@ -1070,7 +1070,7 @@
     "model_source": "https://z.ai/blog/glm-4.5"
   },
   {
-    "name": "gemini-2.5-flash-lite-preview-09-2025-no-thinking",
+    "name": "Gemini 2.5 Flash-Lite",
     "model_api_name": "gemini-2.5-flash-lite-preview-09-2025-no-thinking",
     "input_token_price": "0.1",
     "output_token_price": "0.4",
@@ -1080,7 +1080,7 @@
     "model_source": "https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/"
   },
   {
-    "name": "kimi-k2-0905-preview",
+    "name": "Kimi K2-0905",
     "model_api_name": "kimi-k2-0905-preview",
     "input_token_price": "0.6",
     "output_token_price": "2.5",
@@ -1090,7 +1090,7 @@
     "model_source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
   },
   {
-    "name": "hunyuan-turbos-20250416",
+    "name": "Hunyuan-TurboS",
     "model_api_name": "hunyuan-turbos-20250416",
     "input_token_price": "0.11",
     "output_token_price": "0.28",
@@ -1124,7 +1124,7 @@
     "model_api_name": "deepseek-v3-0324",
     "input_token_price": "0.25",
     "output_token_price": "0.88",
-    "organization": "DeepSeek",
+    "organization": "DeepSeek AI",
     "license": "MIT",
     "price_source": "https://openrouter.ai/deepseek/deepseek-chat-v3-0324",
     "model_source": "https://api-docs.deepseek.com/news/news250325"
