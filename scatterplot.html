@@ -449,6 +449,10 @@
         const sortedCategories = categories.sort((a, b) => {
             return desiredOrder.indexOf(a) - desiredOrder.indexOf(b);
         });
+
+        // Pre-populate color scale to lock in color assignments based on sorted order
+        sortedCategories.forEach(cat => colorScale(cat));
+       
         const legend = svg.append("g")
           .attr("transform", `translate(${w - margin.right}, ${margin.top + 40})`)
           .selectAll(".legend-item")
