@@ -173,20 +173,24 @@
       Style Control <input type="checkbox" id="scatter-checkbox">
     </label>
   </div>
-  <div style="position: absolute; top: 13px; right: 810px; z-index: 10; display: flex; flex-wrap: wrap; align-items: center;">
-    <label for="scale-slider" style="margin-right: 10px; flex: 1; white-space: normal;">
-      Input/Output Cost Ratio:
-    </label>
-    <input id="scale-slider" type="range" min="0" max="1" value="1" step="0.01" class="slider" style="flex-shrink: 0; margin-right: 15px; accent-color: white;">
-  
-    
-    <!-- Info icon -->
-    <div class="info-container">
-      <i class="fas fa-info-circle info-icon"></i>
-      <div class="info-tooltip" style="visibility: hidden; position: absolute; top: 50px; left: 300px;; background-color: #333; color: white; padding: 8px; border-radius: 5px; font-size: 14px; z-index: 100;">
-          Use this slider to adjust the input/output cost ratio of the x-axis. Sliding it to the left shows the cost in <b>$/1M Input Tokens</b>. Sliding it to the right shows the cost in <b>$/1M Output Tokens</b>. Placing it in the middle displays a blended cost based on both values.
-        </ul>
+  <div style="position: absolute; top: 13px; right: 810px; z-index: 10; display: flex; flex-direction: column; align-items: flex-start;">
+    <div style="display: flex; align-items: center; margin-bottom: 2px;">
+      <label for="scale-slider" style="margin-right: 10px; white-space: normal;">
+        Input/Output Cost Ratio:
+      </label>
+      <input id="scale-slider" type="range" min="0" max="1" value="1" step="0.01" class="slider" style="flex-shrink: 0; margin-right: 15px; accent-color: white;">
+
+      <!-- Info icon -->
+      <div class="info-container">
+        <i class="fas fa-info-circle info-icon"></i>
+        <div class="info-tooltip" style="visibility: hidden; position: absolute; top: 50px; left: 300px;; background-color: #333; color: white; padding: 8px; border-radius: 5px; font-size: 14px; z-index: 100;">
+            Use this slider to adjust the input/output cost ratio of the x-axis. Sliding it to the left shows the cost in <b>$/1M Input Tokens</b>. Sliding it to the right shows the cost in <b>$/1M Output Tokens</b>. Placing it in the middle displays a blended cost based on both values.
+          </ul>
+        </div>
       </div>
+    </div>
+    <div style="font-size: 11px; color: #aaa; margin-left: 0px; max-width: 400px;">
+      Left = input cost only, Right = output cost only, Middle = 50/50 blend
     </div>
   </div>   
   <div style="position: absolute; top: 10px; right: 285px; z-index: 10;">
