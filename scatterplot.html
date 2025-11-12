@@ -152,10 +152,50 @@
     }
 
     .info-tooltip {
-      width: auto;  
-      min-width: 250px; 
-      max-width: 400px;  
+      width: auto;
+      min-width: 250px;
+      max-width: 400px;
       white-space: normal; /* Allows text to wrap */
+    }
+
+    .org-filter-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .org-filter-dropdown {
+      display: block;
+      position: relative;
+      top: 5px;
+      left: 0;
+      background-color: #333;
+      border: 1px solid #555;
+      border-radius: 5px;
+      padding: 10px;
+      min-width: 180px;
+      max-height: 400px;
+      overflow-y: auto;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    .org-filter-item {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      cursor: pointer;
+      color: #f0f0f0;
+      font-family: 'Poppins', sans-serif;
+      font-size: 13px;
+    }
+
+    .org-filter-item:hover {
+      background-color: #444;
+    }
+
+    .org-filter-item input[type="checkbox"] {
+      margin-right: 8px;
+      cursor: pointer;
     }
   </style>
 </head>
@@ -202,6 +242,12 @@
       <option value="vision">Vision</option>
       <option value="image">Text2Img</option>
     </select>
+  </div>
+  <!-- Organization filter dropdown (positioned dynamically based on legend) -->
+  <div id="org-filter-dropdown-container" class="org-filter-container" style="position: absolute; display: none; z-index: 1001;">
+    <div class="org-filter-dropdown" id="org-filter-dropdown">
+      <!-- Checkboxes will be populated dynamically -->
+    </div>
   </div>
   <button class="toggle-dark-mode">Light Mode</button>
   <div id="scatterplot" class="scatterplot-container"></div>
@@ -259,8 +305,57 @@
 
       let colorScale = d3.scaleOrdinal(d3.schemeObservable10);
       const tooltip = d3.select("body").append("div").attr("class", "tooltip").style("opacity", 0);
-  
+
       const selectedCategories = new Set();
+      const hiddenOrganizations = new Set();
+
+      // Function to populate organization filter dropdown
+      function updateOrgFilter(organizations) {
+        const dropdown = document.getElementById('org-filter-dropdown');
+        dropdown.innerHTML = ''; // Clear existing
+
+        // Add "Select All" / "Deselect All" option
+        const selectAllDiv = document.createElement('div');
+        selectAllDiv.className = 'org-filter-item';
+        selectAllDiv.style.borderBottom = '1px solid #555';
+        selectAllDiv.style.marginBottom = '5px';
+        selectAllDiv.style.fontWeight = 'bold';
+        selectAllDiv.innerHTML = `
+          <input type="checkbox" id="org-select-all" ${hiddenOrganizations.size === 0 ? 'checked' : ''}>
+          <label for="org-select-all">Select All</label>
+        `;
+        selectAllDiv.querySelector('input').addEventListener('change', (e) => {
+          if (e.target.checked) {
+            hiddenOrganizations.clear();
+          } else {
+            organizations.forEach(org => hiddenOrganizations.add(org));
+          }
+          renderScatterplot(resize().width, resize().height, styleControlOn, arenaType);
+          updateOrgFilter(organizations);
+        });
+        dropdown.appendChild(selectAllDiv);
+
+        // Add individual organization checkboxes
+        organizations.forEach(org => {
+          const div = document.createElement('div');
+          div.className = 'org-filter-item';
+          const isChecked = !hiddenOrganizations.has(org);
+          div.innerHTML = `
+            <input type="checkbox" id="org-${org.replace(/[^a-zA-Z0-9]/g, '-')}" ${isChecked ? 'checked' : ''}>
+            <label for="org-${org.replace(/[^a-zA-Z0-9]/g, '-')}">${org}</label>
+          `;
+          div.querySelector('input').addEventListener('change', (e) => {
+            if (e.target.checked) {
+              hiddenOrganizations.delete(org);
+            } else {
+              hiddenOrganizations.add(org);
+            }
+            renderScatterplot(resize().width, resize().height, styleControlOn, arenaType);
+            updateOrgFilter(organizations);
+          });
+          dropdown.appendChild(div);
+        });
+      }
 
       function calculatePointRadius(containerWidth, containerHeight) {
         return Math.max(3, Math.min(containerWidth / 210, 9, containerHeight/ 180));
@@ -336,6 +431,17 @@
         const currentCategory = document.getElementById("category-toggle").value;
         data = data.filter(d => d[currentCategory + "_rating"] >= SCORE_CUTOFF);
 
+        // Get all organizations BEFORE hiding any (for the filter dropdown)
+        const desiredOrder = arenaType == "image" ? ["Google", "OpenAI", "BF Labs", "Luma AI", "Ideogram", "Stability AI"] : ["Google", "OpenAI", "DeepSeek AI", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "xAI", "Z.ai", "Tencent", "Mistral", "Moonshot", "Meituan", "Other"];
+        const allOrganizations = [...new Set(data.map(d => d.legend_item))];
+        const sortedAllOrgs = allOrganizations.sort((a, b) => {
+            return desiredOrder.indexOf(a) - desiredOrder.indexOf(b);
+        });
+        updateOrgFilter(sortedAllOrgs);
+
+        // Filter out hidden organizations
+        data = data.filter(d => !hiddenOrganizations.has(d.legend_item));
+
         // Update the SVG size
         svg.attr("width", w).attr("height", h);
 
@@ -402,8 +508,12 @@
           .style("font-family", "Poppins")
           .style("font-size", `${fontSize}px`); // Set dynamic font size
           
-        // Add legend title
-        svg.append("text")
+        // Add legend title with filter functionality
+        const legendTitleGroup = svg.append("g")
+          .attr("class", "legend-title-group")
+          .style("cursor", "pointer");
+
+        legendTitleGroup.append("text")
           .attr("class", "legend-title")
           .attr("x", w - 0.75*margin.right)
           .attr("y", margin.top + 30)
@@ -413,6 +523,45 @@
           .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
           .style("font-size", `${fontSize + 1}px`)
           .text("Organization");
+
+        // Add dropdown indicator next to title
+        legendTitleGroup.append("text")
+          .attr("class", "legend-filter-icon")
+          .attr("x", w - 0.75*margin.right + 60)
+          .attr("y", margin.top + 27)
+          .style("font-family", "Poppins")
+          .style("font-size", `${fontSize}px`)
+          .style("fill", "#aaa")
+          .text("⌵"); // Dropdown indicator
+
+        // Position and show/hide dropdown on hover
+        const dropdownContainer = document.getElementById('org-filter-dropdown-container');
+        const legendTitleX = w - 0.75*margin.right;
+        const legendTitleY = margin.top + 30;
+
+        legendTitleGroup.on("mouseenter", () => {
+          // Position dropdown to the left so it stays within viewport
+          dropdownContainer.style.left = `${legendTitleX - 90}px`;
+          dropdownContainer.style.top = `${legendTitleY + 10}px`;
+          dropdownContainer.style.display = 'block';
+        });
+
+        dropdownContainer.addEventListener('mouseenter', () => {
+          dropdownContainer.style.display = 'block';
+        });
+
+        dropdownContainer.addEventListener('mouseleave', () => {
+          dropdownContainer.style.display = 'none';
+        });
+
+        legendTitleGroup.on("mouseleave", () => {
+          // Small delay to allow moving to dropdown
+          setTimeout(() => {
+            if (!dropdownContainer.matches(':hover')) {
+              dropdownContainer.style.display = 'none';
+            }
+          }, 100);
+        });
         
         // Add confidence intervals text
         svg.append("text")
@@ -458,15 +607,14 @@
           .style("opacity", 0.5)
           .text("lmarena.ai/price");
 
-        const desiredOrder = arenaType == "image" ? ["Google", "OpenAI", "BF Labs", "Luma AI", "Ideogram", "Stability AI"] : ["Google", "OpenAI", "DeepSeek AI", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "xAI", "Z.ai", "Tencent", "Mistral", "Moonshot", "Meituan", "Other"];
-  
+        // Get visible categories for legend (after filtering hidden orgs)
         const categories = [...new Set(data.map(d => d.legend_item))];
         const sortedCategories = categories.sort((a, b) => {
             return desiredOrder.indexOf(a) - desiredOrder.indexOf(b);
         });
 
-        // Pre-populate color scale to lock in color assignments based on sorted order
-        sortedCategories.forEach(cat => colorScale(cat));
+        // Pre-populate color scale to lock in color assignments based on ALL organizations (for consistent colors)
+        sortedAllOrgs.forEach(cat => colorScale(cat));
        
         const legend = svg.append("g")
           .attr("transform", `translate(${w - margin.right}, ${margin.top + 40})`)
