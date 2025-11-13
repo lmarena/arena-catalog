@@ -4,7 +4,7 @@
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -45,7 +45,7 @@
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -81,7 +81,7 @@
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -117,12 +117,12 @@
       "gemma-2-9b-it",
       "llama-3.3-70b-instruct",
       "o1-2024-12-17",
-      "chatgpt-4o-latest-20241120"
+      "chatgpt-4o-latest-20250326"
     ],
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -164,7 +164,7 @@
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -196,7 +196,7 @@
     "left": [
       "claude-3-7-sonnet-20250219",
       "gemini-1.5-pro-002",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "gpt-4.1-mini-2025-04-14", 
       "gpt-4.1-nano-2025-04-14",
       "gemini-2.5-pro",
@@ -276,7 +276,7 @@
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -314,7 +314,7 @@
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -349,7 +349,7 @@
   },
   "hard_english_6": {
     "left": [
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "llama-3.3-70b-instruct"
     ],
     "right": [
@@ -400,7 +400,7 @@
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -439,7 +439,7 @@
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -474,7 +474,7 @@
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -513,7 +513,7 @@
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -555,7 +555,7 @@
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "ministral-8b-2410",
       "deepseek-r1",
       "gemini-2.0-flash-001",
@@ -591,7 +591,7 @@
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -627,7 +627,7 @@
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -665,7 +665,7 @@
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -706,7 +706,7 @@
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -741,7 +741,7 @@
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
@@ -779,7 +779,7 @@
     "right": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
-      "chatgpt-4o-latest-20241120",
+      "chatgpt-4o-latest-20250326",
       "yi-lightning",
       "ministral-8b-2410",
       "deepseek-r1",
