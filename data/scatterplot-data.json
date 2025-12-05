@@ -1188,5 +1188,15 @@
     "license": "Apache 2.0",
     "price_source": "https://www.alibabacloud.com/help/en/model-studio/models",
     "model_source": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  {
+    "name": "Gemini 3.0",
+    "model_api_name": "gemini-3",
+    "input_token_price": "2.5",
+    "output_token_price": "10",
+    "organization": "Google",
+    "license": "Proprietary",
+    "price_source": "https://ai.google.dev/pricing",
+    "model_source": "https://ai.google.dev/gemini-api"
   }
 ]
