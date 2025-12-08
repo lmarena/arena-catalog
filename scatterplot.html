@@ -41,6 +41,27 @@
       border-color: #555;
     }
 
+    /* Pareto curve styling */
+    .pareto-curve {
+      transition: opacity 0.3s ease;
+    }
+
+    .pareto-glow {
+      transition: opacity 0.3s ease;
+    }
+
+    /* Control panel styling */
+    .control-label {
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+    }
+
+    input[type="checkbox"] {
+      accent-color: #10b981;
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+
     .toggle-dark-mode {
       position: absolute;
       bottom: 10px;
@@ -200,49 +221,58 @@
   </style>
 </head>
 <body class="dark-mode">
-  <div style="position: absolute; top: 10px; right: 10px; z-index: 10;">
-    <label for="category-toggle" style="font-family: 'Poppins', sans-serif; font-size: 15px;">
-      Category:
-    </label>
-    <select id="category-toggle" style="font-family: 'Poppins', sans-serif; padding: 5px; font-size: 13px;">
-      <!-- Options will be populated dynamically -->
-    </select>
-  </div>
-  <div style="position: absolute; top: 13px; right: 670px; z-index: 10;">
-    <label>
-      Style Control <input type="checkbox" id="scatter-checkbox">
-    </label>
-  </div>
-  <div style="position: absolute; top: 13px; right: 810px; z-index: 10; display: flex; flex-direction: column; align-items: flex-start;">
-    <div style="display: flex; align-items: center; margin-bottom: 2px;">
-      <label for="scale-slider" style="margin-right: 10px; white-space: normal;">
-        Input/Output Cost Ratio:
-      </label>
-      <input id="scale-slider" type="range" min="0" max="1" value="1" step="0.01" class="slider" style="flex-shrink: 0; margin-right: 15px; accent-color: white;">
+  <!-- Clean organized control bar -->
+  <div id="control-bar" style="position: absolute; top: 0; left: 0; right: 0; padding: 10px 20px; z-index: 10; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px; background: rgba(5,5,5,0.9); border-bottom: 1px solid #333;">
 
-      <!-- Info icon -->
-      <div class="info-container">
-        <i class="fas fa-info-circle info-icon"></i>
-        <div class="info-tooltip" style="visibility: hidden; position: absolute; top: 50px; left: 300px;; background-color: #333; color: white; padding: 8px; border-radius: 5px; font-size: 14px; z-index: 100;">
-            Use this slider to adjust the input/output cost ratio of the x-axis. Sliding it to the left shows the cost in <b>$/1M Input Tokens</b>. Sliding it to the right shows the cost in <b>$/1M Output Tokens</b>. Placing it in the middle displays a blended cost based on both values.
-          </ul>
-        </div>
+    <!-- Left section: Data controls -->
+    <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <label for="arena-toggle" style="font-family: 'Poppins', sans-serif; font-size: 13px; color: #aaa;">Arena:</label>
+        <select id="arena-toggle" style="font-family: 'Poppins', sans-serif; padding: 5px 10px; font-size: 12px; border-radius: 5px; background: #222; color: #fff; border: 1px solid #444;">
+          <option value="text">Language</option>
+          <option value="vision">Vision</option>
+          <option value="image">Text2Img</option>
+        </select>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <label for="category-toggle" style="font-family: 'Poppins', sans-serif; font-size: 13px; color: #aaa;">Category:</label>
+        <select id="category-toggle" style="font-family: 'Poppins', sans-serif; padding: 5px 10px; font-size: 12px; border-radius: 5px; background: #222; color: #fff; border: 1px solid #444;">
+          <!-- Options will be populated dynamically -->
+        </select>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <label style="font-family: 'Poppins', sans-serif; font-size: 13px; color: #aaa;">Cost:</label>
+        <span style="font-size: 11px; color: #666;">Input</span>
+        <input id="scale-slider" type="range" min="0" max="1" value="1" step="0.01" style="width: 80px; accent-color: #10b981;">
+        <span style="font-size: 11px; color: #666;">Output</span>
       </div>
     </div>
-    <div style="font-size: 11px; color: #aaa; margin-left: 0px; max-width: 400px;">
-      Left = input cost only, Right = output cost only, Middle = 50/50 blend
+
+    <!-- Center section: Pareto controls -->
+    <div style="display: flex; align-items: center; gap: 20px; padding: 5px 15px; background: rgba(16,185,129,0.1); border-radius: 8px; border: 1px solid rgba(16,185,129,0.3);">
+      <label style="font-family: 'Poppins', sans-serif; font-size: 13px; color: #10b981; font-weight: 600;">
+        <input type="checkbox" id="pareto-checkbox" checked style="accent-color: #10b981;"> Pareto Frontier
+      </label>
+
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <label for="org-pareto-select" style="font-family: 'Poppins', sans-serif; font-size: 13px; color: #10b981;">Compare:</label>
+        <select id="org-pareto-select" style="font-family: 'Poppins', sans-serif; padding: 5px 10px; font-size: 12px; border-radius: 5px; background: #1a3a2a; color: #10b981; border: 1px solid #10b981;">
+          <option value="none">All Models</option>
+          <!-- Will be populated dynamically -->
+        </select>
+      </div>
     </div>
-  </div>   
-  <div style="position: absolute; top: 10px; right: 285px; z-index: 10;">
-    <label for="arena-toggle" style="font-family: 'Poppins', sans-serif; font-size: 15px;">
-      Arena:
-    </label>
-    <select id="arena-toggle" style="font-family: 'Poppins', sans-serif; padding: 5px; font-size: 13px;">
-      <option value="text">Language</option>
-      <option value="vision">Vision</option>
-      <option value="image">Text2Img</option>
-    </select>
+
+    <!-- Right section: View controls -->
+    <div style="display: flex; align-items: center; gap: 15px;">
+      <label style="font-family: 'Poppins', sans-serif; font-size: 12px; color: #888;">
+        <input type="checkbox" id="scatter-checkbox"> Style Control
+      </label>
+    </div>
   </div>
+
   <!-- Organization filter dropdown (positioned dynamically based on legend) -->
   <div id="org-filter-dropdown-container" class="org-filter-container" style="position: absolute; display: none; z-index: 1001;">
     <div class="org-filter-dropdown" id="org-filter-dropdown">
@@ -270,16 +300,6 @@
         d3.json(`${URL_PREFIX}/leaderboard-image.json`)
       ]).then(function  ([data1, data2, data3, data4, data5, data6, data7]) {
       const slider = document.getElementById("scale-slider");
-      const infoIcon = document.querySelector('.info-icon');
-      const infoTooltip = document.querySelector('.info-tooltip');
-
-      infoIcon.addEventListener('mouseenter', () => {
-        infoTooltip.style.visibility = 'visible'; // Show the tooltip
-      });
-
-      infoIcon.addEventListener('mouseleave', () => {
-        infoTooltip.style.visibility = 'hidden'; // Hide the tooltip
-      });
 
       // Define data booleans for renderScatterplot
       let styleControlOn = false;
@@ -289,7 +309,7 @@
       const container = d3.select("#scatterplot");
       const svg = container.append("svg");
   
-      const margin = { top: 50, right: 150, bottom: 100, left: 100 };
+      const margin = { top: 70, right: 150, bottom: 100, left: 100 };
       
       const resize = () => {
         const width = container.node().clientWidth;
@@ -303,7 +323,36 @@
         renderScatterplot(dimensions.width, dimensions.height, styleControlOn, arenaType);
       });
 
-      let colorScale = d3.scaleOrdinal(d3.schemeObservable10);
+      // Custom brand colors for organizations - carefully chosen for distinction
+      // Avoiding similar colors, ensuring visibility in both light/dark modes
+      const orgBrandColors = {
+        "Google": "#4285F4",        // Google Blue
+        "OpenAI": "#00A67E",        // OpenAI Green (brightened)
+        "Anthropic": "#E07A3E",     // Anthropic Orange (more saturated)
+        "DeepSeek AI": "#1E90FF",   // DeepSeek - Dodger Blue (distinct from Google)
+        "Meta": "#0866FF",          // Meta Blue
+        "Alibaba": "#FF6A00",       // Alibaba Orange
+        "01 AI": "#A855F7",         // Purple (distinct)
+        "Amazon": "#FF9900",        // Amazon Orange
+        "xAI": "#888888",           // xAI - Gray (Elon's X branding)
+        "Z.ai": "#22D3EE",          // Cyan (distinct)
+        "Tencent": "#00BE00",       // Tencent Green
+        "Mistral": "#FF4500",       // Mistral - OrangeRed (distinct from other oranges)
+        "Moonshot": "#C084FC",      // Light Purple (distinct from 01 AI)
+        "Meituan": "#FFD000",       // Meituan Yellow
+        "BF Labs": "#F5F5F5",       // Black Forest Labs - Light gray (visible on dark)
+        "Luma AI": "#EC4899",       // Pink
+        "Ideogram": "#14B8A6",      // Teal
+        "Stability AI": "#7C3AED",  // Violet (distinct purple)
+        "NexusFlow": "#06B6D4",     // Cyan
+        "Other": "#9CA3AF"          // Medium Gray
+      };
+
+      // Create color scale with brand colors
+      let colorScale = d3.scaleOrdinal()
+        .domain(Object.keys(orgBrandColors))
+        .range(Object.values(orgBrandColors));
+
       const tooltip = d3.select("body").append("div").attr("class", "tooltip").style("opacity", 0);
 
       const selectedCategories = new Set();
@@ -357,6 +406,30 @@
         });
       }
 
+      // Update org Pareto dropdown with available organizations
+      function updateOrgParetoDropdown(organizations) {
+        const dropdown = document.getElementById('org-pareto-select');
+        const currentValue = dropdown.value;
+
+        // Clear existing options except "None"
+        while (dropdown.options.length > 1) {
+          dropdown.remove(1);
+        }
+
+        // Add organization options
+        organizations.forEach(org => {
+          const option = document.createElement('option');
+          option.value = org;
+          option.textContent = org;
+          dropdown.appendChild(option);
+        });
+
+        // Restore previous selection if it still exists
+        if (organizations.includes(currentValue)) {
+          dropdown.value = currentValue;
+        }
+      }
+
       function calculatePointRadius(containerWidth, containerHeight) {
         return Math.max(3, Math.min(containerWidth / 210, 9, containerHeight/ 180));
       }
@@ -377,6 +450,54 @@
           }
         }
         return true;
+      }
+
+      // Compute Pareto frontier points for a dataset
+      // Returns points sorted by price (descending) that form the efficient frontier
+      function computeParetoFrontier(data, sliderValue, category) {
+        // Get all Pareto optimal points
+        const paretoPoints = data.filter(d => isParetoOptimal(d, data));
+
+        // Sort by price descending (expensive to cheap, which is left to right on reversed axis)
+        paretoPoints.sort((a, b) => {
+          const priceA = parseFloat(a.input_token_price) + sliderValue * (a.output_token_price - a.input_token_price);
+          const priceB = parseFloat(b.input_token_price) + sliderValue * (b.output_token_price - b.input_token_price);
+          return priceB - priceA;
+        });
+
+        return paretoPoints;
+      }
+
+      // Compute Pareto frontier for a specific organization
+      function computeOrgParetoFrontier(data, org, sliderValue, category) {
+        const orgData = data.filter(d => d.legend_item === org);
+
+        // For org-specific Pareto, we only compare within the org
+        const paretoPoints = orgData.filter(point => {
+          const price = parseFloat(point.input_token_price) + sliderValue * (point.output_token_price - point.input_token_price);
+          const score = point[category + "_rating"];
+
+          for (const other of orgData) {
+            const otherPrice = parseFloat(other.input_token_price) + sliderValue * (other.output_token_price - other.input_token_price);
+            const otherScore = other[category + "_rating"];
+
+            if (parseFloat(otherScore) >= parseFloat(score) &&
+                parseFloat(otherPrice) <= parseFloat(price) &&
+                (parseFloat(otherScore) > parseFloat(score) || parseFloat(otherPrice) < parseFloat(price))) {
+              return false;
+            }
+          }
+          return true;
+        });
+
+        // Sort by price descending
+        paretoPoints.sort((a, b) => {
+          const priceA = parseFloat(a.input_token_price) + sliderValue * (a.output_token_price - a.input_token_price);
+          const priceB = parseFloat(b.input_token_price) + sliderValue * (b.output_token_price - b.input_token_price);
+          return priceB - priceA;
+        });
+
+        return paretoPoints;
       }
 
       // function determine if show label or not
@@ -438,6 +559,7 @@
             return desiredOrder.indexOf(a) - desiredOrder.indexOf(b);
         });
         updateOrgFilter(sortedAllOrgs);
+        updateOrgParetoDropdown(sortedAllOrgs);
 
         // Filter out hidden organizations
         data = data.filter(d => !hiddenOrganizations.has(d.legend_item));
@@ -454,7 +576,8 @@
         const minFullRating = Math.min(...data.map(d => d[document.getElementById("category-toggle").value + "_rating_q025"]));
         const maxFullRating = Math.max(...data.map(d => d[document.getElementById("category-toggle").value + "_rating_q975"]));
 
-        const xScale = d3.scaleLog().domain([minPrice/2, maxPrice*1.5]).range([margin.left, width - margin.right]);
+        // Reversed X-axis: expensive on left, cheap on right (so top-right = best)
+        const xScale = d3.scaleLog().domain([maxPrice*1.5, minPrice/2]).range([margin.left, width - margin.right]);
         const yScale = d3.scaleLinear().domain([minFullRating - 20, maxFullRating + 20]).range([height - margin.bottom, margin.top]);
     
         // Update the scales to use the new dimensions
@@ -563,17 +686,7 @@
           }, 100);
         });
         
-        // Add confidence intervals text
-        svg.append("text")
-          .attr("class", "legend-title")
-          .attr("x", w - margin.right - 430)  // Center text in the box
-          .attr("y", 30)   // Adjust for better alignment
-          .attr("text-anchor", "middle") // Center alignment
-          .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
-          .attr("font-size", "15px")
-          .text("Confidence Intervals:");
-      
-        // Add x-axis title
+        // Add x-axis title with arrow indicating "cheaper →"
         svg.append("text")
           .attr("class", "x-axis-title")
           .attr("x", w / 2)
@@ -582,7 +695,7 @@
           .style("font-family", "Poppins")
           .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
           .style("font-size", `${fontSize * 1.2}px`)
-          .text(arenaType === "image" ? "Cost ($/Image)" : "Cost ($/1M Tokens)");
+          .text(arenaType === "image" ? "← Expensive · Cost ($/Image) · Cheaper →" : "← Expensive · Cost ($/1M Tokens) · Cheaper →");
 
         // Add y-axis title
         svg.append("text")
@@ -606,6 +719,7 @@
           .style("fill", document.body.classList.contains("dark-mode") ? "#aaa" : "#000")
           .style("opacity", 0.5)
           .text("lmarena.ai/price");
+
 
         // Get visible categories for legend (after filtering hidden orgs)
         const categories = [...new Set(data.map(d => d.legend_item))];
@@ -673,27 +787,302 @@
             legend.selectAll("text")
                 .style("opacity", d => selectedCategories.size === 0 || selectedCategories.has(d) ? 1 : 0.1);
           });
-          const labels = svg.selectAll(".point-label").data(data).join("text")
-            .attr("class", "point-label")
-            .attr("x", d => {
-              if ((d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price)) <= minPrice*1.5 || data3[document.getElementById("category-toggle").value].left.includes(d.model_api_name)) {
-                return xScale(d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price)) + 0.01*w;
+
+          // Draw Pareto frontier curve
+          const showPareto = document.getElementById("pareto-checkbox").checked;
+          const paretoPoints = computeParetoFrontier(data, value, currentCategory);
+
+          if (showPareto && paretoPoints.length > 1) {
+            // Create stepped line path data for the Pareto frontier
+            // With reversed axis: we go from expensive (left) to cheap (right)
+            // The stepped line shows: "at this price or cheaper, this is the best score"
+            const paretoPathData = [];
+
+            for (let i = 0; i < paretoPoints.length; i++) {
+              const d = paretoPoints[i];
+              const price = parseFloat(d.input_token_price) + value * (d.output_token_price - d.input_token_price);
+              const score = d[currentCategory + "_rating"];
+
+              if (i === 0) {
+                // Start from the top of the chart at the first (most expensive) point's x
+                paretoPathData.push({ x: price, y: maxFullRating + 20 });
+                paretoPathData.push({ x: price, y: score });
               } else {
-                return xScale(d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price)) - 0.01*w;
+                // Step right then down (or stay at same level)
+                const prevD = paretoPoints[i - 1];
+                const prevScore = prevD[currentCategory + "_rating"];
+                paretoPathData.push({ x: price, y: prevScore });
+                paretoPathData.push({ x: price, y: score });
               }
-            })
-            .attr("y", d => (yScale(d[document.getElementById("category-toggle").value + "_rating"]) + 0.003*w))
-            .attr("text-anchor", d => ((d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price)) <= minPrice*1.5 || data3[document.getElementById("category-toggle").value].left.includes(d.model_api_name) ? "start" : "end"))
+            }
+
+            // Extend to the right edge (cheapest)
+            if (paretoPoints.length > 0) {
+              const lastD = paretoPoints[paretoPoints.length - 1];
+              const lastPrice = parseFloat(lastD.input_token_price) + value * (lastD.output_token_price - lastD.input_token_price);
+              const lastScore = lastD[currentCategory + "_rating"];
+              paretoPathData.push({ x: minPrice / 2, y: lastScore });
+            }
+
+            // Draw the Pareto curve line
+            const paretoLine = d3.line()
+              .x(d => xScale(d.x))
+              .y(d => yScale(d.y));
+
+            svg.append("path")
+              .attr("class", "pareto-curve")
+              .attr("d", paretoLine(paretoPathData))
+              .attr("fill", "none")
+              .attr("stroke", "#10b981")  // Green color for efficiency frontier
+              .attr("stroke-width", 2.5)
+              .attr("stroke-dasharray", "8,4")
+              .attr("opacity", 0.8);
+
+            // Add shaded area below the Pareto curve (dominated region hint)
+            const areaPathData = [...paretoPathData];
+            // Close the path by going to bottom-right corner then back to start
+            areaPathData.push({ x: minPrice / 2, y: minFullRating - 20 });
+            areaPathData.push({ x: paretoPathData[0].x, y: minFullRating - 20 });
+            areaPathData.push(paretoPathData[0]);
+
+            svg.insert("path", ":first-child")
+              .attr("class", "pareto-area")
+              .attr("d", paretoLine(areaPathData))
+              .attr("fill", "#10b981")
+              .attr("opacity", 0.05);
+
+            // Add "Pareto Frontier" label in top-right of CHART area (left of legend)
+            // Legend starts at w - margin.right, so position label with enough gap
+            const paretoLabelBoxX = w - margin.right - 250;
+            const labelBoxY = margin.top + 5;
+
+            // Background box for label
+            svg.append("rect")
+              .attr("class", "pareto-label-bg")
+              .attr("x", paretoLabelBoxX - 8)
+              .attr("y", labelBoxY - 5)
+              .attr("width", 200)
+              .attr("height", 48)
+              .attr("rx", 5)
+              .attr("fill", document.body.classList.contains("dark-mode") ? "rgba(16, 185, 129, 0.12)" : "rgba(16, 185, 129, 0.1)")
+              .attr("stroke", "#10b981")
+              .attr("stroke-width", 1.5)
+              .attr("stroke-dasharray", "4,2");
+
+            svg.append("text")
+              .attr("class", "pareto-label")
+              .attr("x", paretoLabelBoxX)
+              .attr("y", labelBoxY + 15)
+              .style("font-family", "Poppins")
+              .style("font-size", `${fontSize * 1.05}px`)
+              .style("fill", "#10b981")
+              .style("font-weight", "700")
+              .text("▶ Pareto Frontier");
+
+            svg.append("text")
+              .attr("class", "pareto-sublabel")
+              .attr("x", paretoLabelBoxX)
+              .attr("y", labelBoxY + 33)
+              .style("font-family", "Poppins")
+              .style("font-size", `${fontSize * 0.75}px`)
+              .style("fill", "#10b981")
+              .style("opacity", 0.8)
+              .text("Best model at each price →");
+          }
+
+          // Draw organization-specific Pareto curve
+          const selectedOrg = document.getElementById("org-pareto-select").value;
+          if (selectedOrg !== "none") {
+            const orgParetoPoints = computeOrgParetoFrontier(data, selectedOrg, value, currentCategory);
+            const orgColor = colorScale(selectedOrg);
+
+            if (orgParetoPoints.length > 1) {
+              const orgParetoPathData = [];
+
+              for (let i = 0; i < orgParetoPoints.length; i++) {
+                const d = orgParetoPoints[i];
+                const price = parseFloat(d.input_token_price) + value * (d.output_token_price - d.input_token_price);
+                const score = d[currentCategory + "_rating"];
+
+                if (i === 0) {
+                  orgParetoPathData.push({ x: price, y: maxFullRating + 20 });
+                  orgParetoPathData.push({ x: price, y: score });
+                } else {
+                  const prevD = orgParetoPoints[i - 1];
+                  const prevScore = prevD[currentCategory + "_rating"];
+                  orgParetoPathData.push({ x: price, y: prevScore });
+                  orgParetoPathData.push({ x: price, y: score });
+                }
+              }
+
+              // Extend to the right edge
+              if (orgParetoPoints.length > 0) {
+                const lastD = orgParetoPoints[orgParetoPoints.length - 1];
+                const lastScore = lastD[currentCategory + "_rating"];
+                orgParetoPathData.push({ x: minPrice / 2, y: lastScore });
+              }
+
+              const orgParetoLine = d3.line()
+                .x(d => xScale(d.x))
+                .y(d => yScale(d.y));
+
+              svg.append("path")
+                .attr("class", "org-pareto-curve")
+                .attr("d", orgParetoLine(orgParetoPathData))
+                .attr("fill", "none")
+                .attr("stroke", orgColor)
+                .attr("stroke-width", 3)
+                .attr("stroke-dasharray", "4,2")
+                .attr("opacity", 0.9);
+
+              // Add org Pareto label below the main Pareto label (top-right chart area)
+              const orgLabelBoxX = w - margin.right - 250;
+              const orgLabelBoxY = showPareto ? margin.top + 58 : margin.top + 5;
+
+              svg.append("rect")
+                .attr("class", "org-pareto-label-bg")
+                .attr("x", orgLabelBoxX - 5)
+                .attr("y", orgLabelBoxY - 3)
+                .attr("width", 190)
+                .attr("height", 24)
+                .attr("rx", 5)
+                .attr("fill", document.body.classList.contains("dark-mode") ? "rgba(0,0,0,0.6)" : "rgba(255,255,255,0.9)")
+                .attr("stroke", orgColor)
+                .attr("stroke-width", 1.5)
+                .attr("stroke-dasharray", "4,2");
+
+              svg.append("text")
+                .attr("class", "org-pareto-label")
+                .attr("x", orgLabelBoxX)
+                .attr("y", orgLabelBoxY + 13)
+                .style("font-family", "Poppins")
+                .style("font-size", `${fontSize * 0.9}px`)
+                .style("fill", orgColor)
+                .style("font-weight", "600")
+                .text(`▶ ${selectedOrg} Frontier`);
+            }
+          }
+
+          // Calculate label positions with collision detection
+          const labelData = data.map(d => {
+            const price = d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price);
+            const pointX = xScale(price);
+            const pointY = yScale(d[currentCategory + "_rating"]);
+            const isPareto = isParetoOptimal(d, data);
+            const isInVisibilityList = data3[currentCategory]["right"].includes(d.model_api_name) ||
+                                       data3[currentCategory]["left"].includes(d.model_api_name);
+
+            // Determine if label should be shown (Pareto optimal or in visibility list)
+            const shouldShow = isPareto || isInVisibilityList;
+
+            // Determine label side (left or right of point)
+            const labelOnRight = price >= maxPrice*0.7 || data3[currentCategory].left.includes(d.model_api_name);
+
+            // Estimate label width based on name length
+            const labelWidth = d.name.length * fontSize * 0.6;
+            const labelHeight = fontSize * 1.2;
+
+            const labelX = labelOnRight ? pointX + 0.01*w : pointX - 0.01*w;
+            const labelY = pointY + 0.003*w;
+
+            return {
+              ...d,
+              pointX,
+              pointY,
+              labelX,
+              labelY,
+              labelOnRight,
+              labelWidth,
+              labelHeight,
+              shouldShow,
+              isPareto,
+              visible: shouldShow  // Will be updated by collision detection
+            };
+          });
+
+          // Sort by priority: Pareto optimal first, then by score
+          labelData.sort((a, b) => {
+            if (a.isPareto && !b.isPareto) return -1;
+            if (!a.isPareto && b.isPareto) return 1;
+            return b[currentCategory + "_rating"] - a[currentCategory + "_rating"];
+          });
+
+          // Collision detection - hide labels that overlap with higher priority labels
+          const placedLabels = [];
+          const padding = 4;
+
+          labelData.forEach(label => {
+            if (!label.shouldShow) {
+              label.visible = false;
+              return;
+            }
+
+            // Calculate bounding box
+            const bbox = {
+              x: label.labelOnRight ? label.labelX : label.labelX - label.labelWidth,
+              y: label.labelY - label.labelHeight,
+              width: label.labelWidth,
+              height: label.labelHeight
+            };
+
+            // Check if within chart bounds
+            if (bbox.x < margin.left || bbox.x + bbox.width > w - margin.right ||
+                bbox.y < margin.top || bbox.y + bbox.height > h - margin.bottom) {
+              label.visible = false;
+              return;
+            }
+
+            // Check for collisions with already placed labels
+            const hasCollision = placedLabels.some(placed => {
+              return !(bbox.x + bbox.width + padding < placed.x ||
+                       bbox.x > placed.x + placed.width + padding ||
+                       bbox.y + bbox.height + padding < placed.y ||
+                       bbox.y > placed.y + placed.height + padding);
+            });
+
+            if (hasCollision) {
+              // Try alternate position (opposite side)
+              const altLabelX = label.labelOnRight ? label.pointX - 0.01*w : label.pointX + 0.01*w;
+              const altBbox = {
+                x: label.labelOnRight ? altLabelX - label.labelWidth : altLabelX,
+                y: label.labelY - label.labelHeight,
+                width: label.labelWidth,
+                height: label.labelHeight
+              };
+
+              const altHasCollision = placedLabels.some(placed => {
+                return !(altBbox.x + altBbox.width + padding < placed.x ||
+                         altBbox.x > placed.x + placed.width + padding ||
+                         altBbox.y + altBbox.height + padding < placed.y ||
+                         altBbox.y > placed.y + placed.height + padding);
+              });
+
+              if (!altHasCollision && altBbox.x >= margin.left && altBbox.x + altBbox.width <= w - margin.right) {
+                label.labelX = altLabelX;
+                label.labelOnRight = !label.labelOnRight;
+                placedLabels.push(altBbox);
+                label.visible = true;
+              } else {
+                label.visible = false;
+              }
+            } else {
+              placedLabels.push(bbox);
+              label.visible = true;
+            }
+          });
+
+          const labels = svg.selectAll(".point-label").data(labelData.filter(d => d.visible)).join("text")
+            .attr("class", "point-label")
+            .attr("x", d => d.labelX)
+            .attr("y", d => d.labelY)
+            .attr("text-anchor", d => d.labelOnRight ? "start" : "end")
             .style("font-size", `${fontSize}px`)
             .attr("font-family", "Poppins")
-            .style("text-decoration", d => isParetoOptimal(d, data) ? "underline" : "none")
-            .attr("fill", document.body.classList.contains("dark-mode") ?  "#f0f0f0" : "#000000")
+            .style("text-decoration", d => d.isPareto ? "underline" : "none")
+            .style("font-weight", d => d.isPareto ? "600" : "normal")
+            .attr("fill", document.body.classList.contains("dark-mode") ? "#f0f0f0" : "#000000")
             .style("opacity", 1)
-            .each(function(d) {
-              if (data3[document.getElementById("category-toggle").value]["right"].includes(d.model_api_name) || data3[document.getElementById("category-toggle").value]["left"].includes(d.model_api_name)) {
-                d3.select(this).append("tspan").text(d.name).attr("font-weight", "bold");
-              }
-            });
+            .text(d => d.name);
 
         const pointRadius = calculatePointRadius(w, h);
 
@@ -745,14 +1134,30 @@
           .attr("stroke-width", 1)
           .style("display", "none"); // Hide by default
         
+        // Add glow effect for Pareto-optimal points
+        const paretoGlow = groups.filter(d => isParetoOptimal(d, data))
+          .append("circle")
+          .attr("class", "pareto-glow")
+          .attr("cx", d => xScale(d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price)))
+          .attr("cy", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]))
+          .attr("r", pointRadius + 8)
+          .attr("fill", "#10b981")
+          .style("opacity", showPareto ? 0.25 : 0)
+          .style("filter", "blur(3px)");
+
+        // Determine stroke color based on mode for visibility
+        const isDarkMode = document.body.classList.contains("dark-mode");
+        const defaultStroke = isDarkMode ? "rgba(0,0,0,0.5)" : "rgba(255,255,255,0.8)";
+
         const points = groups.append("circle")
           .attr("class", "point")
           .attr("cx", function(d) { return xScale(d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price)); })
           .attr("cy", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]))
-          .attr("r", pointRadius + 2)
+          .attr("r", d => isParetoOptimal(d, data) && showPareto ? pointRadius + 4 : pointRadius + 2)
           .attr("fill", d => colorScale(d.legend_item))
+          .attr("stroke", d => isParetoOptimal(d, data) && showPareto ? "#10b981" : defaultStroke)
+          .attr("stroke-width", d => isParetoOptimal(d, data) && showPareto ? 2.5 : 1)
           .style("opacity", 1)
-          .style("display", "none")
           .style("display", "block")
           .on("mouseover", (event, d) => {
             d3.select(event.currentTarget)
@@ -1009,9 +1414,11 @@
             tooltip.innerHTML = "Use this slider to adjust the input/output cost ratio of the x-axis. Sliding it to the left shows the cost in <b>$/1M Input Tokens</b>. Sliding it to the right shows the cost in <b>$/1M Output Tokens</b>. Placing it in the middle displays a blended cost based on both values.";
         }
 
-        // Resent legend color order
-        colorScale = d3.scaleOrdinal(d3.schemeObservable10);
-        
+        // Reset color scale to brand colors
+        colorScale = d3.scaleOrdinal()
+          .domain(Object.keys(orgBrandColors))
+          .range(Object.values(orgBrandColors));
+
         const dimensions = resize();
         renderScatterplot(dimensions.width, dimensions.height, styleControlOn, arenaType);
       });
@@ -1023,6 +1430,18 @@
             updateCategoryDropdown(arenaType, styleControlOn);
           }
           // Re-render scatterplot with updated colors
+          const dimensions = resize();
+          renderScatterplot(dimensions.width, dimensions.height, styleControlOn, arenaType);
+      });
+
+      // Function to handle Pareto checkbox change
+      d3.select("#pareto-checkbox").on("change", function() {
+          const dimensions = resize();
+          renderScatterplot(dimensions.width, dimensions.height, styleControlOn, arenaType);
+      });
+
+      // Function to handle org Pareto dropdown change
+      d3.select("#org-pareto-select").on("change", function() {
           const dimensions = resize();
           renderScatterplot(dimensions.width, dimensions.height, styleControlOn, arenaType);
       });
