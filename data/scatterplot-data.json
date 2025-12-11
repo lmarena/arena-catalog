@@ -450,7 +450,7 @@
     "model_source": "https://replicate.com/black-forest-labs/flux-1.1-pro"
   },
   {
-    "name": "DALL·E 3",
+    "name": "DALL\u00b7E 3",
     "model_api_name": "dall-e-3",
     "input_token_price": "0.04",
     "output_token_price": "0.04",
@@ -1188,5 +1188,185 @@
     "license": "Apache 2.0",
     "price_source": "https://www.alibabacloud.com/help/en/model-studio/models",
     "model_source": "https://qwenlm.github.io/blog/qwen3/"
+  },
+  {
+    "name": "gemini-3-pro",
+    "model_api_name": "gemini-3-pro",
+    "input_token_price": "2.0",
+    "output_token_price": "12.0",
+    "organization": "Google",
+    "license": "Proprietary",
+    "price_source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3-pro-preview",
+    "model_source": "http://aistudio.google.com/app/prompts/new_chat?model=gemini-3-pro-preview"
+  },
+  {
+    "name": "grok-4.1-thinking",
+    "model_api_name": "grok-4.1-thinking",
+    "input_token_price": "3",
+    "output_token_price": "15",
+    "organization": "xAI",
+    "license": "Proprietary",
+    "price_source": "https://llm-stats.com/models/grok-4.1-thinking-2025-11-17",
+    "model_source": "https://x.ai/news/grok-4-1"
+  },
+  {
+    "name": "claude-opus-4-5-20251101",
+    "model_api_name": "claude-opus-4-5-20251101",
+    "input_token_price": "5",
+    "output_token_price": "25",
+    "organization": "Anthropic",
+    "license": "Proprietary",
+    "price_source": "https://www.anthropic.com/news/claude-opus-4-5",
+    "model_source": "https://www.anthropic.com/news/claude-opus-4-5"
+  },
+  {
+    "name": "gpt-5.1-high",
+    "model_api_name": "gpt-5.1-high",
+    "input_token_price": "1.25",
+    "output_token_price": "10",
+    "organization": "OpenAI",
+    "license": "Proprietary",
+    "price_source": "https://platform.openai.com/docs/models/gpt-5.1",
+    "model_source": "https://openai.com/index/gpt-5-1/"
+  },
+  {
+    "name": "ernie-5.0-preview-1103",
+    "model_api_name": "ernie-5.0-preview-1103",
+    "input_token_price": "",
+    "output_token_price": "",
+    "organization": "Baidu",
+    "license": "Proprietary",
+    "price_source": "",
+    "model_source": "https://ernie.baidu.com/blog/posts/ernie-5.0-preview-1103-release-on-lmarena/"
+  },
+  {
+    "name": "grok-4.1",
+    "model_api_name": "grok-4.1",
+    "input_token_price": "3",
+    "output_token_price": "15",
+    "organization": "xAI",
+    "license": "Proprietary",
+    "price_source": "https://llm-stats.com/models/grok-4.1-2025-11-17",
+    "model_source": "https://x.ai/news/grok-4-1"
+  },
+  {
+    "name": "claude-opus-4-5-20251101-thinking-32k",
+    "model_api_name": "claude-opus-4-5-20251101-thinking-32k",
+    "input_token_price": "5",
+    "output_token_price": "25",
+    "organization": "Anthropic",
+    "license": "Proprietary",
+    "price_source": "https://www.anthropic.com/news/claude-opus-4-5",
+    "model_source": "https://www.anthropic.com/news/claude-opus-4-5"
+  },
+  {
+    "name": "mistral-large-3",
+    "model_api_name": "mistral-large-3",
+    "input_token_price": "0.5",
+    "output_token_price": "1.5",
+    "organization": "Mistral AI",
+    "license": "Apache 2.0",
+    "price_source": "https://mistral.ai/pricing#api-pricing",
+    "model_source": "https://mistral.ai/news/mistral-3"
+  },
+  {
+    "name": "gpt-5.1",
+    "model_api_name": "gpt-5.1",
+    "input_token_price": "1.25",
+    "output_token_price": "10",
+    "organization": "OpenAI",
+    "license": "Proprietary",
+    "price_source": "https://platform.openai.com/docs/models/gpt-5.1",
+    "model_source": "https://openai.com/index/gpt-5-1/"
+  },
+  {
+    "name": "deepseek-v3.2-thinking",
+    "model_api_name": "deepseek-v3.2-thinking",
+    "input_token_price": "0.28",
+    "output_token_price": "0.42",
+    "organization": "DeepSeek",
+    "license": "MIT",
+    "price_source": "https://api-docs.deepseek.com/quick_start/pricing",
+    "model_source": "https://api-docs.deepseek.com/news/news250929"
+  },
+  {
+    "name": "deepseek-v3.2",
+    "model_api_name": "deepseek-v3.2",
+    "input_token_price": "0.28",
+    "output_token_price": "0.42",
+    "organization": "DeepSeek",
+    "license": "Apache 2.0",
+    "price_source": "https://api-docs.deepseek.com/quick_start/pricing",
+    "model_source": "https://api-docs.deepseek.com/news/news250929"
+  },
+  {
+    "name": "kimi-k2-thinking-turbo",
+    "model_api_name": "kimi-k2-thinking-turbo",
+    "input_token_price": "1.15",
+    "output_token_price": "8",
+    "organization": "Moonshot AI",
+    "license": "Modified MIT",
+    "price_source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing",
+    "model_source": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
+  },
+  {
+    "name": "grok-4-1-fast-reasoning",
+    "model_api_name": "grok-4-1-fast-reasoning",
+    "input_token_price": "0.2",
+    "output_token_price": "0.5",
+    "organization": "xAI",
+    "license": "Proprietary",
+    "price_source": "https://docs.x.ai/docs/models",
+    "model_source": "https://x.ai/news/grok-4-1-fast"
+  },
+  {
+    "name": "grok-4-fast-chat",
+    "model_api_name": "grok-4-fast-chat",
+    "input_token_price": "0.2",
+    "output_token_price": "0.5",
+    "organization": "xAI",
+    "license": "Proprietary",
+    "price_source": "https://docs.x.ai/docs/models",
+    "model_source": "https://x.ai/news/grok-4-fast"
+  },
+  {
+    "name": "hunyuan-vision-1.5-thinking",
+    "model_api_name": "hunyuan-vision-1.5-thinking",
+    "input_token_price": "2.5",
+    "output_token_price": "2.5",
+    "organization": "Tencent",
+    "license": "Proprietary",
+    "price_source": "https://cloud.tencent.com/document/product/1729/97731",
+    "model_source": "https://github.com/Tencent-Hunyuan/HunyuanVision"
+  },
+  {
+    "name": "amazon-nova-experimental-chat-10-20",
+    "model_api_name": "amazon-nova-experimental-chat-10-20",
+    "input_token_price": "",
+    "output_token_price": "",
+    "organization": "Amazon",
+    "license": "Proprietary",
+    "price_source": "",
+    "model_source": "https://nova.amazon.com/faqs"
+  },
+  {
+    "name": "grok-4-fast-reasoning",
+    "model_api_name": "grok-4-fast-reasoning",
+    "input_token_price": "0.2",
+    "output_token_price": "0.5",
+    "organization": "xAI",
+    "license": "Proprietary",
+    "price_source": "https://x.ai/news/grok-4-fast",
+    "model_source": "https://x.ai/news/grok-4-fast"
+  },
+  {
+    "name": "mai-1-preview",
+    "model_api_name": "mai-1-preview",
+    "input_token_price": "",
+    "output_token_price": "",
+    "organization": "Mai AI",
+    "license": "Proprietary",
+    "price_source": "",
+    "model_source": "https://microsoft.ai/news/two-new-in-house-models/"
   }
 ]
