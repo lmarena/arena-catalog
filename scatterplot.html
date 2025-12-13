@@ -257,6 +257,7 @@
    const LOCAL_DATA_PREFIX = "./data"
    const IS_LOCAL_DEV = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
    const URL_PREFIX = IS_LOCAL_DEV ? LOCAL_DATA_PREFIX : PUBLIC_DATA_PREFIX
+   console.log(IS_LOCAL_DEV)
 
    // Configuration constants
    const SCORE_CUTOFF = 1305;  
@@ -387,7 +388,7 @@
         let data = data1;
         // Assign legend item
         data.forEach(d => {
-          const legendItems = arenaType == 'image' ? ["Google", "OpenAI", "Luma AI", "Ideogram", "Stability AI"] : ["Google", "OpenAI", "DeepSeek AI", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "xAI", "Z.ai", "Tencent", "Mistral", "Moonshot", "Meituan", "Other"];
+          const legendItems = arenaType == 'image' ? ["Google", "OpenAI", "Luma AI", "Ideogram", "Stability AI"] : ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "xAI", "Z.ai", "Tencent", "Mistral", "Moonshot", "Meituan", "Other"];
           if (legendItems.includes(d.organization)) {
             d.legend_item = d.organization;
           } else if (d.organization == "Black Forest Labs") {
@@ -432,7 +433,7 @@
         data = data.filter(d => d[currentCategory + "_rating"] >= SCORE_CUTOFF);
 
         // Get all organizations BEFORE hiding any (for the filter dropdown)
-        const desiredOrder = arenaType == "image" ? ["Google", "OpenAI", "BF Labs", "Luma AI", "Ideogram", "Stability AI"] : ["Google", "OpenAI", "DeepSeek AI", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "xAI", "Z.ai", "Tencent", "Mistral", "Moonshot", "Meituan", "Other"];
+        const desiredOrder = arenaType == "image" ? ["Google", "OpenAI", "BF Labs", "Luma AI", "Ideogram", "Stability AI"] : ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "xAI", "Z.ai", "Tencent", "Mistral", "Moonshot", "Meituan", "Other"];
         const allOrganizations = [...new Set(data.map(d => d.legend_item))];
         const sortedAllOrgs = allOrganizations.sort((a, b) => {
             return desiredOrder.indexOf(a) - desiredOrder.indexOf(b);
