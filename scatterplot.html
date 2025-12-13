@@ -442,6 +442,10 @@
         // Filter out hidden organizations
         data = data.filter(d => !hiddenOrganizations.has(d.legend_item));
 
+        // Filter out models with invalid/empty prices
+        data = data.filter(d => d.input_token_price !== "" && d.output_token_price !== "" &&
+                                !isNaN(parseFloat(d.input_token_price)) && !isNaN(parseFloat(d.output_token_price)));
+
         // Update the SVG size
         svg.attr("width", w).attr("height", h);
 
