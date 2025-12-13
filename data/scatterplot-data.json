@@ -1190,7 +1190,7 @@
     "model_source": "https://qwenlm.github.io/blog/qwen3/"
   },
   {
-    "name": "gemini-3-pro",
+    "name": "Gemini-3-Pro",
     "model_api_name": "gemini-3-pro",
     "input_token_price": "2.0",
     "output_token_price": "12.0",
@@ -1210,7 +1210,7 @@
     "model_source": "https://x.ai/news/grok-4-1"
   },
   {
-    "name": "claude-opus-4-5-20251101",
+    "name": "Claude Opus 4.5",
     "model_api_name": "claude-opus-4-5-20251101",
     "input_token_price": "5",
     "output_token_price": "25",
