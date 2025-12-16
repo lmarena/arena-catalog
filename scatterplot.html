@@ -432,6 +432,8 @@
         const currentCategory = document.getElementById("category-toggle").value;
         data = data.filter(d => d[currentCategory + "_rating"] >= SCORE_CUTOFF);
 
+        console.log("hi")
+
         // Get all organizations BEFORE hiding any (for the filter dropdown)
         const desiredOrder = arenaType == "image" ? ["Google", "OpenAI", "BF Labs", "Luma AI", "Ideogram", "Stability AI"] : ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "xAI", "Z.ai", "Tencent", "Mistral", "Moonshot", "Meituan", "Other"];
         const allOrganizations = [...new Set(data.map(d => d.legend_item))];
@@ -446,6 +448,9 @@
         // Filter out models with invalid/empty prices
         data = data.filter(d => d.input_token_price !== "" && d.output_token_price !== "" &&
                                 !isNaN(parseFloat(d.input_token_price)) && !isNaN(parseFloat(d.output_token_price)));
+
+        // Filter out models marked as hidden
+        data = data.filter(d => !d.hidden);
 
         // Update the SVG size
         svg.attr("width", w).attr("height", h);
