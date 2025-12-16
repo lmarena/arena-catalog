@@ -432,8 +432,6 @@
         const currentCategory = document.getElementById("category-toggle").value;
         data = data.filter(d => d[currentCategory + "_rating"] >= SCORE_CUTOFF);
 
-        console.log("hi")
-
         // Get all organizations BEFORE hiding any (for the filter dropdown)
         const desiredOrder = arenaType == "image" ? ["Google", "OpenAI", "BF Labs", "Luma AI", "Ideogram", "Stability AI"] : ["Google", "OpenAI", "DeepSeek", "Anthropic", "Meta", "Alibaba", "01 AI", "Amazon", "xAI", "Z.ai", "Tencent", "Mistral", "Moonshot", "Meituan", "Other"];
         const allOrganizations = [...new Set(data.map(d => d.legend_item))];
