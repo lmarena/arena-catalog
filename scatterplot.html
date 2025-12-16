@@ -604,17 +604,6 @@
           .style("font-size", `${fontSize * 1.2}px`)
           .text("Arena Score");
 
-        svg.append("text")
-          .attr("class", "watermark")
-          .attr("x", w - 150)            // 10px from the right edge
-          .attr("y", h - 130)            // 10px from the bottom edge
-          .attr("text-anchor", "end")   // Right-align the text
-          .style("font-family", "Poppins")
-          .style("font-size", `${fontSize * 2.5}px`)
-          .style("fill", document.body.classList.contains("dark-mode") ? "#aaa" : "#000")
-          .style("opacity", 0.5)
-          .text("lmarena.ai/price");
-
         // Get visible categories for legend (after filtering hidden orgs)
         const categories = [...new Set(data.map(d => d.legend_item))];
         const sortedCategories = categories.sort((a, b) => {
