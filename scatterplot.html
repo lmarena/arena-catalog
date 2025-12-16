@@ -447,6 +447,9 @@
         data = data.filter(d => d.input_token_price !== "" && d.output_token_price !== "" &&
                                 !isNaN(parseFloat(d.input_token_price)) && !isNaN(parseFloat(d.output_token_price)));
 
+        // Filter out models marked as hidden
+        data = data.filter(d => !d.hidden);
+
         // Update the SVG size
         svg.attr("width", w).attr("height", h);
 
