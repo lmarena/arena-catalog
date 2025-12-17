@@ -193,7 +193,7 @@
     ]
   },
   "full": {
-    "left": [
+    "right": [
       "claude-3-7-sonnet-20250219",
       "gemini-1.5-pro-002",
       "gpt-4.1-mini-2025-04-14", 
@@ -203,12 +203,11 @@
       "grok-4-0709",
       "claude-opus-4-5-20251101",
       "chatgpt-4o-latest-20250326",
-      "gemini-2.5-flash",
       "llama-3.3-70b-instruct",
       "claude-haiku-4-5-20251001",
       "qwen3-235b-a22b-instruct-2507"
     ],
-    "right": [
+    "left": [
       "llama-4-maverick-03-26-experimental",
       "gemini-2.5-pro-exp-03-25",
       "yi-lightning",
@@ -276,7 +275,8 @@
       "kimi-k2-thinking-turbo",
       "longcat-flash-chat",
       "deepseek-v3.2-thinking",
-      "gemini-3-flash"
+      "gemini-3-flash",
+      "gemini-2.5-flash"
     ]
   },
   "german": {
