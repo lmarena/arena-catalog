@@ -856,7 +856,8 @@
     "organization": "DeepSeek",
     "license": "MIT",
     "price_source": "https://api-docs.deepseek.com/quick_start/pricing",
-    "model_source": "https://api-docs.deepseek.com/news/news250929"
+    "model_source": "https://api-docs.deepseek.com/news/news250929",
+    "hidden": true
   },
   {
     "name": "Claude Sonnet 4.5",
