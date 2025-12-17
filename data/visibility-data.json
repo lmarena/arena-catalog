@@ -266,9 +266,11 @@
       "grok-4.1-thinking",
       "gemini-2.5-pro",
       "qwen3-max-preview",
-      "gpt-4.1-nano-2025-04-14",
       "grok-4-1-fast-reasoning",
-      "deepseek-v3.2-thinking"
+      "deepseek-v3.2-thinking",
+      "gpt-5-nano-high",
+      "llama-4-maverick-17b-128e-instruct",
+      "llama-4-scout-17b-16e-instruct"
     ]
   },
   "german": {

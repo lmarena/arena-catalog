@@ -94,7 +94,8 @@
     "organization": "OpenAI",
     "license": "Proprietary",
     "price_source": "https://openai.com/api/pricing/",
-    "model_source": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"
+    "model_source": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+    "hidden": true
   },
   {
     "name": "Gemini 1.5 Flash",
@@ -115,7 +116,8 @@
     "organization": "Meta",
     "license": "Llama 3.1 Community",
     "price_source": "https://www.together.ai/pricing",
-    "model_source": "https://ai.meta.com/blog/meta-llama-3-1/"
+    "model_source": "https://ai.meta.com/blog/meta-llama-3-1/",
+    "hidden": true
   },
   {
     "name": "Qwen2.5-Max",
@@ -167,7 +169,8 @@
     "organization": "Meta",
     "license": "Llama 3.3 Community",
     "price_source": "https://www.together.ai/pricing",
-    "model_source": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
+    "model_source": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+    "hidden": true
   },
   {
     "name": "Claude 3 Opus",
@@ -188,7 +191,8 @@
     "organization": "Anthropic",
     "license": "Propretary",
     "price_source": "https://www.anthropic.com/pricing#anthropic-api",
-    "model_source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    "model_source": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+    "hidden": true
   },
   {
     "name": "Qwen2.5-plus-1127",
@@ -342,7 +346,8 @@
     "organization": "OpenAI",
     "license": "Proprietary",
     "price_source": "https://openai.com/api/pricing/",
-    "model_source": "https://openai.com/index/openai-o3-mini/"
+    "model_source": "https://openai.com/index/openai-o3-mini/",
+    "hidden": true
   },
   {
     "name": "Nova Pro",
@@ -704,7 +709,8 @@
     "organization": "OpenAI",
     "license": "Proprietary",
     "price_source": "https://openai.com/api/pricing/",
-    "model_source": "https://openai.com/index/gpt-4-1/"
+    "model_source": "https://openai.com/index/gpt-4-1/",
+    "hidden": true
   },
   {
     "name": "o3",
@@ -1139,7 +1145,7 @@
     "hidden": true
   },
   {
-    "name": "gpt-5-mini-high",
+    "name": "GPT-5 mini (high)",
     "model_api_name": "gpt-5-mini-high",
     "input_token_price": "0.25",
     "output_token_price": "2",
@@ -1255,7 +1261,7 @@
     "model_source": "https://www.anthropic.com/news/claude-opus-4-5"
   },
   {
-    "name": "GPT-5.1-High",
+    "name": "GPT-5.1 (high)",
     "model_api_name": "gpt-5.1-high",
     "input_token_price": "1.25",
     "output_token_price": "10",
@@ -1292,7 +1298,8 @@
     "organization": "Anthropic",
     "license": "Proprietary",
     "price_source": "https://www.anthropic.com/news/claude-opus-4-5",
-    "model_source": "https://www.anthropic.com/news/claude-opus-4-5"
+    "model_source": "https://www.anthropic.com/news/claude-opus-4-5",
+    "hidden": true
   },
   {
     "name": "Mistral Large 3",
@@ -1315,7 +1322,7 @@
     "model_source": "https://openai.com/index/gpt-5-1/"
   },
   {
-    "name": "deepseek-v3.2-thinking",
+    "name": "DeepSeek-V3.2-Thinking",
     "model_api_name": "deepseek-v3.2-thinking",
     "input_token_price": "0.28",
     "output_token_price": "0.42",
@@ -1345,7 +1352,7 @@
     "model_source": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
   },
   {
-    "name": "grok-4-1-fast-reasoning",
+    "name": "Grok 4.1 Fast Reasoning",
     "model_api_name": "grok-4-1-fast-reasoning",
     "input_token_price": "0.2",
     "output_token_price": "0.5",
@@ -1404,5 +1411,35 @@
     "license": "Proprietary",
     "price_source": "",
     "model_source": "https://microsoft.ai/news/two-new-in-house-models/"
+  },
+  {
+    "name": "GPT-5 nano (high)",
+    "model_api_name": "gpt-5-nano-high", 
+    "input_token_price": 0.05,
+    "output_token_price": 0.40,
+    "organization": "OpenAI", 
+    "license": "Proprietary",
+    "price_source": "https://platform.openai.com/docs/models/gpt-5-nano",
+    "model_source": "https://platform.openai.com/docs/models/gpt-5-nano"
+  },
+  {
+    "name": "Llama-4-Maverick-17B-128E-Instruct",
+    "model_api_name": "llama-4-maverick-17b-128e-instruct",
+    "input_token_price": 0.15,
+    "output_token_price": 0.6,
+    "organization": "Meta",
+    "license": "Llama 4",
+    "price_source": "https://openrouter.ai/meta-llama/llama-4-maverick",
+    "model_source": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
+  },
+  {
+    "name": "Llama-4-Scout-17B-16E-Instruct",
+    "model_api_name": "llama-4-scout-17b-16e-instruct",
+    "input_token_price": 0.08,
+    "output_token_price": 0.3,
+    "organization": "Meta",
+    "license": "Llama 4",
+    "price_source": "https://openrouter.ai/meta-llama/llama-4-maverick",
+    "model_source": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
   }
 ]
