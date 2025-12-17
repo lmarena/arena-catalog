@@ -791,7 +791,8 @@
     "organization": "Z.ai",
     "license": "MIT",
     "price_source": "https://docs.z.ai/guides/overview/pricing",
-    "model_source": "https://z.ai/blog/glm-4.5"
+    "model_source": "https://z.ai/blog/glm-4.5",
+    "hidden": true
   },
   {
     "name": "Claude Sonnet 4.5 Thinking",
@@ -845,7 +846,7 @@
     "model_source": "https://qwen.ai/blog?id=99f0335c4ad9ff6153e517418d48535ab6d8afef&from=research.latest-advancements-list"
   },
   {
-    "name": "longcat-flash-chat",
+    "name": "LongCat-Flash-Chat",
     "model_api_name": "longcat-flash-chat",
     "input_token_price": "0.15",
     "output_token_price": "0.75",
@@ -904,7 +905,8 @@
     "organization": "DeepSeek",
     "license": "MIT",
     "price_source": "https://openrouter.ai/deepseek/deepseek-chat-v3.1",
-    "model_source": "https://api-docs.deepseek.com/news/news250821"
+    "model_source": "https://api-docs.deepseek.com/news/news250821",
+    "hidden": true
   },
   {
     "name": "deepseek-v3.1-terminus",
@@ -1074,7 +1076,7 @@
     "hidden": true
   },
   {
-    "name": "claude-haiku-4-5-20251001",
+    "name": "Claude Haiku 4.5",
     "model_api_name": "claude-haiku-4-5-20251001",
     "input_token_price": "1",
     "output_token_price": "5",
@@ -1094,7 +1096,7 @@
     "model_source": "https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507"
   },
   {
-    "name": "glm-4.5-air",
+    "name": "GLM-4.5-Air",
     "model_api_name": "glm-4.5-air",
     "input_token_price": "0.2",
     "output_token_price": "1.1",
@@ -1131,7 +1133,8 @@
     "organization": "Tencent",
     "license": "Proprietary",
     "price_source": "https://lobechat.com/discover/provider/hunyuan",
-    "model_source": "https://cloud.tencent.com/document/product/1729/104753"
+    "model_source": "https://cloud.tencent.com/document/product/1729/104753",
+    "hidden": true
   },
   {
     "name": "claude-opus-4-20250514-thinking-16k",
@@ -1162,7 +1165,8 @@
     "organization": "DeepSeek",
     "license": "MIT",
     "price_source": "https://openrouter.ai/deepseek/deepseek-chat-v3-0324",
-    "model_source": "https://api-docs.deepseek.com/news/news250325"
+    "model_source": "https://api-docs.deepseek.com/news/news250325",
+    "hidden": true
   },
   {
     "name": "kimi-k2-0711-preview",
@@ -1248,7 +1252,8 @@
     "organization": "xAI",
     "license": "Proprietary",
     "price_source": "https://llm-stats.com/models/grok-4.1-thinking-2025-11-17",
-    "model_source": "https://x.ai/news/grok-4-1"
+    "model_source": "https://x.ai/news/grok-4-1",
+    "hidden": true
   },
   {
     "name": "Claude Opus 4.5",
@@ -1288,7 +1293,8 @@
     "organization": "xAI",
     "license": "Proprietary",
     "price_source": "https://llm-stats.com/models/grok-4.1-2025-11-17",
-    "model_source": "https://x.ai/news/grok-4-1"
+    "model_source": "https://x.ai/news/grok-4-1",
+    "hidden": true
   },
   {
     "name": "claude-opus-4-5-20251101-thinking-32k",
@@ -1342,7 +1348,7 @@
     "model_source": "https://api-docs.deepseek.com/news/news250929"
   },
   {
-    "name": "kimi-k2-thinking-turbo",
+    "name": "Kimi-K2-Thinking (turbo)",
     "model_api_name": "kimi-k2-thinking-turbo",
     "input_token_price": "1.15",
     "output_token_price": "8",
@@ -1369,7 +1375,8 @@
     "organization": "xAI",
     "license": "Proprietary",
     "price_source": "https://docs.x.ai/docs/models",
-    "model_source": "https://x.ai/news/grok-4-fast"
+    "model_source": "https://x.ai/news/grok-4-fast",
+    "hidden": true
   },
   {
     "name": "hunyuan-vision-1.5-thinking",

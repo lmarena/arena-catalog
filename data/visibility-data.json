@@ -204,7 +204,9 @@
       "claude-opus-4-5-20251101",
       "chatgpt-4o-latest-20250326",
       "gemini-2.5-flash",
-      "llama-3.3-70b-instruct"
+      "llama-3.3-70b-instruct",
+      "claude-haiku-4-5-20251001",
+      "qwen3-235b-a22b-instruct-2507"
     ],
     "right": [
       "llama-4-maverick-03-26-experimental",
@@ -267,10 +269,13 @@
       "gemini-2.5-pro",
       "qwen3-max-preview",
       "grok-4-1-fast-reasoning",
-      "deepseek-v3.2-thinking",
       "gpt-5-nano-high",
       "llama-4-maverick-17b-128e-instruct",
-      "llama-4-scout-17b-16e-instruct"
+      "llama-4-scout-17b-16e-instruct",
+      "glm-4.5-air",
+      "kimi-k2-thinking-turbo",
+      "longcat-flash-chat",
+      "deepseek-v3.2-thinking"
     ]
   },
   "german": {
