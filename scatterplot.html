@@ -464,7 +464,7 @@
 
         const xScale = d3.scaleLog().domain([minPrice/2, maxPrice*1.5]).range([margin.left, width - margin.right]);
         const yScale = d3.scaleLinear().domain([minFullRating - 20, maxFullRating + 20]).range([height - margin.bottom, margin.top]);
-    
+
         // Update the scales to use the new dimensions
         xScale.range([margin.left, w - margin.right]);
         yScale.range([h - margin.bottom, margin.top]);
@@ -507,7 +507,7 @@
           .selectAll("text")
           .style("font-family", "Poppins")
           .style("font-size", `${fontSize}px`); // Set dynamic font size
-  
+
         // Add y-axis
         svg.append("g")
           .attr("transform", `translate(${margin.left},0)`)
@@ -681,7 +681,7 @@
             })
             .attr("y", d => (yScale(d[document.getElementById("category-toggle").value + "_rating"]) + 0.003*w))
             .attr("text-anchor", d => ((d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price)) <= minPrice*1.5 || data3[document.getElementById("category-toggle").value].left.includes(d.model_api_name) ? "start" : "end"))
-            .style("font-size", `${fontSize}px`)
+            .style("font-size", `${fontSize * 0.85}px`)
             .attr("font-family", "Poppins")
             .style("text-decoration", d => isParetoOptimal(d, data) ? "underline" : "none")
             .attr("fill", document.body.classList.contains("dark-mode") ?  "#f0f0f0" : "#000000")
