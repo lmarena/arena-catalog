@@ -488,7 +488,7 @@
         const minFullRating = Math.min(...data.map(d => d[document.getElementById("category-toggle").value + "_rating_q025"]));
         const maxFullRating = Math.max(...data.map(d => d[document.getElementById("category-toggle").value + "_rating_q975"]));
 
-        const xScale = d3.scaleLog().domain([minPrice/2, maxPrice*1.5]).range([margin.left, width - margin.right]);
+        const xScale = d3.scaleLog().domain([maxPrice*1.5, minPrice/2]).range([margin.left, width - margin.right]);
         const yScale = d3.scaleLinear().domain([minFullRating - 20, maxFullRating + 20]).range([height - margin.bottom, margin.top]);
 
         // Update the scales to use the new dimensions
@@ -617,6 +617,19 @@
           .style("fill", document.body.classList.contains("dark-mode") ? "#fff" : "#000")
           .style("font-size", `${fontSize * 1.2}px`)
           .text(arenaType === "image" ? "Cost ($/Image)" : "Cost ($/1M Tokens)");
+
+        // Add ratio text to the right of x-axis title
+        if (arenaType !== "image") {
+          svg.append("text")
+            .attr("class", "x-axis-ratio")
+            .attr("x", w / 2 + 95)
+            .attr("y", h - margin.bottom / 3)
+            .attr("text-anchor", "start")
+            .style("font-family", "Poppins")
+            .style("fill", document.body.classList.contains("dark-mode") ? "#888" : "#999")
+            .style("font-size", `${fontSize * 0.9}px`)
+            .text(getSimplifiedRatio(value));
+        }
 
         // Add y-axis title
         svg.append("text")
@@ -911,6 +924,37 @@
         const dimensions = resize();
         renderScatterplot(dimensions.width, dimensions.height, styleControlOn, arenaType);
       });
+
+      // Function to get simplified ratio text
+      function getSimplifiedRatio(sliderValue) {
+        if (sliderValue == 0) return "Input Only";
+        if (sliderValue == 1) return "Output Only";
+
+        // Common simple ratios to snap to
+        const simpleRatios = [
+          [1, 1], [1, 2], [1, 3], [1, 4], [1, 5], [1, 10],
+          [2, 1], [3, 1], [4, 1], [5, 1], [10, 1],
+          [2, 3], [3, 2], [3, 4], [4, 3]
+        ];
+
+        const inputPart = 1 - sliderValue;
+        const outputPart = sliderValue;
+        const actualRatio = inputPart / outputPart;
+
+        // Find closest simple ratio
+        let closest = simpleRatios[0];
+        let closestDiff = Math.abs(actualRatio - closest[0] / closest[1]);
+
+        for (const ratio of simpleRatios) {
+          const diff = Math.abs(actualRatio - ratio[0] / ratio[1]);
+          if (diff < closestDiff) {
+            closestDiff = diff;
+            closest = ratio;
+          }
+        }
+
+        return `${closest[0]}:${closest[1]} in/out`;
+      }
 
       // Re-render scatterplot on scale change
       slider.addEventListener("input", function() {

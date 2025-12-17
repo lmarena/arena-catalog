@@ -415,7 +415,8 @@
     "organization": "Google",
     "license": "Gemma",
     "price_source": "https://artificialanalysis.ai/models/gemma-3-27b/providers#pricing",
-    "model_source": "http://aistudio.google.com/app/prompts/new_chat?model=gemma-3-27b-it"
+    "model_source": "http://aistudio.google.com/app/prompts/new_chat?model=gemma-3-27b-it",
+    "hidden": true
   },
   {
     "name": "Imagen-3.0-generate-002",
