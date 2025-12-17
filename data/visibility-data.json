@@ -275,7 +275,8 @@
       "glm-4.5-air",
       "kimi-k2-thinking-turbo",
       "longcat-flash-chat",
-      "deepseek-v3.2-thinking"
+      "deepseek-v3.2-thinking",
+      "gemini-3-flash"
     ]
   },
   "german": {

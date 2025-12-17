@@ -39,8 +39,7 @@
     "organization": "Google",
     "license": "Proprietary",
     "price_source": "https://ai.google.dev/pricing#1_5pro",
-    "model_source": "https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys&model=gemini-1.5-pro-002",
-    "hidden": true
+    "model_source": "https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys&model=gemini-1.5-pro-002"
   },
   {
     "name": "Yi-Lightning",
@@ -116,8 +115,7 @@
     "organization": "Meta",
     "license": "Llama 3.1 Community",
     "price_source": "https://www.together.ai/pricing",
-    "model_source": "https://ai.meta.com/blog/meta-llama-3-1/",
-    "hidden": true
+    "model_source": "https://ai.meta.com/blog/meta-llama-3-1/"
   },
   {
     "name": "Qwen2.5-Max",
@@ -346,8 +344,7 @@
     "organization": "OpenAI",
     "license": "Proprietary",
     "price_source": "https://openai.com/api/pricing/",
-    "model_source": "https://openai.com/index/openai-o3-mini/",
-    "hidden": true
+    "model_source": "https://openai.com/index/openai-o3-mini/"
   },
   {
     "name": "Nova Pro",
@@ -397,8 +394,7 @@
     "organization": "Anthropic",
     "license": "Proprietary",
     "price_source": "https://www.anthropic.com/news/claude-3-7-sonnet",
-    "model_source": "https://www.anthropic.com/news/claude-3-7-sonnet",
-    "hidden": true
+    "model_source": "https://www.anthropic.com/news/claude-3-7-sonnet"
   },
   {
     "name": "GPT-4.5-Preview",
@@ -1448,5 +1444,15 @@
     "license": "Llama 4",
     "price_source": "https://openrouter.ai/meta-llama/llama-4-maverick",
     "model_source": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+  },
+  {
+    "name": "Gemini 3 Flash",
+    "model_api_name": "gemini-3-flash",
+    "input_token_price": 0.5,
+    "output_token_price": 3, 
+    "organization": "Google",
+    "license": "Proprietary",
+    "price_source": "n/a",
+    "model_source": "n/a"
   }
 ]
