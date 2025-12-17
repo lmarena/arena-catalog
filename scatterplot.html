@@ -304,7 +304,33 @@
         renderScatterplot(dimensions.width, dimensions.height, styleControlOn, arenaType);
       });
 
-      let colorScale = d3.scaleOrdinal(d3.schemeObservable10);
+      // Custom color mapping - top labs maximally distinct, others more similar
+      const customColors = {
+        // Top labs - maximally distinct
+        "Google": "#0053D6",       // Blue
+        "OpenAI": "#00c853",       // Green
+        "DeepSeek": "#aa00ff",     // Purple
+        "Anthropic": "#ff6d00",    // Orange
+        "Meta": "#00bcd4",         // Cyan
+        "Alibaba": "#f44336",      // Red
+        "xAI": "#ffeb3b",          // Yellow
+        "Z.ai": "#e91e63",         // Pink
+        "01 AI": "#009688",        // Teal
+        "Amazon": "#ff9800",       // Amber
+        // Secondary labs - similar muted tones
+        "Tencent": "#7986cb",      // Muted indigo
+        "Mistral": "#9575cd",      // Muted purple
+        "Moonshot": "#7e57c2",     // Muted violet
+        "Meituan": "#8d6e63",      // Muted brown
+        "Other": "#6b7280",        // Gray
+        "BF Labs": "#78716c",      // Stone
+        "Luma AI": "#b39ddb",      // Light purple
+        "Ideogram": "#80cbc4",     // Light teal
+        "Stability AI": "#ef9a9a"  // Light red
+      };
+      let colorScale = d3.scaleOrdinal()
+        .domain(Object.keys(customColors))
+        .range(Object.values(customColors));
       const tooltip = d3.select("body").append("div").attr("class", "tooltip").style("opacity", 0);
 
       const selectedCategories = new Set();
@@ -1007,7 +1033,9 @@
         }
 
         // Resent legend color order
-        colorScale = d3.scaleOrdinal(d3.schemeObservable10);
+        colorScale = d3.scaleOrdinal()
+          .domain(Object.keys(customColors))
+          .range(Object.values(customColors));
         
         const dimensions = resize();
         renderScatterplot(dimensions.width, dimensions.height, styleControlOn, arenaType);
