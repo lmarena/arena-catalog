@@ -706,7 +706,7 @@
           .attr("x2", d => xScale(d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price)))
           .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q975"])) // Upper bound
           .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]) - pointRadius) // Lower bound
-          .attr("stroke", d => colorScale(d.legend_item))
+          .attr("stroke", d => d.hidden ? "#fff" : colorScale(d.legend_item))
           .attr("stroke-width", 1)
           .style("display", "none"); // Hide by default
 
@@ -716,7 +716,7 @@
           .attr("x2", d => xScale(d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price)))
           .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]) + pointRadius) // Upper bound
           .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q025"])) // Lower bound
-          .attr("stroke", d => colorScale(d.legend_item))
+          .attr("stroke", d => d.hidden ? "#fff" : colorScale(d.legend_item))
           .attr("stroke-width", 1)
           .style("display", "none"); // Hide by default
 
@@ -727,7 +727,7 @@
           .attr("x2", d => xScale(d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price)) + 5) // Slightly right of the point
           .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q975"])) // Same y as the top of the error bar
           .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q975"]))
-          .attr("stroke", d => colorScale(d.legend_item))
+          .attr("stroke", d => d.hidden ? "#fff" : colorScale(d.legend_item))
           .attr("stroke-width", 1)
           .style("display", "none"); // Hide by default
 
@@ -738,7 +738,7 @@
           .attr("x2", d => xScale(d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price)) + 5) // Slightly right of the point
           .attr("y1", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q025"])) // Same y as the bottom of the error bar
           .attr("y2", d => yScale(d[document.getElementById("category-toggle").value + "_rating_q025"]))
-          .attr("stroke", d => colorScale(d.legend_item))
+          .attr("stroke", d => d.hidden ? "#fff" : colorScale(d.legend_item))
           .attr("stroke-width", 1)
           .style("display", "none"); // Hide by default
         
@@ -747,7 +747,7 @@
           .attr("cx", function(d) { return xScale(d.input_token_price*1.0 + value * (d.output_token_price - d.input_token_price)); })
           .attr("cy", d => yScale(d[document.getElementById("category-toggle").value + "_rating"]))
           .attr("r", pointRadius + 2)
-          .attr("fill", d => colorScale(d.legend_item))
+          .attr("fill", d => d.hidden ? "#fff" : colorScale(d.legend_item))
           .style("opacity", 1)
           .style("display", "none")
           .style("display", "block")
