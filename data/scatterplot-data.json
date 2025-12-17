@@ -50,7 +50,8 @@
     "organization": "01 AI",
     "license": "Proprietary",
     "price_source": "https://platform.lingyiwanwu.com/docs#%E6%A8%A1%E5%9E%8B",
-    "model_source": "https://platform.lingyiwanwu.com/docs#%E6%A8%A1%E5%9E%8B%E4%B8%8E%E8%AE%A1%E8%B4%B9"
+    "model_source": "https://platform.lingyiwanwu.com/docs#%E6%A8%A1%E5%9E%8B%E4%B8%8E%E8%AE%A1%E8%B4%B9",
+    "hidden": true
   },
   {
     "name": "Claude 3.5 Sonnet",
@@ -60,7 +61,8 @@
     "organization": "Anthropic",
     "license": "Proprietary",
     "price_source": "https://www.anthropic.com/pricing#anthropic-api",
-    "model_source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    "model_source": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+    "hidden": true
   },
   {
     "name": "Athene-v2-Chat-72B",
@@ -70,7 +72,8 @@
     "organization": "NexusFlow",
     "license": "NexusFlow",
     "price_source": "https://www.together.ai/pricing",
-    "model_source": "https://huggingface.co/Nexusflow/Athene-V2-Chat"
+    "model_source": "https://huggingface.co/Nexusflow/Athene-V2-Chat",
+    "hidden": true
   },
   {
     "name": "GLM-4-Plus",
@@ -101,7 +104,8 @@
     "organization": "Google",
     "license": "Proprietary",
     "price_source": "https://ai.google.dev/pricing#1_5flash",
-    "model_source": "https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys&model=gemini-1.5-flash-002"
+    "model_source": "https://aistudio.google.com/app/prompts/new_chat?instructions=lmsys&model=gemini-1.5-flash-002", 
+    "hidden": true
   },
   {
     "name": "Llama 3.1 405B",
@@ -142,7 +146,8 @@
     "organization": "Mistral",
     "license": "Mistral Research",
     "price_source": "https://mistral.ai/technology/#pricing",
-    "model_source": "https://mistral.ai/news/mistral-large-2407/"
+    "model_source": "https://mistral.ai/news/mistral-large-2407/",
+    "hidden": true
   },
   {
     "name": "Llama-3.1-70B",
@@ -172,7 +177,8 @@
     "organization": "Anthropic",
     "license": "Proprietary",
     "price_source": "https://www.anthropic.com/pricing#anthropic-api",
-    "model_source": "https://www.anthropic.com/news/claude-3-family"
+    "model_source": "https://www.anthropic.com/news/claude-3-family",
+    "hidden": true
   },
   {
     "name": "Claude 3.5 Haiku",
@@ -192,7 +198,8 @@
     "organization": "Alibaba",
     "license": "Proprietary",
     "price_source": "https://www.alibabacloud.com/help/en/model-studio/developer-reference/billing-for-tongyiqianwen",
-    "model_source": "https://help.aliyun.com/zh/model-studio/getting-started/models?spm=a2c4g.11186623.0.i7"
+    "model_source": "https://help.aliyun.com/zh/model-studio/getting-started/models?spm=a2c4g.11186623.0.i7",
+    "hidden": true
   },
   {
     "name": "Command R+ (08-2024)",
@@ -385,7 +392,8 @@
     "organization": "Anthropic",
     "license": "Proprietary",
     "price_source": "https://www.anthropic.com/news/claude-3-7-sonnet",
-    "model_source": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    "model_source": "https://www.anthropic.com/news/claude-3-7-sonnet",
+    "hidden": true
   },
   {
     "name": "GPT-4.5-Preview",
@@ -817,7 +825,8 @@
     "organization": "xAI",
     "license": "Proprietary",
     "price_source": "https://x.ai/api",
-    "model_source": "https://x.ai/blog/grok-3"
+    "model_source": "https://x.ai/blog/grok-3",
+    "hidden": true
   },
   {
     "name": "qwen3-vl-235b-a22b-instruct",
@@ -888,8 +897,7 @@
     "organization": "DeepSeek",
     "license": "MIT",
     "price_source": "https://openrouter.ai/deepseek/deepseek-chat-v3.1",
-    "model_source": "https://api-docs.deepseek.com/news/news250821",
-    "hidden": true
+    "model_source": "https://api-docs.deepseek.com/news/news250821"
   },
   {
     "name": "deepseek-v3.1-terminus",
@@ -899,8 +907,7 @@
     "organization": "DeepSeek",
     "license": "MIT",
     "price_source": "https://deepinfra.com/pricing",
-    "model_source": "https://api-docs.deepseek.com/news/news250922",
-    "hidden": true
+    "model_source": "https://api-docs.deepseek.com/news/news250922"
   },
   {
     "name": "deepseek-v3.1-terminus-thinking",
@@ -931,8 +938,7 @@
     "organization": "DeepSeek",
     "license": "MIT",
     "price_source": "https://openrouter.ai/deepseek/deepseek-chat-v3.1",
-    "model_source": "https://api-docs.deepseek.com/news/news250821",
-    "hidden": true
+    "model_source": "https://api-docs.deepseek.com/news/news250821"
   },
   {
     "name": "Gemini 2.5 Flash",
@@ -995,7 +1001,8 @@
     "organization": "Google",
     "license": "Proprietary",
     "price_source": "https://ai.google.dev/gemini-api/docs/pricing",
-    "model_source": "https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/"
+    "model_source": "https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/",
+    "hidden": true
   },
   {
     "name": "Grok 4 Fast",
@@ -1169,7 +1176,8 @@
     "organization": "Google",
     "license": "Proprietary",
     "price_source": "https://openrouter.ai/google/gemini-2.5-flash-lite-preview-06-17",
-    "model_source": "http://aistudio.google.com/app/prompts/new_chat?model=gemini-2.5-flash-lite-preview-06-17"
+    "model_source": "http://aistudio.google.com/app/prompts/new_chat?model=gemini-2.5-flash-lite-preview-06-17",
+    "hidden": true
   },
   {
     "name": "mistral-medium-2505",
@@ -1190,7 +1198,8 @@
     "organization": "xAI",
     "license": "Proprietary",
     "price_source": "https://docs.x.ai/docs/models/grok-3-mini",
-    "model_source": "https://docs.x.ai/docs/models"
+    "model_source": "https://docs.x.ai/docs/models",
+    "hidden": true
   },
   {
     "name": "Qwen3 Next 80B A3B Thinking",
@@ -1382,7 +1391,8 @@
     "organization": "xAI",
     "license": "Proprietary",
     "price_source": "https://x.ai/news/grok-4-fast",
-    "model_source": "https://x.ai/news/grok-4-fast"
+    "model_source": "https://x.ai/news/grok-4-fast",
+    "hidden": true
   },
   {
     "name": "mai-1-preview",
